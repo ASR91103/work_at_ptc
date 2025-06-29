@@ -1,0 +1,124 @@
+﻿!trail file version No. 1990
+!Creo  TM  Version P-80-30  (c) 2020 by PTC Inc.  All Rights Reserved.
+!-------------------------------------------------------------------------------
+!
+! TITLE: Wildfire Weblink tests for assembling Datumplanes in an Assembly
+!
+! TEST DESCRIPTION:
+!
+!  This is to test assembl datum planes in an empty assembly
+!
+! MODIFICATIONS:
+!
+! 13-Mar-14  P-20-50  $$1 rkumbhare  Created for chromium browser support.
+! 02-Dec-2020 P-80-31 $$2 rkumbhare  Updated to load local .html under cef85 support security reason.
+! 15-Oct-2024 Q-10-55 $$3 aphatak    Updated for cef129 security support.
+!-------------------------------------------------------------------------------
+!Exit Logger data:
+!	Process ID: 5356
+!	Application: Creo_Parametric
+!	Start date&time: 2020/11/26  11:47:04
+!	language: usascii
+!	machine type: x86e_win64
+!	datecode: 8.0.0.0
+!	Server: NONE
+!	Workspace: NONE
+!	traceback file: D:\home\rkumbhare\projects\20_P80_weblin_local_html_files\testrun\local_html_file\wf_js_asmdatum\traceback.log
+!end Exit Logger data.
+< 0 1.206519 1760 0 0 1018 1920 0 0 1080 13
+!mem_use INCREASE Blocks 883536, AppSize 10339276, SysSize 31070576
+< 0 1.049000 1049 0 0 999 1920 0 0 1080 13
+< 0 1.054000 1054 0 0 999 1920 0 0 1080 13
+< 0 1.054000 1054 0 0 1004 1920 0 0 1080 13
+< 0 1.054000 1054 0 0 1009 1920 0 0 1080 13
+< 0 0.949000 949 0 0 1009 1920 0 0 1080 13
+< 0 0.923259 1477 0 0 779 1920 0 0 1080 13
+< 0 0.923259 1424 0 0 779 1920 0 0 1080 13
+< 0 0.922074 1424 0 0 778 1920 0 0 1080 13
+!%CIWelcome to Creo Parametric 8.0.0.0.
+!AFX datecode: 8.0.0.0-rc.1 2020.11.23
+!AFX exec path: y:/portsrc/spg/system_1\afx\x86e_win64\afx80.dll
+!AFX text path: y:/portsrc/spg/system_1\afx\
+< 0 0.916148 1424 0 0 773 1920 0 0 1080 13
+~ Close `main_dlg_cur` `appl_casc`
+!mem_use INCREASE Blocks 960006, AppSize 49681940, SysSize 72236832
+~ Command `ProCmdUtilDebug` 
+#PROWT DEBUG
+!ODUI external UI session start for device : dlgdbgprowt 
+~ Activate `dlgdbgprowt` `pbGrantPerms`
+! Message Dialog: Warning
+!               : Are you sure you want to enable the debugging JS bridge commands.
+!               : If you do not know what it is for, or are not using this application for testing, you should press NO.
+!               : 
+!               : Choose YES only if you trust all the pages that you will load.        
+~ Activate `UI Message Dialog` `yes`
+~ Activate `dlgdbgprowt` `pbExit`
+!ODUI external UI session stop. 
+#DONE-RETURN
+~ Command `ProCmdModelOpen` 
+< 2 0.118519 178 0 0 100 1920 0 0 1080 13
+~ Trail `UI Desktop` `UI Desktop` `DLG_PREVIEW_POST` \
+ `file_open`
+~ Select `file_open` `Ph_list.Filelist` 1 `my_asm.asm`
+~ Trail `UI Desktop` `UI Desktop` `PREVIEW_POPUP_TIMER` \
+ `file_open:Ph_list.Filelist:<NULL>`
+~ Command `ProFileSelPushOpen_Standard@context_dlg_open_cmd` 
+!Command ProCmdModelOpenExe was pushed from the software.
+!26-Nov-20 11:49:40  Start D:\home\rkumbhare\projects\20_P80_weblin_local_html_files\testrun\local_html_file\wf_js_asmdatum\my_asm.asm
+!26-Nov-20 11:49:41  End   D:\home\rkumbhare\projects\20_P80_weblin_local_html_files\testrun\local_html_file\wf_js_asmdatum\my_asm.asm
+@ oa_sel_filter_set _30_
+@ stack attr 2
+< 0 0.910222 1424 0 0 768 1920 0 0 1080 13
+!MT_CUST - Applied settings for mode # 6 : MT Asm Design
+< 0 0.910222 1411 0 0 768 1920 0 0 1080 13
+~ Select `main_dlg_cur` `PHTLeft.ProExplorerTab` 1 `PHTLeft.Folders`
+~ Trail `UI Desktop` `UI Desktop` `PREVIEW_POPUP_TIMER` \
+ `main_dlg_w1:PHTLeft.AssyTree:<NULL>`
+~ Activate `main_dlg_cur` `Current Dir`
+~ Trail `UI Desktop` `UI Desktop` `PREVIEW_POPUP_TIMER` \
+ `main_dlg_w1:EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist:<NULL>`
+~ Activate `main_dlg_cur` `Current Dir`
+~ Select `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist` 1 `wf_js_asmdatum.html`
+~ Activate `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist` 1 `wf_js_asmdatum.html`
+~ FocusIn `main_dlg_cur` `PHTLeft.node_edit`
+~ FocusOut `main_dlg_cur` `PHTLeft.node_edit`
+!Application (jlinkwrite): started by Pro/TOOLKIT app
+!	type: synchronous J-Link
+!26-Nov-20 11:51:19  Start D:\home\rkumbhare\projects\20_P80_weblin_local_html_files\testrun\local_html_file\wf_js_asmdatum\new_comp.prt
+!26-Nov-20 11:51:19  End   D:\home\rkumbhare\projects\20_P80_weblin_local_html_files\testrun\local_html_file\wf_js_asmdatum\new_comp.prt
+!@ trail error  : Creating feature 40 in model MY_ASM - error 0
+! 0 
+!Undo: added rec_id 2 type 5304 
+!ProgressBarDlg: Regen Started
+!ProgressBarDlg: Regen Completed
+!Undo: added rec_id 4 type 5300 
+!%CIFeature redefined successfully.
+!%CIPart 'NEW_COMP' not changed since last regen.
+!%CIPart 'MY_ASM' not changed since last regen.
+~ Trail `main_dlg_cur` `bwTheBrowser` \
+ `Load Complete`
+~ Trail `main_dlg_cur` `bwTheBrowser` \
+  `Wait For ID:PfcSyncButton`
+~ Close `main_dlg_cur` `appl_casc` 
+~ Command `ProCmdUtilDebug` 
+#REGRESSCHECK
+#COMPARE FILES
+#ACCEPT
+!%CPEnter name of output file:
+!%TR
+wf_js_asmdatum_output.html
+!%CPEnter name of reference file:
+!%TR
+wf_js_asmdatum_output.qcr
+!%CIFiles are identical
+#QUIT CF
+#DONE-RETURN
+~ Select `main_dlg_cur` `appl_casc`
+~ Close `main_dlg_cur` `appl_casc`
+~ Command `ProCmdExit` 
+! Message Dialog: Warning
+!               : Creo Parametric will terminate and any unsaved work will be lost.
+!               : Do you really want to exit?
+~ Activate `UI Message Dialog` `yes`
+!%CI1052539 blocks; Size: 59944684; Overhead: 22841372; Peak system size: 82786752.
+!End of Trail File

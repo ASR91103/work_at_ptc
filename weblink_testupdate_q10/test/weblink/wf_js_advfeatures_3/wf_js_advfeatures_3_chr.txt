@@ -1,0 +1,144 @@
+﻿!trail file version No. 1990
+!Creo  TM  Version P-80-29  (c) 2020 by PTC Inc.  All Rights Reserved.
+!-------------------------------------------------------------------------------
+!
+! TITLE: New Weblink tests for advanced features
+!
+! TEST DESCRIPTION:
+!
+!  This is to test the pfc weblink calls to do operation on adv features
+!
+! MODIFICATIONS:
+!
+! 13-Mar-14  P-20-50  $$1 rkumbhare  Created for chromium browser support.
+! 02-Dec-2020 P-80-31 $$2 rkumbhare  Updated to load local .html under cef85 support security reason.
+! 15-Oct-2024 Q-10-55 $$3 aphatak    Updated for cef129 security support.
+!-------------------------------------------------------------------------------
+!Exit Logger data:
+!	Process ID: 5348
+!	Application: Creo_Parametric
+!	Start date&time: 2020/11/25  18:03:38
+!	language: usascii
+!	machine type: x86e_win64
+!	datecode: 8.0.0.0
+!	Server: NONE
+!	Workspace: NONE
+!	traceback file: D:\home\rkumbhare\projects\20_P80_weblin_local_html_files\testrun\local_html_file\wf_js_advfeatures_3\traceback.log
+!end Exit Logger data.
+< 0 1.206519 1760 0 0 1018 1920 0 0 1080 13
+!mem_use INCREASE Blocks 880626, AppSize 10682828, SysSize 31063608
+< 0 1.049000 1049 0 0 999 1920 0 0 1080 13
+< 0 1.054000 1054 0 0 999 1920 0 0 1080 13
+< 0 1.054000 1054 0 0 1004 1920 0 0 1080 13
+< 0 1.054000 1054 0 0 1009 1920 0 0 1080 13
+< 0 0.949000 949 0 0 1009 1920 0 0 1080 13
+< 0 0.923259 1477 0 0 779 1920 0 0 1080 13
+< 0 0.923259 1424 0 0 779 1920 0 0 1080 13
+< 0 0.922074 1424 0 0 778 1920 0 0 1080 13
+< 0 0.922074 1444 0 0 778 1920 0 0 1080 13
+< 0 0.922074 1464 0 0 778 1920 0 0 1080 13
+< 0 0.922074 1484 0 0 778 1920 0 0 1080 13
+< 0 0.922074 1504 0 0 778 1920 0 0 1080 13
+< 0 0.922074 1524 0 0 778 1920 0 0 1080 13
+!%CIWelcome to Creo Parametric 8.0.0.0.
+!AFX datecode: 8.0.0.0-beta.2 2020.11.04
+!AFX exec path: y:/portsrc/spg/system_1\afx\x86e_win64\afx80.dll
+!AFX text path: y:/portsrc/spg/system_1\afx\
+< 0 0.916148 1524 0 0 773 1920 0 0 1080 13
+~ Close `main_dlg_cur` `appl_casc`
+!mem_use INCREASE Blocks 957080, AppSize 49954201, SysSize 72224976
+~ Command `ProCmdUtilDebug` 
+#PROWT DEBUG
+!ODUI external UI session start for device : dlgdbgprowt 
+~ Activate `dlgdbgprowt` `pbGrantPerms`
+! Message Dialog: Warning
+!               : Are you sure you want to enable the debugging JS bridge commands.
+!               : If you do not know what it is for, or are not using this application for testing, you should press NO.
+!               : 
+!               : Choose YES only if you trust all the pages that you will load.        
+~ Activate `UI Message Dialog` `yes`
+~ Activate `dlgdbgprowt` `pbExit`
+!ODUI external UI session stop. 
+#DONE-RETURN
+~ Enter `main_dlg_cur` `proe_win` 9 1489 283 0 1537 1524 773 1920 1080 172469
+~ Move `main_dlg_cur` `proe_win` 9 1489 283 0 1 1524 773 1920 1080 172469
+~ Move `main_dlg_cur` `proe_win` 9 1489 283 0 1 1524 773 1920 1080 172469
+~ Activate `main_dlg_cur` `Current Dir`
+~ Select `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist` 1 `wf_js_advfeatures_3.html`
+~ Trail `UI Desktop` `UI Desktop` `PREVIEW_POPUP_TIMER` \
+ `main_dlg_w1:EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist:<NULL>`
+~ Activate `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist` 1 `wf_js_advfeatures_3.html`
+!Application (jlinkwrite): started by Pro/TOOLKIT app
+!	type: synchronous J-Link
+!25-Nov-20 18:06:34  Start big_assy\reel_96_a.asm
+!25-Nov-20 18:06:35  Start big_assy\mechanism.asm
+!25-Nov-20 18:06:35  Start big_assy\reel_skeleton.prt
+!25-Nov-20 18:06:35  End   big_assy\reel_skeleton.prt
+!25-Nov-20 18:06:35  Start big_assy\ball_bearing.prt
+!25-Nov-20 18:06:35  End   big_assy\ball_bearing.prt
+!25-Nov-20 18:06:35  Start big_assy\wind_shaft.prt
+!25-Nov-20 18:06:35  End   big_assy\wind_shaft.prt
+!25-Nov-20 18:06:35  Start big_assy\wind_block.prt
+!25-Nov-20 18:06:35  End   big_assy\wind_block.prt
+!25-Nov-20 18:06:35  Start big_assy\main_gear.prt
+!25-Nov-20 18:06:36  End   big_assy\main_gear.prt
+!25-Nov-20 18:06:36  Start big_assy\wind_arm.prt
+!25-Nov-20 18:06:36  End   big_assy\wind_arm.prt
+!25-Nov-20 18:06:36  Start big_assy\pinion_gear.prt
+!25-Nov-20 18:06:36  End   big_assy\pinion_gear.prt
+!25-Nov-20 18:06:36  Start big_assy\wind_screw.prt
+!25-Nov-20 18:06:36  End   big_assy\wind_screw.prt
+!25-Nov-20 18:06:36  End   big_assy\mechanism.asm
+!25-Nov-20 18:06:36  Start big_assy\reel_house.prt
+!25-Nov-20 18:06:36  End   big_assy\reel_house.prt
+!25-Nov-20 18:06:36  Start big_assy\reel_layout.lay
+!25-Nov-20 18:06:38  End   big_assy\reel_layout.lay
+!25-Nov-20 18:06:38  End   big_assy\reel_96_a.asm
+< 0 0.916148 1514 0 0 773 1920 0 0 1080 13
+~ Timer `UI Desktop` `UI Desktop` `EmbedBrowserTimer`
+!sket_eps       7.549537649
+!ProgressBarDlg: Regen Started
+!%CIREEL_96_A regeneration completed with 2 suppressed feature(s) or component(s).
+!ProgressBarDlg: Regen Completed
+!ProgressBarDlg: Regen Started
+!%CIREEL_96_A regeneration completed with 1 suppressed feature(s) or component(s).
+!ProgressBarDlg: Regen Completed
+!ProgressBarDlg: Regen Started
+!%CIREEL_96_A regeneration completed with 2 suppressed feature(s) or component(s).
+!ProgressBarDlg: Regen Completed
+!ProgressBarDlg: Regen Started
+!%CIREEL_96_A regeneration completed with 1 suppressed feature(s) or component(s).
+!ProgressBarDlg: Regen Completed
+!ProgressBarDlg: Regen Started
+!%CIREEL_96_A regeneration completed with 2 suppressed feature(s) or component(s).
+!ProgressBarDlg: Regen Completed
+!ProgressBarDlg: Regen Started
+!%CIREEL_96_A regeneration completed with 1 suppressed feature(s) or component(s).
+!ProgressBarDlg: Regen Completed
+~ Close `main_dlg_cur` `appl_casc`
+~ Trail `main_dlg_cur` `bwTheBrowser` \
+ `Load Complete`
+~ Trail `main_dlg_cur` `bwTheBrowser` \
+  `Wait For ID:PfcSyncButton` 
+~ Command `ProCmdUtilDebug` 
+#REGRESSCHECK
+#COMPARE FILES
+#ACCEPT
+!%CPEnter name of output file:
+!%TR
+wf_js_advfeatures_3_output.html
+!%CPEnter name of reference file:
+!%TR
+wf_js_advfeatures_3_output.qcr
+!%CIFiles are identical
+#QUIT CF
+#DONE-RETURN
+~ Select `main_dlg_cur` `appl_casc`
+~ Close `main_dlg_cur` `appl_casc`
+~ Command `ProCmdExit` 
+! Message Dialog: Warning
+!               : Creo Parametric will terminate and any unsaved work will be lost.
+!               : Do you really want to exit?
+~ Activate `UI Message Dialog` `yes`
+!%CI1031198 blocks; Size: 59290836; Overhead: 23847276; Peak system size: 83138808.
+!End of Trail File

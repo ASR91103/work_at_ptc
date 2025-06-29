@@ -1,0 +1,106 @@
+﻿!trail file version No. 1990
+!Creo  TM  Version P-80-29  (c) 2020 by PTC Inc.  All Rights Reserved.
+!-------------------------------------------------------------------------------
+!
+! TITLE: New Weblink tests for advanced features
+!
+! TEST DESCRIPTION:
+!
+!  This is to test the pfc weblink calls to do operation on adv features
+!
+! MODIFICATIONS:
+!
+! 13-Mar-14  P-20-50  $$1 rkumbhare  Created for chromium browser support.
+! 02-Dec-2020 P-80-31 $$2 rkumbhare  Updated to load local .html under cef85 support security reason.
+! 15-Oct-2024 Q-10-55 $$3 aphatak    Updated for cef129 security support.
+!-------------------------------------------------------------------------------
+!Exit Logger data:
+!	Process ID: 13096
+!	Application: Creo_Parametric
+!	Start date&time: 2020/11/25  16:51:00
+!	language: usascii
+!	machine type: x86e_win64
+!	datecode: 8.0.0.0
+!	Server: NONE
+!	Workspace: NONE
+!	traceback file: D:\home\rkumbhare\projects\20_P80_weblin_local_html_files\testrun\local_html_file\wf_js_advfeatures_1\traceback.log
+!end Exit Logger data.
+< 0 1.206519 1760 0 0 1018 1920 0 0 1080 13
+!mem_use INCREASE Blocks 880626, AppSize 10617289, SysSize 31063552
+< 0 1.049000 1049 0 0 999 1920 0 0 1080 13
+< 0 1.054000 1054 0 0 999 1920 0 0 1080 13
+< 0 1.054000 1054 0 0 1004 1920 0 0 1080 13
+< 0 1.054000 1054 0 0 1009 1920 0 0 1080 13
+< 0 0.949000 949 0 0 1009 1920 0 0 1080 13
+< 0 0.923259 1477 0 0 779 1920 0 0 1080 13
+< 0 0.923259 1424 0 0 779 1920 0 0 1080 13
+< 0 0.922074 1424 0 0 778 1920 0 0 1080 13
+< 0 0.922074 1444 0 0 778 1920 0 0 1080 13
+< 0 0.922074 1464 0 0 778 1920 0 0 1080 13
+< 0 0.922074 1484 0 0 778 1920 0 0 1080 13
+< 0 0.922074 1504 0 0 778 1920 0 0 1080 13
+< 0 0.922074 1524 0 0 778 1920 0 0 1080 13
+!%CIWelcome to Creo Parametric 8.0.0.0.
+!AFX datecode: 8.0.0.0-beta.2 2020.11.04
+!AFX exec path: y:/portsrc/spg/system_1\afx\x86e_win64\afx80.dll
+!AFX text path: y:/portsrc/spg/system_1\afx\
+< 0 0.916148 1524 0 0 773 1920 0 0 1080 13
+~ Close `main_dlg_cur` `appl_casc`
+!mem_use INCREASE Blocks 957043, AppSize 49938993, SysSize 72224920
+~ Command `ProCmdUtilDebug` 
+#PROWT DEBUG
+!ODUI external UI session start for device : dlgdbgprowt 
+~ Activate `dlgdbgprowt` `pbGrantPerms`
+! Message Dialog: Warning
+!               : Are you sure you want to enable the debugging JS bridge commands.
+!               : If you do not know what it is for, or are not using this application for testing, you should press NO.
+!               : 
+!               : Choose YES only if you trust all the pages that you will load.        
+~ Activate `UI Message Dialog` `yes`
+~ Activate `dlgdbgprowt` `pbExit`
+!ODUI external UI session stop. 
+#DONE-RETURN
+~ Enter `main_dlg_cur` `proe_win` 9 1486 280 0 1537 1524 773 1920 1080 189579
+~ Move `main_dlg_cur` `proe_win` 9 1486 280 0 1 1524 773 1920 1080 189594
+~ Move `main_dlg_cur` `proe_win` 9 1486 280 0 1 1524 773 1920 1080 189594
+~ Activate `main_dlg_cur` `Current Dir`
+~ Select `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist` 1 `wf_js_advfeatures_2.html`
+~ Activate `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist` 1 `wf_js_advfeatures_2.html`
+~ Trail `UI Desktop` `UI Desktop` `PREVIEW_POPUP_TIMER` \
+ `main_dlg_w1:EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist:<NULL>`
+~ Trail `UI Desktop` `UI Desktop` `PREVIEW_POPUP_TIMER` \
+ `main_dlg_w1:EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist:<NULL>`
+~ Timer `UI Desktop` `UI Desktop` `EmbedBrowserTimer`
+~ Close `main_dlg_cur` `appl_casc`
+~ Trail `main_dlg_cur` `bwTheBrowser` \
+ `Load Complete`
+~ Trail `main_dlg_cur` `bwTheBrowser` `Wait For ID:PfcSyncButton`
+!Application (jlinkwrite): started by Pro/TOOLKIT app
+!	type: synchronous J-Link
+!25-Nov-20 17:33:15  Start D:\home\rkumbhare\projects\20_P80_weblin_local_html_files\testrun\local_html_file\wf_js_advfeatures_2\adv_part_2.prt
+!LIGHT_FIX_MODEL_RMODE is 51
+!25-Nov-20 17:33:15  End   D:\home\rkumbhare\projects\20_P80_weblin_local_html_files\testrun\local_html_file\wf_js_advfeatures_2\adv_part_2.prt
+< 0 0.916148 1514 0 0 773 1920 0 0 1080 13
+~ Command `ProCmdUtilDebug` 
+#REGRESSCHECK
+#COMPARE FILES
+#ACCEPT
+!%CPEnter name of output file:
+!%TR
+wf_js_advfeatures_2_output.html
+!%CPEnter name of reference file:
+!%TR
+wf_js_advfeatures_2_output.qcr
+!%CIFiles are identical
+#QUIT CF
+#DONE-RETURN
+~ Select `main_dlg_cur` `appl_casc`
+~ Close `main_dlg_cur` `appl_casc`
+~ Command `ProCmdExit` 
+! Message Dialog: Warning
+!               : Creo Parametric will terminate and any unsaved work will be lost.
+!               : Do you really want to exit?
+~ Activate `UI Message Dialog` `yes`
+!%CI1013020 blocks; Size: 58195779; Overhead: 23135989; Peak system size: 81332464.
+!Finished processing input trail:D:\home\rkumbhare\projects\20_P80_weblin_local_html_files\testrun\local_html_file\wf_js_advfeatures_1\wf_js_advfeatures_1_chr.txt
+!End of Trail File

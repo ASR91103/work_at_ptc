@@ -1,0 +1,154 @@
+!trail file version No. 1990
+!Creo  TM  Version P-80-30  (c) 2020 by PTC Inc.  All Rights Reserved.
+!-------------------------------------------------------------------------------
+!
+! TITLE: new weblink test for models
+!
+! TEST DESCRIPTION:
+!
+!  This is to test the pfc calls to models.
+!
+! MODIFICATIONS:
+!
+! 13-Mar-14  P-20-50  $$1 rkumbhare  Created for chromium browser support.
+! 01-Dec-20  P-80-31  $$2 ychavhan   Created new trail.
+! 15-Oct-24  Q-10-55  $$3 aphatak    Updated for cef129 security support
+!-------------------------------------------------------------------------------
+!Exit Logger data:
+!	Process ID: 14692
+!	Application: Creo_Parametric
+!	Start date&time: 2020/12/01  23:25:28
+!	language: usascii
+!	machine type: x86e_win64
+!	datecode: 8.0.0.0
+!	Server: NONE
+!	Workspace: NONE
+!	traceback file: D:\projects\weblink_updation\testrun\local_html_file\wf_js_models\traceback.log
+!end Exit Logger data.
+< 0 1.206519 1760 0 0 1018 1920 0 0 1080 13
+!mem_use INCREASE Blocks 885368, AppSize 10963199, SysSize 30943728
+< 0 1.049000 1049 0 0 999 1920 0 0 1080 13
+< 0 1.054000 1054 0 0 999 1920 0 0 1080 13
+< 0 1.054000 1054 0 0 1004 1920 0 0 1080 13
+< 0 1.054000 1054 0 0 1009 1920 0 0 1080 13
+< 0 0.949000 949 0 0 1009 1920 0 0 1080 13
+< 0 0.923259 1477 0 0 779 1920 0 0 1080 13
+< 0 0.923259 1424 0 0 779 1920 0 0 1080 13
+< 0 0.922074 1424 0 0 778 1920 0 0 1080 13
+!%CIWelcome to Creo Parametric 8.0.0.0.
+!AFX datecode: 8.0.0.0-rc.1 2020.11.23
+!AFX exec path: y:/devsrc3/spg/system_1\afx\x86e_win64\afx80.dll
+!AFX text path: y:/devsrc3/spg/system_1\afx\
+< 0 0.916148 1424 0 0 773 1920 0 0 1080 13
+~ Close `main_dlg_cur` `appl_casc`
+!mem_use INCREASE Blocks 961951, AppSize 49580320, SysSize 72233456
+~ Command `ProCmdUtilDebug` 
+#PROWT DEBUG
+!ODUI external UI session start for device : dlgdbgprowt 
+~ Activate `dlgdbgprowt` `pbGrantPerms`
+! Message Dialog: Warning
+!               : Are you sure you want to enable the debugging JS bridge commands.
+!               : If you do not know what it is for, or are not using this application for testing, you should press NO.
+!               : 
+!               : Choose YES only if you trust all the pages that you will load.        
+~ Activate `UI Message Dialog` `yes`
+~ Activate `dlgdbgprowt` `pbExit`
+!ODUI external UI session stop. 
+#DONE-RETURN
+~ Activate `main_dlg_cur` `Current Dir`
+~ Trail `UI Desktop` `UI Desktop` `PREVIEW_POPUP_TIMER` \
+ `main_dlg_w1:EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist:<NULL>`
+~ Select `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist` 1 `wf_js_models.html`
+~ Activate `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist` 1 `wf_js_models.html`
+!Application (jlinkwrite): started by Pro/TOOLKIT app
+!	type: synchronous J-Link
+! 1-Dec-20 23:26:34  Start D:\projects\weblink_updation\testrun\local_html_file\wf_js_models\drawing.drw
+! 1-Dec-20 23:26:34  Start D:\projects\weblink_updation\testrun\local_html_file\wf_js_models\assembly.asm
+!LIGHT_FIX_MODEL_RMODE is 51
+! 1-Dec-20 23:26:35  Start D:\projects\weblink_updation\testrun\local_html_file\wf_js_models\part.prt
+! 1-Dec-20 23:26:35  End   D:\projects\weblink_updation\testrun\local_html_file\wf_js_models\part.prt
+! 1-Dec-20 23:26:35  Start D:\projects\weblink_updation\testrun\local_html_file\wf_js_models\bolt.prt
+! 1-Dec-20 23:26:35  End   D:\projects\weblink_updation\testrun\local_html_file\wf_js_models\bolt.prt
+! 1-Dec-20 23:26:35  End   D:\projects\weblink_updation\testrun\local_html_file\wf_js_models\assembly.asm
+! 1-Dec-20 23:26:35  End   D:\projects\weblink_updation\testrun\local_html_file\wf_js_models\drawing.drw
+!sket_eps               7.5
+~ Timer `UI Desktop` `UI Desktop` `EmbedBrowserTimer`
+! 1-Dec-20 23:26:37  Start D:\projects\weblink_updation\testrun\local_html_file\wf_js_models\drawform.frm
+! 1-Dec-20 23:26:37  End   D:\projects\weblink_updation\testrun\local_html_file\wf_js_models\drawform.frm
+! 1-Dec-20 23:26:37  Start D:\projects\weblink_updation\testrun\local_html_file\wf_js_models\manufact.mfg
+! 1-Dec-20 23:26:37  Start D:\projects\weblink_updation\testrun\local_html_file\wf_js_models\manufact.asm
+! 1-Dec-20 23:26:37  End   D:\projects\weblink_updation\testrun\local_html_file\wf_js_models\manufact.asm
+! 1-Dec-20 23:26:38  End   D:\projects\weblink_updation\testrun\local_html_file\wf_js_models\manufact.mfg
+< 2 0.832000 832 0 0 832 1920 0 0 1080 13
+< 2 1.049000 1049 0 0 999 1920 0 0 1080 13
+< 2 1.054000 1054 0 0 999 1920 0 0 1080 13
+< 2 1.054000 1054 0 0 1004 1920 0 0 1080 13
+< 2 1.054000 1054 0 0 1009 1920 0 0 1080 13
+< 2 1.039000 1039 0 0 1009 1920 0 0 1080 13
+< 2 0.923259 1567 0 0 779 1920 0 0 1080 13
+< 2 0.923259 1426 0 0 779 1920 0 0 1080 13
+< 2 0.923259 1387 0 0 779 1920 0 0 1080 13
+< 2 0.923259 1352 0 0 779 1920 0 0 1080 13
+< 2 0.923259 1348 0 0 779 1920 0 0 1080 13
+< 2 1.079704 2288 0 0 911 1920 0 0 1080 13
+< 2 1.033481 1500 0 0 872 1920 0 0 1080 13
+< 2 1.033481 1348 0 0 872 1920 0 0 1080 13
+!======================================================
+!%CEMfg part mode is not supported for mfg top command
+!======================================================
+< 2 1.033481 1370 0 0 872 1920 0 0 1080 13
+! 1-Dec-20 23:26:42  Start D:\projects\weblink_updation\testrun\local_html_file\wf_js_models\report.rep
+! 1-Dec-20 23:26:42  End   D:\projects\weblink_updation\testrun\local_html_file\wf_js_models\report.rep
+< 3 0.832000 832 0 0 832 1920 0 0 1080 13
+< 3 1.049000 1049 0 0 999 1920 0 0 1080 13
+< 3 1.054000 1054 0 0 999 1920 0 0 1080 13
+< 3 1.054000 1054 0 0 1004 1920 0 0 1080 13
+< 3 1.054000 1054 0 0 1009 1920 0 0 1080 13
+< 3 1.039000 1039 0 0 1009 1920 0 0 1080 13
+< 3 0.923259 1567 0 0 779 1920 0 0 1080 13
+< 3 0.923259 1426 0 0 779 1920 0 0 1080 13
+< 3 0.923259 1387 0 0 779 1920 0 0 1080 13
+< 3 0.923259 1352 0 0 779 1920 0 0 1080 13
+< 3 0.923259 1348 0 0 779 1920 0 0 1080 13
+< 3 1.079704 2288 0 0 911 1920 0 0 1080 13
+< 3 1.033481 1500 0 0 872 1920 0 0 1080 13
+< 3 1.033481 1348 0 0 872 1920 0 0 1080 13
+< 3 1.033481 1370 0 0 872 1920 0 0 1080 13
+< 3 0.992000 1370 0 0 837 1920 0 0 1080 13
+! 1-Dec-20 23:26:43  Start D:\projects\weblink_updation\testrun\local_html_file\wf_js_models\layout.lay
+! 1-Dec-20 23:26:43  End   D:\projects\weblink_updation\testrun\local_html_file\wf_js_models\layout.lay
+!%CIPART has been saved.
+!%CIBOLT has been saved.
+!%CIASSEMBLY has been saved.
+!%CIMANUFACT has been saved.
+!%CIDRAWFORM has been saved.
+!%CIDRAWING has been saved.
+!%CILAYOUT has been saved.
+!%CIMANUFACT has been saved.
+!%CIREPORT has been saved.
+~ Trail `main_dlg_cur` `bwTheBrowser` \
+ `Load Complete`
+~ Trail `main_dlg_cur` `bwTheBrowser` \
+  `Wait For ID:PfcSyncButton`
+~ Command `ProCmdUtilDebug` 
+#REGRESSCHECK
+#COMPARE FILES
+#ACCEPT
+!%CPEnter name of output file:
+!%TR
+wf_js_models_output.html
+!%CPEnter name of reference file:
+!%TR
+wf_js_models_output.qcr
+!%CIFiles are identical
+#QUIT CF
+#DONE-RETURN
+~ Select `main_dlg_cur` `appl_casc`
+~ Close `main_dlg_cur` `appl_casc`
+~ Command `ProCmdExit` 
+! Message Dialog: Warning
+!               : Creo Parametric will terminate and any unsaved work will be lost.
+!               : Do you really want to exit?
+~ Activate `UI Message Dialog` `yes`
+!%CI1153395 blocks; Size: 64932199; Overhead: 23156961; Peak system size: 88089856.
+!End of Trail File

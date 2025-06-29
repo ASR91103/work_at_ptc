@@ -1,0 +1,133 @@
+﻿!trail file version No. 1990
+!Creo  TM  Version P-80-30  (c) 2020 by PTC Inc.  All Rights Reserved.
+!-------------------------------------------------------------------------------
+!
+! TITLE: new weblink calls to the Assembly components
+!
+! TEST DESCRIPTION:
+!
+!  This is to test pfc weblink calls to the component to place it in an assembly.
+!
+! MODIFICATIONS:
+!
+! 13-Mar-14  P-20-50  $$1 rkumbhare  Created for chromium browser support.
+! 02-Dec-2020 P-80-31 $$2 rkumbhare  Updated to load local .html under cef85 support security reason.
+! 15-Oct-2024 Q-10-55 $$3 aphatak    Updated for cef129 security support.
+!-------------------------------------------------------------------------------
+!Exit Logger data:
+!	Process ID: 33844
+!	Application: Creo_Parametric
+!	Start date&time: 2020/11/27  16:54:02
+!	language: usascii
+!	machine type: x86e_win64
+!	datecode: 8.0.0.0
+!	Server: NONE
+!	Workspace: NONE
+!	traceback file: D:\home\rkumbhare\projects\20_P80_weblin_local_html_files\testrun\local_html_file\wf_js_compreplace_1\traceback.log
+!end Exit Logger data.
+< 0 1.206519 1760 0 0 1018 1920 0 0 1080 13
+!mem_use INCREASE Blocks 883520, AppSize 10329348, SysSize 31070528
+< 0 1.049000 1049 0 0 999 1920 0 0 1080 13
+< 0 1.054000 1054 0 0 999 1920 0 0 1080 13
+< 0 1.054000 1054 0 0 1004 1920 0 0 1080 13
+< 0 1.054000 1054 0 0 1009 1920 0 0 1080 13
+< 0 0.949000 949 0 0 1009 1920 0 0 1080 13
+< 0 0.923259 1477 0 0 779 1920 0 0 1080 13
+< 0 0.923259 1424 0 0 779 1920 0 0 1080 13
+< 0 0.922074 1424 0 0 778 1920 0 0 1080 13
+!%CIWelcome to Creo Parametric 8.0.0.0.
+!AFX datecode: 8.0.0.0-rc.1 2020.11.23
+!AFX exec path: y:/portsrc/spg/system_1\afx\x86e_win64\afx80.dll
+!AFX text path: y:/portsrc/spg/system_1\afx\
+< 0 0.916148 1424 0 0 773 1920 0 0 1080 13
+~ Close `main_dlg_cur` `appl_casc`
+!mem_use INCREASE Blocks 959974, AppSize 49664092, SysSize 72236784
+~ Command `ProCmdUtilDebug` 
+#PROWT DEBUG
+!ODUI external UI session start for device : dlgdbgprowt 
+~ Activate `dlgdbgprowt` `pbGrantPerms`
+! Message Dialog: Warning
+!               : Are you sure you want to enable the debugging JS bridge commands.
+!               : If you do not know what it is for, or are not using this application for testing, you should press NO.
+!               : 
+!               : Choose YES only if you trust all the pages that you will load.        
+~ Activate `UI Message Dialog` `yes`
+~ Activate `dlgdbgprowt` `pbExit`
+!ODUI external UI session stop. 
+#DONE-RETURN
+~ Activate `main_dlg_cur` `Current Dir`
+~ Select `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist` 1 `wf_js_compreplace_1.html`
+~ Activate `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist` 1 `wf_js_compreplace_1.html`
+~ Trail `UI Desktop` `UI Desktop` `PREVIEW_POPUP_TIMER` \
+ `main_dlg_w1:EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist:<NULL>`
+!Application (jlinkwrite): started by Pro/TOOLKIT app
+!	type: synchronous J-Link
+!27-Nov-20 16:56:40  Start auto_assy\assembly.asm
+!27-Nov-20 16:56:41  Start auto_assy\plate.prt
+!27-Nov-20 16:56:41  Start auto_assy\layout.lay
+!27-Nov-20 16:56:42  End   auto_assy\layout.lay
+!27-Nov-20 16:56:42  End   auto_assy\plate.prt
+!27-Nov-20 16:56:42  Start auto_assy\base.prt
+!27-Nov-20 16:56:42  End   auto_assy\base.prt
+!27-Nov-20 16:56:42  Start auto_assy\bolt.prt
+!27-Nov-20 16:56:42  End   auto_assy\bolt.prt
+!27-Nov-20 16:56:42  End   auto_assy\assembly.asm
+~ Timer `UI Desktop` `UI Desktop` `EmbedBrowserTimer`
+!27-Nov-20 16:56:46  Start auto_assy\base2.prt
+!27-Nov-20 16:56:46  End   auto_assy\base2.prt
+< 2 0.832000 832 0 0 832 1920 0 0 1080 13
+< 2 1.049000 1049 0 0 999 1920 0 0 1080 13
+< 2 1.054000 1054 0 0 999 1920 0 0 1080 13
+< 2 1.054000 1054 0 0 1004 1920 0 0 1080 13
+< 2 1.054000 1054 0 0 1009 1920 0 0 1080 13
+< 2 1.039000 1039 0 0 1009 1920 0 0 1080 13
+< 2 0.923259 1567 0 0 779 1920 0 0 1080 13
+< 2 0.923259 1426 0 0 779 1920 0 0 1080 13
+< 2 0.917333 1426 0 0 774 1920 0 0 1080 13
+!ProgressBarDlg: Regen Started
+!%CEFeature regeneration failed.
+!ProgressBarDlg: Regen Completed
+!27-Nov-20 16:56:50  Start D:\home\rkumbhare\projects\20_P80_weblin_local_html_files\testrun\local_html_file\wf_js_compreplace_1\regen_backup_model00001.asm.1
+!27-Nov-20 16:56:50  End   D:\home\rkumbhare\projects\20_P80_weblin_local_html_files\testrun\local_html_file\wf_js_compreplace_1\regen_backup_model00001.asm.1
+!ProgressBarDlg: Regen Started
+!%CEFeature regeneration failed.
+!ProgressBarDlg: Regen Completed
+!27-Nov-20 16:56:50  Start D:\home\rkumbhare\projects\20_P80_weblin_local_html_files\testrun\local_html_file\wf_js_compreplace_1\regen_backup_model10001.asm.1
+!27-Nov-20 16:56:50  End   D:\home\rkumbhare\projects\20_P80_weblin_local_html_files\testrun\local_html_file\wf_js_compreplace_1\regen_backup_model10001.asm.1
+~ Trail `main_dlg_cur` `bwTheBrowser` \
+ `Load Complete`
+~ Trail `main_dlg_cur` `bwTheBrowser` \
+  `Wait For ID:PfcSyncButton` 
+~ Command `ProCmdUtilDebug@context_main_dlg_w2` 
+< 2 0.916148 1426 0 0 773 1920 0 0 1080 13
+#REGRESSCHECK
+#COMPARE FILES
+#ACCEPT
+!%CPEnter name of output file:
+!%TR
+wf_js_compreplace_1_output.html
+!%CPEnter name of reference file:
+!%TR
+wf_js_compreplace_1_output.qcr
+!%CIFiles are identical
+#QUIT CF
+#DONE-RETURN
+~ Trail `UI Desktop` `UI Desktop` `ActivateOnFocus` \
+ `main_dlg_w2`
+@ oa_sel_filter_set _30_
+@ stack attr 2
+!MT_CUST - Applied settings for mode # 1 : MT Part Solid
+< 2 0.916148 1414 0 0 773 1920 0 0 1080 13
+< 2 0.916148 1411 0 0 773 1920 0 0 1080 13
+!MT_CUST - Applied settings for mode # 1 : MT Part Solid
+~ Select `main_dlg_cur` `appl_casc`
+~ Close `main_dlg_cur` `appl_casc`
+~ Select `main_dlg_cur` `appl_casc`
+~ Close `main_dlg_cur` `appl_casc`
+~ Command `ProCmdExit` 
+! Message Dialog: Warning
+!               : Creo Parametric will terminate and any unsaved work will be lost.
+!               : Do you really want to exit?
+~ Activate `UI Message Dialog` `yes`
+!%CI1106785 blocks; Size: 56717127; Overhead: 27324761; Peak system size: 84042584.
+!End of Trail File

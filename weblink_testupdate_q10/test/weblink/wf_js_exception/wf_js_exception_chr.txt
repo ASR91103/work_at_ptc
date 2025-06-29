@@ -1,0 +1,130 @@
+!trail file version No. 1990
+!Creo  TM  Version P-80-29  (c) 2020 by PTC Inc.  All Rights Reserved.
+!-------------------------------------------------------------------------------
+!
+! TITLE: new weblink calls to check the exception thrown by them
+!
+! TEST DESCRIPTION:
+!
+!  This is to test the consistency of the exception thrown by the weblink calls
+!
+! MODIFICATIONS:
+!
+! 13-Mar-14  P-20-50  $$1 rkumbhare  Created for chromium browser support.
+! 01-Dec-20  P-80-31  $$2 ychavhan   Created new trail.
+! 15-Oct-24  Q-10-55  $$3 aphatak    Updated for cef129 security support.
+!-------------------------------------------------------------------------------
+!Exit Logger data:
+!	Process ID: 26828
+!	Application: Creo_Parametric
+!	Start date&time: 2020/12/01  12:09:43
+!	language: usascii
+!	machine type: x86e_win64
+!	datecode: 8.0.0.0
+!	Server: NONE
+!	Workspace: NONE
+!	traceback file: D:\projects\weblink_updation\testrun\local_html_file\wf_js_exception\traceback.log
+!end Exit Logger data.
+< 0 1.206519 1760 0 0 1018 1920 0 0 1080 13
+!mem_use INCREASE Blocks 882431, AppSize 11163073, SysSize 30936680
+< 0 1.049000 1049 0 0 999 1920 0 0 1080 13
+< 0 1.054000 1054 0 0 999 1920 0 0 1080 13
+< 0 1.054000 1054 0 0 1004 1920 0 0 1080 13
+< 0 1.054000 1054 0 0 1009 1920 0 0 1080 13
+< 0 0.949000 949 0 0 1009 1920 0 0 1080 13
+< 0 0.923259 1477 0 0 779 1920 0 0 1080 13
+< 0 0.923259 1424 0 0 779 1920 0 0 1080 13
+< 0 0.922074 1424 0 0 778 1920 0 0 1080 13
+< 0 0.922074 1444 0 0 778 1920 0 0 1080 13
+< 0 0.922074 1464 0 0 778 1920 0 0 1080 13
+< 0 0.922074 1484 0 0 778 1920 0 0 1080 13
+< 0 0.922074 1504 0 0 778 1920 0 0 1080 13
+< 0 0.922074 1524 0 0 778 1920 0 0 1080 13
+!%CIWelcome to Creo Parametric 8.0.0.0.
+!AFX datecode: 8.0.0.0-beta.2 2020.11.04
+!AFX exec path: y:/devsrc/spg/system_1\afx\x86e_win64\afx80.dll
+!AFX text path: y:/devsrc/spg/system_1\afx\
+< 0 0.916148 1524 0 0 773 1920 0 0 1080 13
+~ Close `main_dlg_cur` `appl_casc`
+!mem_use INCREASE Blocks 959189, AppSize 50129181, SysSize 72481552
+~ Command `ProCmdUtilDebug` 
+#PROWT DEBUG
+!ODUI external UI session start for device : dlgdbgprowt 
+~ Activate `dlgdbgprowt` `pbGrantPerms`
+! Message Dialog: Warning
+!               : Are you sure you want to enable the debugging JS bridge commands.
+!               : If you do not know what it is for, or are not using this application for testing, you should press NO.
+!               : 
+!               : Choose YES only if you trust all the pages that you will load.        
+~ Activate `UI Message Dialog` `yes`
+~ Activate `dlgdbgprowt` `pbExit`
+!ODUI external UI session stop. 
+#DONE-RETURN
+~ Enter `main_dlg_cur` `proe_win` 9 1470 288 0 1537 1524 773 1920 1080 149120
+~ Move `main_dlg_cur` `proe_win` 9 1470 288 0 1 1524 773 1920 1080 149120
+~ Move `main_dlg_cur` `proe_win` 9 1470 288 0 1 1524 773 1920 1080 149120
+~ Move `main_dlg_cur` `proe_win` 9 1470 288 0 1 1524 773 1920 1080 149136
+~ Activate `main_dlg_cur` `Current Dir`
+~ Trail `UI Desktop` `UI Desktop` `PREVIEW_POPUP_TIMER` \
+ `main_dlg_w1:EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist:<NULL>`
+~ Select `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist` 1 `wf_js_exception.html`
+~ Select `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist` 1 `wf_js_exception.html`
+~ Activate `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist` 1 `wf_js_exception.html`
+!Application (jlinkwrite): started by Pro/TOOLKIT app
+!	type: synchronous J-Link
+! 1-Dec-20 12:12:29  Start D:\projects\weblink_updation\testrun\local_html_file\wf_js_exception\test.prt
+!LIGHT_FIX_MODEL_RMODE is 51
+! 1-Dec-20 12:12:31  End   D:\projects\weblink_updation\testrun\local_html_file\wf_js_exception\test.prt
+< 0 0.916148 1514 0 0 773 1920 0 0 1080 13
+~ Timer `UI Desktop` `UI Desktop` `EmbedBrowserTimer`
+! 1-Dec-20 12:12:34  Start D:\projects\weblink_updation\testrun\local_html_file\wf_js_exception\test.prt
+! 1-Dec-20 12:12:34  End   D:\projects\weblink_updation\testrun\local_html_file\wf_js_exception\test.prt
+< 2 0.832000 832 0 0 832 1920 0 0 1080 13
+< 2 1.049000 1049 0 0 999 1920 0 0 1080 13
+< 2 1.054000 1054 0 0 999 1920 0 0 1080 13
+< 2 1.054000 1054 0 0 1004 1920 0 0 1080 13
+< 2 1.054000 1054 0 0 1009 1920 0 0 1080 13
+< 2 1.039000 1039 0 0 1009 1920 0 0 1080 13
+< 2 0.923259 1567 0 0 779 1920 0 0 1080 13
+< 2 0.923259 1426 0 0 779 1920 0 0 1080 13
+< 2 0.923259 1446 0 0 779 1920 0 0 1080 13
+< 2 0.923259 1466 0 0 779 1920 0 0 1080 13
+< 2 0.923259 1486 0 0 779 1920 0 0 1080 13
+< 2 0.923259 1506 0 0 779 1920 0 0 1080 13
+< 2 0.923259 1526 0 0 779 1920 0 0 1080 13
+! 1-Dec-20 12:12:37  Start D:\projects\weblink_updation\testrun\local_html_file\wf_js_exception\template_everything.drw
+! 1-Dec-20 12:12:37  End   D:\projects\weblink_updation\testrun\local_html_file\wf_js_exception\template_everything.drw
+! 1-Dec-20 12:12:37  Start D:\projects\weblink_updation\testrun\local_html_file\wf_js_exception\assembly_err.asm
+! 1-Dec-20 12:12:37  Start D:\projects\weblink_updation\testrun\local_html_file\wf_js_exception\asm_err_comp.prt
+! 1-Dec-20 12:12:37  End   D:\projects\weblink_updation\testrun\local_html_file\wf_js_exception\asm_err_comp.prt
+! 1-Dec-20 12:12:37  End   D:\projects\weblink_updation\testrun\local_html_file\wf_js_exception\assembly_err.asm
+!%CIASSEMBLY_ERR has been added to drawing NEW_DRAWING_CASE_-7.
+!MT_CUST - Applied settings for mode # 41 : MT Draw Asm Design
+!MT_CUST - Applied settings for mode # 41 : MT Draw Asm Design
+< 2 0.923259 1516 0 0 779 1920 0 0 1080 13
+~ Trail `main_dlg_cur` `bwTheBrowser` \
+ `Load Complete`
+~ Trail `main_dlg_cur` `bwTheBrowser` \
+  `Wait For ID:PfcSyncButton`
+~ Command `ProCmdUtilDebug` 
+#REGRESSCHECK
+#COMPARE FILES
+#ACCEPT
+!%CPEnter name of output file:
+!%TR
+wf_js_exception_output.html
+!%CPEnter name of reference file:
+!%TR
+wf_js_exception_output.qcr
+!%CIFiles are identical
+#QUIT CF
+#DONE-RETURN
+~ Select `main_dlg_cur` `appl_casc`
+~ Close `main_dlg_cur` `appl_casc`
+~ Command `ProCmdExit` 
+! Message Dialog: Warning
+!               : Creo Parametric will terminate and any unsaved work will be lost.
+!               : Do you really want to exit?
+~ Activate `UI Message Dialog` `yes`
+!%CI1038872 blocks; Size: 55352328; Overhead: 27760400; Peak system size: 84066088.
+!End of Trail File
