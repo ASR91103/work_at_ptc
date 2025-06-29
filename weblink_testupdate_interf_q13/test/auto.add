@@ -1,0 +1,10 @@
+#category weblink
+#skip_for_cpd_run
+#add_to_config windows_browser_type edge_browser
+#r
+#run_only_on i486_nt x86e_win64
+#wf_js_test
+#not_run_on x86e_linux64
+wf_js_interference_edge.txt@test.weblink.wf_js_interference
+*.*@test.weblink.wf_js_interference
+END

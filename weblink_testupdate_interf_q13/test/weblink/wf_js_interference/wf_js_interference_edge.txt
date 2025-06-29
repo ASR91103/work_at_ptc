@@ -1,0 +1,123 @@
+﻿!trail file version No. 2752
+!Creo  TM  Version Q-13-04  (c) 2025 by PTC Inc.  All Rights Reserved.
+!-------------------------------------------------------------------------------
+!
+! TITLE: new weblink tests for checking the interference of 2 components in an assembly
+!
+! TEST DESCRIPTION:
+!
+!  This is to test the interference volume of 2 components in an assembly
+!
+! MODIFICATIONS:
+!
+! 18-Apr-25  Q-13-04  $$1 sarsewar  Created for edge browser support.
+!-------------------------------------------------------------------------------
+!Exit Logger data:
+!	Process ID: 30916
+!	Application: Creo_Parametric
+!	Start date&time: 2025/04/18  14:00:18
+!	language: usascii
+!	machine type: x86e_win64
+!	datecode: 13.0.0.0
+!	Server: NONE
+!	Workspace: NONE
+!	traceback file: D:\GTM\weblink_testupdate_interf_q13\testrun\wf_js_interference\traceback.log
+!end Exit Logger data.
+< 0 1.193481 1910 0 0 1007 1920 0 0 1080 13
+!mem_use INCREASE Blocks 985953, AppSize 13110527, SysSize 33967960
+< 0 1.077000 1077 0 0 998 1920 0 0 1080 13
+< 0 1.081000 1081 0 0 998 1920 0 0 1080 13
+< 0 1.081000 1081 0 0 1002 1920 0 0 1080 13
+< 0 1.081000 1081 0 0 1006 1920 0 0 1080 13
+< 0 0.973000 973 0 0 1006 1920 0 0 1080 13
+< 0 0.846222 1610 0 0 714 1920 0 0 1080 13
+< 0 0.846222 1546 0 0 714 1920 0 0 1080 13
+< 0 0.845037 1546 0 0 713 1920 0 0 1080 13
+< 0 0.859259 1558 0 0 725 1920 0 0 1080 13
+!%CIWelcome to Creo Parametric 13.0.0.0.
+!AFX datecode: 13.0.0.0-beta.1 2025.03.06
+!AFX exec path: k:/q13/spg/system_1\afx\x86e_win64\afx130.dll
+!AFX text path: k:/q13/spg/system_1\afx\
+< 0 0.859259 1655 0 0 725 1920 0 0 1080 13
+!mem_use INCREASE Blocks 1044232, AppSize 45395097, SysSize 68090088
+< 0 0.852148 1655 0 0 719 1920 0 0 1080 13
+~ Close `main_dlg_cur` `appl_casc`
+!mem_use INCREASE Blocks 962890, AppSize 49902210, SysSize 72625048
+~ Command `ProCmdUtilDebug` 
+#PROWT DEBUG
+!ODUI external UI session start for device : dlgdbgprowt 
+~ Activate `dlgdbgprowt` `pbGrantPerms`
+! Message Dialog: Warning
+!               : Are you sure you want to enable the debugging JS bridge commands.
+!               : If you do not know what it is for, or are not using this application for testing, you should press NO.
+!               : 
+!               : Choose YES only if you trust all the pages that you will load.        
+~ Activate `UI Message Dialog` `yes`
+~ Activate `dlgdbgprowt` `pbExit`
+!ODUI external UI session stop. 
+#DONE-RETURN
+~ Command `ProCmdModelOpen` 
+< 2 0.118519 178 0 0 100 1920 0 0 1080 13
+~ Trail `` `` `DLG_PREVIEW_POST` \
+ `file_open`
+~ Activate `file_open` `Current Dir`
+~ Select `file_open` `Ph_list.Filelist` 1 `new_asm.asm`
+~ Activate `file_open` `Ph_list.Filelist` 1 `new_asm.asm`
+!Command ProCmdModelOpenExe was pushed from the software.
+! 4-Dec-20 13:05:37  Start D:\projects\weblink_updation_submission2\testrun\local_html_file\wf_js_interference\new_asm.asm
+!LIGHT_FIX_MODEL_RMODE is 51
+! 4-Dec-20 13:05:38  Start D:\projects\weblink_updation_submission2\testrun\local_html_file\wf_js_interference\hole.prt
+! 4-Dec-20 13:05:39  End   D:\projects\weblink_updation_submission2\testrun\local_html_file\wf_js_interference\hole.prt
+! 4-Dec-20 13:05:39  Start D:\projects\weblink_updation_submission2\testrun\local_html_file\wf_js_interference\shaft.prt
+! 4-Dec-20 13:05:39  End   D:\projects\weblink_updation_submission2\testrun\local_html_file\wf_js_interference\shaft.prt
+! 4-Dec-20 13:05:39  End   D:\projects\weblink_updation_submission2\testrun\local_html_file\wf_js_interference\new_asm.asm
+@ oa_sel_filter_set _30_
+@ stack attr 2
+< 0 0.845037 1655 0 0 713 1920 0 0 1080 13
+!MT_CUST - Applied settings for mode # 6 : MT Asm Design
+< 0 0.845037 1507 0 0 713 1920 0 0 1080 13
+< 0 0.845037 1513 0 0 713 1920 0 0 1080 13
+~ Select `main_dlg_cur` `PHTLeft.ProExplorerTab` 1 `PHTLeft.Folders`
+~ Activate `main_dlg_cur` `Current Dir`
+~ Select `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist` 1 `wf_js_interference.html`
+~ Activate `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist` 1 `wf_js_interference.html`
+~ FocusIn `main_dlg_cur` `PHTLeft.node_edit`
+~ FocusOut `main_dlg_cur` `PHTLeft.node_edit`
+~ Trail `` `` `PREVIEW_POPUP_TIMER` \
+ `main_dlg_w1:EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist:<NULL>`
+~ Trail `` `` `PREVIEW_POPUP_TIMER` \
+ `main_dlg_w1:EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist:<NULL>`
+~ Timer `` `` `EmbedBrowserTimer`
+~ Trail `main_dlg_cur` `bwTheBrowser` `Load Complete`
+!Application (jlinkwrite): started by Pro/TOOLKIT app
+!	type: synchronous J-Link
+~ Trail `main_dlg_cur` `bwTheBrowser` `Wait For ID:PfcSyncButton`
+~ Command `ProCmdUtilDebug` 
+#REGRESSCHECK
+#COMPARE FILES
+#ABSOLUTE EPS
+#RELATIVE EPS
+#RELATIVE EPS
+!%CPEnter relative epsilon [0.0500]:
+!%TR
+0.5
+#ACCEPT
+!%CPEnter name of output file:
+!%TR
+wf_js_interference_output.html
+!%CPEnter name of reference file:
+!%TR
+wf_js_interference_output.qcr
+!%CIFiles are identical
+#QUIT CF
+#DONE-RETURN
+~ Select `main_dlg_cur` `appl_casc`
+~ Close `main_dlg_cur` `appl_casc`
+~ Command `ProCmdExit` 
+! Message Dialog: Warning
+!               : Creo Parametric will terminate and any unsaved work will be lost.
+!               : Do you really want to exit?
+~ Activate `UI Message Dialog` `yes`
+!%CI1143516 blocks; Size: 73598857; Overhead: 23498607; Peak system size: 97098160.
+!Finished processing input trail:D:\GTM\weblink_testupdate_interf_q13\testrun\wf_js_interference\wf_js_interference_chr.txt
+!End of Trail File
