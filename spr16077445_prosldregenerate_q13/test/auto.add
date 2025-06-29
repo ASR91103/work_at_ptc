@@ -1,0 +1,22 @@
+#category otk_cpp_ipc_tests
+#run_only_on x86e_win64
+#if_exist otk_cpp_tests
+#r
+#english_test
+#otk_cpp_test
+#cmd otkcpptest_dat_setup ipc
+#xtop_add_args -trailfile otk_model_39q10_spr16077445.txt +tkqcr:otk_model_39q10_spr16077445.qcr +tkout:otk_model_39q10_spr16077445.out +tknoexit +tkgrp:model +tkid:39q10 +tkbtn:1
+otk_model_39q10_spr16077445.txt@test.otk_cpp_tests.otk_model_39q10_spr16077445
+*.*@test.otk_cpp_tests.otk_model_39q10_spr16077445
+END
+#category otk_cpp_dll_tests
+#run_only_on x86e_win64
+#if_exist otk_cpp_tests_dll
+#r
+#english_test
+#otk_cpp_test
+#cmd otkcpptest_dat_setup dll
+#xtop_add_args -trailfile otk_model_39q10_spr16077445.txt +tkqcr:otk_model_39q10_spr16077445.qcr +tkout:otk_model_39q10_spr16077445.out +tknoexit +tkgrp:model +tkid:39q10 +tkbtn:1
+otk_model_39q10_spr16077445_dll.txt@test.otk_cpp_tests.otk_model_39q10_spr16077445
+*.*@test.otk_cpp_tests.otk_model_39q10_spr16077445
+END

@@ -1,0 +1,128 @@
+﻿!trail file version No. 2123
+!Creo  TM  Version Q-10-57  (c) 2025 by PTC Inc.  All Rights Reserved.
+!Exit Logger data:
+!	Process ID: 38652
+!	Application: Creo_Parametric
+!	Start date&time: 2025/04/04  10:48:21
+!	language: usascii
+!	machine type: x86e_win64
+!	datecode: 10.0.9.0
+!	Server: NONE
+!	Workspace: NONE
+!	traceback file: D:\GTM\spr16077445_prosldregenerate_q10\testrun\gettrl\traceback.log
+!end Exit Logger data.
+!=============================================================================
+!
+!Description: Test for SPR 16077445
+!
+!  Trail name: otk_model_39q10_spr16077445/_dll.txt
+!
+!  Steps taken by trail:
+!    1. Open Creo.
+!    2. Open part file prt0001.prt .
+!    3. create a drawing from the part file prt0001.prt.
+!		a. In button1 action function we are regenerating a solid which works successfully by returning 0.
+!		b. In case of drawing, added Negative test case to return PRO_TK_BAD_INPUTS as it was doing in Creo 8.0.12.0, 9.0.10.0 in case of drawing. 
+!	4. Close Pro/E.
+!  
+!HISTORY:
+!Date          Build     Modifier  Rev#  Changes
+!--------------------------------------------------------------------
+!04-Apr-25     Q-13-02   sarsewar  $$1  Created.
+!
+!=============================================================================
+< 0 1.193481 1910 0 0 1007 1920 0 0 1080 13
+!mem_use INCREASE Blocks 929297, AppSize 12324229, SysSize 32848248
+< 0 1.077000 1077 0 0 998 1920 0 0 1080 13
+< 0 1.081000 1081 0 0 998 1920 0 0 1080 13
+< 0 1.081000 1081 0 0 1002 1920 0 0 1080 13
+< 0 1.081000 1081 0 0 1006 1920 0 0 1080 13
+< 0 0.973000 973 0 0 1006 1920 0 0 1080 13
+< 0 0.834370 1370 0 0 704 1920 0 0 1080 13
+< 0 0.834370 1330 0 0 704 1920 0 0 1080 13
+< 0 0.833185 1330 0 0 703 1920 0 0 1080 13
+< 0 0.859259 1582 0 0 725 1920 0 0 1080 13
+< 0 0.859259 1557 0 0 725 1920 0 0 1080 13
+!%CIWelcome to Creo Parametric 10.0.9.0.
+!AFX datecode: 10.0.8.0-rc.2 2025.01.07
+!AFX exec path: q:/q10_integ/spg/system_1\afx\x86e_win64\afx100.dll
+!AFX text path: q:/q10_integ/spg/system_1\afx\
+< 0 0.859259 1654 0 0 725 1920 0 0 1080 13
+!mem_use INCREASE Blocks 1001338, AppSize 45507952, SysSize 66836672
+< 0 0.852148 1654 0 0 719 1920 0 0 1080 13
+!Application (otk_application): running DLL-mode user_initialize
+!Application (otk_application): returned from DLL-mode user_initialize; status is 0
+!Application (otk_application): started via registry.
+!	exec path: d:\GTM\spr16077445_prosldregenerate_q10\x86e_win64\obj\otk_cpp_tests_dll.dll
+!	type: synchronous Pro/TOOLKIT DLL
+~ Command `ProCmdModelOpen` 
+< 2 0.118519 178 0 0 100 1920 0 0 1080 13
+~ Trail `` `` `DLG_PREVIEW_POST` \
+ `file_open`
+~ Trail `` `` `PREVIEW_POPUP_TIMER` \
+ `file_open:Ph_list.Filelist:<NULL>`
+~ Activate `file_open` `Current Dir`
+~ Select `file_open` `Ph_list.Filelist` 1 `prt0001.prt`
+~ Command `ProFileSelPushOpen_Standard@context_dlg_open_cmd` 
+!Command ProCmdModelOpenExe was pushed from the software.
+! 4-Apr-25 10:49:16  Start D:\GTM\spr16077445_prosldregenerate_q10\testrun\gettrl\prt0001.prt
+!LIGHT_FIX_MODEL_RMODE is 51
+! 4-Apr-25 10:49:18  End   D:\GTM\spr16077445_prosldregenerate_q10\testrun\gettrl\prt0001.prt
+!@ oa_sel_filter_set _90_
+!MT_CUST - Applied settings for mode # 1 : MT Part Solid
+!< 0 0.852148 1457 0 0 719 1920 0 0 1080 13
+!< 0 0.852148 1463 0 0 719 1920 0 0 1080 13
+!< 0 0.852148 1457 0 0 719 1920 0 0 1080 13
+!MT_CUST - Applied settings for mode # 1 : MT Part Solid
+~ Select `main_dlg_cur` `appl_casc`
+~ Close `main_dlg_cur` `appl_casc`
+~ Command `ProCmdModelNew` 
+~ Select `new` `Type` 1 `Drawing`
+~ Activate `new` `OK`
+!Command ProCmdModelNewExe was pushed from the software.
+~ Activate `dwg_create` `psh_ok`
+< 2 0.832000 832 0 0 832 1920 0 0 1080 13
+< 2 1.077000 1077 0 0 998 1920 0 0 1080 13
+< 2 1.081000 1081 0 0 998 1920 0 0 1080 13
+< 2 1.081000 1081 0 0 1002 1920 0 0 1080 13
+< 2 1.081000 1081 0 0 1006 1920 0 0 1080 13
+< 2 1.005000 1005 0 0 1006 1920 0 0 1080 13
+< 2 0.834370 1402 0 0 704 1920 0 0 1080 13
+< 2 0.860444 1654 0 0 726 1920 0 0 1080 13
+< 2 0.860444 1513 0 0 726 1920 0 0 1080 13
+@ ok
+! 4-Apr-25 10:49:45  Start q:\q10_integ\spg\system_1\templates\c_drawing.drw
+! 4-Apr-25 10:49:45  End   q:\q10_integ\spg\system_1\templates\c_drawing.drw
+!%CIPRT0001 has been added to drawing DRW0001.
+@ draw scale
+!mem_use INCREASE Blocks 1107196, AppSize 71298945, SysSize 93904488
+ 0.00520833
+!MT_CUST - Applied settings for mode # 1 : Drawing Tree
+< 2 0.860444 1457 0 0 726 1920 0 0 1080 13
+< 2 0.860444 1463 0 0 726 1920 0 0 1080 13
+!Command ProCmdEnvShaded was pushed from the software.
+!%CI Shaded model will be displayed
+< 2 0.814222 1463 0 0 687 1920 0 0 1080 13
+< 2 0.813037 1463 0 0 686 1920 0 0 1080 13
+< 2 0.805926 1463 0 0 680 1920 0 0 1080 13
+~ Activate `main_dlg_cur` `user_custom_page_191685032_control_btn` 1
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!Drawing context was changed by user from page_Layout to user_custom_page_191685032
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+~ Command `Button1` 
+!Application (otk_application): CmdMgr action_func '' called for cmd 'Button1'
+!%CIPart 'PRT0001' not changed since last regen.
+!Application (otk_application): CmdMgr action_func '' returned for cmd 'Button1'
+~ Select `main_dlg_cur` `appl_casc`
+~ Close `main_dlg_cur` `appl_casc`
+~ Command `ProCmdExit` 
+! Message Dialog: Warning
+!               : Creo Parametric will terminate and any unsaved work will be lost.
+!               : Do you really want to exit?
+~ Trail `` `` `PREVIEW_POPUP_TIMER` \
+ `main_dlg_w2:PHTLeft.AssyTree:<NULL>`
+~ Activate `UI Message Dialog` `yes`
+!%CI1138262 blocks; Size: 73010029; Overhead: 22786259; Peak system size: 95796984.
+!Application (otk_application): running DLL-mode user_terminate
+!Application (otk_application): returned from DLL-mode user_terminate
+!End of Trail File
