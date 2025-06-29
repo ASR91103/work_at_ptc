@@ -1,0 +1,20 @@
+#if_exist otk_cpp_tests
+#r
+#run_only_on x86e_win64
+#english_test
+#otk_cpp_test
+#cmd otkcpptest_dat_setup ipc
+#xtop_add_args  +tkqcr:otk_detailing_03p90_spr15463139.qcr +tkout:otk_detailing_03p90_spr15463139.out +tkgrp:detailing +tkid:03p90
+otk_detailing_03p90_spr15463139.txt@test.otk_cpp_tests.otk_detailing_03p90_spr15463139
+*.*@test.otk_cpp_tests.otk_detailing_03p90_spr15463139
+END
+#if_exist otk_cpp_tests_dll
+#r
+#run_only_on x86e_win64
+#english_test
+#otk_cpp_test
+#cmd otkcpptest_dat_setup dll
+#xtop_add_args  +tkqcr:otk_detailing_03p90_spr15463139.qcr +tkout:otk_detailing_03p90_spr15463139.out +tkgrp:detailing +tkid:03p90
+otk_detailing_03p90_spr15463139_dll.txt@test.otk_cpp_tests.otk_detailing_03p90_spr15463139
+*.*@test.otk_cpp_tests.otk_detailing_03p90_spr15463139
+END

@@ -1,0 +1,1659 @@
+Running: z:/tools/perl510/x86e_win64/bin/perl z:/tools/bin/uninstall_pvx_silent.pl
+
+
+********************************************************************
+
+
+              PARAMETER/ENVIRONMENT SUMMARY
+
+    Parameter 1 -    EXE_PATH:  q:/q10/spg/system_1/x86e_win64/obj/xtop.exe
+    Parameter 2 -  TRAIL_PATH:  D:/GTM/spr_15881855_solidSymGet_q10
+    Parameter 3 -    OBJ_PATH:  x:/reg/spg/objects
+
+
+    Machine name   -->   SARSEWAR2D
+    Run Directory  -->   D:/GTM/spr_15881855_solidSymGet_q10/testrun/auto_1
+    PTCSRC  -->   q:/q10/spg/system_1
+    PTCSYS  -->   q:/q10/spg/system_1/x86e_win64
+    PRO_DIRECTORY  -->   q:/q10/spg/system_1
+    PROTAB         -->   q:/q10/spg/system_1/x86e_win64/obj/protab.exe
+    Version String -->   Version Q-10-57
+    P_VERSION      -->   380
+    Graphics type  -->   0
+    LANG           -->   C
+    OPER_SYS       -->   WINDOWS_32
+    PRO_MACHINE_TYPE --> x86e_win64
+    DISPLAY        -->   unix:0
+    Run mode       -->   9029
+    Auto.txt file  -->   auto.txt
+    Today's Date   -->   May-23-2025 11:07:48
+    Alt trail path -->   
+    R_GETTB_CORE   -->   true
+    MECH_HOME      -->   q:\q10\spg\system_1\x86e_win64\applications\simulate\x86e_win64
+    MECHANISM_HOME -->   q:\q10\spg\system_1\x86e_win64\applications\mechanism\x86e_win64
+    ANIMATION_HOME -->   q:\q10\spg\system_1\x86e_win64\applications\animation\x86e_win64
+    SIM_STDS_PATH  -->   q:\q10\spg\system_1\sim\mtest
+    Alt qcr path   -->   D:/GTM/spr_15881855_solidSymGet_q10/test/otk_cpp_tests
+    File version of libcef.dll   -->   135.0.22+g442c600+chromium-135.0.7049.115
+    CEF_VERSION --> 135.0.7049.115
+---------------------------------------------------------------
+Other Environment Variables:
+    !C: -> c:\cygwin\bin
+    !D: -> D:\GTM\spr_15881855_solidSymGet_q10\testrun\auto_1
+    !H: -> H:\
+    !I: -> I:\
+    !J: -> J:\
+    !K: -> K:\
+    !L: -> L:\
+    !N: -> N:\
+    !O: -> O:\
+    !P: -> P:\
+    !Q: -> q:\q10\spg\system_1\x86e_win64\obj
+    !R: -> R:\
+    !S: -> S:\
+    !T: -> T:\
+    !U: -> U:\
+    !V: -> V:\
+    !W: -> W:\
+    !X: -> X:\
+    !Y: -> Y:\
+    !Z: -> Z:\
+    ALT_GMK_PATH -> z:/tools/apps/uigtms/stable/x86e_win64/gmk.exe
+    ARTS_PRIUS_SERVER -> hfa-arts.ptcnet.ptc.com:9110
+    AUTO_PL_PID -> 12460
+    BTK_LIBS_CTX:13772 -> 1b242e508f0
+    BTK_PVTHEAP:13772 -> 1b242e50000
+    BTK_PVTHEAP:15560 -> 28c80000
+    BTK_PVTHEAP_POOL:13772 -> 1b242e50890
+    BTK_PVTHEAP_POOL:15560 -> 28c80890
+    BTK_PVTPGM_BLKQUEUES:13772 -> 1b242e59fa0
+    BTK_PVTPGM_BLKQUEUES:15560 -> 28c89f70
+    BTK_PVTPGM_BUCKETS:13772 -> 1b242e58010
+    BTK_PVTPGM_BUCKETS:15560 -> 28c88010
+    BTK_PVTPGM_PGPOOLS:13772 -> 1b242e561c0
+    BTK_PVTPGM_PGPOOLS:15560 -> 28c861c0
+    BTK_WIN_TRACEBACK:13772 -> 7ff7efa20c40
+    BTK_WIN_TRACEBACK:15560 -> 7ff868a00000
+    CEF_VERSION -> 135.0.7049.115
+    CGI_SERVER -> http://andcsv-cadops9.ptcnet.ptc.com
+    CREOAPP_DIRECTORY -> q:/q10/spg/system_1
+    creoinfo_exe ->
+	 z:/apps/creoagent/q10/x86e_win64/CFiles/PTC/Creo/Agent/creoinfo.ex
+	 e
+    CREOINT_PRODUCTION_STATUS -> PRODUCTION
+    CREO_AGENT_EXE_PATH ->
+	 z:/apps/creoagent/q10/x86e_win64/CFiles/PTC/Creo/Agent/creoagent.e
+	 xe
+    CREO_AGENT_LDP_LIST ->
+	 z:/apps/creoagent/q10/x86e_win64/CFiles/PTC/Creo/Platform/10/manif
+	 ests
+    CREO_AGENT_MSI_FROM -> import
+    CREO_BUILD_TAG -> 10.0.9.0-rc.049
+    CREO_BUILD_VERSION -> 10.0.9.0
+    CYGWIN -> nodosfilewarning winsymlinks:native
+    CYGWIN_HOME -> C:/cygwin
+    CYG_PROSRC -> /cygdrive/q/q10/spg/system_1
+    CYG_PTCSYS -> /cygdrive/q/q10/spg/system_1/x86e_win64
+    CYG_PTC_COMMON -> /cygdrive/u/common
+    CYG_PTC_REGTOOL -> /cygdrive/z/tools/regtool/bin
+    CYG_PTC_TOOLS -> /cygdrive/z/tools
+    Chassis -> RackMountChassis
+    ChocolateyInstall -> C:\ProgramData\chocolatey
+    ChocolateyLastPathUpdate -> 133869379317529737
+    CommonProgramFiles(x86) -> C:\Program Files (x86)\Common Files
+    CommonProgramW6432 -> C:\Program Files\Common Files
+    DEVPATH -> Q:/q10/spg/system_1/x86e_win64/obj
+    DriverData -> C:\Windows\System32\Drivers\DriverData
+    FPS_BROWSER_APP_PROFILE_STRING -> Internet Explorer
+    FPS_BROWSER_USER_PROFILE_STRING -> Default
+    FrameworkDir64 -> C:\WINDOWS\Microsoft.NET\Framework64
+    FrameworkDir -> C:\WINDOWS\Microsoft.NET\Framework64
+    FrameworkVersion64 -> v4.0.30319
+    FrameworkVersion -> v4.0.30319
+    GR_ANNOT_FULL -> true
+    GTM_STARTED -> TRUE
+    GUIDE_DIRECTORY -> q:\q10\spg\system_1/uiguide
+    ICU_VERSION -> 68.2
+    INSIDE_AUTO_RUN -> true
+    JAVA11HOME -> z:/tools/advapps/x86e_win64/jdk11
+    JAVA11PATH -> z:/tools/advapps/x86e_win64/jdk11/bin
+    JAVA17HOME -> z:/tools/advapps/x86e_win64/jdk17
+    JAVA17PATH -> z:/tools/advapps/x86e_win64/jdk17/bin
+    JAVA21HOME -> z:/tools/advapps/x86e_win64/jdk21
+    JAVA21PATH -> z:/tools/advapps/x86e_win64/jdk21/bin
+    JAVA5CLASSPATH ->
+	 z:/tools/advapps/x86e_win64/jdk1.5.0_10/jre/lib/exactvm.jar;z:/too
+	 ls/advapps/x86e_win64/jdk1.5.0_10/jre/lib/i18n.jar;z:/tools/advapp
+	 s/x86e_win64/jdk1.5.0_10/jre/lib/rt.jar;z:/tools/advapps/x86e_win6
+	 4/jdk1.5.0_10/lib/dt.jar;z:/tools/advapps/x86e_win64/jdk1.5.0_10/l
+	 ib/tools.jar;z:/tools/advapps/x86e_win64/jdk1.5.0_10/src.jar
+    JAVA5PATH -> z:/tools/advapps/x86e_win64/jdk1.5.0_10/bin
+    JAVA6CLASSPATH ->
+	 z:/tools/advapps/x86e_win64/jdk1.6.0_13/jre/lib/rt.jar
+    JAVA6PATH -> z:/tools/advapps/x86e_win64/jdk1.6.0_13/bin
+    JAVA7CLASSPATH ->
+	 z:/tools/advapps/x86e_win64/jdk1.7.0_25/jre/lib/rt.jar
+    JAVA7PATH -> z:/tools/advapps/x86e_win64/jdk1.7.0_25/bin
+    JAVA8CLASSPATH -> z:/tools/advapps/x86e_win64/jdk1.8/jre/lib/rt.jar
+    JAVA8HOME -> z:/tools/advapps/x86e_win64/jdk1.8
+    JAVA8PATH -> z:/tools/advapps/x86e_win64/jdk1.8/bin
+    JDK_HOME -> C:\Program Files\Java\jdk-21
+    LIBPATH ->
+	 Z:\compilers\i486_nt\vs16.9.8\VC\Tools\MSVC\14.28.29910\atlmfc\lib
+	 \x64
+    LOCALAPPDATA -> C:\Users\sarsewar\AppData\Local
+    LOCALPROE -> q:/q10/spg/system_1/x86e_win64/obj/xtop.exe
+    MAIN_THREAD_ENV -> 13772:22024
+    MASTERPACK -> //sawfish/public/masterpack
+    MOZ_PLUGIN_PATH -> C:\Program Files
+	 (x86)\Hummingbird\Connectivity\14.00\Exceed\Plugins\
+    Model -> 3930
+    NETFXSDKDir -> C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8
+    NETFXSDK_IncludePath -> C:\Program Files (x86)\Windows
+	 Kits\NETFXSDK\4.8\Include\um
+    NETFXSDK_LibraryPath -> C:\Program Files (x86)\Windows
+	 Kits\NETFXSDK\4.8\Lib\um\x64
+    NETFXSDK_Path -> z:\compilers\i486_nt\netfxsdk48
+    OneDrive -> C:\Users\sarsewar\OneDrive
+    PATH ->
+	 /cygdrive/d/GTM/spr_15881855_solidSymGet_q10/obj:/cygdrive/q/q10/s
+	 pg/system_1/x86e_win64/lib:/cygdrive/z/compilers/i486_nt/fortran/2
+	 016/windows/bin/intel64:/cygdrive/z/compilers/i486_nt/vs16.9.8/Com
+	 mon7/IDE:/cygdrive/z/compilers/i486_nt/vs16.9.8/VC/Tools/MSVC/14.2
+	 8.29910/bin/Hostx64/x64:/cygdrive/z/compilers/i486_nt/vs16.9.8/Com
+	 mon7/Tools:/cygdrive/z/compilers/i486_nt/sdk10.0.19041.0/Bin/10.0.
+	 19041.0/x64:/cygdrive/z/compilers/i486_nt/vs16.9.8/VB/bin:/cygdriv
+	 e/z/compilers/i486_nt/vs16.9.8/Microsoft
+	 SDKs/Windows/v10.0A/bin/NETFX 4.8
+	 Tools:/cygdrive/c/WINDOWS/Microsoft.NET/Framework64/v4.0.30319:.:/
+	 cygdrive/q/q10/spg/system_1/softdb/scripts:/cygdrive/z/tools/integ
+	 _tools:/cygdrive/d/GTM/spr_15881855_solidSymGet_q10/x86e_win64/adv
+	 apps/TK-2/obj:C:/cygwin/bin:z:/tools/apps/uigtms/stable/x86e_win64
+	 :/usr/local/bin:/usr/bin:/usr/bin:/cygdrive/c/Program Files/Common
+	 Files/Oracle/Java/javapath:/cygdrive/c/WINNT:/cygdrive/c/WINNT/sys
+	 tem32:/cygdrive/c/Program Files (x86)/Common
+	 Files/Oracle/Java/javapath:/cygdrive/c/WINDOWS/system32:/cygdrive/
+	 c/WINDOWS:/cygdrive/c/WINDOWS/System32/Wbem:/cygdrive/c/WINDOWS/Sy
+	 stem32/WindowsPowerShell/v1.0:/cygdrive/c/WINDOWS/System32/OpenSSH
+	 :/cygdrive/c/Program Files/ServiceNow:/cygdrive/c/Program
+	 Files/ServiceNow:/cygdrive/c/Program
+	 Files/nodejs:/cygdrive/c/ProgramData/chocolatey/bin:/cygdrive/c/ha
+	 milton:/cygdrive/c/Program
+	 Files/dotnet:/cygdrive/c/Users/sarsewar/AppData/Local/Programs/Pyt
+	 hon/Python311:/cygdrive/c/Program
+	 Files/Git/cmd:/cygdrive/d/home/python/x86e_win64:/cygdrive/c/Progr
+	 am
+	 Files/mingw64/mingw64/bin:/cygdrive/c/Users/sarsewar/AppData/Local
+	 /Microsoft/WindowsApps:/cygdrive/c/Users/sarsewar/AppData/Roaming/
+	 npm:/cygdrive/c/Users/sarsewar/.dotnet/tools:/cygdrive/c/Users/sar
+	 sewar/AppData/Local/Programs/Microsoft VS
+	 Code/bin:/cygdrive/c/ProgramData/mingw64/mingw64/bin:/home/sarsewa
+	 r:/cygdrive/z/tools/integ:/cygdrive/z/tools/bin:/cygdrive/z/tools/
+	 bin/x86e_win64:/cygdrive/z/tools/regtool/bin:/cygdrive/u/common/in
+	 tg_retr/bin:/cygdrive/z/tools/psoft:/cygdrive/z/tools/windows_nt/b
+	 in:/cygdrive/z/tools/advapps/cshtop:/cygdrive/z/tools/advapps/csha
+	 ux:/cygdrive/z/tools/advapps/x86e_win64:/cygdrive/z/tools/perl510/
+	 x86e_win64/bin:/cygdrive/z/tools/advapps/dcad:/home/sarsewar:/cygd
+	 rive/z/tools/integ:/cygdrive/z/tools/bin:/cygdrive/z/tools/bin/x86
+	 e_win64:/cygdrive/z/tools/regtool/bin:/cygdrive/u/common/intg_retr
+	 /bin:/cygdrive/z/tools/psoft:/cygdrive/z/tools/windows_nt/bin:/cyg
+	 drive/z/tools/advapps/cshtop:/cygdrive/z/tools/advapps/cshaux:/cyg
+	 drive/z/tools/advapps/x86e_win64:/cygdrive/z/tools/perl510/x86e_wi
+	 n64/bin:/cygdrive/z/tools/advapps/dcad:/cygdrive/z/tools/mkgen
+    PROBATCH_DIRECTORY -> q:/q10/spg/system_1/apps/batchexec
+    PROETREE_DIRECTORY -> q:/q10/spg/system_1/apps/treetool
+    PROE_REG_MSI -> q:/q10/spg/system_1/x86e_win64/obj/proe_reg.msi
+    PROE_THUMBNAIL_MSI -> q:/q10/spg/system_1/x86e_win64/obj/thumbplug.msi
+    PROSETUP_DIRECTORY -> q:/q10/spg/system_1/apps/prosetup
+    PROTAB -> q:/q10/spg/system_1/x86e_win64/obj/protab.exe
+    PROTABLE_DIRECTORY -> q:/q10/spg/system_1/apps/protable
+    PROTREE -> q:/q10/spg/system_1/x86e_win64/obj/proetree.exe
+    PRO_AR_EXE -> q:/q10/spg/system_1/x86e_win64/obj/pro_ar.exe
+    PRO_COMM_MSG_EXE -> q:/q10/spg/system_1/x86e_win64/obj/pro_comm_msg
+    PRO_JAVA_COMMAND -> z:/tools/advapps/x86e_win64/jdk11/bin/java
+    PRO_PHOTORENDER -> q:/q10/spg/system_1/x86e_win64/obj/PhotoRender.exe
+    PRO_RENDERSERVER -> q:/q10/spg/system_1/x86e_win64/obj/RenderServer.exe
+    PRO_USRMAIN -> q:/q10/spg/system_1/usrprog/umain/usrmain.c
+    PSModulePath -> C:\Program
+	 Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerSh
+	 ell\v1.0\Modules
+    PTC_APPMGR_DIR -> q:/q10/spg/system_1/apps/appmgr
+    PTC_COMPILER_CRT_PATH -> vs16.7.5/VC/Redist/MSVC/14.27.29016
+    PTC_PARTLIB -> z:/partlib z:/partlib2
+    PTC_PDMLINK_SERVER -> http://qa-app1.ptc.com:9000/Windchill
+    PTC_PROLIBS -> z:/ptcmisc/prolibs
+    PTC_REGOBJS -> x:/reg
+    PTC_REGVIDS -> x:/reg_video
+    PTC_SUPPRESS_LMLIC_ENV -> yes
+    PTC_WF_ROOT ->
+	 D:/GTM/spr_15881855_solidSymGet_q10/testrun/auto_1/WF_ROOT_DIR
+    PUBLIC -> C:\Users\Public
+    PVIEW_PROEPVIEW_HOME -> q:/q10/spg/system_1/apps/prodview
+    PVX_PATH -> q:/q10/spg/system_1/xplatform/jar/nodebug
+    PVX_REG_MSI ->
+	 q:/q10/spg/system_1/auxobjs/x86e_win64/PVX/ProductView_Express_32_
+	 64.msi
+    P_CURR_PROJ -> spr_15881855_solidSymGet_q10
+    P_PROJ_VER -> Q-10-58
+    ProgramData -> C:\ProgramData
+    ProgramFiles(x86) -> C:\Program Files (x86)
+    ProgramW6432 -> C:\Program Files
+    QUALITYAGENT_MSI -> q:/q10/spg/system_1/x86e_win64/obj/qualityagent.msi
+    RELEASE_STATUS -> shipping
+    R_ALT_QCR_DIR -> D:/GTM/spr_15881855_solidSymGet_q10/test/otk_cpp_tests
+    R_AUTOTXT -> auto.txt
+    R_AUTO_RUNNING -> true
+    R_AVOID_REG_UPLOAD -> true
+    R_CHECK_DBGFILE -> true
+    R_COMM_BRK_SVC -> q:/q10/spg/system_1/x86e_win64/obj/comm_brk_svc.exe
+    R_CONFIG_FILE -> useautodefault
+    R_FLEXGENERIC -> q:/q10/spg/system_1/x86e_win64/obj/flexgeneric.exe
+    R_FLOAT_CHECK -> false
+    R_GETTB_CORE -> true
+    R_GPROF -> false
+    R_GRAPHICS -> 0
+    R_IPCTEST -> q:/q10/spg/system_1/x86e_win64/obj/ipctest.exe
+    R_KEEP_FAILURE_DATA -> true
+    R_KEEP_SUCCESS_DATA -> true
+    R_LOCAL_XTOP -> q:/q10/spg/system_1/x86e_win64/obj/xtop.exe
+    R_PDEV_REGRES_BIN -> d:/GTM/spr_15881855_solidSymGet_q10/obj
+    R_PERF -> false
+    R_PFCLSCOM_DIR -> q:/q10/spg/system_1/x86e_win64/obj
+    R_PRODEV_REGRESS -> true
+    R_PROTAB -> q:/q10/spg/system_1/x86e_win64/obj/protab
+    R_REGRES_BIN -> d:/GTM/spr_15881855_solidSymGet_q10/obj
+    R_RUNMODE -> 9029
+    R_RUN_DRM_TESTS -> false
+    R_RUN_MECH_TEST -> true
+    R_RUN_OBSOLETE_TEST -> false
+    R_RUN_UWGMCC_TESTS -> false
+    R_SUPPRESS_PROTK_PROC_WINDOW -> true
+    R_TRAIL_PATH -> D:/GTM/spr_15881855_solidSymGet_q10
+    R_XTOP_WAIT -> true
+    SPGID -> sarsewar
+    Serial -> 2BCY3N3
+    TRACEDESIGNTIME -> true
+    TS_HOME -> q:/q10/spg/system_1/auxobjs/TrueSOLID/v4_4_2
+    TargetFrameworkSDKToolsDirectory ->
+	 z:\compilers\i486_nt\vs16.9.8\Microsoft
+	 SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools
+    Type -> Precision
+    UATDATA -> C:\WINDOWS\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77
+    UIGTM_DIRECTORY -> z:/tools/apps/uigtms/stable
+    UIGTM_TYPE -> stable
+    USERDOMAIN_ROAMINGPROFILE -> PTCNET
+    UniversalCRT_IncludePath ->
+	 Z:/compilers/i486_nt/\sdk10.0.19041.0\Include\10.0.19041.0\ucrt
+    UniversalCRT_LibraryPath ->
+	 Z:/compilers/i486_nt/\sdk10.0.19041.0\Lib\10.0.19041.0\ucrt\x64
+    UWGM_ADAPTERS_PATH ->
+	 d:/GTM/spr_15881855_solidSymGet_q10/obj;q:/q10/spg/system_1
+    VS160COMNTOOLS -> z:\compilers\i486_nt\vs16.9.8\VC\Tools\
+    VS170COMNTOOLS -> C:\Program Files\Microsoft Visual
+	 Studio\2022\Professional/Common7/Tools/
+    WPPCM_REG_MSI ->
+	 q:/q10/spg/system_1/auxobjs/WPP/ProductPointClientManager-en-US.MS
+	 I
+    WinRT_IncludePath ->
+	 Z:/compilers/i486_nt/\sdk10.0.19041.0\Include\10.0.19041.0\winrt;Z
+	 :/compilers/i486_nt/\sdk10.0.19041.0\Include\10.0.19041.0\cppwinrt
+    WindowsSDK_IncludePath ->
+	 Z:/compilers/i486_nt/\sdk10.0.19041.0\Include\10.0.19041.0\um
+    WindowsSDK_IncludePath_shared ->
+	 Z:/compilers/i486_nt/\sdk10.0.19041.0\Include\10.0.19041.0\shared
+    WindowsSDK_LibraryPath ->
+	 Z:/compilers/i486_nt/\sdk10.0.19041.0\Lib\10.0.19041.0\um\x64
+    WindowsSDK_Path ->
+	 Z:/compilers/i486_nt/\sdk10.0.19041.0\Bin\10.0.19041.0\x64
+    XTOP_SOFTWARE_OPENGL_PATH ->
+	 q:/q10/spg/system_1/auxobjs/x86e_win64/MESA23.1.2
+    ZES_ENABLE_SYSMAN -> 1
+    ZIP_EXEC -> q:/q10/spg/system_1/auxobjs/x86e_win64/ZIP/zip.exe
+    ct -> /usr/atria/bin/cleartool
+    mongodb -> C:\Program Files\MongoDB\Server\8.0\bin
+    python -> D:\home\python\x86e_win64
+
+********************************************************************
+
+
+
+Copying alternate qcr files from D:/GTM/spr_15881855_solidSymGet_q10/test/otk_cpp_tests/otk_detailing_03p90_spr15463139
+
+Copying alternate qcr files from D:/GTM/spr_15881855_solidSymGet_q10/test/otk_cpp_tests/otk_detailing_03p90_spr15463139
+
+
+AUTO finished at Fri May 23 11:08:56 2025 Total time 00:01:08
+Running: z:/tools/perl510/x86e_win64/bin/perl z:/tools/bin/uninstall_pvx_silent.pl
+
+
+********************************************************************
+
+
+              PARAMETER/ENVIRONMENT SUMMARY
+
+    Parameter 1 -    EXE_PATH:  q:/q10/spg/system_1/x86e_win64/obj/xtop.exe
+    Parameter 2 -  TRAIL_PATH:  D:/GTM/spr_15881855_solidSymGet_q10
+    Parameter 3 -    OBJ_PATH:  D:/GTM/spr_15881855_solidSymGet_q10/reg/spg/objects
+
+
+    Machine name   -->   SARSEWAR2D
+    Run Directory  -->   D:/GTM/spr_15881855_solidSymGet_q10/testrun/auto_1
+    PTCSRC  -->   q:/q10/spg/system_1
+    PTCSYS  -->   q:/q10/spg/system_1/x86e_win64
+    PRO_DIRECTORY  -->   q:/q10/spg/system_1
+    PROTAB         -->   q:/q10/spg/system_1/x86e_win64/obj/protab.exe
+    Version String -->   Version Q-10-57
+    P_VERSION      -->   380
+    Graphics type  -->   0
+    LANG           -->   C
+    OPER_SYS       -->   WINDOWS_32
+    PRO_MACHINE_TYPE --> x86e_win64
+    DISPLAY        -->   unix:0
+    Run mode       -->   9029
+    Auto.txt file  -->   auto.txt
+    Today's Date   -->   May-23-2025 11:10:39
+    Alt trail path -->   
+    R_GETTB_CORE   -->   true
+    MECH_HOME      -->   q:\q10\spg\system_1\x86e_win64\applications\simulate\x86e_win64
+    MECHANISM_HOME -->   q:\q10\spg\system_1\x86e_win64\applications\mechanism\x86e_win64
+    ANIMATION_HOME -->   q:\q10\spg\system_1\x86e_win64\applications\animation\x86e_win64
+    SIM_STDS_PATH  -->   q:\q10\spg\system_1\sim\mtest
+    Alt qcr path   -->   D:/GTM/spr_15881855_solidSymGet_q10/test/otk_cpp_tests
+    File version of libcef.dll   -->   135.0.22+g442c600+chromium-135.0.7049.115
+    CEF_VERSION --> 135.0.7049.115
+---------------------------------------------------------------
+Other Environment Variables:
+    !C: -> c:\cygwin\bin
+    !D: -> D:\GTM\spr_15881855_solidSymGet_q10\testrun\auto_1
+    !H: -> H:\
+    !I: -> I:\
+    !J: -> J:\
+    !K: -> K:\
+    !L: -> L:\
+    !N: -> N:\
+    !O: -> O:\
+    !P: -> P:\
+    !Q: -> q:\q10\spg\system_1\x86e_win64\obj
+    !R: -> R:\
+    !S: -> S:\
+    !T: -> T:\
+    !U: -> U:\
+    !V: -> V:\
+    !W: -> W:\
+    !X: -> X:\
+    !Y: -> Y:\
+    !Z: -> Z:\
+    ALT_GMK_PATH -> z:/tools/apps/uigtms/stable/x86e_win64/gmk.exe
+    ARTS_PRIUS_SERVER -> hfa-arts.ptcnet.ptc.com:9110
+    AUTO_PL_PID -> 16752
+    BTK_LIBS_CTX:13772 -> 1b242e508f0
+    BTK_PVTHEAP:13772 -> 1b242e50000
+    BTK_PVTHEAP:15560 -> 28c80000
+    BTK_PVTHEAP_POOL:13772 -> 1b242e50890
+    BTK_PVTHEAP_POOL:15560 -> 28c80890
+    BTK_PVTPGM_BLKQUEUES:13772 -> 1b242e59fa0
+    BTK_PVTPGM_BLKQUEUES:15560 -> 28c89f70
+    BTK_PVTPGM_BUCKETS:13772 -> 1b242e58010
+    BTK_PVTPGM_BUCKETS:15560 -> 28c88010
+    BTK_PVTPGM_PGPOOLS:13772 -> 1b242e561c0
+    BTK_PVTPGM_PGPOOLS:15560 -> 28c861c0
+    BTK_WIN_TRACEBACK:13772 -> 7ff7efa20c40
+    BTK_WIN_TRACEBACK:15560 -> 7ff868a00000
+    CEF_VERSION -> 135.0.7049.115
+    CGI_SERVER -> http://andcsv-cadops9.ptcnet.ptc.com
+    CREOAPP_DIRECTORY -> q:/q10/spg/system_1
+    creoinfo_exe ->
+	 z:/apps/creoagent/q10/x86e_win64/CFiles/PTC/Creo/Agent/creoinfo.ex
+	 e
+    CREOINT_PRODUCTION_STATUS -> PRODUCTION
+    CREO_AGENT_EXE_PATH ->
+	 z:/apps/creoagent/q10/x86e_win64/CFiles/PTC/Creo/Agent/creoagent.e
+	 xe
+    CREO_AGENT_LDP_LIST ->
+	 z:/apps/creoagent/q10/x86e_win64/CFiles/PTC/Creo/Platform/10/manif
+	 ests
+    CREO_AGENT_MSI_FROM -> import
+    CREO_BUILD_TAG -> 10.0.9.0-rc.049
+    CREO_BUILD_VERSION -> 10.0.9.0
+    CYGWIN -> nodosfilewarning winsymlinks:native
+    CYGWIN_HOME -> C:/cygwin
+    CYG_PROSRC -> /cygdrive/q/q10/spg/system_1
+    CYG_PTCSYS -> /cygdrive/q/q10/spg/system_1/x86e_win64
+    CYG_PTC_COMMON -> /cygdrive/u/common
+    CYG_PTC_REGTOOL -> /cygdrive/z/tools/regtool/bin
+    CYG_PTC_TOOLS -> /cygdrive/z/tools
+    Chassis -> RackMountChassis
+    ChocolateyInstall -> C:\ProgramData\chocolatey
+    ChocolateyLastPathUpdate -> 133869379317529737
+    CommonProgramFiles(x86) -> C:\Program Files (x86)\Common Files
+    CommonProgramW6432 -> C:\Program Files\Common Files
+    DEVPATH -> Q:/q10/spg/system_1/x86e_win64/obj
+    DriverData -> C:\Windows\System32\Drivers\DriverData
+    FPS_BROWSER_APP_PROFILE_STRING -> Internet Explorer
+    FPS_BROWSER_USER_PROFILE_STRING -> Default
+    FrameworkDir64 -> C:\WINDOWS\Microsoft.NET\Framework64
+    FrameworkDir -> C:\WINDOWS\Microsoft.NET\Framework64
+    FrameworkVersion64 -> v4.0.30319
+    FrameworkVersion -> v4.0.30319
+    GR_ANNOT_FULL -> true
+    GTM_STARTED -> TRUE
+    GUIDE_DIRECTORY -> q:\q10\spg\system_1/uiguide
+    ICU_VERSION -> 68.2
+    INSIDE_AUTO_RUN -> true
+    JAVA11HOME -> z:/tools/advapps/x86e_win64/jdk11
+    JAVA11PATH -> z:/tools/advapps/x86e_win64/jdk11/bin
+    JAVA17HOME -> z:/tools/advapps/x86e_win64/jdk17
+    JAVA17PATH -> z:/tools/advapps/x86e_win64/jdk17/bin
+    JAVA21HOME -> z:/tools/advapps/x86e_win64/jdk21
+    JAVA21PATH -> z:/tools/advapps/x86e_win64/jdk21/bin
+    JAVA5CLASSPATH ->
+	 z:/tools/advapps/x86e_win64/jdk1.5.0_10/jre/lib/exactvm.jar;z:/too
+	 ls/advapps/x86e_win64/jdk1.5.0_10/jre/lib/i18n.jar;z:/tools/advapp
+	 s/x86e_win64/jdk1.5.0_10/jre/lib/rt.jar;z:/tools/advapps/x86e_win6
+	 4/jdk1.5.0_10/lib/dt.jar;z:/tools/advapps/x86e_win64/jdk1.5.0_10/l
+	 ib/tools.jar;z:/tools/advapps/x86e_win64/jdk1.5.0_10/src.jar
+    JAVA5PATH -> z:/tools/advapps/x86e_win64/jdk1.5.0_10/bin
+    JAVA6CLASSPATH ->
+	 z:/tools/advapps/x86e_win64/jdk1.6.0_13/jre/lib/rt.jar
+    JAVA6PATH -> z:/tools/advapps/x86e_win64/jdk1.6.0_13/bin
+    JAVA7CLASSPATH ->
+	 z:/tools/advapps/x86e_win64/jdk1.7.0_25/jre/lib/rt.jar
+    JAVA7PATH -> z:/tools/advapps/x86e_win64/jdk1.7.0_25/bin
+    JAVA8CLASSPATH -> z:/tools/advapps/x86e_win64/jdk1.8/jre/lib/rt.jar
+    JAVA8HOME -> z:/tools/advapps/x86e_win64/jdk1.8
+    JAVA8PATH -> z:/tools/advapps/x86e_win64/jdk1.8/bin
+    JDK_HOME -> C:\Program Files\Java\jdk-21
+    LIBPATH ->
+	 Z:\compilers\i486_nt\vs16.9.8\VC\Tools\MSVC\14.28.29910\atlmfc\lib
+	 \x64
+    LOCALAPPDATA -> C:\Users\sarsewar\AppData\Local
+    LOCALPROE -> q:/q10/spg/system_1/x86e_win64/obj/xtop.exe
+    MAIN_THREAD_ENV -> 13772:22024
+    MASTERPACK -> //sawfish/public/masterpack
+    MOZ_PLUGIN_PATH -> C:\Program Files
+	 (x86)\Hummingbird\Connectivity\14.00\Exceed\Plugins\
+    Model -> 3930
+    NETFXSDKDir -> C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8
+    NETFXSDK_IncludePath -> C:\Program Files (x86)\Windows
+	 Kits\NETFXSDK\4.8\Include\um
+    NETFXSDK_LibraryPath -> C:\Program Files (x86)\Windows
+	 Kits\NETFXSDK\4.8\Lib\um\x64
+    NETFXSDK_Path -> z:\compilers\i486_nt\netfxsdk48
+    OneDrive -> C:\Users\sarsewar\OneDrive
+    PATH ->
+	 /cygdrive/d/GTM/spr_15881855_solidSymGet_q10/obj:/cygdrive/q/q10/s
+	 pg/system_1/x86e_win64/lib:/cygdrive/z/compilers/i486_nt/fortran/2
+	 016/windows/bin/intel64:/cygdrive/z/compilers/i486_nt/vs16.9.8/Com
+	 mon7/IDE:/cygdrive/z/compilers/i486_nt/vs16.9.8/VC/Tools/MSVC/14.2
+	 8.29910/bin/Hostx64/x64:/cygdrive/z/compilers/i486_nt/vs16.9.8/Com
+	 mon7/Tools:/cygdrive/z/compilers/i486_nt/sdk10.0.19041.0/Bin/10.0.
+	 19041.0/x64:/cygdrive/z/compilers/i486_nt/vs16.9.8/VB/bin:/cygdriv
+	 e/z/compilers/i486_nt/vs16.9.8/Microsoft
+	 SDKs/Windows/v10.0A/bin/NETFX 4.8
+	 Tools:/cygdrive/c/WINDOWS/Microsoft.NET/Framework64/v4.0.30319:.:/
+	 cygdrive/q/q10/spg/system_1/softdb/scripts:/cygdrive/z/tools/integ
+	 _tools:/cygdrive/d/GTM/spr_15881855_solidSymGet_q10/x86e_win64/adv
+	 apps/TK-2/obj:C:/cygwin/bin:z:/tools/apps/uigtms/stable/x86e_win64
+	 :/usr/local/bin:/usr/bin:/usr/bin:/cygdrive/c/Program Files/Common
+	 Files/Oracle/Java/javapath:/cygdrive/c/WINNT:/cygdrive/c/WINNT/sys
+	 tem32:/cygdrive/c/Program Files (x86)/Common
+	 Files/Oracle/Java/javapath:/cygdrive/c/WINDOWS/system32:/cygdrive/
+	 c/WINDOWS:/cygdrive/c/WINDOWS/System32/Wbem:/cygdrive/c/WINDOWS/Sy
+	 stem32/WindowsPowerShell/v1.0:/cygdrive/c/WINDOWS/System32/OpenSSH
+	 :/cygdrive/c/Program Files/ServiceNow:/cygdrive/c/Program
+	 Files/ServiceNow:/cygdrive/c/Program
+	 Files/nodejs:/cygdrive/c/ProgramData/chocolatey/bin:/cygdrive/c/ha
+	 milton:/cygdrive/c/Program
+	 Files/dotnet:/cygdrive/c/Users/sarsewar/AppData/Local/Programs/Pyt
+	 hon/Python311:/cygdrive/c/Program
+	 Files/Git/cmd:/cygdrive/d/home/python/x86e_win64:/cygdrive/c/Progr
+	 am
+	 Files/mingw64/mingw64/bin:/cygdrive/c/Users/sarsewar/AppData/Local
+	 /Microsoft/WindowsApps:/cygdrive/c/Users/sarsewar/AppData/Roaming/
+	 npm:/cygdrive/c/Users/sarsewar/.dotnet/tools:/cygdrive/c/Users/sar
+	 sewar/AppData/Local/Programs/Microsoft VS
+	 Code/bin:/cygdrive/c/ProgramData/mingw64/mingw64/bin:/home/sarsewa
+	 r:/cygdrive/z/tools/integ:/cygdrive/z/tools/bin:/cygdrive/z/tools/
+	 bin/x86e_win64:/cygdrive/z/tools/regtool/bin:/cygdrive/u/common/in
+	 tg_retr/bin:/cygdrive/z/tools/psoft:/cygdrive/z/tools/windows_nt/b
+	 in:/cygdrive/z/tools/advapps/cshtop:/cygdrive/z/tools/advapps/csha
+	 ux:/cygdrive/z/tools/advapps/x86e_win64:/cygdrive/z/tools/perl510/
+	 x86e_win64/bin:/cygdrive/z/tools/advapps/dcad:/home/sarsewar:/cygd
+	 rive/z/tools/integ:/cygdrive/z/tools/bin:/cygdrive/z/tools/bin/x86
+	 e_win64:/cygdrive/z/tools/regtool/bin:/cygdrive/u/common/intg_retr
+	 /bin:/cygdrive/z/tools/psoft:/cygdrive/z/tools/windows_nt/bin:/cyg
+	 drive/z/tools/advapps/cshtop:/cygdrive/z/tools/advapps/cshaux:/cyg
+	 drive/z/tools/advapps/x86e_win64:/cygdrive/z/tools/perl510/x86e_wi
+	 n64/bin:/cygdrive/z/tools/advapps/dcad:/cygdrive/z/tools/mkgen
+    PROBATCH_DIRECTORY -> q:/q10/spg/system_1/apps/batchexec
+    PROETREE_DIRECTORY -> q:/q10/spg/system_1/apps/treetool
+    PROE_REG_MSI -> q:/q10/spg/system_1/x86e_win64/obj/proe_reg.msi
+    PROE_THUMBNAIL_MSI -> q:/q10/spg/system_1/x86e_win64/obj/thumbplug.msi
+    PROSETUP_DIRECTORY -> q:/q10/spg/system_1/apps/prosetup
+    PROTAB -> q:/q10/spg/system_1/x86e_win64/obj/protab.exe
+    PROTABLE_DIRECTORY -> q:/q10/spg/system_1/apps/protable
+    PROTREE -> q:/q10/spg/system_1/x86e_win64/obj/proetree.exe
+    PRO_AR_EXE -> q:/q10/spg/system_1/x86e_win64/obj/pro_ar.exe
+    PRO_COMM_MSG_EXE -> q:/q10/spg/system_1/x86e_win64/obj/pro_comm_msg
+    PRO_JAVA_COMMAND -> z:/tools/advapps/x86e_win64/jdk11/bin/java
+    PRO_PHOTORENDER -> q:/q10/spg/system_1/x86e_win64/obj/PhotoRender.exe
+    PRO_RENDERSERVER -> q:/q10/spg/system_1/x86e_win64/obj/RenderServer.exe
+    PRO_USRMAIN -> q:/q10/spg/system_1/usrprog/umain/usrmain.c
+    PSModulePath -> C:\Program
+	 Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerSh
+	 ell\v1.0\Modules
+    PTC_APPMGR_DIR -> q:/q10/spg/system_1/apps/appmgr
+    PTC_COMPILER_CRT_PATH -> vs16.7.5/VC/Redist/MSVC/14.27.29016
+    PTC_PARTLIB -> z:/partlib z:/partlib2
+    PTC_PDMLINK_SERVER -> http://qa-app1.ptc.com:9000/Windchill
+    PTC_PROLIBS -> z:/ptcmisc/prolibs
+    PTC_REGOBJS -> x:/reg
+    PTC_REGVIDS -> x:/reg_video
+    PTC_SUPPRESS_LMLIC_ENV -> yes
+    PTC_WF_ROOT ->
+	 D:/GTM/spr_15881855_solidSymGet_q10/testrun/auto_1/WF_ROOT_DIR
+    PUBLIC -> C:\Users\Public
+    PVIEW_PROEPVIEW_HOME -> q:/q10/spg/system_1/apps/prodview
+    PVX_PATH -> q:/q10/spg/system_1/xplatform/jar/nodebug
+    PVX_REG_MSI ->
+	 q:/q10/spg/system_1/auxobjs/x86e_win64/PVX/ProductView_Express_32_
+	 64.msi
+    P_CURR_PROJ -> spr_15881855_solidSymGet_q10
+    P_PROJ_VER -> Q-10-58
+    ProgramData -> C:\ProgramData
+    ProgramFiles(x86) -> C:\Program Files (x86)
+    ProgramW6432 -> C:\Program Files
+    QUALITYAGENT_MSI -> q:/q10/spg/system_1/x86e_win64/obj/qualityagent.msi
+    RELEASE_STATUS -> shipping
+    R_ALT_QCR_DIR -> D:/GTM/spr_15881855_solidSymGet_q10/test/otk_cpp_tests
+    R_AUTOTXT -> auto.txt
+    R_AUTO_RUNNING -> true
+    R_AVOID_REG_UPLOAD -> true
+    R_CHECK_DBGFILE -> true
+    R_COMM_BRK_SVC -> q:/q10/spg/system_1/x86e_win64/obj/comm_brk_svc.exe
+    R_CONFIG_FILE -> useautodefault
+    R_FLEXGENERIC -> q:/q10/spg/system_1/x86e_win64/obj/flexgeneric.exe
+    R_FLOAT_CHECK -> false
+    R_GETTB_CORE -> true
+    R_GPROF -> false
+    R_GRAPHICS -> 0
+    R_IPCTEST -> q:/q10/spg/system_1/x86e_win64/obj/ipctest.exe
+    R_KEEP_FAILURE_DATA -> true
+    R_KEEP_SUCCESS_DATA -> true
+    R_LOCAL_XTOP -> q:/q10/spg/system_1/x86e_win64/obj/xtop.exe
+    R_PDEV_REGRES_BIN -> d:/GTM/spr_15881855_solidSymGet_q10/obj
+    R_PERF -> false
+    R_PFCLSCOM_DIR -> q:/q10/spg/system_1/x86e_win64/obj
+    R_PRODEV_REGRESS -> true
+    R_PROTAB -> q:/q10/spg/system_1/x86e_win64/obj/protab
+    R_REGRES_BIN -> d:/GTM/spr_15881855_solidSymGet_q10/obj
+    R_RUNMODE -> 9029
+    R_RUN_DRM_TESTS -> false
+    R_RUN_MECH_TEST -> true
+    R_RUN_OBSOLETE_TEST -> false
+    R_RUN_UWGMCC_TESTS -> false
+    R_SUPPRESS_PROTK_PROC_WINDOW -> true
+    R_TRAIL_PATH -> D:/GTM/spr_15881855_solidSymGet_q10
+    R_XTOP_WAIT -> true
+    SPGID -> sarsewar
+    Serial -> 2BCY3N3
+    TRACEDESIGNTIME -> true
+    TS_HOME -> q:/q10/spg/system_1/auxobjs/TrueSOLID/v4_4_2
+    TargetFrameworkSDKToolsDirectory ->
+	 z:\compilers\i486_nt\vs16.9.8\Microsoft
+	 SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools
+    Type -> Precision
+    UATDATA -> C:\WINDOWS\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77
+    UIGTM_DIRECTORY -> z:/tools/apps/uigtms/stable
+    UIGTM_TYPE -> stable
+    USERDOMAIN_ROAMINGPROFILE -> PTCNET
+    UniversalCRT_IncludePath ->
+	 Z:/compilers/i486_nt/\sdk10.0.19041.0\Include\10.0.19041.0\ucrt
+    UniversalCRT_LibraryPath ->
+	 Z:/compilers/i486_nt/\sdk10.0.19041.0\Lib\10.0.19041.0\ucrt\x64
+    UWGM_ADAPTERS_PATH ->
+	 d:/GTM/spr_15881855_solidSymGet_q10/obj;q:/q10/spg/system_1
+    VS160COMNTOOLS -> z:\compilers\i486_nt\vs16.9.8\VC\Tools\
+    VS170COMNTOOLS -> C:\Program Files\Microsoft Visual
+	 Studio\2022\Professional/Common7/Tools/
+    WPPCM_REG_MSI ->
+	 q:/q10/spg/system_1/auxobjs/WPP/ProductPointClientManager-en-US.MS
+	 I
+    WinRT_IncludePath ->
+	 Z:/compilers/i486_nt/\sdk10.0.19041.0\Include\10.0.19041.0\winrt;Z
+	 :/compilers/i486_nt/\sdk10.0.19041.0\Include\10.0.19041.0\cppwinrt
+    WindowsSDK_IncludePath ->
+	 Z:/compilers/i486_nt/\sdk10.0.19041.0\Include\10.0.19041.0\um
+    WindowsSDK_IncludePath_shared ->
+	 Z:/compilers/i486_nt/\sdk10.0.19041.0\Include\10.0.19041.0\shared
+    WindowsSDK_LibraryPath ->
+	 Z:/compilers/i486_nt/\sdk10.0.19041.0\Lib\10.0.19041.0\um\x64
+    WindowsSDK_Path ->
+	 Z:/compilers/i486_nt/\sdk10.0.19041.0\Bin\10.0.19041.0\x64
+    XTOP_SOFTWARE_OPENGL_PATH ->
+	 q:/q10/spg/system_1/auxobjs/x86e_win64/MESA23.1.2
+    ZES_ENABLE_SYSMAN -> 1
+    ZIP_EXEC -> q:/q10/spg/system_1/auxobjs/x86e_win64/ZIP/zip.exe
+    ct -> /usr/atria/bin/cleartool
+    mongodb -> C:\Program Files\MongoDB\Server\8.0\bin
+    python -> D:\home\python\x86e_win64
+
+********************************************************************
+
+
+
+Copying alternate qcr files from D:/GTM/spr_15881855_solidSymGet_q10/test/otk_cpp_tests/otk_detailing_03p90_spr15463139
+
+Copying alternate qcr files from D:/GTM/spr_15881855_solidSymGet_q10/test/otk_cpp_tests/otk_detailing_03p90_spr15463139
+
+
+AUTO finished at Fri May 23 11:11:42 2025 Total time 00:01:03
+Running: z:/tools/perl510/x86e_win64/bin/perl z:/tools/bin/uninstall_pvx_silent.pl
+
+
+********************************************************************
+
+
+              PARAMETER/ENVIRONMENT SUMMARY
+
+    Parameter 1 -    EXE_PATH:  q:/q10/spg/system_1/x86e_win64/obj/xtop.exe
+    Parameter 2 -  TRAIL_PATH:  D:/GTM/spr_15881855_solidSymGet_q10
+    Parameter 3 -    OBJ_PATH:  x:/reg/spg/objects
+
+
+    Machine name   -->   SARSEWAR2D
+    Run Directory  -->   D:/GTM/spr_15881855_solidSymGet_q10/testrun/auto_1
+    PTCSRC  -->   q:/q10/spg/system_1
+    PTCSYS  -->   q:/q10/spg/system_1/x86e_win64
+    PRO_DIRECTORY  -->   q:/q10/spg/system_1
+    PROTAB         -->   q:/q10/spg/system_1/x86e_win64/obj/protab.exe
+    Version String -->   Version Q-10-57
+    P_VERSION      -->   380
+    Graphics type  -->   0
+    LANG           -->   C
+    OPER_SYS       -->   WINDOWS_32
+    PRO_MACHINE_TYPE --> x86e_win64
+    DISPLAY        -->   unix:0
+    Run mode       -->   9029
+    Auto.txt file  -->   auto.txt
+    Today's Date   -->   May-23-2025 11:14:12
+    Alt trail path -->   
+    R_GETTB_CORE   -->   true
+    MECH_HOME      -->   q:\q10\spg\system_1\x86e_win64\applications\simulate\x86e_win64
+    MECHANISM_HOME -->   q:\q10\spg\system_1\x86e_win64\applications\mechanism\x86e_win64
+    ANIMATION_HOME -->   q:\q10\spg\system_1\x86e_win64\applications\animation\x86e_win64
+    SIM_STDS_PATH  -->   q:\q10\spg\system_1\sim\mtest
+    Alt qcr path   -->   D:/GTM/spr_15881855_solidSymGet_q10/test/otk_cpp_tests
+    File version of libcef.dll   -->   135.0.22+g442c600+chromium-135.0.7049.115
+    CEF_VERSION --> 135.0.7049.115
+---------------------------------------------------------------
+Other Environment Variables:
+    !C: -> c:\cygwin\bin
+    !D: -> D:\GTM\spr_15881855_solidSymGet_q10\testrun\auto_1
+    !H: -> H:\
+    !I: -> I:\
+    !J: -> J:\
+    !K: -> K:\
+    !L: -> L:\
+    !N: -> N:\
+    !O: -> O:\
+    !P: -> P:\
+    !Q: -> q:\q10\spg\system_1\x86e_win64\obj
+    !R: -> R:\
+    !S: -> S:\
+    !T: -> T:\
+    !U: -> U:\
+    !V: -> V:\
+    !W: -> W:\
+    !X: -> X:\
+    !Y: -> Y:\
+    !Z: -> Z:\
+    ALT_GMK_PATH -> z:/tools/apps/uigtms/stable/x86e_win64/gmk.exe
+    ARTS_PRIUS_SERVER -> hfa-arts.ptcnet.ptc.com:9110
+    AUTO_PL_PID -> 17376
+    BTK_LIBS_CTX:13772 -> 1b242e508f0
+    BTK_PVTHEAP:13772 -> 1b242e50000
+    BTK_PVTHEAP:15560 -> 28c80000
+    BTK_PVTHEAP_POOL:13772 -> 1b242e50890
+    BTK_PVTHEAP_POOL:15560 -> 28c80890
+    BTK_PVTPGM_BLKQUEUES:13772 -> 1b242e59fa0
+    BTK_PVTPGM_BLKQUEUES:15560 -> 28c89f70
+    BTK_PVTPGM_BUCKETS:13772 -> 1b242e58010
+    BTK_PVTPGM_BUCKETS:15560 -> 28c88010
+    BTK_PVTPGM_PGPOOLS:13772 -> 1b242e561c0
+    BTK_PVTPGM_PGPOOLS:15560 -> 28c861c0
+    BTK_WIN_TRACEBACK:13772 -> 7ff7efa20c40
+    BTK_WIN_TRACEBACK:15560 -> 7ff868a00000
+    CEF_VERSION -> 135.0.7049.115
+    CGI_SERVER -> http://andcsv-cadops9.ptcnet.ptc.com
+    CREOAPP_DIRECTORY -> q:/q10/spg/system_1
+    creoinfo_exe ->
+	 z:/apps/creoagent/q10/x86e_win64/CFiles/PTC/Creo/Agent/creoinfo.ex
+	 e
+    CREOINT_PRODUCTION_STATUS -> PRODUCTION
+    CREO_AGENT_EXE_PATH ->
+	 z:/apps/creoagent/q10/x86e_win64/CFiles/PTC/Creo/Agent/creoagent.e
+	 xe
+    CREO_AGENT_LDP_LIST ->
+	 z:/apps/creoagent/q10/x86e_win64/CFiles/PTC/Creo/Platform/10/manif
+	 ests
+    CREO_AGENT_MSI_FROM -> import
+    CREO_BUILD_TAG -> 10.0.9.0-rc.049
+    CREO_BUILD_VERSION -> 10.0.9.0
+    CYGWIN -> nodosfilewarning winsymlinks:native
+    CYGWIN_HOME -> C:/cygwin
+    CYG_PROSRC -> /cygdrive/q/q10/spg/system_1
+    CYG_PTCSYS -> /cygdrive/q/q10/spg/system_1/x86e_win64
+    CYG_PTC_COMMON -> /cygdrive/u/common
+    CYG_PTC_REGTOOL -> /cygdrive/z/tools/regtool/bin
+    CYG_PTC_TOOLS -> /cygdrive/z/tools
+    Chassis -> RackMountChassis
+    ChocolateyInstall -> C:\ProgramData\chocolatey
+    ChocolateyLastPathUpdate -> 133869379317529737
+    CommonProgramFiles(x86) -> C:\Program Files (x86)\Common Files
+    CommonProgramW6432 -> C:\Program Files\Common Files
+    DEVPATH -> Q:/q10/spg/system_1/x86e_win64/obj
+    DriverData -> C:\Windows\System32\Drivers\DriverData
+    FPS_BROWSER_APP_PROFILE_STRING -> Internet Explorer
+    FPS_BROWSER_USER_PROFILE_STRING -> Default
+    FrameworkDir64 -> C:\WINDOWS\Microsoft.NET\Framework64
+    FrameworkDir -> C:\WINDOWS\Microsoft.NET\Framework64
+    FrameworkVersion64 -> v4.0.30319
+    FrameworkVersion -> v4.0.30319
+    GR_ANNOT_FULL -> true
+    GTM_STARTED -> TRUE
+    GUIDE_DIRECTORY -> q:\q10\spg\system_1/uiguide
+    ICU_VERSION -> 68.2
+    INSIDE_AUTO_RUN -> true
+    JAVA11HOME -> z:/tools/advapps/x86e_win64/jdk11
+    JAVA11PATH -> z:/tools/advapps/x86e_win64/jdk11/bin
+    JAVA17HOME -> z:/tools/advapps/x86e_win64/jdk17
+    JAVA17PATH -> z:/tools/advapps/x86e_win64/jdk17/bin
+    JAVA21HOME -> z:/tools/advapps/x86e_win64/jdk21
+    JAVA21PATH -> z:/tools/advapps/x86e_win64/jdk21/bin
+    JAVA5CLASSPATH ->
+	 z:/tools/advapps/x86e_win64/jdk1.5.0_10/jre/lib/exactvm.jar;z:/too
+	 ls/advapps/x86e_win64/jdk1.5.0_10/jre/lib/i18n.jar;z:/tools/advapp
+	 s/x86e_win64/jdk1.5.0_10/jre/lib/rt.jar;z:/tools/advapps/x86e_win6
+	 4/jdk1.5.0_10/lib/dt.jar;z:/tools/advapps/x86e_win64/jdk1.5.0_10/l
+	 ib/tools.jar;z:/tools/advapps/x86e_win64/jdk1.5.0_10/src.jar
+    JAVA5PATH -> z:/tools/advapps/x86e_win64/jdk1.5.0_10/bin
+    JAVA6CLASSPATH ->
+	 z:/tools/advapps/x86e_win64/jdk1.6.0_13/jre/lib/rt.jar
+    JAVA6PATH -> z:/tools/advapps/x86e_win64/jdk1.6.0_13/bin
+    JAVA7CLASSPATH ->
+	 z:/tools/advapps/x86e_win64/jdk1.7.0_25/jre/lib/rt.jar
+    JAVA7PATH -> z:/tools/advapps/x86e_win64/jdk1.7.0_25/bin
+    JAVA8CLASSPATH -> z:/tools/advapps/x86e_win64/jdk1.8/jre/lib/rt.jar
+    JAVA8HOME -> z:/tools/advapps/x86e_win64/jdk1.8
+    JAVA8PATH -> z:/tools/advapps/x86e_win64/jdk1.8/bin
+    JDK_HOME -> C:\Program Files\Java\jdk-21
+    LIBPATH ->
+	 Z:\compilers\i486_nt\vs16.9.8\VC\Tools\MSVC\14.28.29910\atlmfc\lib
+	 \x64
+    LOCALAPPDATA -> C:\Users\sarsewar\AppData\Local
+    LOCALPROE -> q:/q10/spg/system_1/x86e_win64/obj/xtop.exe
+    MAIN_THREAD_ENV -> 13772:22024
+    MASTERPACK -> //sawfish/public/masterpack
+    MOZ_PLUGIN_PATH -> C:\Program Files
+	 (x86)\Hummingbird\Connectivity\14.00\Exceed\Plugins\
+    Model -> 3930
+    NETFXSDKDir -> C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8
+    NETFXSDK_IncludePath -> C:\Program Files (x86)\Windows
+	 Kits\NETFXSDK\4.8\Include\um
+    NETFXSDK_LibraryPath -> C:\Program Files (x86)\Windows
+	 Kits\NETFXSDK\4.8\Lib\um\x64
+    NETFXSDK_Path -> z:\compilers\i486_nt\netfxsdk48
+    OneDrive -> C:\Users\sarsewar\OneDrive
+    PATH ->
+	 /cygdrive/d/GTM/spr_15881855_solidSymGet_q10/x86e_win64/obj:/cygdr
+	 ive/q/q10/spg/system_1/x86e_win64/lib:/cygdrive/z/compilers/i486_n
+	 t/fortran/2016/windows/bin/intel64:/cygdrive/z/compilers/i486_nt/v
+	 s16.9.8/Common7/IDE:/cygdrive/z/compilers/i486_nt/vs16.9.8/VC/Tool
+	 s/MSVC/14.28.29910/bin/Hostx64/x64:/cygdrive/z/compilers/i486_nt/v
+	 s16.9.8/Common7/Tools:/cygdrive/z/compilers/i486_nt/sdk10.0.19041.
+	 0/Bin/10.0.19041.0/x64:/cygdrive/z/compilers/i486_nt/vs16.9.8/VB/b
+	 in:/cygdrive/z/compilers/i486_nt/vs16.9.8/Microsoft
+	 SDKs/Windows/v10.0A/bin/NETFX 4.8
+	 Tools:/cygdrive/c/WINDOWS/Microsoft.NET/Framework64/v4.0.30319:.:/
+	 cygdrive/q/q10/spg/system_1/softdb/scripts:/cygdrive/z/tools/integ
+	 _tools:/cygdrive/d/GTM/spr_15881855_solidSymGet_q10/x86e_win64/adv
+	 apps/TK-2/obj:C:/cygwin/bin:z:/tools/apps/uigtms/stable/x86e_win64
+	 :/usr/local/bin:/usr/bin:/usr/bin:/cygdrive/c/Program Files/Common
+	 Files/Oracle/Java/javapath:/cygdrive/c/WINNT:/cygdrive/c/WINNT/sys
+	 tem32:/cygdrive/c/Program Files (x86)/Common
+	 Files/Oracle/Java/javapath:/cygdrive/c/WINDOWS/system32:/cygdrive/
+	 c/WINDOWS:/cygdrive/c/WINDOWS/System32/Wbem:/cygdrive/c/WINDOWS/Sy
+	 stem32/WindowsPowerShell/v1.0:/cygdrive/c/WINDOWS/System32/OpenSSH
+	 :/cygdrive/c/Program Files/ServiceNow:/cygdrive/c/Program
+	 Files/ServiceNow:/cygdrive/c/Program
+	 Files/nodejs:/cygdrive/c/ProgramData/chocolatey/bin:/cygdrive/c/ha
+	 milton:/cygdrive/c/Program
+	 Files/dotnet:/cygdrive/c/Users/sarsewar/AppData/Local/Programs/Pyt
+	 hon/Python311:/cygdrive/c/Program
+	 Files/Git/cmd:/cygdrive/d/home/python/x86e_win64:/cygdrive/c/Progr
+	 am
+	 Files/mingw64/mingw64/bin:/cygdrive/c/Users/sarsewar/AppData/Local
+	 /Microsoft/WindowsApps:/cygdrive/c/Users/sarsewar/AppData/Roaming/
+	 npm:/cygdrive/c/Users/sarsewar/.dotnet/tools:/cygdrive/c/Users/sar
+	 sewar/AppData/Local/Programs/Microsoft VS
+	 Code/bin:/cygdrive/c/ProgramData/mingw64/mingw64/bin:/home/sarsewa
+	 r:/cygdrive/z/tools/integ:/cygdrive/z/tools/bin:/cygdrive/z/tools/
+	 bin/x86e_win64:/cygdrive/z/tools/regtool/bin:/cygdrive/u/common/in
+	 tg_retr/bin:/cygdrive/z/tools/psoft:/cygdrive/z/tools/windows_nt/b
+	 in:/cygdrive/z/tools/advapps/cshtop:/cygdrive/z/tools/advapps/csha
+	 ux:/cygdrive/z/tools/advapps/x86e_win64:/cygdrive/z/tools/perl510/
+	 x86e_win64/bin:/cygdrive/z/tools/advapps/dcad:/home/sarsewar:/cygd
+	 rive/z/tools/integ:/cygdrive/z/tools/bin:/cygdrive/z/tools/bin/x86
+	 e_win64:/cygdrive/z/tools/regtool/bin:/cygdrive/u/common/intg_retr
+	 /bin:/cygdrive/z/tools/psoft:/cygdrive/z/tools/windows_nt/bin:/cyg
+	 drive/z/tools/advapps/cshtop:/cygdrive/z/tools/advapps/cshaux:/cyg
+	 drive/z/tools/advapps/x86e_win64:/cygdrive/z/tools/perl510/x86e_wi
+	 n64/bin:/cygdrive/z/tools/advapps/dcad:/cygdrive/z/tools/mkgen
+    PROBATCH_DIRECTORY -> q:/q10/spg/system_1/apps/batchexec
+    PROETREE_DIRECTORY -> q:/q10/spg/system_1/apps/treetool
+    PROE_REG_MSI -> q:/q10/spg/system_1/x86e_win64/obj/proe_reg.msi
+    PROE_THUMBNAIL_MSI -> q:/q10/spg/system_1/x86e_win64/obj/thumbplug.msi
+    PROSETUP_DIRECTORY -> q:/q10/spg/system_1/apps/prosetup
+    PROTAB -> q:/q10/spg/system_1/x86e_win64/obj/protab.exe
+    PROTABLE_DIRECTORY -> q:/q10/spg/system_1/apps/protable
+    PROTREE -> q:/q10/spg/system_1/x86e_win64/obj/proetree.exe
+    PRO_AR_EXE -> q:/q10/spg/system_1/x86e_win64/obj/pro_ar.exe
+    PRO_COMM_MSG_EXE -> q:/q10/spg/system_1/x86e_win64/obj/pro_comm_msg
+    PRO_JAVA_COMMAND -> z:/tools/advapps/x86e_win64/jdk11/bin/java
+    PRO_PHOTORENDER -> q:/q10/spg/system_1/x86e_win64/obj/PhotoRender.exe
+    PRO_RENDERSERVER -> q:/q10/spg/system_1/x86e_win64/obj/RenderServer.exe
+    PRO_USRMAIN -> q:/q10/spg/system_1/usrprog/umain/usrmain.c
+    PSModulePath -> C:\Program
+	 Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerSh
+	 ell\v1.0\Modules
+    PTC_APPMGR_DIR -> q:/q10/spg/system_1/apps/appmgr
+    PTC_COMPILER_CRT_PATH -> vs16.7.5/VC/Redist/MSVC/14.27.29016
+    PTC_PARTLIB -> z:/partlib z:/partlib2
+    PTC_PDMLINK_SERVER -> http://qa-app1.ptc.com:9000/Windchill
+    PTC_PROLIBS -> z:/ptcmisc/prolibs
+    PTC_REGOBJS -> x:/reg
+    PTC_REGVIDS -> x:/reg_video
+    PTC_SUPPRESS_LMLIC_ENV -> yes
+    PTC_WF_ROOT ->
+	 D:/GTM/spr_15881855_solidSymGet_q10/testrun/auto_1/WF_ROOT_DIR
+    PUBLIC -> C:\Users\Public
+    PVIEW_PROEPVIEW_HOME -> q:/q10/spg/system_1/apps/prodview
+    PVX_PATH -> q:/q10/spg/system_1/xplatform/jar/nodebug
+    PVX_REG_MSI ->
+	 q:/q10/spg/system_1/auxobjs/x86e_win64/PVX/ProductView_Express_32_
+	 64.msi
+    P_CURR_PROJ -> spr_15881855_solidSymGet_q10
+    P_PROJ_VER -> Q-10-58
+    ProgramData -> C:\ProgramData
+    ProgramFiles(x86) -> C:\Program Files (x86)
+    ProgramW6432 -> C:\Program Files
+    QUALITYAGENT_MSI -> q:/q10/spg/system_1/x86e_win64/obj/qualityagent.msi
+    RELEASE_STATUS -> shipping
+    R_ALT_QCR_DIR -> D:/GTM/spr_15881855_solidSymGet_q10/test/otk_cpp_tests
+    R_AUTOTXT -> auto.txt
+    R_AUTO_RUNNING -> true
+    R_AVOID_REG_UPLOAD -> true
+    R_CHECK_DBGFILE -> true
+    R_COMM_BRK_SVC -> q:/q10/spg/system_1/x86e_win64/obj/comm_brk_svc.exe
+    R_CONFIG_FILE -> useautodefault
+    R_FLEXGENERIC -> q:/q10/spg/system_1/x86e_win64/obj/flexgeneric.exe
+    R_FLOAT_CHECK -> false
+    R_GETTB_CORE -> true
+    R_GPROF -> false
+    R_GRAPHICS -> 0
+    R_IPCTEST -> q:/q10/spg/system_1/x86e_win64/obj/ipctest.exe
+    R_KEEP_FAILURE_DATA -> true
+    R_KEEP_SUCCESS_DATA -> true
+    R_LOCAL_XTOP -> q:/q10/spg/system_1/x86e_win64/obj/xtop.exe
+    R_PDEV_REGRES_BIN -> d:/GTM/spr_15881855_solidSymGet_q10/x86e_win64/obj
+    R_PERF -> false
+    R_PFCLSCOM_DIR -> q:/q10/spg/system_1/x86e_win64/obj
+    R_PRODEV_REGRESS -> true
+    R_PROTAB -> q:/q10/spg/system_1/x86e_win64/obj/protab
+    R_REGRES_BIN -> d:/GTM/spr_15881855_solidSymGet_q10/x86e_win64/obj
+    R_RUNMODE -> 9029
+    R_RUN_DRM_TESTS -> false
+    R_RUN_MECH_TEST -> true
+    R_RUN_OBSOLETE_TEST -> false
+    R_RUN_UWGMCC_TESTS -> false
+    R_SUPPRESS_PROTK_PROC_WINDOW -> true
+    R_TRAIL_PATH -> D:/GTM/spr_15881855_solidSymGet_q10
+    R_XTOP_WAIT -> true
+    SPGID -> sarsewar
+    Serial -> 2BCY3N3
+    TRACEDESIGNTIME -> true
+    TS_HOME -> q:/q10/spg/system_1/auxobjs/TrueSOLID/v4_4_2
+    TargetFrameworkSDKToolsDirectory ->
+	 z:\compilers\i486_nt\vs16.9.8\Microsoft
+	 SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools
+    Type -> Precision
+    UATDATA -> C:\WINDOWS\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77
+    UIGTM_DIRECTORY -> z:/tools/apps/uigtms/stable
+    UIGTM_TYPE -> stable
+    USERDOMAIN_ROAMINGPROFILE -> PTCNET
+    UniversalCRT_IncludePath ->
+	 Z:/compilers/i486_nt/\sdk10.0.19041.0\Include\10.0.19041.0\ucrt
+    UniversalCRT_LibraryPath ->
+	 Z:/compilers/i486_nt/\sdk10.0.19041.0\Lib\10.0.19041.0\ucrt\x64
+    UWGM_ADAPTERS_PATH ->
+	 d:/GTM/spr_15881855_solidSymGet_q10/x86e_win64/obj;q:/q10/spg/syst
+	 em_1
+    VS160COMNTOOLS -> z:\compilers\i486_nt\vs16.9.8\VC\Tools\
+    VS170COMNTOOLS -> C:\Program Files\Microsoft Visual
+	 Studio\2022\Professional/Common7/Tools/
+    WPPCM_REG_MSI ->
+	 q:/q10/spg/system_1/auxobjs/WPP/ProductPointClientManager-en-US.MS
+	 I
+    WinRT_IncludePath ->
+	 Z:/compilers/i486_nt/\sdk10.0.19041.0\Include\10.0.19041.0\winrt;Z
+	 :/compilers/i486_nt/\sdk10.0.19041.0\Include\10.0.19041.0\cppwinrt
+    WindowsSDK_IncludePath ->
+	 Z:/compilers/i486_nt/\sdk10.0.19041.0\Include\10.0.19041.0\um
+    WindowsSDK_IncludePath_shared ->
+	 Z:/compilers/i486_nt/\sdk10.0.19041.0\Include\10.0.19041.0\shared
+    WindowsSDK_LibraryPath ->
+	 Z:/compilers/i486_nt/\sdk10.0.19041.0\Lib\10.0.19041.0\um\x64
+    WindowsSDK_Path ->
+	 Z:/compilers/i486_nt/\sdk10.0.19041.0\Bin\10.0.19041.0\x64
+    XTOP_SOFTWARE_OPENGL_PATH ->
+	 q:/q10/spg/system_1/auxobjs/x86e_win64/MESA23.1.2
+    ZES_ENABLE_SYSMAN -> 1
+    ZIP_EXEC -> q:/q10/spg/system_1/auxobjs/x86e_win64/ZIP/zip.exe
+    ct -> /usr/atria/bin/cleartool
+    mongodb -> C:\Program Files\MongoDB\Server\8.0\bin
+    python -> D:\home\python\x86e_win64
+
+********************************************************************
+
+
+
+Copying alternate qcr files from D:/GTM/spr_15881855_solidSymGet_q10/test/otk_cpp_tests/otk_detailing_03p90_spr15463139
+
+Copying alternate qcr files from D:/GTM/spr_15881855_solidSymGet_q10/test/otk_cpp_tests/otk_detailing_03p90_spr15463139
+
+
+AUTO finished at Fri May 23 11:15:13 2025 Total time 00:01:01
+Running: z:/tools/perl510/x86e_win64/bin/perl z:/tools/bin/uninstall_pvx_silent.pl
+
+
+********************************************************************
+
+
+              PARAMETER/ENVIRONMENT SUMMARY
+
+    Parameter 1 -    EXE_PATH:  q:/q10/spg/system_1/x86e_win64/obj/xtop.exe
+    Parameter 2 -  TRAIL_PATH:  D:/GTM/spr_15881855_solidSymGet_q10
+    Parameter 3 -    OBJ_PATH:  x:/reg/spg/objects
+
+
+    Machine name   -->   SARSEWAR2D
+    Run Directory  -->   D:/GTM/spr_15881855_solidSymGet_q10/testrun/auto_1
+    PTCSRC  -->   q:/q10/spg/system_1
+    PTCSYS  -->   q:/q10/spg/system_1/x86e_win64
+    PRO_DIRECTORY  -->   q:/q10/spg/system_1
+    PROTAB         -->   q:/q10/spg/system_1/x86e_win64/obj/protab.exe
+    Version String -->   Version Q-10-57
+    P_VERSION      -->   380
+    Graphics type  -->   0
+    LANG           -->   C
+    OPER_SYS       -->   WINDOWS_32
+    PRO_MACHINE_TYPE --> x86e_win64
+    DISPLAY        -->   unix:0
+    Run mode       -->   9029
+    Auto.txt file  -->   auto.txt
+    Today's Date   -->   May-23-2025 11:23:52
+    Alt trail path -->   
+    R_GETTB_CORE   -->   true
+    MECH_HOME      -->   q:\q10\spg\system_1\x86e_win64\applications\simulate\x86e_win64
+    MECHANISM_HOME -->   q:\q10\spg\system_1\x86e_win64\applications\mechanism\x86e_win64
+    ANIMATION_HOME -->   q:\q10\spg\system_1\x86e_win64\applications\animation\x86e_win64
+    SIM_STDS_PATH  -->   q:\q10\spg\system_1\sim\mtest
+    Alt qcr path   -->   D:/GTM/spr_15881855_solidSymGet_q10/test/otk_cpp_tests
+    File version of libcef.dll   -->   135.0.22+g442c600+chromium-135.0.7049.115
+    CEF_VERSION --> 135.0.7049.115
+---------------------------------------------------------------
+Other Environment Variables:
+    !C: -> c:\cygwin\bin
+    !D: -> D:\GTM\spr_15881855_solidSymGet_q10\testrun\auto_1
+    !H: -> H:\
+    !I: -> I:\
+    !J: -> J:\
+    !K: -> K:\
+    !L: -> L:\
+    !N: -> N:\
+    !O: -> O:\
+    !P: -> P:\
+    !Q: -> q:\q10\spg\system_1\x86e_win64\obj
+    !R: -> R:\
+    !S: -> S:\
+    !T: -> T:\
+    !U: -> U:\
+    !V: -> V:\
+    !W: -> W:\
+    !X: -> X:\
+    !Y: -> Y:\
+    !Z: -> Z:\
+    ALT_GMK_PATH -> z:/tools/apps/uigtms/stable/x86e_win64/gmk.exe
+    ARTS_PRIUS_SERVER -> hfa-arts.ptcnet.ptc.com:9110
+    AUTO_PL_PID -> 7960
+    BTK_LIBS_CTX:13772 -> 1b242e508f0
+    BTK_PVTHEAP:13772 -> 1b242e50000
+    BTK_PVTHEAP:15560 -> 28c80000
+    BTK_PVTHEAP_POOL:13772 -> 1b242e50890
+    BTK_PVTHEAP_POOL:15560 -> 28c80890
+    BTK_PVTPGM_BLKQUEUES:13772 -> 1b242e59fa0
+    BTK_PVTPGM_BLKQUEUES:15560 -> 28c89f70
+    BTK_PVTPGM_BUCKETS:13772 -> 1b242e58010
+    BTK_PVTPGM_BUCKETS:15560 -> 28c88010
+    BTK_PVTPGM_PGPOOLS:13772 -> 1b242e561c0
+    BTK_PVTPGM_PGPOOLS:15560 -> 28c861c0
+    BTK_WIN_TRACEBACK:13772 -> 7ff7efa20c40
+    BTK_WIN_TRACEBACK:15560 -> 7ff868a00000
+    CEF_VERSION -> 135.0.7049.115
+    CGI_SERVER -> http://andcsv-cadops9.ptcnet.ptc.com
+    CREOAPP_DIRECTORY -> q:/q10/spg/system_1
+    creoinfo_exe ->
+	 z:/apps/creoagent/q10/x86e_win64/CFiles/PTC/Creo/Agent/creoinfo.ex
+	 e
+    CREOINT_PRODUCTION_STATUS -> PRODUCTION
+    CREO_AGENT_EXE_PATH ->
+	 z:/apps/creoagent/q10/x86e_win64/CFiles/PTC/Creo/Agent/creoagent.e
+	 xe
+    CREO_AGENT_LDP_LIST ->
+	 z:/apps/creoagent/q10/x86e_win64/CFiles/PTC/Creo/Platform/10/manif
+	 ests
+    CREO_AGENT_MSI_FROM -> import
+    CREO_BUILD_TAG -> 10.0.9.0-rc.049
+    CREO_BUILD_VERSION -> 10.0.9.0
+    CYGWIN -> nodosfilewarning winsymlinks:native
+    CYGWIN_HOME -> C:/cygwin
+    CYG_PROSRC -> /cygdrive/q/q10/spg/system_1
+    CYG_PTCSYS -> /cygdrive/q/q10/spg/system_1/x86e_win64
+    CYG_PTC_COMMON -> /cygdrive/u/common
+    CYG_PTC_REGTOOL -> /cygdrive/z/tools/regtool/bin
+    CYG_PTC_TOOLS -> /cygdrive/z/tools
+    Chassis -> RackMountChassis
+    ChocolateyInstall -> C:\ProgramData\chocolatey
+    ChocolateyLastPathUpdate -> 133869379317529737
+    CommonProgramFiles(x86) -> C:\Program Files (x86)\Common Files
+    CommonProgramW6432 -> C:\Program Files\Common Files
+    DEVPATH -> Q:/q10/spg/system_1/x86e_win64/obj
+    DriverData -> C:\Windows\System32\Drivers\DriverData
+    FPS_BROWSER_APP_PROFILE_STRING -> Internet Explorer
+    FPS_BROWSER_USER_PROFILE_STRING -> Default
+    FrameworkDir64 -> C:\WINDOWS\Microsoft.NET\Framework64
+    FrameworkDir -> C:\WINDOWS\Microsoft.NET\Framework64
+    FrameworkVersion64 -> v4.0.30319
+    FrameworkVersion -> v4.0.30319
+    GR_ANNOT_FULL -> true
+    GTM_STARTED -> TRUE
+    GUIDE_DIRECTORY -> q:\q10\spg\system_1/uiguide
+    ICU_VERSION -> 68.2
+    INSIDE_AUTO_RUN -> true
+    JAVA11HOME -> z:/tools/advapps/x86e_win64/jdk11
+    JAVA11PATH -> z:/tools/advapps/x86e_win64/jdk11/bin
+    JAVA17HOME -> z:/tools/advapps/x86e_win64/jdk17
+    JAVA17PATH -> z:/tools/advapps/x86e_win64/jdk17/bin
+    JAVA21HOME -> z:/tools/advapps/x86e_win64/jdk21
+    JAVA21PATH -> z:/tools/advapps/x86e_win64/jdk21/bin
+    JAVA5CLASSPATH ->
+	 z:/tools/advapps/x86e_win64/jdk1.5.0_10/jre/lib/exactvm.jar;z:/too
+	 ls/advapps/x86e_win64/jdk1.5.0_10/jre/lib/i18n.jar;z:/tools/advapp
+	 s/x86e_win64/jdk1.5.0_10/jre/lib/rt.jar;z:/tools/advapps/x86e_win6
+	 4/jdk1.5.0_10/lib/dt.jar;z:/tools/advapps/x86e_win64/jdk1.5.0_10/l
+	 ib/tools.jar;z:/tools/advapps/x86e_win64/jdk1.5.0_10/src.jar
+    JAVA5PATH -> z:/tools/advapps/x86e_win64/jdk1.5.0_10/bin
+    JAVA6CLASSPATH ->
+	 z:/tools/advapps/x86e_win64/jdk1.6.0_13/jre/lib/rt.jar
+    JAVA6PATH -> z:/tools/advapps/x86e_win64/jdk1.6.0_13/bin
+    JAVA7CLASSPATH ->
+	 z:/tools/advapps/x86e_win64/jdk1.7.0_25/jre/lib/rt.jar
+    JAVA7PATH -> z:/tools/advapps/x86e_win64/jdk1.7.0_25/bin
+    JAVA8CLASSPATH -> z:/tools/advapps/x86e_win64/jdk1.8/jre/lib/rt.jar
+    JAVA8HOME -> z:/tools/advapps/x86e_win64/jdk1.8
+    JAVA8PATH -> z:/tools/advapps/x86e_win64/jdk1.8/bin
+    JDK_HOME -> C:\Program Files\Java\jdk-21
+    LIBPATH ->
+	 Z:\compilers\i486_nt\vs16.9.8\VC\Tools\MSVC\14.28.29910\atlmfc\lib
+	 \x64
+    LOCALAPPDATA -> C:\Users\sarsewar\AppData\Local
+    LOCALPROE -> q:/q10/spg/system_1/x86e_win64/obj/xtop.exe
+    MAIN_THREAD_ENV -> 13772:22024
+    MASTERPACK -> //sawfish/public/masterpack
+    MOZ_PLUGIN_PATH -> C:\Program Files
+	 (x86)\Hummingbird\Connectivity\14.00\Exceed\Plugins\
+    Model -> 3930
+    NETFXSDKDir -> C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8
+    NETFXSDK_IncludePath -> C:\Program Files (x86)\Windows
+	 Kits\NETFXSDK\4.8\Include\um
+    NETFXSDK_LibraryPath -> C:\Program Files (x86)\Windows
+	 Kits\NETFXSDK\4.8\Lib\um\x64
+    NETFXSDK_Path -> z:\compilers\i486_nt\netfxsdk48
+    OneDrive -> C:\Users\sarsewar\OneDrive
+    PATH ->
+	 /cygdrive/d/GTM/spr_15881855_solidSymGet_q10/x86e_win64/obj:/cygdr
+	 ive/q/q10/spg/system_1/x86e_win64/lib:/cygdrive/z/compilers/i486_n
+	 t/fortran/2016/windows/bin/intel64:/cygdrive/z/compilers/i486_nt/v
+	 s16.9.8/Common7/IDE:/cygdrive/z/compilers/i486_nt/vs16.9.8/VC/Tool
+	 s/MSVC/14.28.29910/bin/Hostx64/x64:/cygdrive/z/compilers/i486_nt/v
+	 s16.9.8/Common7/Tools:/cygdrive/z/compilers/i486_nt/sdk10.0.19041.
+	 0/Bin/10.0.19041.0/x64:/cygdrive/z/compilers/i486_nt/vs16.9.8/VB/b
+	 in:/cygdrive/z/compilers/i486_nt/vs16.9.8/Microsoft
+	 SDKs/Windows/v10.0A/bin/NETFX 4.8
+	 Tools:/cygdrive/c/WINDOWS/Microsoft.NET/Framework64/v4.0.30319:.:/
+	 cygdrive/q/q10/spg/system_1/softdb/scripts:/cygdrive/z/tools/integ
+	 _tools:/cygdrive/d/GTM/spr_15881855_solidSymGet_q10/x86e_win64/adv
+	 apps/TK-2/obj:C:/cygwin/bin:z:/tools/apps/uigtms/stable/x86e_win64
+	 :/usr/local/bin:/usr/bin:/usr/bin:/cygdrive/c/Program Files/Common
+	 Files/Oracle/Java/javapath:/cygdrive/c/WINNT:/cygdrive/c/WINNT/sys
+	 tem32:/cygdrive/c/Program Files (x86)/Common
+	 Files/Oracle/Java/javapath:/cygdrive/c/WINDOWS/system32:/cygdrive/
+	 c/WINDOWS:/cygdrive/c/WINDOWS/System32/Wbem:/cygdrive/c/WINDOWS/Sy
+	 stem32/WindowsPowerShell/v1.0:/cygdrive/c/WINDOWS/System32/OpenSSH
+	 :/cygdrive/c/Program Files/ServiceNow:/cygdrive/c/Program
+	 Files/ServiceNow:/cygdrive/c/Program
+	 Files/nodejs:/cygdrive/c/ProgramData/chocolatey/bin:/cygdrive/c/ha
+	 milton:/cygdrive/c/Program
+	 Files/dotnet:/cygdrive/c/Users/sarsewar/AppData/Local/Programs/Pyt
+	 hon/Python311:/cygdrive/c/Program
+	 Files/Git/cmd:/cygdrive/d/home/python/x86e_win64:/cygdrive/c/Progr
+	 am
+	 Files/mingw64/mingw64/bin:/cygdrive/c/Users/sarsewar/AppData/Local
+	 /Microsoft/WindowsApps:/cygdrive/c/Users/sarsewar/AppData/Roaming/
+	 npm:/cygdrive/c/Users/sarsewar/.dotnet/tools:/cygdrive/c/Users/sar
+	 sewar/AppData/Local/Programs/Microsoft VS
+	 Code/bin:/cygdrive/c/ProgramData/mingw64/mingw64/bin:/home/sarsewa
+	 r:/cygdrive/z/tools/integ:/cygdrive/z/tools/bin:/cygdrive/z/tools/
+	 bin/x86e_win64:/cygdrive/z/tools/regtool/bin:/cygdrive/u/common/in
+	 tg_retr/bin:/cygdrive/z/tools/psoft:/cygdrive/z/tools/windows_nt/b
+	 in:/cygdrive/z/tools/advapps/cshtop:/cygdrive/z/tools/advapps/csha
+	 ux:/cygdrive/z/tools/advapps/x86e_win64:/cygdrive/z/tools/perl510/
+	 x86e_win64/bin:/cygdrive/z/tools/advapps/dcad:/home/sarsewar:/cygd
+	 rive/z/tools/integ:/cygdrive/z/tools/bin:/cygdrive/z/tools/bin/x86
+	 e_win64:/cygdrive/z/tools/regtool/bin:/cygdrive/u/common/intg_retr
+	 /bin:/cygdrive/z/tools/psoft:/cygdrive/z/tools/windows_nt/bin:/cyg
+	 drive/z/tools/advapps/cshtop:/cygdrive/z/tools/advapps/cshaux:/cyg
+	 drive/z/tools/advapps/x86e_win64:/cygdrive/z/tools/perl510/x86e_wi
+	 n64/bin:/cygdrive/z/tools/advapps/dcad:/cygdrive/z/tools/mkgen
+    PROBATCH_DIRECTORY -> q:/q10/spg/system_1/apps/batchexec
+    PROETREE_DIRECTORY -> q:/q10/spg/system_1/apps/treetool
+    PROE_REG_MSI -> q:/q10/spg/system_1/x86e_win64/obj/proe_reg.msi
+    PROE_THUMBNAIL_MSI -> q:/q10/spg/system_1/x86e_win64/obj/thumbplug.msi
+    PROSETUP_DIRECTORY -> q:/q10/spg/system_1/apps/prosetup
+    PROTAB -> q:/q10/spg/system_1/x86e_win64/obj/protab.exe
+    PROTABLE_DIRECTORY -> q:/q10/spg/system_1/apps/protable
+    PROTREE -> q:/q10/spg/system_1/x86e_win64/obj/proetree.exe
+    PRO_AR_EXE -> q:/q10/spg/system_1/x86e_win64/obj/pro_ar.exe
+    PRO_COMM_MSG_EXE -> q:/q10/spg/system_1/x86e_win64/obj/pro_comm_msg
+    PRO_JAVA_COMMAND -> z:/tools/advapps/x86e_win64/jdk11/bin/java
+    PRO_PHOTORENDER -> q:/q10/spg/system_1/x86e_win64/obj/PhotoRender.exe
+    PRO_RENDERSERVER -> q:/q10/spg/system_1/x86e_win64/obj/RenderServer.exe
+    PRO_USRMAIN -> q:/q10/spg/system_1/usrprog/umain/usrmain.c
+    PSModulePath -> C:\Program
+	 Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerSh
+	 ell\v1.0\Modules
+    PTC_APPMGR_DIR -> q:/q10/spg/system_1/apps/appmgr
+    PTC_COMPILER_CRT_PATH -> vs16.7.5/VC/Redist/MSVC/14.27.29016
+    PTC_PARTLIB -> z:/partlib z:/partlib2
+    PTC_PDMLINK_SERVER -> http://qa-app1.ptc.com:9000/Windchill
+    PTC_PROLIBS -> z:/ptcmisc/prolibs
+    PTC_REGOBJS -> x:/reg
+    PTC_REGVIDS -> x:/reg_video
+    PTC_SUPPRESS_LMLIC_ENV -> yes
+    PTC_WF_ROOT ->
+	 D:/GTM/spr_15881855_solidSymGet_q10/testrun/auto_1/WF_ROOT_DIR
+    PUBLIC -> C:\Users\Public
+    PVIEW_PROEPVIEW_HOME -> q:/q10/spg/system_1/apps/prodview
+    PVX_PATH -> q:/q10/spg/system_1/xplatform/jar/nodebug
+    PVX_REG_MSI ->
+	 q:/q10/spg/system_1/auxobjs/x86e_win64/PVX/ProductView_Express_32_
+	 64.msi
+    P_CURR_PROJ -> spr_15881855_solidSymGet_q10
+    P_PROJ_VER -> Q-10-58
+    ProgramData -> C:\ProgramData
+    ProgramFiles(x86) -> C:\Program Files (x86)
+    ProgramW6432 -> C:\Program Files
+    QUALITYAGENT_MSI -> q:/q10/spg/system_1/x86e_win64/obj/qualityagent.msi
+    RELEASE_STATUS -> shipping
+    R_ALT_QCR_DIR -> D:/GTM/spr_15881855_solidSymGet_q10/test/otk_cpp_tests
+    R_AUTOTXT -> auto.txt
+    R_AUTO_RUNNING -> true
+    R_AVOID_REG_UPLOAD -> true
+    R_CHECK_DBGFILE -> true
+    R_COMM_BRK_SVC -> q:/q10/spg/system_1/x86e_win64/obj/comm_brk_svc.exe
+    R_CONFIG_FILE -> useautodefault
+    R_FLEXGENERIC -> q:/q10/spg/system_1/x86e_win64/obj/flexgeneric.exe
+    R_FLOAT_CHECK -> false
+    R_GETTB_CORE -> true
+    R_GPROF -> false
+    R_GRAPHICS -> 0
+    R_IPCTEST -> q:/q10/spg/system_1/x86e_win64/obj/ipctest.exe
+    R_KEEP_FAILURE_DATA -> true
+    R_KEEP_SUCCESS_DATA -> true
+    R_LOCAL_XTOP -> q:/q10/spg/system_1/x86e_win64/obj/xtop.exe
+    R_PDEV_REGRES_BIN -> d:/GTM/spr_15881855_solidSymGet_q10/x86e_win64/obj
+    R_PERF -> false
+    R_PFCLSCOM_DIR -> q:/q10/spg/system_1/x86e_win64/obj
+    R_PRODEV_REGRESS -> true
+    R_PROTAB -> q:/q10/spg/system_1/x86e_win64/obj/protab
+    R_REGRES_BIN -> d:/GTM/spr_15881855_solidSymGet_q10/x86e_win64/obj
+    R_RUNMODE -> 9029
+    R_RUN_DRM_TESTS -> false
+    R_RUN_MECH_TEST -> true
+    R_RUN_OBSOLETE_TEST -> false
+    R_RUN_UWGMCC_TESTS -> false
+    R_SUPPRESS_PROTK_PROC_WINDOW -> true
+    R_TRAIL_PATH -> D:/GTM/spr_15881855_solidSymGet_q10
+    R_XTOP_WAIT -> true
+    SPGID -> sarsewar
+    Serial -> 2BCY3N3
+    TRACEDESIGNTIME -> true
+    TS_HOME -> q:/q10/spg/system_1/auxobjs/TrueSOLID/v4_4_2
+    TargetFrameworkSDKToolsDirectory ->
+	 z:\compilers\i486_nt\vs16.9.8\Microsoft
+	 SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools
+    Type -> Precision
+    UATDATA -> C:\WINDOWS\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77
+    UIGTM_DIRECTORY -> z:/tools/apps/uigtms/stable
+    UIGTM_TYPE -> stable
+    USERDOMAIN_ROAMINGPROFILE -> PTCNET
+    UniversalCRT_IncludePath ->
+	 Z:/compilers/i486_nt/\sdk10.0.19041.0\Include\10.0.19041.0\ucrt
+    UniversalCRT_LibraryPath ->
+	 Z:/compilers/i486_nt/\sdk10.0.19041.0\Lib\10.0.19041.0\ucrt\x64
+    UWGM_ADAPTERS_PATH ->
+	 d:/GTM/spr_15881855_solidSymGet_q10/x86e_win64/obj;q:/q10/spg/syst
+	 em_1
+    VS160COMNTOOLS -> z:\compilers\i486_nt\vs16.9.8\VC\Tools\
+    VS170COMNTOOLS -> C:\Program Files\Microsoft Visual
+	 Studio\2022\Professional/Common7/Tools/
+    WPPCM_REG_MSI ->
+	 q:/q10/spg/system_1/auxobjs/WPP/ProductPointClientManager-en-US.MS
+	 I
+    WinRT_IncludePath ->
+	 Z:/compilers/i486_nt/\sdk10.0.19041.0\Include\10.0.19041.0\winrt;Z
+	 :/compilers/i486_nt/\sdk10.0.19041.0\Include\10.0.19041.0\cppwinrt
+    WindowsSDK_IncludePath ->
+	 Z:/compilers/i486_nt/\sdk10.0.19041.0\Include\10.0.19041.0\um
+    WindowsSDK_IncludePath_shared ->
+	 Z:/compilers/i486_nt/\sdk10.0.19041.0\Include\10.0.19041.0\shared
+    WindowsSDK_LibraryPath ->
+	 Z:/compilers/i486_nt/\sdk10.0.19041.0\Lib\10.0.19041.0\um\x64
+    WindowsSDK_Path ->
+	 Z:/compilers/i486_nt/\sdk10.0.19041.0\Bin\10.0.19041.0\x64
+    XTOP_SOFTWARE_OPENGL_PATH ->
+	 q:/q10/spg/system_1/auxobjs/x86e_win64/MESA23.1.2
+    ZES_ENABLE_SYSMAN -> 1
+    ZIP_EXEC -> q:/q10/spg/system_1/auxobjs/x86e_win64/ZIP/zip.exe
+    ct -> /usr/atria/bin/cleartool
+    mongodb -> C:\Program Files\MongoDB\Server\8.0\bin
+    python -> D:\home\python\x86e_win64
+
+********************************************************************
+
+
+
+Copying alternate qcr files from D:/GTM/spr_15881855_solidSymGet_q10/test/otk_cpp_tests/otk_detailing_03p90_spr15463139
+
+RUN INFO:  MACH=SARSEWAR2D Version Q-10-57 EXE=q:/q10/spg/system_1/x86e_win64/obj/xtop.exe
+RUN INFO:  UID=sarsewar RUNDIR=D:/GTM/spr_15881855_solidSymGet_q10/testrun/auto_1
+
+D:/GTM/spr_15881855_solidSymGet_q10/test/otk_cpp_tests/otk_detailing_03p90_spr15463139/otk_detailing_03p90_spr15463139.txt
+SUCCESS Start:  11:23:57 23-MAY-2025  Stop:  11:24:31 23-MAY-2025  Run:  00:00:34
+!%CI1002386 blocks; Size: 45458808; Overhead: 21419352; Peak system size: 34669192.
+
+Copying alternate qcr files from D:/GTM/spr_15881855_solidSymGet_q10/test/otk_cpp_tests/otk_detailing_03p90_spr15463139
+
+RUN INFO:  MACH=SARSEWAR2D Version Q-10-57 EXE=q:/q10/spg/system_1/x86e_win64/obj/xtop.exe
+RUN INFO:  UID=sarsewar RUNDIR=D:/GTM/spr_15881855_solidSymGet_q10/testrun/auto_1
+
+D:/GTM/spr_15881855_solidSymGet_q10/test/otk_cpp_tests/otk_detailing_03p90_spr15463139/otk_detailing_03p90_spr15463139_dll.txt
+SUCCESS Start:  11:24:34 23-MAY-2025  Stop:  11:25:15 23-MAY-2025  Run:  00:00:41
+!%CI1002378 blocks; Size: 45388741; Overhead: 21486747; Peak system size: 34668584.
+
+
+AUTO finished at Fri May 23 11:25:17 2025 Total time 00:01:25
+Running: z:/tools/perl510/x86e_win64/bin/perl z:/tools/bin/uninstall_pvx_silent.pl
+
+
+********************************************************************
+
+
+              PARAMETER/ENVIRONMENT SUMMARY
+
+    Parameter 1 -    EXE_PATH:  q:/q10/spg/system_1/x86e_win64/obj/xtop.exe
+    Parameter 2 -  TRAIL_PATH:  D:/GTM/spr_15881855_solidSymGet_q10
+    Parameter 3 -    OBJ_PATH:  x:/reg/spg/objects
+
+
+    Machine name   -->   SARSEWAR2D
+    Run Directory  -->   D:/GTM/spr_15881855_solidSymGet_q10/testrun/auto_1
+    PTCSRC  -->   q:/q10/spg/system_1
+    PTCSYS  -->   q:/q10/spg/system_1/x86e_win64
+    PRO_DIRECTORY  -->   q:/q10/spg/system_1
+    PROTAB         -->   q:/q10/spg/system_1/x86e_win64/obj/protab.exe
+    Version String -->   Version Q-10-57
+    P_VERSION      -->   380
+    Graphics type  -->   0
+    LANG           -->   C
+    OPER_SYS       -->   WINDOWS_32
+    PRO_MACHINE_TYPE --> x86e_win64
+    DISPLAY        -->   unix:0
+    Run mode       -->   9029
+    Auto.txt file  -->   auto.txt
+    Today's Date   -->   May-27-2025 19:01:32
+    Alt trail path -->   
+    R_GETTB_CORE   -->   true
+    MECH_HOME      -->   q:\q10\spg\system_1\x86e_win64\applications\simulate\x86e_win64
+    MECHANISM_HOME -->   q:\q10\spg\system_1\x86e_win64\applications\mechanism\x86e_win64
+    ANIMATION_HOME -->   q:\q10\spg\system_1\x86e_win64\applications\animation\x86e_win64
+    SIM_STDS_PATH  -->   q:\q10\spg\system_1\sim\mtest
+    Alt qcr path   -->   D:/GTM/spr_15881855_solidSymGet_q10/test/otk_cpp_tests
+    File version of libcef.dll   -->   135.0.22+g442c600+chromium-135.0.7049.115
+    CEF_VERSION --> 135.0.7049.115
+---------------------------------------------------------------
+Other Environment Variables:
+    !C: -> c:\cygwin\bin
+    !D: -> D:\GTM\spr_15881855_solidSymGet_q10\testrun\auto_1
+    !H: -> H:\
+    !I: -> I:\
+    !J: -> J:\
+    !K: -> K:\
+    !L: -> L:\
+    !N: -> N:\
+    !O: -> O:\
+    !P: -> P:\
+    !Q: -> q:\q10\spg\system_1\x86e_win64\obj
+    !R: -> R:\
+    !S: -> S:\
+    !T: -> T:\
+    !U: -> U:\
+    !V: -> V:\
+    !W: -> W:\
+    !X: -> X:\
+    !Y: -> Y:\
+    !Z: -> Z:\
+    ALT_GMK_PATH -> z:/tools/apps/uigtms/stable/x86e_win64/gmk.exe
+    ARTS_PRIUS_SERVER -> hfa-arts.ptcnet.ptc.com:9110
+    AUTO_PL_PID -> 11720
+    BTK_LIBS_CTX:10124 -> 28755f70
+    BTK_LIBS_CTX:16208 -> 211d6c708f0
+    BTK_PVTHEAP:10124 -> 28750000
+    BTK_PVTHEAP:16208 -> 211d6c70000
+    BTK_PVTHEAP_POOL:10124 -> 28750890
+    BTK_PVTHEAP_POOL:16208 -> 211d6c70890
+    BTK_PVTPGM_BLKQUEUES:10124 -> 28759f70
+    BTK_PVTPGM_BLKQUEUES:16208 -> 211d6c79fa0
+    BTK_PVTPGM_BUCKETS:10124 -> 28758010
+    BTK_PVTPGM_BUCKETS:16208 -> 211d6c78010
+    BTK_PVTPGM_PGPOOLS:10124 -> 287561c0
+    BTK_PVTPGM_PGPOOLS:16208 -> 211d6c761c0
+    BTK_WIN_TRACEBACK:10124 -> 7ff868a00000
+    BTK_WIN_TRACEBACK:16208 -> 7ff610380c40
+    CEF_VERSION -> 135.0.7049.115
+    CGI_SERVER -> http://andcsv-cadops9.ptcnet.ptc.com
+    CREOAPP_DIRECTORY -> q:/q10/spg/system_1
+    creoinfo_exe ->
+	 z:/apps/creoagent/q10/x86e_win64/CFiles/PTC/Creo/Agent/creoinfo.ex
+	 e
+    CREOINT_PRODUCTION_STATUS -> PRODUCTION
+    CREO_AGENT_EXE_PATH ->
+	 z:/apps/creoagent/q10/x86e_win64/CFiles/PTC/Creo/Agent/creoagent.e
+	 xe
+    CREO_AGENT_LDP_LIST ->
+	 z:/apps/creoagent/q10/x86e_win64/CFiles/PTC/Creo/Platform/10/manif
+	 ests
+    CREO_AGENT_MSI_FROM -> import
+    CREO_BUILD_TAG -> 10.0.9.0-rc.049
+    CREO_BUILD_VERSION -> 10.0.9.0
+    CYGWIN -> nodosfilewarning winsymlinks:native
+    CYGWIN_HOME -> C:/cygwin
+    CYG_PROSRC -> /cygdrive/q/q10/spg/system_1
+    CYG_PTCSYS -> /cygdrive/q/q10/spg/system_1/x86e_win64
+    CYG_PTC_COMMON -> /cygdrive/u/common
+    CYG_PTC_REGTOOL -> /cygdrive/z/tools/regtool/bin
+    CYG_PTC_TOOLS -> /cygdrive/z/tools
+    Chassis -> RackMountChassis
+    ChocolateyInstall -> C:\ProgramData\chocolatey
+    ChocolateyLastPathUpdate -> 133869379317529737
+    CommonProgramFiles(x86) -> C:\Program Files (x86)\Common Files
+    CommonProgramW6432 -> C:\Program Files\Common Files
+    DEVPATH -> Q:/q10/spg/system_1/x86e_win64/obj
+    DriverData -> C:\Windows\System32\Drivers\DriverData
+    FPS_BROWSER_APP_PROFILE_STRING -> Internet Explorer
+    FPS_BROWSER_USER_PROFILE_STRING -> Default
+    FrameworkDir64 -> C:\WINDOWS\Microsoft.NET\Framework64
+    FrameworkDir -> C:\WINDOWS\Microsoft.NET\Framework64
+    FrameworkVersion64 -> v4.0.30319
+    FrameworkVersion -> v4.0.30319
+    GR_ANNOT_FULL -> true
+    GTM_STARTED -> TRUE
+    GUIDE_DIRECTORY -> q:\q10\spg\system_1/uiguide
+    ICU_VERSION -> 68.2
+    INSIDE_AUTO_RUN -> true
+    JAVA11HOME -> z:/tools/advapps/x86e_win64/jdk11
+    JAVA11PATH -> z:/tools/advapps/x86e_win64/jdk11/bin
+    JAVA17HOME -> z:/tools/advapps/x86e_win64/jdk17
+    JAVA17PATH -> z:/tools/advapps/x86e_win64/jdk17/bin
+    JAVA21HOME -> z:/tools/advapps/x86e_win64/jdk21
+    JAVA21PATH -> z:/tools/advapps/x86e_win64/jdk21/bin
+    JAVA5CLASSPATH ->
+	 z:/tools/advapps/x86e_win64/jdk1.5.0_10/jre/lib/exactvm.jar;z:/too
+	 ls/advapps/x86e_win64/jdk1.5.0_10/jre/lib/i18n.jar;z:/tools/advapp
+	 s/x86e_win64/jdk1.5.0_10/jre/lib/rt.jar;z:/tools/advapps/x86e_win6
+	 4/jdk1.5.0_10/lib/dt.jar;z:/tools/advapps/x86e_win64/jdk1.5.0_10/l
+	 ib/tools.jar;z:/tools/advapps/x86e_win64/jdk1.5.0_10/src.jar
+    JAVA5PATH -> z:/tools/advapps/x86e_win64/jdk1.5.0_10/bin
+    JAVA6CLASSPATH ->
+	 z:/tools/advapps/x86e_win64/jdk1.6.0_13/jre/lib/rt.jar
+    JAVA6PATH -> z:/tools/advapps/x86e_win64/jdk1.6.0_13/bin
+    JAVA7CLASSPATH ->
+	 z:/tools/advapps/x86e_win64/jdk1.7.0_25/jre/lib/rt.jar
+    JAVA7PATH -> z:/tools/advapps/x86e_win64/jdk1.7.0_25/bin
+    JAVA8CLASSPATH -> z:/tools/advapps/x86e_win64/jdk1.8/jre/lib/rt.jar
+    JAVA8HOME -> z:/tools/advapps/x86e_win64/jdk1.8
+    JAVA8PATH -> z:/tools/advapps/x86e_win64/jdk1.8/bin
+    JDK_HOME -> C:\Program Files\Java\jdk-21
+    LIBPATH ->
+	 Z:\compilers\i486_nt\vs16.9.8\VC\Tools\MSVC\14.28.29910\atlmfc\lib
+	 \x64
+    LOCALAPPDATA -> C:\Users\sarsewar\AppData\Local
+    LOCALPROE -> q:/q10/spg/system_1/x86e_win64/obj/xtop.exe
+    MAIN_THREAD_ENV -> 16208:6104
+    MASTERPACK -> //sawfish/public/masterpack
+    MOZ_PLUGIN_PATH -> C:\Program Files
+	 (x86)\Hummingbird\Connectivity\14.00\Exceed\Plugins\
+    Model -> 3930
+    NETFXSDKDir -> C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8
+    NETFXSDK_IncludePath -> C:\Program Files (x86)\Windows
+	 Kits\NETFXSDK\4.8\Include\um
+    NETFXSDK_LibraryPath -> C:\Program Files (x86)\Windows
+	 Kits\NETFXSDK\4.8\Lib\um\x64
+    NETFXSDK_Path -> z:\compilers\i486_nt\netfxsdk48
+    OneDrive -> C:\Users\sarsewar\OneDrive
+    PATH ->
+	 /cygdrive/d/GTM/spr_15881855_solidSymGet_q10/x86e_win64/obj:/cygdr
+	 ive/q/q10/spg/system_1/x86e_win64/lib:.:/cygdrive/q/q10/spg/system
+	 _1/softdb/scripts:/cygdrive/z/tools/integ_tools:/cygdrive/z/compil
+	 ers/i486_nt/fortran/2016/windows/bin/intel64:/cygdrive/z/compilers
+	 /i486_nt/vs16.9.8/Common7/IDE:/cygdrive/z/compilers/i486_nt/vs16.9
+	 .8/VC/Tools/MSVC/14.28.29910/bin/Hostx64/x64:/cygdrive/z/compilers
+	 /i486_nt/vs16.9.8/Common7/Tools:/cygdrive/z/compilers/i486_nt/sdk1
+	 0.0.19041.0/Bin/10.0.19041.0/x64:/cygdrive/z/compilers/i486_nt/vs1
+	 6.9.8/VB/bin:/cygdrive/z/compilers/i486_nt/vs16.9.8/Microsoft
+	 SDKs/Windows/v10.0A/bin/NETFX 4.8
+	 Tools:/cygdrive/c/WINDOWS/Microsoft.NET/Framework64/v4.0.30319:.:/
+	 cygdrive/q/q10/spg/system_1/softdb/scripts:/cygdrive/z/tools/integ
+	 _tools:/cygdrive/d/GTM/spr_15881855_solidSymGet_q10/x86e_win64/adv
+	 apps/TK-2/obj:C:/cygwin/bin:z:/tools/apps/uigtms/stable/x86e_win64
+	 :/usr/local/bin:/usr/bin:/usr/bin:/cygdrive/c/Program Files/Common
+	 Files/Oracle/Java/javapath:/cygdrive/c/WINNT:/cygdrive/c/WINNT/sys
+	 tem32:/cygdrive/c/Program Files (x86)/Common
+	 Files/Oracle/Java/javapath:/cygdrive/c/WINDOWS/system32:/cygdrive/
+	 c/WINDOWS:/cygdrive/c/WINDOWS/System32/Wbem:/cygdrive/c/WINDOWS/Sy
+	 stem32/WindowsPowerShell/v1.0:/cygdrive/c/WINDOWS/System32/OpenSSH
+	 :/cygdrive/c/Program Files/ServiceNow:/cygdrive/c/Program
+	 Files/ServiceNow:/cygdrive/c/Program
+	 Files/nodejs:/cygdrive/c/ProgramData/chocolatey/bin:/cygdrive/c/ha
+	 milton:/cygdrive/c/Program
+	 Files/dotnet:/cygdrive/c/Users/sarsewar/AppData/Local/Programs/Pyt
+	 hon/Python311:/cygdrive/c/Program
+	 Files/Git/cmd:/cygdrive/d/home/python/x86e_win64:/cygdrive/c/Progr
+	 am
+	 Files/mingw64/mingw64/bin:/cygdrive/c/Users/sarsewar/AppData/Local
+	 /Microsoft/WindowsApps:/cygdrive/c/Users/sarsewar/AppData/Roaming/
+	 npm:/cygdrive/c/Users/sarsewar/.dotnet/tools:/cygdrive/c/Users/sar
+	 sewar/AppData/Local/Programs/Microsoft VS
+	 Code/bin:/cygdrive/c/ProgramData/mingw64/mingw64/bin:/home/sarsewa
+	 r:/cygdrive/z/tools/integ:/cygdrive/z/tools/bin:/cygdrive/z/tools/
+	 bin/x86e_win64:/cygdrive/z/tools/regtool/bin:/cygdrive/u/common/in
+	 tg_retr/bin:/cygdrive/z/tools/psoft:/cygdrive/z/tools/windows_nt/b
+	 in:/cygdrive/z/tools/advapps/cshtop:/cygdrive/z/tools/advapps/csha
+	 ux:/cygdrive/z/tools/advapps/x86e_win64:/cygdrive/z/tools/perl510/
+	 x86e_win64/bin:/cygdrive/z/tools/advapps/dcad:/home/sarsewar:/cygd
+	 rive/z/tools/integ:/cygdrive/z/tools/bin:/cygdrive/z/tools/bin/x86
+	 e_win64:/cygdrive/z/tools/regtool/bin:/cygdrive/u/common/intg_retr
+	 /bin:/cygdrive/z/tools/psoft:/cygdrive/z/tools/windows_nt/bin:/cyg
+	 drive/z/tools/advapps/cshtop:/cygdrive/z/tools/advapps/cshaux:/cyg
+	 drive/z/tools/advapps/x86e_win64:/cygdrive/z/tools/perl510/x86e_wi
+	 n64/bin:/cygdrive/z/tools/advapps/dcad:/cygdrive/z/tools/mkgen:/cy
+	 gdrive/z/tools/mkgen
+    PROBATCH_DIRECTORY -> q:/q10/spg/system_1/apps/batchexec
+    PROETREE_DIRECTORY -> q:/q10/spg/system_1/apps/treetool
+    PROE_REG_MSI -> q:/q10/spg/system_1/x86e_win64/obj/proe_reg.msi
+    PROE_THUMBNAIL_MSI -> q:/q10/spg/system_1/x86e_win64/obj/thumbplug.msi
+    PROSETUP_DIRECTORY -> q:/q10/spg/system_1/apps/prosetup
+    PROTAB -> q:/q10/spg/system_1/x86e_win64/obj/protab.exe
+    PROTABLE_DIRECTORY -> q:/q10/spg/system_1/apps/protable
+    PROTREE -> q:/q10/spg/system_1/x86e_win64/obj/proetree.exe
+    PRO_AR_EXE -> q:/q10/spg/system_1/x86e_win64/obj/pro_ar.exe
+    PRO_COMM_MSG_EXE -> q:/q10/spg/system_1/x86e_win64/obj/pro_comm_msg
+    PRO_JAVA_COMMAND -> z:/tools/advapps/x86e_win64/jdk11/bin/java
+    PRO_PHOTORENDER -> q:/q10/spg/system_1/x86e_win64/obj/PhotoRender.exe
+    PRO_RENDERSERVER -> q:/q10/spg/system_1/x86e_win64/obj/RenderServer.exe
+    PRO_USRMAIN -> q:/q10/spg/system_1/usrprog/umain/usrmain.c
+    PSModulePath -> C:\Program
+	 Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerSh
+	 ell\v1.0\Modules
+    PTC_APPMGR_DIR -> q:/q10/spg/system_1/apps/appmgr
+    PTC_COMPILER_CRT_PATH -> vs16.7.5/VC/Redist/MSVC/14.27.29016
+    PTC_PARTLIB -> z:/partlib z:/partlib2
+    PTC_PDMLINK_SERVER -> http://qa-app1.ptc.com:9000/Windchill
+    PTC_PROLIBS -> z:/ptcmisc/prolibs
+    PTC_REGOBJS -> x:/reg
+    PTC_REGVIDS -> x:/reg_video
+    PTC_SUPPRESS_LMLIC_ENV -> yes
+    PTC_WF_ROOT ->
+	 D:/GTM/spr_15881855_solidSymGet_q10/testrun/auto_1/WF_ROOT_DIR
+    PUBLIC -> C:\Users\Public
+    PVIEW_PROEPVIEW_HOME -> q:/q10/spg/system_1/apps/prodview
+    PVX_PATH -> q:/q10/spg/system_1/xplatform/jar/nodebug
+    PVX_REG_MSI ->
+	 q:/q10/spg/system_1/auxobjs/x86e_win64/PVX/ProductView_Express_32_
+	 64.msi
+    P_CURR_PROJ -> spr_15881855_solidSymGet_q10
+    P_PROJ_VER -> Q-10-58
+    ProgramData -> C:\ProgramData
+    ProgramFiles(x86) -> C:\Program Files (x86)
+    ProgramW6432 -> C:\Program Files
+    QUALITYAGENT_MSI -> q:/q10/spg/system_1/x86e_win64/obj/qualityagent.msi
+    RELEASE_STATUS -> shipping
+    R_ALT_QCR_DIR -> D:/GTM/spr_15881855_solidSymGet_q10/test/otk_cpp_tests
+    R_AUTOTXT -> auto.txt
+    R_AUTO_RUNNING -> true
+    R_AVOID_REG_UPLOAD -> true
+    R_CHECK_DBGFILE -> true
+    R_COMM_BRK_SVC -> q:/q10/spg/system_1/x86e_win64/obj/comm_brk_svc.exe
+    R_CONFIG_FILE -> useautodefault
+    R_FLEXGENERIC -> q:/q10/spg/system_1/x86e_win64/obj/flexgeneric.exe
+    R_FLOAT_CHECK -> false
+    R_GETTB_CORE -> true
+    R_GPROF -> false
+    R_GRAPHICS -> 0
+    R_IPCTEST -> q:/q10/spg/system_1/x86e_win64/obj/ipctest.exe
+    R_KEEP_FAILURE_DATA -> true
+    R_KEEP_SUCCESS_DATA -> true
+    R_LOCAL_XTOP -> q:/q10/spg/system_1/x86e_win64/obj/xtop.exe
+    R_PDEV_REGRES_BIN -> d:/GTM/spr_15881855_solidSymGet_q10/x86e_win64/obj
+    R_PERF -> false
+    R_PFCLSCOM_DIR -> q:/q10/spg/system_1/x86e_win64/obj
+    R_PRODEV_REGRESS -> true
+    R_PROTAB -> q:/q10/spg/system_1/x86e_win64/obj/protab
+    R_REGRES_BIN -> d:/GTM/spr_15881855_solidSymGet_q10/x86e_win64/obj
+    R_RUNMODE -> 9029
+    R_RUN_DRM_TESTS -> false
+    R_RUN_MECH_TEST -> true
+    R_RUN_OBSOLETE_TEST -> false
+    R_RUN_UWGMCC_TESTS -> false
+    R_SUPPRESS_PROTK_PROC_WINDOW -> true
+    R_TRAIL_PATH -> D:/GTM/spr_15881855_solidSymGet_q10
+    R_XTOP_WAIT -> true
+    SPGID -> sarsewar
+    Serial -> 2BCY3N3
+    TRACEDESIGNTIME -> true
+    TS_HOME -> q:/q10/spg/system_1/auxobjs/TrueSOLID/v4_4_2
+    TargetFrameworkSDKToolsDirectory ->
+	 z:\compilers\i486_nt\vs16.9.8\Microsoft
+	 SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools
+    Type -> Precision
+    UATDATA -> C:\WINDOWS\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77
+    UIGTM_DIRECTORY -> z:/tools/apps/uigtms/stable
+    UIGTM_TYPE -> stable
+    USERDOMAIN_ROAMINGPROFILE -> PTCNET
+    UniversalCRT_IncludePath ->
+	 Z:/compilers/i486_nt/\sdk10.0.19041.0\Include\10.0.19041.0\ucrt
+    UniversalCRT_LibraryPath ->
+	 Z:/compilers/i486_nt/\sdk10.0.19041.0\Lib\10.0.19041.0\ucrt\x64
+    UWGM_ADAPTERS_PATH ->
+	 d:/GTM/spr_15881855_solidSymGet_q10/x86e_win64/obj;q:/q10/spg/syst
+	 em_1
+    VS160COMNTOOLS -> z:\compilers\i486_nt\vs16.9.8\VC\Tools\
+    VS170COMNTOOLS -> C:\Program Files\Microsoft Visual
+	 Studio\2022\Professional/Common7/Tools/
+    WPPCM_REG_MSI ->
+	 q:/q10/spg/system_1/auxobjs/WPP/ProductPointClientManager-en-US.MS
+	 I
+    WinRT_IncludePath ->
+	 Z:/compilers/i486_nt/\sdk10.0.19041.0\Include\10.0.19041.0\winrt;Z
+	 :/compilers/i486_nt/\sdk10.0.19041.0\Include\10.0.19041.0\cppwinrt
+    WindowsSDK_IncludePath ->
+	 Z:/compilers/i486_nt/\sdk10.0.19041.0\Include\10.0.19041.0\um
+    WindowsSDK_IncludePath_shared ->
+	 Z:/compilers/i486_nt/\sdk10.0.19041.0\Include\10.0.19041.0\shared
+    WindowsSDK_LibraryPath ->
+	 Z:/compilers/i486_nt/\sdk10.0.19041.0\Lib\10.0.19041.0\um\x64
+    WindowsSDK_Path ->
+	 Z:/compilers/i486_nt/\sdk10.0.19041.0\Bin\10.0.19041.0\x64
+    XTOP_SOFTWARE_OPENGL_PATH ->
+	 q:/q10/spg/system_1/auxobjs/x86e_win64/MESA23.1.2
+    ZES_ENABLE_SYSMAN -> 1
+    ZIP_EXEC -> q:/q10/spg/system_1/auxobjs/x86e_win64/ZIP/zip.exe
+    ct -> /usr/atria/bin/cleartool
+    mongodb -> C:\Program Files\MongoDB\Server\8.0\bin
+    python -> D:\home\python\x86e_win64
+
+********************************************************************
+
+
+
+Copying alternate qcr files from D:/GTM/spr_15881855_solidSymGet_q10/test/otk_cpp_tests/otk_detailing_03p90_spr15463139
+
+RUN INFO:  MACH=SARSEWAR2D Version Q-10-57 EXE=q:/q10/spg/system_1/x86e_win64/obj/xtop.exe
+RUN INFO:  UID=sarsewar RUNDIR=D:/GTM/spr_15881855_solidSymGet_q10/testrun/auto_1
+
+D:/GTM/spr_15881855_solidSymGet_q10/test/otk_cpp_tests/otk_detailing_03p90_spr15463139/otk_detailing_03p90_spr15463139.txt
+SUCCESS Start:  19:01:36 27-MAY-2025  Stop:  19:02:07 27-MAY-2025  Run:  00:00:31
+!%CI1002389 blocks; Size: 45393861; Overhead: 21484187; Peak system size: 34668744.
+
+Copying alternate qcr files from D:/GTM/spr_15881855_solidSymGet_q10/test/otk_cpp_tests/otk_detailing_03p90_spr15463139
+
+RUN INFO:  MACH=SARSEWAR2D Version Q-10-57 EXE=q:/q10/spg/system_1/x86e_win64/obj/xtop.exe
+RUN INFO:  UID=sarsewar RUNDIR=D:/GTM/spr_15881855_solidSymGet_q10/testrun/auto_1
+
+D:/GTM/spr_15881855_solidSymGet_q10/test/otk_cpp_tests/otk_detailing_03p90_spr15463139/otk_detailing_03p90_spr15463139_dll.txt
+SUCCESS Start:  19:02:10 27-MAY-2025  Stop:  19:02:42 27-MAY-2025  Run:  00:00:32
+!%CI1002382 blocks; Size: 45388869; Overhead: 21486779; Peak system size: 34668744.
+
+
+AUTO finished at Tue May 27 19:02:43 2025 Total time 00:01:11

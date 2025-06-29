@@ -1,0 +1,7 @@
+name otk_application
+exec_file d:/GTM/spr_15881855_solidSymGet_q10/x86e_win64/obj/otk_cpp_tests_dll.dll
+text_dir q:/q10/spg/system_1/protoolkit/otk_cpp_tests/text
+startup dll
+allow_stop true
+delay_start false
+end

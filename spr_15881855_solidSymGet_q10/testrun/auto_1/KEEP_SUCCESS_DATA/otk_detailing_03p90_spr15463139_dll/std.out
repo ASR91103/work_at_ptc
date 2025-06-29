@@ -1,0 +1,174 @@
+Application is running with Unicode string encoding.
+pglSetStatus::   Pgl Session Initialize (INFO MESSAGE)
+Valid file wpplibs.cmp with extension cmp was not found in any of CURRENT_DIR,PROJ_LANG_TEXT_DIR,PROJ_TEXT_DIR,CUSTOM_LOCALE_FONT_DIR,APP_LANG_TEXT_DIR,APP_TEXT_DIR,PRO_LANG_TEXT_DIR,PRO_TEXT_DIR,MACHINE_LANG_TEXT_DIR,MACHINE_TEXT_DIR,PRO_FONT_DIR
+Valid file msgtxt.del with extension del was not found in any of CURRENT_DIR,PROJ_LANG_TEXT_DIR,PROJ_TEXT_DIR,USER_TEXT_DIR,CUSTOM_LOCALE_FONT_DIR,APP_LANG_TEXT_DIR,APP_TEXT_DIR,PRO_LANG_TEXT_DIR,PRO_TEXT_DIR,MACHINE_LANG_TEXT_DIR,PRO_FONT_DIR
+Valid file mdgtxt.add with extension add was not found in any of CURRENT_DIR,PROJ_LANG_TEXT_DIR,PROJ_TEXT_DIR,USER_TEXT_DIR,CUSTOM_LOCALE_FONT_DIR,APP_LANG_TEXT_DIR,APP_TEXT_DIR,PRO_LANG_TEXT_DIR,PRO_TEXT_DIR,MACHINE_LANG_TEXT_DIR,PRO_FONT_DIR
+Valid file wpplibs.cmp with extension cmp was not found in any of CURRENT_DIR,PROJ_LANG_TEXT_DIR,PROJ_TEXT_DIR,CUSTOM_LOCALE_FONT_DIR,APP_LANG_TEXT_DIR,APP_TEXT_DIR,PRO_LANG_TEXT_DIR,PRO_TEXT_DIR,MACHINE_LANG_TEXT_DIR,MACHINE_TEXT_DIR,PRO_FONT_DIR
+Valid file msgtxt.del with extension del was not found in any of CURRENT_DIR,PROJ_LANG_TEXT_DIR,PROJ_TEXT_DIR,USER_TEXT_DIR,CUSTOM_LOCALE_FONT_DIR,APP_LANG_TEXT_DIR,APP_TEXT_DIR,PRO_LANG_TEXT_DIR,PRO_TEXT_DIR,MACHINE_LANG_TEXT_DIR,PRO_FONT_DIR
+Valid file mdgtxt.add with extension add was not found in any of CURRENT_DIR,PROJ_LANG_TEXT_DIR,PROJ_TEXT_DIR,USER_TEXT_DIR,CUSTOM_LOCALE_FONT_DIR,APP_LANG_TEXT_DIR,APP_TEXT_DIR,PRO_LANG_TEXT_DIR,PRO_TEXT_DIR,MACHINE_LANG_TEXT_DIR,PRO_FONT_DIR
+uit_get_visual_style_low:  Style is PTC Creo 4 (INFO MESSAGE)
+Running Pro/Engineer in no_graphics mode.  No windows will be displayed
+W : pro_bind : attempt to bind function "is_creo_internal_name" , which is already bound
+W : pro_bind : attempt to bind function "get_name_list_id" , which is already bound
+HWCheckAsyncFactory:  NOTE: H/W checks disabled during regressions (INFO MESSAGE)
+GalleryBaseWdg::GalleryBaseWdg:  Activate command of 'ProCmdDwgTblFromGallery' should be type uiCmdTypeNone (INFO MESSAGE)
+GalleryBaseWdg::GalleryBaseWdg:  Activate command of 'ProCmdCEFormatsGallery' should be type uiCmdTypeNone (INFO MESSAGE)
+GalleryBaseWdg::GalleryBaseWdg:  Activate command of 'ProCmdCEFltFormatsGallery' should be type uiCmdTypeNone (INFO MESSAGE)
+ProCmdSelBufferAttrSet():  Can't to find the command: ProCmdFaceted (INFO MESSAGE)
+ProCmdSelBufferAttrSet():  Selection Buffer Attribute loaded 57 commands (INFO MESSAGE)
+GalleryBaseWdg::GalleryBaseWdg:  Activate command of 'ProCmdMankSelGalPostr' should be type uiCmdTypeNone (INFO MESSAGE)
+uit_CmdUiLoadIfNeeded:  The size of image 'symbol_galery_large.png' is not valid ('32x32') in short resource 'procmdpmaoptsymlib.res' (INFO MESSAGE)
+uit_CmdUiLoadIfNeeded:  The size of image 'symbol_reference_large.png' is not valid ('32x32') in short resource 'procmdpmapushsymreferences.res' (INFO MESSAGE)
+GalleryBaseWdg::GalleryBaseWdg:  Activate command of 'ProCmdPmaOptSymLib' should be type uiCmdTypeNone (INFO MESSAGE)
+GalleryBaseWdg::GalleryBaseWdg:  Activate command of 'ProCmdPmaCascadeHatchLib' should be type uiCmdTypeNone (INFO MESSAGE)
+GalleryBaseWdg::GalleryBaseWdg:  Activate command of 'ProCmdPmaOptSurfFinLib' should be type uiCmdTypeNone (INFO MESSAGE)
+_uit_adb_container_max_height:  The maximum group height in no graphics mode is 76 (INFO MESSAGE)
+ugc_check_version_dbtype:  file 67 != expected 7 (INFO MESSAGE)
+addHints:  adding NO_STS_TRANSACTION (INFO MESSAGE)
+zTocMgr::internal_maybe_open:  hint is NO_STS_TRANSACTION (INFO MESSAGE)
+ugc_check_version_dbtype:  file 67 != expected 7 (INFO MESSAGE)
+addHints:  adding NO_STS_TRANSACTION (INFO MESSAGE)
+zTocMgr::internal_maybe_open:  hint is NO_STS_TRANSACTION (INFO MESSAGE)
+uit_CmdUiLoadIfNeeded:  The size of image 'procmdsimzip_large.png' is not valid ('32x32') in short resource 'procmdsimintegexportapr.res' (INFO MESSAGE)
+uit_CmdUiLoadIfNeeded:  The size of image 'procmdsimzip_large.png' is not valid ('32x32') in short resource 'procmdsimintegexportdscodat.res' (INFO MESSAGE)
+uit_CmdUiLoadIfNeeded:  The size of image '3D_web_print_large' is not valid ('32x32') in short resource 'procmd3dprintorder.res' (INFO MESSAGE)
+uit_CmdUiLoadIfNeeded:  The size of image 'start_session_large.bif' is not valid ('32x32') in short resource 'procmdstartexperiment.res' (INFO MESSAGE)
+reset_text_params:  failed to get font codeset (ORDER_DEBUG)
+dll_get_func_ptr_msgq:  OS error 127 while getting ptr to 'gGetProtocolVersion' in 'gPlug' (ORDER_DEBUG)
+zTocMgr::internal_maybe_open:  access failed (INFO MESSAGE)
+ugc_set_cur_portion:  reset encountered (INFO MESSAGE)
+zTocMgr::internal_maybe_open:  access failed (INFO MESSAGE)
+ugc_set_cur_portion:  reset encountered (INFO MESSAGE)
+pglSetStatus::   PglWindowStartNoGraphics: Already in nographics mode. (INFO MESSAGE)
+handle_create:  Could not find Handle image file (ORDER_DEBUG)
+gfx_repaint_solid:  no current object. (ORDER_DEBUG)
+
+ run mode = 9029
+pro_locate_colormap ()
+located color definition q:\q10\spg\system_1\graphic-library\appearances\appearance.dmt
+pro_locate_colormap ()
+located color definition q:\q10\spg\system_1\graphic-library\appearances\global.dmt
+pro_locate_colormap ()
+located Default color definition q:\q10\spg\system_1\graphic-library\appearances\default.dmt
+cadds5_link_app_path_name():  NuTCRACKER is not installed (INFO MESSAGE)
+about to init app 'AFX'
+    found 'user_initialize_plus' at 0x7ff8380e30b0
+    passing args:
+	version='42'
+	build='2025093'
+	enabled=1
+	data_path='q:/q10/spg/system_1\afx\'
+	exec_path='q:/q10/spg/system_1\afx\x86e_win64\afx100.dll'
+ULC_Load:  Application 2 is already loaded! (ORDER_DEBUG)
+about to init app 'IFX'
+    found 'user_initialize_plus' at 0x7ff830f6a240
+    passing args:
+	version='42'
+	build='2025093'
+	enabled=1
+	data_path='q:/q10/spg/system_1\ifx\'
+	exec_path='q:/q10/spg/system_1\ifx\x86e_win64\ifx100.dll'
+ULC_Load:  Application 3 is already loaded! (ORDER_DEBUG)
+check_exec_file_accessible_():  q:\q10\spg\system_1\\x86e_win64\obj\SWToPro.exe accessible (INFO MESSAGE)
+check_exec_file_accessible_():  q:\q10\spg\system_1\\x86e_win64\obj\SeodxToPro.exe accessible (INFO MESSAGE)
+PFSDBArrToFilter:  shouldn't do both (INFO MESSAGE)
+PFSTMakeTypeString:  no zip found (INFO MESSAGE)
+uit_get_visual_style_low:  Style is PTC Creo 4 (INFO MESSAGE)
+uit_CmdUiLoadIfNeeded:  Can't find a resource ProCmdApplMenuDbgInfo. (INFO MESSAGE)
+ResizeControlWdg::resizeContainerHorz:  Can't resize the control bar properly (INFO MESSAGE)
+AdbPage::buildSizeStateTable:  Can't build Size State Table for page 'home_File' (INFO MESSAGE)
+about to init app 'otk_application'
+    found 'user_initialize_plus' at 0x7ff83ec57940
+    passing args:
+	version='42'
+	build='2025093'
+	enabled=1
+	data_path='q:\q10\spg\system_1\protoolkit\otk_cpp_tests\'
+	exec_path='d:\GTM\spr_15881855_solidSymGet_q10\x86e_win64\obj\otk_cpp_tests_dll.dll'
+
+retrieving assembly surface-finish-test ...
+preread_solid:  start 5 0, have PFA = 1 (INFO MESSAGE)
+nl_fill_path_name::  fill_pfa: full_name=D:\GTM\spr_15881855_solidSymGet_q10\testrun\auto_1\scratch\surface-finish-test.drw, session_name=SURFACE-FINISH-TEST obj_type=4 (INFO MESSAGE)
+put_name_list_origin:  ListName: 5 Id: 0 PFA is available: D:\GTM\spr_15881855_solidSymGet_q10\testrun\auto_1\scratch\surface-finish-test.drw (INFO MESSAGE)
+preread_solid:  end (INFO MESSAGE)
+nl_fill_path_name::  fill_pfa: full_name=DRW0001.DRW\4\941ac23e1ca15ecf8ccd741182427bb.drw, session_name=▩941AC23E1CA15ECF8C0001 obj_type=319 (INFO MESSAGE)
+put_name_list_origin:  ListName: 21 Id: 0 PFA is available: 941ac23e1ca15ecf8ccd741182427bb.drw (INFO MESSAGE)
+eliminate_extra_instr:  NULL view instr list (INFO MESSAGE)
+pmeta_dep_check_id:  Non-existent dep id 0 found in SURFACE-FINISH-TEST: source (5 3) (ORDER_DEBUG)
+pmeta_dep_check_id:  Non-existent dep id 0 found in SURFACE-FINISH-TEST: source (0 242) (ORDER_DEBUG)
+check_run_time_attrs:  unexpected run-time attribute 156 -- clearing. (ORDER_DEBUG)
+check_run_time_attrs:  unexpected run-time attribute 192 -- clearing. (ORDER_DEBUG)
+check_run_time_attrs:  unexpected run-time attribute 289 -- clearing. (ORDER_DEBUG)
+check_run_time_attrs:  unexpected run-time attribute 352 -- clearing. (ORDER_DEBUG)
+check_run_time_attrs:  unexpected run-time attribute 612 -- clearing. (ORDER_DEBUG)
+check_run_time_attrs:  unexpected run-time attribute 613 -- clearing. (ORDER_DEBUG)
+
+retrieving assembly  ...
+ugc_retr_get_solid_in_emb_comp_emb_path:  wrong data (ORDER_DEBUG)
+ugc_retr_get_solid_in_emb_srmap:  missing comp emb. info (ORDER_DEBUG)
+preread_solid:  start 5 0, have PFA = 1 (INFO MESSAGE)
+nl_fill_path_name::  fill_pfa: full_name=D:\GTM\spr_15881855_solidSymGet_q10\testrun\auto_1\scratch\surface-finish-test.drw, session_name=▩941AC23E1CA15ECF8C0001 obj_type=4 (INFO MESSAGE)
+nl_fill_path_name::  fill_pfa: full_name=D:\GTM\spr_15881855_solidSymGet_q10\testrun\auto_1\scratch\941ac23e1ca15ecf8ccd741182427bb.drw, session_name=▩941AC23E1CA15ECF8C0001 obj_type=4 (INFO MESSAGE)
+put_name_list_origin:  ListName: 5 Id: 1 PFA is available: D:\GTM\spr_15881855_solidSymGet_q10\testrun\auto_1\scratch\surface-finish-test.drw (INFO MESSAGE)
+preread_solid:  end (INFO MESSAGE)
+ugc_retr_get_solid_in_emb_comp_emb_path:  wrong data (ORDER_DEBUG)
+ugc_retr_get_solid_in_emb_srmap:  missing comp emb. info (ORDER_DEBUG)
+eliminate_extra_instr:  NULL view instr list (INFO MESSAGE)
+check_run_time_attrs:  unexpected run-time attribute 156 -- clearing. (ORDER_DEBUG)
+check_run_time_attrs:  unexpected run-time attribute 192 -- clearing. (ORDER_DEBUG)
+check_run_time_attrs:  unexpected run-time attribute 352 -- clearing. (ORDER_DEBUG)
+check_run_time_attrs:  unexpected run-time attribute 387 -- clearing. (ORDER_DEBUG)
+check_run_time_attrs:  unexpected run-time attribute 612 -- clearing. (ORDER_DEBUG)
+check_run_time_attrs:  unexpected run-time attribute 613 -- clearing. (ORDER_DEBUG)
+postread_corrupt_bkp_dims:  Checking model for dim corruption ▩941AC23E1CA15ECF8C0001. (INFO MESSAGE)
+bogus_temp_name_change_return:  renaming ▩941AC23E1CA15ECF8C0001 319 to ▩941AC23E1CA15ECF8C0001 (file 0) (INFO MESSAGE)
+put_name_list_origin:  ListName: 5 Id: 1 PFA is available: D:\GTM\spr_15881855_solidSymGet_q10\testrun\auto_1\scratch\surface-finish-test.drw (INFO MESSAGE)
+has_driven_table:  Object name  not found (INFO MESSAGE)
+dtl_load_fonts:  (Re)loading fonts (INFO MESSAGE)
+dtl_font_session_id:  Using default font for text with font id -1 (INFO MESSAGE)
+retrieve_assem:  Successfully retrieved ▩941AC23E1CA15ECF8C0001 (INFO MESSAGE)
+disable_save:  background save disabled, disable_count = 1 (INFO MESSAGE)
+
+retrieving part test-box ...
+PglPersistmgrLoadFonts:  Reading codeset 0, name win_font.ndx (INFO MESSAGE)
+PglPersistmgrLoadFonts:  Failed to find font codeset header (INFO MESSAGE)
+PglPersistmgrLoadFonts:  Memory file in session; not loaded (INFO MESSAGE)
+PglPersistmgrLoadFonts:  Reading codeset 4, name special.fnt (INFO MESSAGE)
+PglPersistmgrLoadFonts:  Failed to find font codeset header (INFO MESSAGE)
+PglPersistmgrLoadFonts:  PTC font in session; not loaded (INFO MESSAGE)
+preread_solid:  start 2 0, have PFA = 1 (INFO MESSAGE)
+nl_fill_path_name::  fill_pfa: full_name=D:\GTM\spr_15881855_solidSymGet_q10\testrun\auto_1\scratch\test-box.prt, session_name=TEST-BOX obj_type=2 (INFO MESSAGE)
+put_name_list_origin:  ListName: 2 Id: 0 PFA is available: D:\GTM\spr_15881855_solidSymGet_q10\testrun\auto_1\scratch\test-box.prt (INFO MESSAGE)
+preread_solid:  end (INFO MESSAGE)
+check_run_time_attrs:  unexpected run-time attribute 289 -- clearing. (ORDER_DEBUG)
+check_run_time_attrs:  unexpected run-time attribute 352 -- clearing. (ORDER_DEBUG)
+check_run_time_attrs:  unexpected run-time attribute 40 -- clearing. (ORDER_DEBUG)
+check_run_time_attrs:  unexpected run-time attribute 487 -- clearing. (ORDER_DEBUG)
+check_run_time_attrs:  unexpected run-time attribute 612 -- clearing. (ORDER_DEBUG)
+check_run_time_attrs:  unexpected run-time attribute 613 -- clearing. (ORDER_DEBUG)
+File: Solid TEST-BOX, type 2, generic , status = override
+pglSetStatus::   TriStripSetWithAtt with no strip (INFO MESSAGE)
+put_name_list_origin:  ListName: 2 Id: 0 PFA is available: D:\GTM\spr_15881855_solidSymGet_q10\testrun\auto_1\scratch\test-box.prt (INFO MESSAGE)
+dtl_load_fonts:  (Re)loading fonts (INFO MESSAGE)
+dtl_font_session_id:  Using default font for text with font id -1 (INFO MESSAGE)
+enable_save:  background save enabled, disable_count = 0 (INFO MESSAGE)
+put_name_list_origin:  ListName: 5 Id: 0 PFA is available: D:\GTM\spr_15881855_solidSymGet_q10\testrun\auto_1\scratch\surface-finish-test.drw (INFO MESSAGE)
+disable_save:  background save disabled, disable_count = 1 (INFO MESSAGE)
+enable_save:  background save enabled, disable_count = 0 (INFO MESSAGE)
+nl_fill_path_name::  fill_pfa: full_name=SURFACE-FINISH-TEST.DRW\6\0f3b1318ef205a5fa04bafbc8511dce.drw, session_name=▩0F3B1318EF205A5FA00001 obj_type=319 (INFO MESSAGE)
+put_name_list_origin:  ListName: 21 Id: 1 PFA is available: 0f3b1318ef205a5fa04bafbc8511dce.drw (INFO MESSAGE)
+find_sld_appl_info:  Type not handled 319 (INFO MESSAGE)
+setup_drawing_bln_stk_info:  counted 0 regions, 0 were NULL, saved info for 0 (INFO MESSAGE)
+pfainame_get_real_pfa_low:  in file type (-6) is different from nl file type (319) (ORDER_DEBUG)
+nl_fill_path_name::  fill_pfa: full_name=0f3b1318ef205a5fa04bafbc8511dce.drw, session_name=▩0F3B1318EF205A5FA00001 obj_type=4 (INFO MESSAGE)
+dwg_comps_rebuild_hierarchy:  rebuilding hierarchy (ORDER_DEBUG)
+zTocMgr::internal_maybe_open:  access failed (INFO MESSAGE)
+put_name_list_origin:  ListName: 5 Id: 0 PFA is available: D:\GTM\spr_15881855_solidSymGet_q10\testrun\auto_1\scratch\surface-finish-test.drw (INFO MESSAGE)
+dtl_load_fonts:  (Re)loading fonts (INFO MESSAGE)
+dtl_font_session_id:  Using default font for text with font id -1 (INFO MESSAGE)
+retrieve_assem:  Successfully retrieved D:\GTM\spr_15881855_solidSymGet_q10\testrun\auto_1\scratch\surface-finish-test.drw (INFO MESSAGE)
+ProUIDialogDestroy:  Failed to destroy debugLoggingDialog (ORDER_DEBUG)
+ProUIDialogDestroy:  Failed to destroy debugDialog (ORDER_DEBUG)
+zstDummyCreoPI::setModified:  setting group_index = 0 modified (INFO MESSAGE)
+pro_notification_remove:  failed to find func to remove (INFO MESSAGE)
+pglSetStatus::   Pgl Session Terminate (INFO MESSAGE)

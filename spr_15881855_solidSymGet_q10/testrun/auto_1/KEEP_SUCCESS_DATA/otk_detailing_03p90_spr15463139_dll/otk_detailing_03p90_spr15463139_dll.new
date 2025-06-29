@@ -1,0 +1,29 @@
+﻿!trail file version No. 2123
+!Creo  TM  Version Q-10-57  (c) 2025 by PTC Inc.  All Rights Reserved.
+!Exit Logger data:
+!	Process ID: 22244
+!	Application: Creo_Parametric
+!	Start date&time: 2025/05/27  19:02:21
+!	language: usascii
+!	machine type: x86e_win64
+!	datecode: 10.0.9.0
+!	Server: NONE
+!	Workspace: NONE
+!	traceback file: D:\GTM\spr_15881855_solidSymGet_q10\testrun\auto_1\scratch\traceback.log
+!end Exit Logger data.
+< 0 0.888889 1000 0 0 750 1000 0 0 750 13
+!mem_use INCREASE Blocks 919215, AppSize 14557393, SysSize 34668744
+!%CIWelcome to Creo Parametric 10.0.9.0.
+!AFX datecode: 10.0.9.0-rc.1 2025.04.16
+!AFX exec path: q:/q10/spg/system_1\afx\x86e_win64\afx100.dll
+!AFX text path: q:/q10/spg/system_1\afx\
+!Application (otk_application): running DLL-mode user_initialize
+!27-May-25 19:02:36  Start D:\GTM\spr_15881855_solidSymGet_q10\testrun\auto_1\scratch\surface-finish-test.drw
+!LIGHT_FIX_MODEL_RMODE is 51
+!27-May-25 19:02:36  Start ▩941AC23E1CA15ECF8C0001
+!27-May-25 19:02:36  End   ▩941AC23E1CA15ECF8C0001
+!27-May-25 19:02:36  Start D:\GTM\spr_15881855_solidSymGet_q10\testrun\auto_1\scratch\test-box.prt
+!27-May-25 19:02:37  End   D:\GTM\spr_15881855_solidSymGet_q10\testrun\auto_1\scratch\test-box.prt
+!27-May-25 19:02:37  End   D:\GTM\spr_15881855_solidSymGet_q10\testrun\auto_1\scratch\surface-finish-test.drw
+!%CI1002382 blocks; Size: 45388869; Overhead: 21486779; Peak system size: 34668744.
+!End of Trail File

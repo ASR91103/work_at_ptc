@@ -1,0 +1,36 @@
+!-------------------------------------------------------------------------------
+!
+! Reference file for regression test otk_detailing_03p90_spr15463139
+!
+! MODIFICATIONS:
+!
+! 30-Aug-24 Q-10-54 $$1 sshrivastava Created.
+! 23-May-25 Q-10-58 $$2 sarsewar     Updated for API ProDtlsyminstSolidSymGet
+!-------------------------------------------------------------------------------
+ProMdlnameRetrieve                     otk_detailing_03p90.cxx               0   
+
+ProDrawingCurrentSheetGet              otk_detailing_03p90.cxx               0   
+
+ProDtlsyminstSurffinGet                otk_detailing_03p90.cxx               0   
+
+ProDtlsyminstSurffinGet                otk_detailing_03p90.cxx               -4   
+
+ProDtlsyminstSolidSymGet               otk_detailing_03p90.cxx               0   
+
+ProDtlsyminstSurffinGet                otk_detailing_03p90.cxx               0   
+
+ProDtlsyminstSurffinGet                otk_detailing_03p90.cxx               -4   
+
+ProDtlsyminstSolidSymGet               otk_detailing_03p90.cxx               -4   
+
+ProDrawingDtlsyminstVisit              otk_detailing_03p90.cxx               0   
+
+
+
+   File_1: detail_03p90_info.inf
+
+   File_2: detail_03p90_info.qcr
+
+
+   The files are identical.
+

@@ -1,0 +1,12 @@
+!-------------------------------------------------------------------------------
+!
+! Reference file for regression test otk_detailing_03p90_spr15463139
+!
+! MODIFICATIONS:
+!
+! 30-Aug-24 Q-10-54 $$1 sshrivastava Created.
+! 23-May-25 Q-10-58 $$2 sarsewar     Updated for API ProDtlsyminstSolidSymGet
+!-------------------------------------------------------------------------------
+Annotation id: 7 type: 76 corresponding surface finish id: 0 type: 42
+Symbol Instance id: 8 type: 76 corresponding solid symbol instance id: 1 type: 76
+Annotation id: 11 type: 76 corresponding surface finish id: 1 type: 42
