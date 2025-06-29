@@ -1,0 +1,136 @@
+﻿!trail file version No. 2123
+!Creo  TM  Version Q-10-57  (c) 2025 by PTC Inc.  All Rights Reserved.
+!Exit Logger data:
+!	Process ID: 27752
+!	Application: Creo_Parametric
+!	Start date&time: 2025/04/10  12:35:52
+!	language: usascii
+!	machine type: x86e_win64
+!	datecode: 10.0.9.0
+!	Server: NONE
+!	Workspace: NONE
+!	traceback file: D:\GTM\spr16036835ProSelectionVerifyq10\testrun\gettrl\traceback.log
+!end Exit Logger data.
+!=============================================================================
+! 
+!Description: Test for SPR 16036835
+!
+!  Trail name: otk_annotation_006q10_spr16036835/_dll.txt
+!
+!  Steps taken by trail:
+!    1. 	Open Creo.
+!    2. 	Open part file prt0001.prt
+!    3. 	OTK_CPP_TESTS -> Button1
+!			a.In button1 action function, ProSelectionVerify(...) and ProSelectionModelitemGet(...) returns -2.
+!    4. 	close part file.
+!    5.		Erase not displayed.
+!    6.  	Open Drawing file test.drw
+!    7.		OTK_CPP_TESTS -> Button1
+!			a.In button1 action function, ProSelectionVerify(...) and ProSelectionModelitemGet(...) returns -1.
+!    8. 	Close Pro/E
+!
+!HISTORY:
+!Date          Build     Modifier  Rev#  Changes
+!--------------------------------------------------------------------
+!10-Apr-25     Q-13-03   sarsewar  $$1  Created.
+!
+!=============================================================================
+< 0 1.220741 1912 0 0 1030 1920 0 0 1080 13
+!mem_use INCREASE Blocks 928969, AppSize 12315780, SysSize 32559800
+< 0 1.052000 1052 0 0 1000 1920 0 0 1080 13
+< 0 1.055000 1055 0 0 1000 1920 0 0 1080 13
+< 0 1.055000 1055 0 0 1003 1920 0 0 1080 13
+< 0 1.055000 1055 0 0 1006 1920 0 0 1080 13
+< 0 0.950000 950 0 0 1006 1920 0 0 1080 13
+< 0 0.956444 1439 0 0 807 1920 0 0 1080 13
+< 0 0.956444 1390 0 0 807 1920 0 0 1080 13
+< 0 0.955259 1390 0 0 806 1920 0 0 1080 13
+< 0 1.000296 1638 0 0 844 1920 0 0 1080 13
+< 0 1.000296 1613 0 0 844 1920 0 0 1080 13
+!%CIWelcome to Creo Parametric 10.0.9.0.
+!AFX datecode: 10.0.8.0-rc.2 2025.01.07
+!AFX exec path: q:/q10/spg/system_1\afx\x86e_win64\afx100.dll
+!AFX text path: q:/q10/spg/system_1\afx\
+< 0 1.000296 1741 0 0 844 1920 0 0 1080 13
+!Application (otk_application): running DLL-mode user_initialize
+!Application (otk_application): returned from DLL-mode user_initialize; status is 0
+!Application (otk_application): started via registry.
+!	exec path: d:\GTM\spr16036835ProSelectionVerifyq10\x86e_win64\obj\otk_cpp_tests_dll.dll
+!	type: synchronous Pro/TOOLKIT DLL
+~ Command `ProCmdModelOpen` 
+!mem_use INCREASE Blocks 1002855, AppSize 41868856, SysSize 63436656
+< 2 0.118519 178 0 0 100 1920 0 0 1080 13
+~ Trail `` `` `DLG_PREVIEW_POST` \
+ `file_open`
+~ Activate `file_open` `Current Dir`
+~ Select `file_open` `Ph_list.Filelist` 1 `prt0001.prt`
+~ Trail `` `` `PREVIEW_POPUP_TIMER` \
+ `file_open:Ph_list.Filelist:<NULL>`
+~ Command `ProFileSelPushOpen_Standard@context_dlg_open_cmd` 
+!Command ProCmdModelOpenExe was pushed from the software.
+!10-Apr-25 12:36:46  Start D:\GTM\spr16036835ProSelectionVerifyq10\testrun\gettrl\prt0001.prt
+!LIGHT_FIX_MODEL_RMODE is 51
+!10-Apr-25 12:36:47  End   D:\GTM\spr16036835ProSelectionVerifyq10\testrun\gettrl\prt0001.prt
+!@ oa_sel_filter_set _90_
+!MT_CUST - Applied settings for mode # 1 : MT Part Solid
+!< 0 1.000296 1611 0 0 844 1920 0 0 1080 13
+!< 0 1.000296 1619 0 0 844 1920 0 0 1080 13
+!< 0 1.000296 1611 0 0 844 1920 0 0 1080 13
+!< 0 1.000296 1619 0 0 844 1920 0 0 1080 13
+!MT_CUST - Applied settings for mode # 1 : MT Part Solid
+~ Activate `main_dlg_cur` `user_custom_page_228130952_control_btn` 1
+~ Command `Button1` 
+!Application (otk_application): CmdMgr action_func '' called for cmd 'Button1'
+!Application (otk_application): CmdMgr action_func '' returned for cmd 'Button1'
+~ Command `ProCmdWinCloseGroup` 
+!Command ProCmdWinClose was pushed from the software.
+! Executed sub-command ProCmdWinCloseAsyn.
+!%CIBase window cannot be closed.
+< 0 1.000296 1760 0 0 844 1920 0 0 1080 13
+< 0 1.000296 1584 0 0 844 1920 0 0 1080 13
+~ Command `ProCmdModelEraseNotDisp` 
+~ Activate `file_erase_nd` `ok_pb`
+!%CIAll the objects which were not displayed have been erased.
+~ Command `ProCmdModelOpen` 
+< 2 0.118519 178 0 0 100 1920 0 0 1080 13
+~ Trail `` `` `DLG_PREVIEW_POST` \
+ `file_open`
+~ Activate `file_open` `Current Dir`
+~ Select `file_open` `Ph_list.Filelist` 1 `test.drw`
+~ Command `ProFileSelPushOpen_Standard@context_dlg_open_cmd` 
+!Command ProCmdModelOpenExe was pushed from the software.
+!10-Apr-25 12:37:54  Start D:\GTM\spr16036835ProSelectionVerifyq10\testrun\gettrl\test.drw
+!10-Apr-25 12:37:54  Start ▩7AAE771C5E43525FA30001
+!10-Apr-25 12:37:54  End   ▩7AAE771C5E43525FA30001
+!10-Apr-25 12:37:54  Start D:\GTM\spr16036835ProSelectionVerifyq10\testrun\gettrl\prt0001.prt
+!10-Apr-25 12:37:54  End   D:\GTM\spr16036835ProSelectionVerifyq10\testrun\gettrl\prt0001.prt
+!10-Apr-25 12:37:54  End   D:\GTM\spr16036835ProSelectionVerifyq10\testrun\gettrl\test.drw
+!MT_CUST - Applied settings for mode # 36 : MT Draw Part Solid
+!MT_CUST - Applied settings for mode # 36 : MT Draw Part Solid
+< 0 1.000296 1644 0 0 844 1920 0 0 1080 13
+< 0 1.000296 1637 0 0 844 1920 0 0 1080 13
+!MT_CUST - Applied settings for mode # 1 : Drawing Tree
+< 0 1.000296 1644 0 0 844 1920 0 0 1080 13
+< 0 1.000296 1637 0 0 844 1920 0 0 1080 13
+!Command ProCmdEnvShaded was pushed from the software.
+< 0 0.970667 1637 0 0 819 1920 0 0 1080 13
+!%CI Shaded model will be displayed
+< 0 0.970667 1647 0 0 819 1920 0 0 1080 13
+~ Activate `main_dlg_cur` `user_custom_page_191685032_control_btn` 1
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!Drawing context was changed by user from page_Layout to user_custom_page_191685032
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+~ Command `Button1` 
+!Application (otk_application): CmdMgr action_func '' called for cmd 'Button1'
+!Application (otk_application): CmdMgr action_func '' returned for cmd 'Button1'
+~ Select `main_dlg_cur` `appl_casc`
+~ Close `main_dlg_cur` `appl_casc`
+~ Command `ProCmdExit` 
+! Message Dialog: Warning
+!               : Creo Parametric will terminate and any unsaved work will be lost.
+!               : Do you really want to exit?
+~ Activate `UI Message Dialog` `yes`
+!%CI1089736 blocks; Size: 46335509; Overhead: 27621531; Peak system size: 73957736.
+!Application (otk_application): running DLL-mode user_terminate
+!Application (otk_application): returned from DLL-mode user_terminate
+!End of Trail File

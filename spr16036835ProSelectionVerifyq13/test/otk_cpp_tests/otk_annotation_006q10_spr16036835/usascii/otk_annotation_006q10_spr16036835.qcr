@@ -1,0 +1,27 @@
+!======================================================================
+!
+!  QCR file for test otk_annot_006q10_spr16036835_/dll.txt
+!
+!  MODIFICATIONS
+!
+!  10-Apr-25	Q-13-03	sarsewar	$$1	Created for spr16036835
+!
+!======================================================================
+wfcWSession::cast
+wfcWSession::UICreateCommand
+pfcUICommand::Designate
+ProMdlCurrentGet                       otk_annotation_006q10.cxx             0   
+
+ProSelectionAlloc                      otk_annotation_006q10.cxx             0   
+
+ProSelectionVerify                     otk_annotation_006q10.cxx             -2   
+
+ProSelectionModelitemGet               otk_annotation_006q10.cxx             -2   
+
+ProMdlCurrentGet                       otk_annotation_006q10.cxx             0   
+
+ProSelectionAlloc                      otk_annotation_006q10.cxx             0   
+
+ProSelectionVerify                     otk_annotation_006q10.cxx             -1   
+
+ProSelectionModelitemGet               otk_annotation_006q10.cxx             -1   

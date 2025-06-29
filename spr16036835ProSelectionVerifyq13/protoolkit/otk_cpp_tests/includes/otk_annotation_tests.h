@@ -1,0 +1,1049 @@
+#ifndef OTK_ANNOTATION_TESTS_H
+#define OTK_ANNOTATION_TESTS_H
+
+/*******************************************************************
+
+     HISTORY:
+Date       Build     Modifier  Rev#  Changes
+--------------------------------------------------------------------
+09-Feb-12  P-10-17   rkumbhare  $$1   Created.
+04-Apr-12  P-20-02    spatil    $$2   Created.
+26-Jun-12  P-20-08   ppednekar  $$3   Added 003p20.
+11-July-12  P-20-09   rkothari  $$4   Added 004p20.
+11-July-12  P-20-10   rkothari  $$5   Added 005p20.
+04-Dec-12   P-20-18   sbinawad  $$6   Added 003p10
+16-Jan-12   P-20-21   rkothari  $$7   Added 006p20
+23-Jan-12   P-20-22   rkothari  $$8   Added 006p20
+24-Apr-13  P-20-28   pdeshpande $$9  Ported 004p10 from P-10.
+23-May-13  P-20-30   rkothari   $$10 Ported 00510 from P-10.
+27-May-13  P-20-30   rkothari   $$11 Ported show10 from P-10.
+04-Jul-13  P-20-33   rkumbhare  $$12 Added 008p10.
+09-Aug-13  P-20-36   asingla    $$13   Added 009p10
+19-Aug-13  P-20-36   asingla    $$14 Added 010p10.
+09-Oct-13  P-20-40   rkumbhare  $$15 Added 008p20.
+31-Oct-13  P-20-41   rkothari  $$16 Added 009p20.
+17-Dec-13  P-20-44   asingla  $$17 Added 011p10.
+09-Jan-13  P-20-45   rkothari $$18 Added 006p10
+25-Feb-14  P-20-48   asingla  $$19  Added 014p10/013p10
+20-Mar-14  P-20-50   asingla  $$20  Added 015p10
+07-Apr-14  P-20-51   asingla  $$21  Added 016p10 /017p10 .
+09-Apr-14  P-20-52   asingla  $$22  Added 018p10 /019p10 .
+21-Apr-14  P-20-52   asingla  $$23  Added 020p10 ,021p10
+02-May-14  P-20-53   pkodre   $$24  Added 022p10 for spr2211694
+05-May-14  P-20-53   asingla  $$25  Added 012p10
+06-Nov-14  P-20-63   rkothari $$26  Added 023p10,024p10,025p10
+20-Nov-14  P-20-63   rkothari $$27  Added 023p10,024p10,026p10
+21-Jan-15  P-20-64   rkothari $$28  Added 027p10
+14-Apr-15  P-30-06   mrukshad $$29 Added 028p10
+05-Jun-15  P-30-10   psakpal  $$30 Added 030p10.
+23-Jun-15  P-30-11   rkothari $$31 Added 01p30
+24-Jun-15  P-30-11   psakpal  $$32 Added 031p10
+20-Jul-15  P-30-12   nkhedkar $$33 Added 032p10
+02-Aug-15  P-30-13   rkothari  $$34 Added 002p30,003p30
+15-Sep-15  P-30-16   rkothari  $$35 Added erasep20
+05-Oct-15  P-30-17   pkumar    $$36  added 029p10
+30-Nov-15  P-30-21   pkumar    $$37  Added 037p10
+04-Dec-15  P-30-22   pkumar    $$38  added 035p10
+06-Jan-16  P-30-23   pkumar    $$39  added 039p30,040p30,041p30,042p30
+15-Jan-16  P-30-24   hdavid    $$40 Added 011p20
+29-Jan-16  P-30-25   pkumar    $$41 Added 039p10 
+23-Jan-12  P-30-26   rkothari  $$42   Added 04p30
+15-Feb-16  P-30-26   pkumar    $$43 Added 040p10
+16-Feb-16  P-30-26   rkumbhare $$44 Added 044p30 & 045p30.
+17-Feb-16  P-30-26   sbinawad  $$45 Added 043p30
+22-Feb-16  P-30-26   rkumbhare $$46 Added 046p30.
+02-Mar-16  P-30-27   rkothari  $$47 Added 05p30.
+14-Mar-16  P-30-27   hdavid    $$48 Added 050p30.
+16-Mar-16  P-30-28   nkhedkar  $$49 Added 048p30 & 052p30
+17-Mar-16  P-30-28   rkothari  $$50 Added 06p30.
+17-Mar-16  P-30-28   rkumbhare $$51 Added 047p30/ 049p30/ 051p30.
+04-Apr-16  P-30-29   rkumbhare $$52 Added 054p30.
+11-Apr-16  P-30-30   nkhedkar  $$53 Added 053p30
+13-Apr-16  P-30-30   rkumbhare      Added 055p30.
+22-Apr-16  P-30-30   aphatak   $$54 Added soliddim
+27-Apr-16  P-30-31   nkhedkar  $$55 Added 056p30.
+04-May-16  P-30-31   aphatak   $$56 Added solidrefdim
+05-May-16  P-30-31   aphatak   $$57 Added solidorddim
+04-May-16  P-30-31   rkumbhare 		Added 060p30.
+05-May-16  P-30-31   nkhedkar   	Added solidorddim
+29-Apr-16  P-30-31   sbinawad  		Added 058p30, 059p30
+09-May-16  P-30-32   rkumbhare $$58 Added 061p30, 064p30.
+		     sbinawad       Added 062p30.
+                     nkhedkar       Added 063p30.
+11-May-16  P-30-32   sbinawad  $$59 Added 065p30
+                     nkhedkar       Added 066p30
+23-May-16  P-30-32   aphatak   $$60 Added surffin
+24-May-16  P-30-32   rkumbhare $$61 Added 067p30, 070p30.
+26-May-16  P-30-32   rkumbhare $$62 Added 071p30, 072p30.
+30-May-16  P-30-32   rkumbhare $$63 Added 073p30.
+01-Jun-16  P-30-32   sbinawad  $$64 Added 077p30.
+31-May-16  P-30-33   rkumbhare $$65 Added 078p30.
+06-Jun-16  P-30-33   nkhedkar  $$66 Added 068p30-083p30.
+                     hdavid         Added 079p30, 080p30.
+18-Jun-16  P-30-34   rkumbhare $$67 Added 086p30.                     
+08-Jul-16  P-30-35   rkumbhare $$68 Added 087p30.   
+13-Jul-16  P-30-36   aphatak   $$69 Added autoprop
+18-Jul-16  P-30-36   rkothari  $$70 Added 07p30
+25-Jul-16  P-30-36   nkhedkar  $$71 Added 044p20
+04-Aug-16  P-30-37   nkhedkar  $$72 Added 088p30-090p30
+16-Aug-16  P-30-38   nkhedkar  $$73 Added 092p30
+17-Aug-16  P-30-38   rkumbhare $$74 Added 091p30/ 093p30.
+18-Aug-16  P-30-38   rkothari  $$75 Added 08p30,09p30
+23-Aug-16  P-30-38   zwadwan   $$76 Added 094p30
+23-Aug-16  P-30-39   aphatak   $$77 Added 095p30
+29-Aug-16  P-30-39   zwadwan        Added 096p30
+29-Aug-16  P-30-39   zwadwan   $$78 Fixed build failure
+31-Aug-16  P-30-39   isingh    $$79 Added 045p20
+31-Aug-16  P-30-39   zwadwan        Added 097p30 
+01-Sep-16  P-30-39   zwadwan   $$80 Added 098p30
+13-Sep-16  P-30-40   nkhedkar  $$81 Added 100p30
+16-Sep-16  P-30-40   zwadwan   $$82 Added 101p30 
+20-Sep-16  P-30-40   rkothari  $$83 Added 10p30
+13-Sep-16  P-30-40   nkhedkar  $$84 Added 99p30
+22-Sep-16  P-30-41   rkumbhare $$85 Added 103p30/ 104p30.  
+					 isingh			Added 045p10 for SPR2876975
+28-Sep-16  P-30-41   zwadwan   $$86 Added 102p30
+29-Sep-16  P-30-41   rkothari  $$87 Added 11p30					 
+28-Sep-16  P-30-41   rkumbhare $$88 Added 105p30.
+29-Sep-16  P-30-41   rkumbhare $$89 Added 106p30.
+04-Oct-16  P-30-41   zwadwan   $$90 Added 107p30
+06-Oct-16  P-30-41   zwadwan   $$91 Added 108p30
+12-Oct-16  P-30-41   isingh    $$92 Added 043p10 for spr 5133485
+17-Oct-16  P-30-41   aphatak   $$93 Added 110p30
+18-Oct-16  P-30-41   zwadwan   $$94 Added 109p30 for spr 6164091
+21-Oct-16  P-30-41   aphatak   $$95 Added 116p30
+21-Oct-16  P-30-41   isingh    $$96 Added 038p10 for 4837024
+24-Oct-16  P-30-41   nkhedkar  $$97 Added 111p30 - 115p30
+24-Oct-16  P-30-41   zwadwan   $$98 Added for spr 6173991,spr5846353,spr6189014
+25-Oct-16  P-30-41   isingh    $$99 Added for spr6089468, spr4915927
+26-Oct-16            zwadwan        Added for spr5665160 ,spr6180887
+27-Oct-16  P-30-41   zwadwan   $$100 Added for spr5912571_1,spr5912571_2,spr5912571_3,spr5912571_4,spr6174599,spr6185654,spr6185634
+01-Nov-16  P-30-41   zwadwan   $$101 Added 127p30, Added 128p30 for spr6195087
+29-Sep-16  P-30-42   rkothari  $$102 Added 036p10
+20-Mar-17  P-50-03   zwadwan   $$103 Added 130p30 for SPR 6533772
+12-Apr-17  P-50-04   zwadwan   $$104 Added 132p30 for SPR 6486788
+21-Apr-17  P-50-06   zwadwan   $$105 Added 134p30 for SPR 6596628
+02-May-17  P-50-07   rkumbhare $$106 Added 136p50.
+					 sbinawad        Added 137p50
+05-May-17  P-50-08   sbinawad  $$107 Added 138p50 for gtol testing
+					 rkumbhare        Added 139p50
+11-May-17  P-50-09   sbinawad  $$108 Added 141p50
+12-May-17  P-50-09   zwadwan   $$109 Added 136p30 for spr 6603619
+18-May-17  P-50-10   rkumbhare $$110 Added 143p50.
+					 sbinawad        Added 142p50
+12-May-17  P-50-10   isingh    $$111 Added 046p20 for spr 6415085
+26-May-17  P-50-11   sbinawad  $$112 Added 144p50
+31-May-17  P-50-11   nkhedkar  $$113 Added 140p50
+06-Jun-17  P-50-12   nkhedkar  $$114 Added 146p50
+08-Jun-17  P-50-12   zwadwan   $$115 Added 139p30 for spr6717536, 133p30 for spr6482737
+08-Jun-17  P-50-12   zwadwan   $$116 Added 047p20 for spr 5211786,137p30 for spr 6599200,131p30 for spr6196804
+16-Jun-17  P-50-14   sbinawad  $$117 Added 145p50, 148p50, 149p50
+22-Jun-17  P-50-15   rkumbhare $$118 Added 150p50, 151p50.
+27-Jun-17  P-50-15   rkumbhare $$119 Added 152p50.
+10-Jul-17  P-50-17   rkumbhare $$120 Added 153p50.
+18-Jul-17  P-50-18   rkumbhare $$121 Added 154p50/ 155p50.
+31-Aug-17  P-50-26   rkumbhare $$122 Added 156p50.
+04-Sep-17  P-50-26   rkumbhare $$123 Added 157p50.
+29-Sep-17  P-50-29  shwdeshmukh $$124  Added 050p20 for SPR 6681900.
+11-Oct-17  P-50-31  shwdeshmukh $$125  Added 135p30
+16-Oct-17  P-50-32 psoundalgekar $$126 Added 143p30 for SPR 6962728.
+23-Oct-17  P-50-32  yhatolkar   $$127  Added 049p10.
+08-Nov-17  P-50-35  jtejaswi   $$128  Added 141p30.
+10-Nov-17  P-50-36  jtejaswi	$$129  Added 146p30 for spr 7024652.
+24-Nov-17  P-50-38  psoundalgekar $$130 Added 147p30 for SPR 6966641
+01-Dec-17  P-50-39  psoundalgekar $$131  Added 148p30 for SPR 7061146
+03-Jan-18  P-50-44  jtejaswi	  $$132  Added 149p30 for spr7073560, 052p20 for spr7025852.
+					shwdeshmukh          Added 150p30 for spr6248583.
+18-Jan-18  P-50-45  psoundalgekar $$133  Added 151p30 for SPR 7141168.
+01-Feb-18  P-50-47	yhatolkar   $$134	 Added 158p50 for spr2822291.
+					shwdeshmukh   	 	 Added 152p30 for spr7096842.
+12-Feb-18  P-50-48  psoundalgekar $$135  Added 129p30 for SPR 6393084, 140p30 for SPR 6633308.
+19-Feb-18  P-50-48   jtejaswi     $$136  Added 053p20 for SPR 6395418.
+22-Feb-18  P-50-49  psoundalgekar $$137  Added 153p30 for SPR 6962827.
+26-Apr-18  P-60-01  shwdeshmukh   $$138  Added 145p30 for SPR 7020730
+26-Apr-18  P-60-02  psoundalgekar $$139  Added 055p20 for SPR 7392811.
+16-May-18  P-60-03  psoundalgekar $$140  Added 154p30 for SPR 7201658.
+31-Aug-18  P-60-16  adevasi       $$141  Added 12p30  for SPR 7322847.
+25-Sep-18  P-60-19  bbhagat		  $$142  Added 156p30 for SPR 7618729.
+12-Oct-18  P-60-21  adevasi       $$143  Added 01p60 for spr6969904
+24-Oct-18  P-60-22  adevasi       $$144  Added  02p60,03p60,04p60
+24-Jan-19  P-60-31  rkumbhare     $$145  Added 158p30 and 159p30.
+12-Feb-19  P-60-31  rkothari      $$146  Added 013p30 , 142p30
+11-Apr-19  P-70-04	bbhagat		  $$147	 Added 160p30 for SPR 7596518.
+27-Jun-19  P-70-15  sbinawad      $$148  Added 161p30 for SPR 2833984
+31-Oct-19  P-70-32  rakerkar      $$149  Added 165p30 for SPR 8698037
+25-Nov-19  P-70-35  rkothari      $$150  Added 14p30,15p30,16p30,25p30
+12-Dec-19  P-70-37  sshrivastava  $$151  Added 166p30 SPR 8239700.
+30-Dec-19  P-70-39  rkothari      $$152 18p30
+31-Dec-19  P-70-39  rkothari      $$153 19p30 to 28p30
+09-Jan-20  P-70-40  ychavhan      $$154  Added 167p30 SPR 9559089   
+09-Jan-20  P-70-40  rkothari      $$155 29p30,05p60
+31-Jan-20  P-70-44  rakerkar      $$156  Added 157p30 for SPR 7721703.
+20-Feb-20  P-70-44	ychavhan	  $$157	 Added 169p30 for SPR 9503164
+21-Feb-20  P-70-44	sshrivastava  $$158	 Added 162p30 for spr8088937, 17p30 for spr8194214
+02-Mar-20  P-70-44  rakerkar      $$159  Added 168p30 for SPR 9562305 and 163p30 for SPR 8072662.
+03-Mar-20  P-70-44  rkothari      $$160 31p30 
+09-Mar-20	P-70-44	sshrivastava	$$161	Added 171p30 for spr5838579
+23-Apr-20  P-80-01  rkothari      $$162  01p80
+28-Apr-20    P-80-01    rkothari    $$163    Added 30p30 for sty9656626_1
+05-May-20  P-80-02  rkothari      $$164  02p80
+24-May-20  P-80-04  rkothari      $$165 03p80
+23-Jun-20  P-80-09	ychavhan	  $$166	Added 172p30 for spr10076824
+02-Jul-20	P-80-11	rkumbhare	$$167	Added 06p60 for spr10142640
+09-Jul-20	P-80-11	ychavhan	$$168	Added 08p60 for spr10017546
+09-Sep-20	P-80-20	rkumbhare	$$169	Added 173p30 for spr10092130.
+09-Sep-20  P-80-20   rkothari  $$170 04p80
+17-Sep-20 P-80-21  rkothari $$171 32,33,34,35,36,37p30
+29-Sep-20	P-80-23	ychavhan	$$172	Added 174p30 for spr10237873
+22-Oct-20  P-80-25 rkothari  $$173 05p80
+23-Oct-20   P-80-26	ychavhan	$$174	Added 177p30 for spr10503571
+10-Nov-20    P-80-28 rkothari   $$175 06p80
+20-Nov-20	P-80-29	ychavhan	$$176 Added 178p30 for spr10237901
+22-Nov-20	P-80-29	ychavhan	$$177 Added 01p70 for spr11140862
+23-Nov-20   P-80-30  rkothari  $$178 38p30,175p30
+26-Nov-20	P-80-30	ychavhan	$$179 Added 02p70 for spr10860459
+07-Dec-20   P-80-32 rkothari  $$180 180p30,176p30
+10-Dec-20   P-80-32 sbinawad  $$181  Added 179p30 for SPR 10202275
+26-Feb-21   P-80-40 rkothari  $$182 181p30
+17-May-21   P-90-09 sbinawad  $$183  Added 01p90 for story 12715844
+24-May-21   P-90-10 sbinawad  $$184  Added 02p90, 03p90, 05p90 for story 12715844
+27-May-21	P-90-10	ychavhan  $$185	 Added 04p90 and 06p90 for str_12713215_1
+27-May-21	P-90-10	ychavhan  $$186	 Added 09p90,07p90 for str_12713215_3 and str_12713215_4
+01-Jun-21   P-90-11 sbinawad  $$187  Added 08p90
+01-Jun-21	P-90-11	ychavhan  $$188  Added 010p90 and 011p90 for str12715845
+01-Jun-21	P-90-12	ychavhan  $$189	 Added 012p90 for str12715845_3
+08-Jun-21   P-90-12   rkothari  $$190 13p90/14p90.
+21-Jun-21	P-90-14	ychavhan  $$191	Added 03p70 for spr12042531
+08-Jul-21	P-90-16	ychavhan  $$192	Added 07p80 for spr12759543
+09-Jul-21   P-90-16 rkothari  $$193 06p70,07p70
+22-Jul-21   P-90-18 sbinawad  $$194 08p70
+23-Aug-21   P-90-23 sbinawad  $$195 Replaced API API name from doc.
+30-Aug-21   P-90-24 aphatak   $$196 Obsolete 151p30 due to deprecated Gtol API
+13-Sep-21   P-90-25 aphatak   $$197 Obsolete 012p10,107p30,118p30,121p30 due to deprecated Gtol API
+01-Nov-21   P-90-32 rkothari  $$198 05p70
+02-Nov-21	P-90-32	ychavhan  $$199	Added 010p70 for spr13277347
+17-Nov-21	P-90-34	ychavhan  $$200	Added 013p70 for spr13251759
+22-Nov-21	P-90-35	ychavhan  $$201	Added 015p90 for AnnotationErase
+10-Jan-22    P-90-42    rkothari  $$202    Remove Semi Annotation Element APIs
+12-Jan-22	P-90-42	gshinde	$$203	Added 014p70 for spr13393257
+18-Jan-22    P-90-43    ychavhan    $$204    Added 015p70 for spr13393923
+21-Jan-22	P-90-43	gshinde	$$205	Added 016p70 for spr13386320
+08-Feb-22   P-90-46 rkothari $$206 017p70,018p70,019p70,020p70
+10-Mar-22	Q-10-02	ychavhan	$$207	Added 021p70 for spr13375912
+29-Mar-22	Q-10-05	gshinde	$$208	Added 025p70 for spr13556393
+14-Apr-22	Q-10-07	gshinde	$$209	Added 024p70 for spr13549215
+12-May-22	Q-10-10	gshinde	$$210	Added 026p70 for spr13645358
+04-Jul-22	Q-10-18	sbinawad  $$211  Added 027p70 for spr13790933
+29-Aug-22	Q-10-25	cmandke	$$212	Added 028p70 for SPR13902975
+05-Sep-22	Q-10-26	cmandke	$$213	Added 029p70 for spr13884552
+16-Feb-23	Q-10-48	ychavhan $$214	Added spr14314204
+20-Mar-23	Q-11-03	ychavhan	$$215	Added 032p70 for spr14316648
+05-Apr-23	Q-11-06	sbinawad	$$216	Added 033p70 for spr14363233
+18-Apr-23	Q-11-08	ychavhan	$$217	Added 09p80 for spr13744346
+13-Jun-23	Q-11-16	sbinawad	$$218	Added 035p70 for 14512454
+18-Jul-23	Q-11-21	ychavhan	$$219	Added 036p70 for spr14627430
+27-Jul-23	Q-11-22	ychavhan	$$220	Added 037p70 for spr14445727
+29-Aug-23	Q-11-27	ychavhan	$$221	Added 038p70 for spr14513147
+06-Sep-23   Q-11-28 sbinawad    $$222   Added 039p70 for 14631397
+11-Sep-23	Q-11-29	ychavhan	$$223	Added 016p90 for spr14524168
+18-Sep-23	Q-11-30	cmandke	$$224	Added 10p80 for spr14683531
+26-Oct-23	Q-11-35	sbarde	$$225	Added 11p80 for spr14651899
+21-Nov-23   Q-11-40 rkothari $$226   04q11
+19-Oct-23	Q-11-41	ychavhan	$$227	Added 02q11 for sty14839895
+04-Dec-23	Q-11-41	ychavhan	$$228	Added 03q11 for sty14839895
+04-Dec-23	Q-11-43	ychavhan	$$229	Added 01q11 for sty14839895
+02-Jan-24	Q-11-45	ychavhan	$$230	Added 06q11 for sty14839895
+03-Jan-24	Q-11-45	ychavhan	$$231	Added 07q11 for sty14839895
+04-Jan-24	Q-11-46	cmandke	$$232	Added 12q11 for sty15040984
+16-Jan-24	Q-11-47	ychavhan	$$233	Added 13q11 and 015q11 for sty15040985
+23-Jan-24	Q-11-48	ychavhan	$$234	Added 17q11 for sty15040985
+25-Jan-24	Q-11-48	cmandke	$$235	Added 16q11 for sty15040986_11
+30-Jan-24	Q-11-49	ychavhan	$$236	updated incorrect conflict resolve.
+08-Feb-24	Q-11-50	sbarde	$$237	Added 14p80 for spr14900351
+06-Mar-24	Q-12-02	ychavhan	$$238	Added 01q10 for spr15036607
+10-May-24   Q-12-12 rkothari 	$$239   15p80
+15-May-24   Q-12-12 ychavhan    $$240   Added 21q11 for spr15029783
+16-May-24	Q-12-12	ychavhan	$$241	Added 17p90 for spr15117993
+20-May-24   Q-12-13 rkothari    $$242   18q11 19q11
+28-May-24	Q-12-14	cmandke	$$243	002q10
+06-Jun-24	Q-12-15	cmandke	$$244	Added 003q10 for spr15259002
+25-Jun-24	Q-12-18	ychavhan	$$245	Added 16p80 for spr15290514
+02-Jul-24   Q-12-19 sshrivastava $$246  Added 18p90 for spr15472412
+09-Jul-24	Q-12-20	cmandke	$$247	Added 004q10 for spr15463941
+30-Jul-24	Q-12-23	ychavhan	$$248	Added 17p80 for spr15480549
+13-Aug-24   Q-12-25 rkothari   $$249    01q12
+21-Aug-24   Q-12-26 rkothari   $$250    02q12
+12-Sep-24	Q-12-29	sarsewar	$$251	Added 22q11 for spr15527324
+24-Sep-24   Q-12-31 sshrivastava $$252  Added 005q12 for sty15532276
+24-Oct-24	Q-12-35	ychavhan	$$253	Added 23q11 for spr15662278
+19-Nov-24   Q-12-39 sshrivastava $$254  Added 24q11 for spr15675348
+25-Nov-24   Q-12-40 sshrivastava $$255  Added 18p80 for spr15760713
+19-Nov-24	Q-12-40	cmandke	$$256	Added 006q12, 007q12 for sty15534192_1
+26-Nov-24	Q-12-41	sashtagi	$$257	Added 025q11 for spr15720385
+08-Jan-25   Q-12-46 sshrivastava $$258  Added 19p90 for spr15823423
+24-Jan-25   Q-12-49 sshrivastava $$259  Added 20p90 for spr15480810
+29-Jan-25   Q-12-49 sshrivastava $$260  Added 19p80 for spr15812071
+18-Feb-25   Q-12-52 sshrivastava $$261  Added 21p90 for spr15958338
+10-Apr-25	Q-13-03	sarsewar	$$262	Added 006q10 for spr16036835
+*******************************************************************/
+
+#include <OtkTUtils.h>
+
+#define OTK_ANNOTATION(ID) OTK_TEST_FUNC(annotation, ID)
+#define OTK_ANNOTATION_ENTRY(ID, DESC) OTK_TEST_ENTRY(annotation, ID, DESC)
+
+OTK_ANNOTATION(001p10);
+OTK_ANNOTATION(002p10);
+OTK_ANNOTATION(003p20);
+OTK_ANNOTATION(004p20);
+OTK_ANNOTATION(005p20);
+OTK_ANNOTATION(006p20);
+OTK_ANNOTATION(007p20);
+OTK_ANNOTATION(008p20);
+OTK_ANNOTATION(009p20);
+OTK_ANNOTATION(011p20);
+
+/* P10 porting */
+OTK_ANNOTATION(003p10);
+OTK_ANNOTATION(004p10);
+OTK_ANNOTATION(005p10);
+OTK_ANNOTATION(showp10);
+OTK_ANNOTATION(006p10);
+OTK_ANNOTATION(008p10);
+OTK_ANNOTATION(009p10);
+OTK_ANNOTATION(010p10);
+OTK_ANNOTATION(011p10);
+OTK_ANNOTATION(013p10);
+OTK_ANNOTATION(014p10);
+OTK_ANNOTATION(015p10);
+OTK_ANNOTATION(016p10);
+OTK_ANNOTATION(017p10);
+OTK_ANNOTATION(018p10);
+OTK_ANNOTATION(019p10);
+OTK_ANNOTATION(020p10);
+OTK_ANNOTATION(021p10);
+OTK_ANNOTATION(022p10);
+OTK_ANNOTATION(023p10);
+OTK_ANNOTATION(024p10);
+OTK_ANNOTATION(025p10);
+OTK_ANNOTATION(026p10);
+OTK_ANNOTATION(027p10);
+OTK_ANNOTATION(028p10);
+OTK_ANNOTATION(029p10);
+OTK_ANNOTATION(030p10);
+OTK_ANNOTATION(031p10);
+OTK_ANNOTATION(032p10);
+OTK_ANNOTATION(035p10);
+OTK_ANNOTATION(036p10);
+OTK_ANNOTATION(037p10);
+OTK_ANNOTATION(039p10);
+OTK_ANNOTATION(040p10);
+OTK_ANNOTATION(045p10);
+OTK_ANNOTATION(043p10);
+OTK_ANNOTATION(038p10);
+/* P20 porting */
+OTK_ANNOTATION(erasep20);
+
+/*P30 Test*/
+OTK_ANNOTATION(01p30);
+OTK_ANNOTATION(02p30);
+OTK_ANNOTATION(03p30);
+OTK_ANNOTATION(04p30);
+OTK_ANNOTATION(05p30);
+OTK_ANNOTATION(06p30);
+OTK_ANNOTATION(07p30);
+OTK_ANNOTATION(08p30);
+OTK_ANNOTATION(09p30);
+OTK_ANNOTATION(10p30);
+OTK_ANNOTATION(11p30);
+OTK_ANNOTATION(12p30);
+OTK_ANNOTATION(13p30);
+OTK_ANNOTATION(14p30);
+OTK_ANNOTATION(15p30);
+OTK_ANNOTATION(16p30);
+OTK_ANNOTATION(18p30);
+OTK_ANNOTATION(19p30);
+OTK_ANNOTATION(20p30);
+OTK_ANNOTATION(21p30);
+OTK_ANNOTATION(22p30);
+OTK_ANNOTATION(23p30);
+OTK_ANNOTATION(24p30);
+OTK_ANNOTATION(25p30);
+OTK_ANNOTATION(26p30);
+OTK_ANNOTATION(27p30);
+OTK_ANNOTATION(28p30);
+OTK_ANNOTATION(29p30);
+OTK_ANNOTATION(31p30);
+OTK_ANNOTATION(32p30);
+OTK_ANNOTATION(33p30);
+OTK_ANNOTATION(34p30);
+OTK_ANNOTATION(35p30);
+OTK_ANNOTATION(36p30);
+OTK_ANNOTATION(37p30);
+OTK_ANNOTATION(38p30);
+OTK_ANNOTATION(039p30);
+OTK_ANNOTATION(040p30);
+OTK_ANNOTATION(041p30);
+//OTK_ANNOTATION(042p30);
+OTK_ANNOTATION(043p30);
+OTK_ANNOTATION(044p30);
+OTK_ANNOTATION(045p30);
+OTK_ANNOTATION(046p30);
+OTK_ANNOTATION(047p30);
+OTK_ANNOTATION(049p30);
+OTK_ANNOTATION(050p30)
+OTK_ANNOTATION(048p30)
+OTK_ANNOTATION(051p30);
+OTK_ANNOTATION(052p30);
+OTK_ANNOTATION(054p30);
+OTK_ANNOTATION(053p30)
+OTK_ANNOTATION(055p30);
+OTK_ANNOTATION(soliddim);
+OTK_ANNOTATION(056p30)
+OTK_ANNOTATION(solidrefdim);
+OTK_ANNOTATION(solidorddim);
+OTK_ANNOTATION(057p30)
+OTK_ANNOTATION(058p30);
+OTK_ANNOTATION(059p30);
+OTK_ANNOTATION(060p30);
+OTK_ANNOTATION(061p30);
+OTK_ANNOTATION(062p30);
+OTK_ANNOTATION(063p30);
+OTK_ANNOTATION(064p30);
+OTK_ANNOTATION(065p30);
+OTK_ANNOTATION(066p30);
+OTK_ANNOTATION(surffin);
+OTK_ANNOTATION(067p30);
+OTK_ANNOTATION(070p30);
+OTK_ANNOTATION(071p30);
+OTK_ANNOTATION(072p30);
+OTK_ANNOTATION(073p30);
+OTK_ANNOTATION(077p30);
+OTK_ANNOTATION(068p30)
+OTK_ANNOTATION(069p30)
+OTK_ANNOTATION(074p30)
+OTK_ANNOTATION(075p30)
+OTK_ANNOTATION(076p30)
+OTK_ANNOTATION(078p30);
+OTK_ANNOTATION(079p30);
+OTK_ANNOTATION(080p30);
+OTK_ANNOTATION(081p30)
+OTK_ANNOTATION(082p30)
+OTK_ANNOTATION(083p30)
+OTK_ANNOTATION(086p30)
+OTK_ANNOTATION(087p30)
+OTK_ANNOTATION(autoprop)
+OTK_ANNOTATION(044p20)
+OTK_ANNOTATION(088p30)
+OTK_ANNOTATION(089p30)
+OTK_ANNOTATION(090p30)
+OTK_ANNOTATION(091p30)
+OTK_ANNOTATION(092p30)
+OTK_ANNOTATION(093p30)
+OTK_ANNOTATION(094p30)
+OTK_ANNOTATION(095p30)
+OTK_ANNOTATION(096p30)
+OTK_ANNOTATION(045p20)
+OTK_ANNOTATION(097p30)
+OTK_ANNOTATION(098p30)
+OTK_ANNOTATION(100p30)
+OTK_ANNOTATION(101p30)
+OTK_ANNOTATION(99p30)
+OTK_ANNOTATION(102p30)
+OTK_ANNOTATION(103p30)
+OTK_ANNOTATION(104p30)
+OTK_ANNOTATION(105p30)
+OTK_ANNOTATION(106p30)
+OTK_ANNOTATION(108p30)
+OTK_ANNOTATION(110p30)
+OTK_ANNOTATION(109p30)
+OTK_ANNOTATION(116p30)
+OTK_ANNOTATION(111p30)
+OTK_ANNOTATION(112p30)
+OTK_ANNOTATION(113p30)
+OTK_ANNOTATION(115p30)
+OTK_ANNOTATION(114p30)
+OTK_ANNOTATION(117p30)
+OTK_ANNOTATION(119p30)
+OTK_ANNOTATION(120p30)
+OTK_ANNOTATION(122p30)
+OTK_ANNOTATION(123p30)
+OTK_ANNOTATION(124p30)
+OTK_ANNOTATION(125p30)
+OTK_ANNOTATION(126p30)
+OTK_ANNOTATION(127p30)
+OTK_ANNOTATION(128p30)
+OTK_ANNOTATION(130p30)
+OTK_ANNOTATION(131p30)
+OTK_ANNOTATION(132p30)
+OTK_ANNOTATION(133p30)
+OTK_ANNOTATION(134p30)
+OTK_ANNOTATION(136p30)
+OTK_ANNOTATION(137p30)
+OTK_ANNOTATION(139p30)
+OTK_ANNOTATION(136p50)
+OTK_ANNOTATION(137p50)
+OTK_ANNOTATION(138p50)
+OTK_ANNOTATION(139p50)
+OTK_ANNOTATION(141p50)
+OTK_ANNOTATION(142p50)
+OTK_ANNOTATION(143p50)
+OTK_ANNOTATION(046p20)
+OTK_ANNOTATION(144p50)
+OTK_ANNOTATION(140p50)
+OTK_ANNOTATION(145p50)
+OTK_ANNOTATION(146p50)
+OTK_ANNOTATION(047p20)
+OTK_ANNOTATION(147p50)
+OTK_ANNOTATION(148p50)
+OTK_ANNOTATION(149p50)
+OTK_ANNOTATION(150p50)
+OTK_ANNOTATION(151p50)
+OTK_ANNOTATION(152p50)
+OTK_ANNOTATION(153p50)
+OTK_ANNOTATION(154p50)
+OTK_ANNOTATION(155p50)
+OTK_ANNOTATION(156p50)
+OTK_ANNOTATION(157p50)
+OTK_ANNOTATION(050p20)
+OTK_ANNOTATION(135p30)
+OTK_ANNOTATION(143p30)
+OTK_ANNOTATION(049p10)
+OTK_ANNOTATION(141p30)
+OTK_ANNOTATION(142p30)
+OTK_ANNOTATION(146p30)
+OTK_ANNOTATION(147p30)
+OTK_ANNOTATION(148p30)
+OTK_ANNOTATION(149p30)
+OTK_ANNOTATION(052p20)
+OTK_ANNOTATION(150p30)
+OTK_ANNOTATION(152p30)
+OTK_ANNOTATION(158p50)
+OTK_ANNOTATION(129p30)
+OTK_ANNOTATION(140p30)
+OTK_ANNOTATION(053p20)
+OTK_ANNOTATION(153p30)
+OTK_ANNOTATION(145p30)
+OTK_ANNOTATION(055p20)
+OTK_ANNOTATION(154p30)
+OTK_ANNOTATION(156p30)
+OTK_ANNOTATION(157p30)
+OTK_ANNOTATION(158p30)
+OTK_ANNOTATION(159p30)
+OTK_ANNOTATION(01p60)
+OTK_ANNOTATION(02p60)
+OTK_ANNOTATION(03p60)
+OTK_ANNOTATION(04p60)
+OTK_ANNOTATION(05p60)
+OTK_ANNOTATION(06p60)
+OTK_ANNOTATION(08p60)
+OTK_ANNOTATION(160p30)
+OTK_ANNOTATION(161p30)
+OTK_ANNOTATION(163p30)
+OTK_ANNOTATION(165p30)
+OTK_ANNOTATION(166p30)
+OTK_ANNOTATION(167p30)
+OTK_ANNOTATION(168p30)
+OTK_ANNOTATION(169p30)
+OTK_ANNOTATION(162p30)
+OTK_ANNOTATION(17p30)
+OTK_ANNOTATION(171p30)
+OTK_ANNOTATION(30p30)
+OTK_ANNOTATION(172p30)
+OTK_ANNOTATION(173p30)
+OTK_ANNOTATION(174p30)
+OTK_ANNOTATION(175p30)
+OTK_ANNOTATION(176p30)
+OTK_ANNOTATION(177p30)
+OTK_ANNOTATION(178p30)
+OTK_ANNOTATION(179p30)
+OTK_ANNOTATION(180p30)
+OTK_ANNOTATION(181p30)
+
+/*p70 Tests*/
+OTK_ANNOTATION(01p70)
+OTK_ANNOTATION(02p70)
+OTK_ANNOTATION(03p70)
+OTK_ANNOTATION(05p70)
+OTK_ANNOTATION(06p70)
+OTK_ANNOTATION(07p70)
+OTK_ANNOTATION(08p70)
+OTK_ANNOTATION(010p70)
+OTK_ANNOTATION(013p70)
+OTK_ANNOTATION(014p70)
+OTK_ANNOTATION(015p70)
+OTK_ANNOTATION(016p70)
+OTK_ANNOTATION(017p70)
+OTK_ANNOTATION(018p70)
+OTK_ANNOTATION(019p70)
+OTK_ANNOTATION(020p70)
+OTK_ANNOTATION(021p70)
+OTK_ANNOTATION(025p70)
+OTK_ANNOTATION(024p70)
+OTK_ANNOTATION(026p70)
+OTK_ANNOTATION(027p70)
+OTK_ANNOTATION(028p70)
+OTK_ANNOTATION(029p70)
+OTK_ANNOTATION(031p70)
+OTK_ANNOTATION(032p70)
+OTK_ANNOTATION(033p70)
+OTK_ANNOTATION(035p70)
+OTK_ANNOTATION(036p70)
+OTK_ANNOTATION(037p70)
+OTK_ANNOTATION(038p70)
+OTK_ANNOTATION(039p70)
+
+/*p80 Tests*/
+OTK_ANNOTATION(01p80)
+OTK_ANNOTATION(02p80)
+OTK_ANNOTATION(03p80)
+OTK_ANNOTATION(04p80)
+OTK_ANNOTATION(05p80)
+OTK_ANNOTATION(06p80)
+OTK_ANNOTATION(07p80)
+OTK_ANNOTATION(09p80)
+OTK_ANNOTATION(10p80)
+OTK_ANNOTATION(11p80)
+OTK_ANNOTATION(14p80)
+OTK_ANNOTATION(15p80)
+OTK_ANNOTATION(16p80)
+OTK_ANNOTATION(17p80)
+OTK_ANNOTATION(18p80)
+OTK_ANNOTATION(19p80)
+
+/*p90 Tests*/
+OTK_ANNOTATION(01p90)
+OTK_ANNOTATION(02p90)
+OTK_ANNOTATION(03p90)
+OTK_ANNOTATION(04p90)
+OTK_ANNOTATION(06p90)
+OTK_ANNOTATION(07p90)
+OTK_ANNOTATION(08p90)
+OTK_ANNOTATION(09p90)
+OTK_ANNOTATION(010p90)
+OTK_ANNOTATION(011p90)
+OTK_ANNOTATION(13p90)
+OTK_ANNOTATION(14p90)
+OTK_ANNOTATION(015p90)
+OTK_ANNOTATION(016p90)
+OTK_ANNOTATION(17p90)
+OTK_ANNOTATION(18p90)
+OTK_ANNOTATION(19p90)
+OTK_ANNOTATION(20p90)
+OTK_ANNOTATION(21p90)
+
+/*Q10 Tests*/
+OTK_ANNOTATION(01q10)
+OTK_ANNOTATION(002q10)
+OTK_ANNOTATION(006q10)
+
+/*q11 Tests*/
+OTK_ANNOTATION(01q11)
+OTK_ANNOTATION(02q11)
+OTK_ANNOTATION(03q11)
+OTK_ANNOTATION(04q11)
+OTK_ANNOTATION(06q11)
+OTK_ANNOTATION(07q11)
+OTK_ANNOTATION(12q11)
+OTK_ANNOTATION(13q11)
+OTK_ANNOTATION(015q11)
+OTK_ANNOTATION(16q11)
+OTK_ANNOTATION(17q11)
+OTK_ANNOTATION(18q11)
+OTK_ANNOTATION(19q11)
+OTK_ANNOTATION(21q11)
+OTK_ANNOTATION(003q10)
+OTK_ANNOTATION(004q10)
+OTK_ANNOTATION(025q11)
+
+/*q12*/
+OTK_ANNOTATION(01q12)
+OTK_ANNOTATION(02q12)
+OTK_ANNOTATION(22q11)
+OTK_ANNOTATION(005q12)
+OTK_ANNOTATION(23q11)
+OTK_ANNOTATION(24q11)
+OTK_ANNOTATION(006q12)
+OTK_ANNOTATION(007q12)
+
+
+struct otk_test_with_id otk_annotation_tests [] = {
+   OTK_ANNOTATION_ENTRY(001p10, "Testing gtol apis"),
+   OTK_ANNOTATION_ENTRY(002p10, "spr_info")
+  ,OTK_ANNOTATION_ENTRY(003p20, "Adding test for ProGtolAllOverSet()")
+  ,OTK_ANNOTATION_ENTRY(004p20, "Adding test for ProGtolAllOverSet()")
+  ,OTK_ANNOTATION_ENTRY(005p20, "Modify exsiting gtol with bottom,left text and translation symbol")  
+  ,OTK_ANNOTATION_ENTRY(006p20, "Allow hyperlinks to Combnied states in Notes")
+  ,OTK_ANNOTATION_ENTRY(007p20, "Allow Callout symbols in 3D Notes")
+  ,OTK_ANNOTATION_ENTRY(008p20, "Testcase for interferring ref in dimensions")
+  ,OTK_ANNOTATION_ENTRY(009p20, "Test cast method on note hierarchy")
+  ,OTK_ANNOTATION_ENTRY(011p20, "Test case for SPR#4887879")
+
+  /* P10 porting */
+  ,OTK_ANNOTATION_ENTRY(003p10, "Testing font APIs for customer SPRs")
+  , OTK_ANNOTATION_ENTRY(004p10, "SPR#2018631")
+  , OTK_ANNOTATION_ENTRY(005p10, "ABB CR - ProDimensionAutoordinateCreate()")
+  , OTK_ANNOTATION_ENTRY(showp10, "ABB CR - ProAnnotationByXXXXShow()")
+    , OTK_ANNOTATION_ENTRY(006p10, "Testcase for SPR#2161220")
+  , OTK_ANNOTATION_ENTRY(008p10, "Testcase for SPR2177050")
+  , OTK_ANNOTATION_ENTRY(009p10, "SPR#2179319")
+  , OTK_ANNOTATION_ENTRY(010p10, "Testcase for SPR2153817") 
+  , OTK_ANNOTATION_ENTRY(011p10, "Testcase for SPR2182400")  
+  /* Removed 012p10 - SPR 2181252 test for deprecated Gtol API */
+  , OTK_ANNOTATION_ENTRY(013p10, "SPR#2198871")
+  , OTK_ANNOTATION_ENTRY(014p10, "SPR#2182785")
+  , OTK_ANNOTATION_ENTRY(015p10, "SPR#2196193")
+  , OTK_ANNOTATION_ENTRY(016p10, "spr2204333")
+  , OTK_ANNOTATION_ENTRY(017p10, "spr2203129")
+  , OTK_ANNOTATION_ENTRY(018p10, "SPR 2210484")
+  , OTK_ANNOTATION_ENTRY(019p10, "SPR 2205602")
+  , OTK_ANNOTATION_ENTRY(020p10, "SPR 2214996")
+  , OTK_ANNOTATION_ENTRY(021p10, "SPR 2209342")
+  , OTK_ANNOTATION_ENTRY(022p10, "SPR 2211694")
+  , OTK_ANNOTATION_ENTRY(023p10, "SPR 2212113")
+  , OTK_ANNOTATION_ENTRY(024p10, "SPR 2200918")
+  , OTK_ANNOTATION_ENTRY(025p10, "SPR 2240801")
+  , OTK_ANNOTATION_ENTRY(026p10, "SPR 2241277")
+  , OTK_ANNOTATION_ENTRY(027p10, "SPR 2226221")
+  , OTK_ANNOTATION_ENTRY(028p10, "SPR 2250012")
+  , OTK_ANNOTATION_ENTRY(029p10, "SPR 2848178")
+  , OTK_ANNOTATION_ENTRY(030p10, "SPR 2259204")
+  , OTK_ANNOTATION_ENTRY(031p10, "SPR 2262064")
+  ,OTK_ANNOTATION_ENTRY(032p10, "Reg test for Dimension chamfer sprs")
+   , OTK_ANNOTATION_ENTRY(035p10, "SPR 4865536")
+   , OTK_ANNOTATION_ENTRY(036p10, "SPR#4684602")
+  , OTK_ANNOTATION_ENTRY(037p10, "SPR 4886318")
+  ,OTK_ANNOTATION_ENTRY(039p10, "SPR 4960233")
+  ,OTK_ANNOTATION_ENTRY(040p10, "SPR 4787310")
+  ,OTK_ANNOTATION_ENTRY(045p10, "Verification of SPR 2876975")
+  ,OTK_ANNOTATION_ENTRY(043p10, "Verification of SPR 5133485")
+  ,OTK_ANNOTATION_ENTRY(038p10, "Verification of SPR 4837024")
+
+
+  /* P20 porting */
+   ,OTK_ANNOTATION_ENTRY(erasep20, "Test case for spr4060303.")
+
+/*P30 Tests */
+  , OTK_ANNOTATION_ENTRY(01p30, "Test pfcNote & pfcDetailNoteItem Compatibility")
+  , OTK_ANNOTATION_ENTRY(02p30, "Test Create Note Methods - Drawing")
+  , OTK_ANNOTATION_ENTRY(03p30, "Test Create Note Methods - Solid")
+  , OTK_ANNOTATION_ENTRY(04p30, "Test Get Gtol String + Attach Methods - Solid")
+  , OTK_ANNOTATION_ENTRY(05p30, "Test Create Gtol - Solid")
+  , OTK_ANNOTATION_ENTRY(06p30, "Test Modify Gtol - Solid")
+  , OTK_ANNOTATION_ENTRY(07p30, "Test Create Gtol - Solid")
+  , OTK_ANNOTATION_ENTRY(08p30, "Test get Set datum tag - Solid")
+  , OTK_ANNOTATION_ENTRY(09p30, "Test set Set datum tag - Solid")
+  , OTK_ANNOTATION_ENTRY(10p30, "Test Modify gtol attach")
+  , OTK_ANNOTATION_ENTRY(11p30, "Test Modify solid note")
+, OTK_ANNOTATION_ENTRY(12p30, "SPR7322847")
+, OTK_ANNOTATION_ENTRY(13p30, "SPR7900764")
+, OTK_ANNOTATION_ENTRY(14p30, "SPR 8047368")
+ ,OTK_ANNOTATION_ENTRY(15p30, "SPR 7765209")
+, OTK_ANNOTATION_ENTRY(16p30, "spr8036959")
+, OTK_ANNOTATION_ENTRY(18p30, "SPR8215173")
+, OTK_ANNOTATION_ENTRY(19p30, "SPR8078756")
+, OTK_ANNOTATION_ENTRY(20p30, "SPR8204045")
+, OTK_ANNOTATION_ENTRY(21p30, "SPR8355988")
+, OTK_ANNOTATION_ENTRY(22p30, "SPR2822291")
+, OTK_ANNOTATION_ENTRY(23p30, "SPR7236508")
+, OTK_ANNOTATION_ENTRY(24p30, "SPR8074732")
+, OTK_ANNOTATION_ENTRY(25p30, "SPR8707275")
+, OTK_ANNOTATION_ENTRY(26p30, "SPR8747808")
+, OTK_ANNOTATION_ENTRY(27p30, "SPR9478789")
+, OTK_ANNOTATION_ENTRY(28p30, "SPR8712658")
+, OTK_ANNOTATION_ENTRY(29p30, "SPR9517149")
+, OTK_ANNOTATION_ENTRY(31p30, "SPR9503005,SPR9597518")
+, OTK_ANNOTATION_ENTRY(32p30, "SPR9868188")
+, OTK_ANNOTATION_ENTRY(33p30, "SPR9897331")
+, OTK_ANNOTATION_ENTRY(34p30, "SPR9892426")
+, OTK_ANNOTATION_ENTRY(35p30, "SPR9860855")
+, OTK_ANNOTATION_ENTRY(36p30, "SPR10084175")
+, OTK_ANNOTATION_ENTRY(37p30, "SPR8353399")
+, OTK_ANNOTATION_ENTRY(38p30, "SPR10162202")
+  ,OTK_ANNOTATION_ENTRY(039p30, "SPR 5040391")
+  ,OTK_ANNOTATION_ENTRY(040p30, "SPR 5023270")
+  ,OTK_ANNOTATION_ENTRY(041p30, "SPR 5022703")
+  // ,OTK_ANNOTATION_ENTRY(042p30, "SPR 5023925")
+  ,OTK_ANNOTATION_ENTRY(043p30, "Added to test new OTK methods")
+  ,OTK_ANNOTATION_ENTRY(044p30, "Creo 4 TK textStyle APIs")
+  ,OTK_ANNOTATION_ENTRY(045p30, "Creo 4 TK textStyle APIs")
+  ,OTK_ANNOTATION_ENTRY(046p30, "Creo 4 TK dualDimension APIs")
+  ,OTK_ANNOTATION_ENTRY(047p30, "Creo 4 TK drawing dimension APIs")
+  ,OTK_ANNOTATION_ENTRY(049p30, "Creo 4 TK DtlNoteTextStyle API")
+  ,OTK_ANNOTATION_ENTRY(050p30, "SPR 4633548")
+  ,OTK_ANNOTATION_ENTRY(048p30, "Test for annotation element api")
+  ,OTK_ANNOTATION_ENTRY(051p30, "Creo 4 TK symbol APIs")
+  ,OTK_ANNOTATION_ENTRY(052p30, "Test for annotation plane api")
+  ,OTK_ANNOTATION_ENTRY(054p30, "Creo 4 otk methods")
+  ,OTK_ANNOTATION_ENTRY(053p30, "Test of Solid/Feature Annotation visits")
+  ,OTK_ANNOTATION_ENTRY(055p30, "Creo 4 otk methods")
+  ,OTK_ANNOTATION_ENTRY(soliddim, "Creo 4 Solid Dim methods")
+  ,OTK_ANNOTATION_ENTRY(056p30, "Test for annotation element copy/delete methods")
+  ,OTK_ANNOTATION_ENTRY(solidrefdim, "Creo 4 Solid Reference Dim methods")
+  ,OTK_ANNOTATION_ENTRY(solidorddim, "Creo 4 Solid Ordinate Dim methods")
+  ,OTK_ANNOTATION_ENTRY(057p30, "Test for annotation ref api")
+  ,OTK_ANNOTATION_ENTRY(058p30, "Creo 4 otk methods")
+  ,OTK_ANNOTATION_ENTRY(059p30, "Creo 4 otk methods")
+  ,OTK_ANNOTATION_ENTRY(060p30, "Creo 4 otk methods")
+  ,OTK_ANNOTATION_ENTRY(061p30, "Creo 4 otk methods")
+  ,OTK_ANNOTATION_ENTRY(062p30, "Creo 4 otk methods")
+  ,OTK_ANNOTATION_ENTRY(063p30, "Test for annotation add/remove api")
+  ,OTK_ANNOTATION_ENTRY(064p30, "Creo 4 otk methods")
+  ,OTK_ANNOTATION_ENTRY(065p30, "Creo 4 otk methods")
+  ,OTK_ANNOTATION_ENTRY(066p30, "Test annotation element methods")
+  ,OTK_ANNOTATION_ENTRY(surffin, "Test surface finish methods")
+  ,OTK_ANNOTATION_ENTRY(067p30, "Creo 4 otk methods")
+  ,OTK_ANNOTATION_ENTRY(070p30, "Creo 4 protk setDatumTag APIs")
+  ,OTK_ANNOTATION_ENTRY(071p30, "Creo 4 protk setDatumTag APIs")
+  ,OTK_ANNOTATION_ENTRY(072p30, "Creo 4 protk dtlNoteData APIs")
+  ,OTK_ANNOTATION_ENTRY(073p30, "Creo 4 protk dtlNoteData APIs")
+  ,OTK_ANNOTATION_ENTRY(077p30, "Testing Creo4 OTK wfcWSelection methods")
+  ,OTK_ANNOTATION_ENTRY(068p30, "Test annotation api")
+  ,OTK_ANNOTATION_ENTRY(069p30, "Test annotation api")
+  ,OTK_ANNOTATION_ENTRY(074p30, "Test annotation api")
+  ,OTK_ANNOTATION_ENTRY(075p30, "Test annotation api")
+  ,OTK_ANNOTATION_ENTRY(076p30, "Test annotation api")
+  ,OTK_ANNOTATION_ENTRY(078p30, "Creo 4 dualDimension APIs")
+  ,OTK_ANNOTATION_ENTRY(079p30, "Creo 4 protk wDimension methods")
+  ,OTK_ANNOTATION_ENTRY(080p30, "Creo 4 protk wDimension methods")
+  ,OTK_ANNOTATION_ENTRY(081p30, "Test annotation api")
+  ,OTK_ANNOTATION_ENTRY(082p30, "Test annotation api")
+  ,OTK_ANNOTATION_ENTRY(083p30, "Test annotation api")
+  ,OTK_ANNOTATION_ENTRY(086p30, "Test Creo 4.0 annotation api")
+  ,OTK_ANNOTATION_ENTRY(087p30, "Test SPR5296807 & SPR5696714")
+  ,OTK_ANNOTATION_ENTRY(autoprop, "Test Creo 4.0 annotation api")  
+  ,OTK_ANNOTATION_ENTRY(044p20, "TEST_DESCRIPTION")
+	,OTK_ANNOTATION_ENTRY(088p30, "Verification of SPR 4600248")
+  ,OTK_ANNOTATION_ENTRY(089p30, "Verification of SPR 5809001")
+  ,OTK_ANNOTATION_ENTRY(090p30, "Verification of SPR 5754441")
+  ,OTK_ANNOTATION_ENTRY(091p30, "Test annotation APIs") 
+  ,OTK_ANNOTATION_ENTRY(092p30, "TEST_DESCRIPTION")
+  ,OTK_ANNOTATION_ENTRY(093p30, "Test annotation APIs")
+  ,OTK_ANNOTATION_ENTRY(094p30, "Test annotation APIs")
+  ,OTK_ANNOTATION_ENTRY(095p30, "Test annotation APIs")  
+  ,OTK_ANNOTATION_ENTRY(096p30, "Test annotation APIs")
+  ,OTK_ANNOTATION_ENTRY(045p20, "Verification of SPR 5579885")
+  ,OTK_ANNOTATION_ENTRY(097p30, "Test annotation APIs") 
+  ,OTK_ANNOTATION_ENTRY(098p30, "Test annotation APIs")
+  ,OTK_ANNOTATION_ENTRY(100p30, "Test for RetrieveSymbolDefItem")
+  ,OTK_ANNOTATION_ENTRY(101p30, "Test annotation APIs")
+  ,OTK_ANNOTATION_ENTRY(99p30, "Test annotation APIs")
+  ,OTK_ANNOTATION_ENTRY(102p30, "Test annotation APIs")
+  ,OTK_ANNOTATION_ENTRY(103p30, "Test dimension APIs")
+  ,OTK_ANNOTATION_ENTRY(104p30, "Test dimension APIs")
+  ,OTK_ANNOTATION_ENTRY(105p30, "Test dimension APIs")
+  ,OTK_ANNOTATION_ENTRY(106p30, "Test dimension APIs")
+   /* Removed 107p30 due to deprecated Gtol API use case */	
+  ,OTK_ANNOTATION_ENTRY(108p30, "Test annotation APIs")
+  ,OTK_ANNOTATION_ENTRY(110p30, "Test annotation APIs")
+  ,OTK_ANNOTATION_ENTRY(109p30, "Verification of SPR 6164091")
+  ,OTK_ANNOTATION_ENTRY(116p30, "Test annotation APIs")
+  ,OTK_ANNOTATION_ENTRY(111p30, "Test for GetAttachedDimension")
+  ,OTK_ANNOTATION_ENTRY(112p30, "Test for wfcWDetailSymbolInstItem_tk::GetFeature")
+  ,OTK_ANNOTATION_ENTRY(113p30, "Symbol Inst Annotation Plane Set")
+  ,OTK_ANNOTATION_ENTRY(115p30, "Test for wfcWDetailSymbolInstItem::AddLeader")
+  ,OTK_ANNOTATION_ENTRY(114p30, "Verification of SPR 6173991")
+  ,OTK_ANNOTATION_ENTRY(117p30, "Verification of SPR 5846353")
+  /* Removed 118p30 - SPR 6189014 use case due to deprecated Gtol APIs */
+  ,OTK_ANNOTATION_ENTRY(119p30, "Verification of SPR 6089468")
+  ,OTK_ANNOTATION_ENTRY(120p30, "Verification of SPR 5665160")
+  /* Removed 121p30 - SPR 6180887 use case due to deprecated Gtol APIs */
+  ,OTK_ANNOTATION_ENTRY(122p30, "Verification of SPR 4915927")
+  ,OTK_ANNOTATION_ENTRY(123p30, "Verification of SPR 5912571_1,5912571_2,5912571_3,5912571_4")
+  ,OTK_ANNOTATION_ENTRY(124p30, "Verification of SPR 6174599")
+  ,OTK_ANNOTATION_ENTRY(125p30, "Verification of SPR 6185654")
+  ,OTK_ANNOTATION_ENTRY(126p30, "Verification of SPR 6185634")
+  ,OTK_ANNOTATION_ENTRY(127p30, "Test annotation APIs")
+  ,OTK_ANNOTATION_ENTRY(128p30, "Verification of spr6195087")
+  , OTK_ANNOTATION_ENTRY(130p30, "Verification of spr6533772")
+  ,OTK_ANNOTATION_ENTRY(132p30, "Verification of spr6486788")
+  ,OTK_ANNOTATION_ENTRY(134p30, "Verification of spr6596628")
+  , OTK_ANNOTATION_ENTRY(136p50, "Testing of wfcGTol methods")
+  ,OTK_ANNOTATION_ENTRY(137p50, "For gtol testting in OTK")
+  , OTK_ANNOTATION_ENTRY(138p50, "For gtol testting in OTK")
+  , OTK_ANNOTATION_ENTRY(139p50, "Testing of wfcGTol methods")
+  , OTK_ANNOTATION_ENTRY(141p50, "Testing of wfcGTol methods")
+  , OTK_ANNOTATION_ENTRY(136p30, "Verification of spr6603619")
+  , OTK_ANNOTATION_ENTRY(142p50, "Testing of wfcGTol methods")
+  , OTK_ANNOTATION_ENTRY(143p50, "Testing of wfcGTol methods")
+  ,OTK_ANNOTATION_ENTRY(046p20, "Verification of spr6415085")
+  , OTK_ANNOTATION_ENTRY(144p50, "Testing of wfcGTol methods")
+  ,OTK_ANNOTATION_ENTRY(140p50, "Test for GTol all around and all over methods")
+  ,OTK_ANNOTATION_ENTRY(146p50, "Gtol Reg Tests")
+  ,OTK_ANNOTATION_ENTRY(139p30, "Verification of spr6717536")
+  ,OTK_ANNOTATION_ENTRY(133p30, "Verification of spr6482737")
+	,OTK_ANNOTATION_ENTRY(047p20, "Testcase for SPR5211786")
+  ,OTK_ANNOTATION_ENTRY(137p30, "Verification of spr6599200")
+  ,OTK_ANNOTATION_ENTRY(131p30, "Verification of spr6196804")
+  ,OTK_ANNOTATION_ENTRY(147p50, "Testing of wfcGTol methods")
+  , OTK_ANNOTATION_ENTRY(145p50, "Testing of wfcGTol methods")
+  , OTK_ANNOTATION_ENTRY(148p50, "Testing of wfcGTol methods")
+  , OTK_ANNOTATION_ENTRY(149p50, "Testing of wfcGTol methods")  
+  , OTK_ANNOTATION_ENTRY(150p50, "Testing of wfcGTol methods")
+  , OTK_ANNOTATION_ENTRY(151p50, "Testing of wfcGTol methods")
+  , OTK_ANNOTATION_ENTRY(152p50, "Testing of wfcGTol methods")
+  , OTK_ANNOTATION_ENTRY(153p50, "Testing of wfcGTol methods")
+  , OTK_ANNOTATION_ENTRY(154p50, "Testing of wfcGTol methods")
+  , OTK_ANNOTATION_ENTRY(155p50, "Testing of wfcGTol methods")
+  , OTK_ANNOTATION_ENTRY(156p50, "Testing of wfcDimension methods")
+  , OTK_ANNOTATION_ENTRY(157p50, "Testing of wfcDimension methods")
+  ,OTK_ANNOTATION_ENTRY(050p20, "Test case for SPR6681900.")
+  ,OTK_ANNOTATION_ENTRY(135p30, "Verification of spr6598013")
+  ,OTK_ANNOTATION_ENTRY(143p30, "Test case for SPR 6962728")
+  ,OTK_ANNOTATION_ENTRY(049p10, "Verification of spr6295377")
+  , OTK_ANNOTATION_ENTRY(141p30, "Verification of spr6641986")
+ , OTK_ANNOTATION_ENTRY(142p30, "DFS on Dim Witness line")
+  , OTK_ANNOTATION_ENTRY(146p30, "Verification of spr7024652")
+  ,OTK_ANNOTATION_ENTRY(147p30, "Verification of SPR 6966641")
+  ,OTK_ANNOTATION_ENTRY(148p30, "Test case for SPR 7061146")
+  , OTK_ANNOTATION_ENTRY(149p30, "Test for SPR 7073560")
+  , OTK_ANNOTATION_ENTRY(052p20, "Test for spr 7025852")
+  , OTK_ANNOTATION_ENTRY(150p30, "Test for spr 6248583")
+  ,OTK_ANNOTATION_ENTRY(152p30, "Test for spr 7096842")
+  , OTK_ANNOTATION_ENTRY(158p50, "Test for SPR 2822291")
+  ,OTK_ANNOTATION_ENTRY(129p30, "Verification of spr6393084")
+  ,OTK_ANNOTATION_ENTRY(140p30, "Verification of spr6633308")
+  , OTK_ANNOTATION_ENTRY(053p20, "Test for SPR 6395418")
+    ,OTK_ANNOTATION_ENTRY(153p30, "Test for SPR 6962827")
+  , OTK_ANNOTATION_ENTRY(145p30, "Test for SPR 7020730")
+  ,OTK_ANNOTATION_ENTRY(055p20, "Test case for SPR 7392811")
+  ,OTK_ANNOTATION_ENTRY(154p30, "Test for SPR 7201658")
+  , OTK_ANNOTATION_ENTRY(156p30, "Test for SPR 7618729")
+  , OTK_ANNOTATION_ENTRY(157p30, "Test for SPR 7721703")
+  , OTK_ANNOTATION_ENTRY(158p30, "Test for SPR 7800894")
+  , OTK_ANNOTATION_ENTRY(159p30, "Test for SPR 7832111")
+ , OTK_ANNOTATION_ENTRY(160p30, "Test for SPR 7596518")
+  , OTK_ANNOTATION_ENTRY(161p30, "Test for SPR 2833984")
+ , OTK_ANNOTATION_ENTRY(163p30, "Test for SPR 8072662")
+ , OTK_ANNOTATION_ENTRY(165p30, "Test for SPR 8698037")
+ , OTK_ANNOTATION_ENTRY(166p30, "Test for SPR 8239700")
+  , OTK_ANNOTATION_ENTRY(167p30, "Test for SPR 9559089")
+  	, OTK_ANNOTATION_ENTRY(168p30, "Test for SPR 9562305")
+  , OTK_ANNOTATION_ENTRY(169p30, "Test for SPR 9503164")
+  , OTK_ANNOTATION_ENTRY(162p30, "Test for SPR 8088937")
+  , OTK_ANNOTATION_ENTRY(17p30, "Test for SPR 8194214")
+  , OTK_ANNOTATION_ENTRY(171p30, "Test for SPR 5838579")
+  , OTK_ANNOTATION_ENTRY(172p30, "Testing OTK Annotation Plane APIs")
+	  /*P60 test*/
+	  , OTK_ANNOTATION_ENTRY(01p60, "Test for SPR 6969904")
+	  , OTK_ANNOTATION_ENTRY(02p60, "Test for ProNoteReferencesAdd")
+	  , OTK_ANNOTATION_ENTRY(03p60, "Test for ProNoteReferencesDelete")
+	  , OTK_ANNOTATION_ENTRY(04p60, "Test for ProNoteReferencesGet")
+	  , OTK_ANNOTATION_ENTRY(05p60, "SPR9517161")
+, OTK_ANNOTATION_ENTRY(30p30, "Story 9656626")
+      /*P80 tests*/
+      , OTK_ANNOTATION_ENTRY(01p80, "Annotation Ref Collection")
+      , OTK_ANNOTATION_ENTRY(02p80, "Annotation Ref Collection")
+      , OTK_ANNOTATION_ENTRY(03p80, "Annotation Ref Collection")
+      , OTK_ANNOTATION_ENTRY(04p80, "Symbol SAF")
+      , OTK_ANNOTATION_ENTRY(05p80, "Weld Symbol")
+	  , OTK_ANNOTATION_ENTRY(06p80, "Surface Finish SAF")
+
+  , OTK_ANNOTATION_ENTRY(06p60, "Test for SPR 10142640")
+  , OTK_ANNOTATION_ENTRY(08p60, "Test for SPR 10017546")
+  , OTK_ANNOTATION_ENTRY(173p30, "Test for SPR 10092130")
+  , OTK_ANNOTATION_ENTRY(175p30, "Test for SPR9908841")
+   , OTK_ANNOTATION_ENTRY(176p30, "Test for SPR10277957")
+  , OTK_ANNOTATION_ENTRY(174p30, "Test for SPR 10237873")
+  , OTK_ANNOTATION_ENTRY(177p30, "Test for SPR 10503571")
+  , OTK_ANNOTATION_ENTRY(178p30, "Test for SPR 10237901")
+	  , OTK_ANNOTATION_ENTRY(180p30, "Test for SPR 10592838")
+  , OTK_ANNOTATION_ENTRY(01p70, "Test for SPR 11140862")
+  , OTK_ANNOTATION_ENTRY(02p70, "Test for SPR 10860459")
+  , OTK_ANNOTATION_ENTRY(179p30, "Test for SPR 10202275")
+   , OTK_ANNOTATION_ENTRY(181p30, "Test for SPR 10592838")
+      /*P90 tests*/
+   , OTK_ANNOTATION_ENTRY(01p90, "Test for SPR 12715844")
+   , OTK_ANNOTATION_ENTRY(02p90, "Test for SPR 12715844")
+   , OTK_ANNOTATION_ENTRY(03p90, "Test for SPR 12715844")
+  
+   , OTK_ANNOTATION_ENTRY(04p90, "Test for Story 12713215")
+   , OTK_ANNOTATION_ENTRY(06p90, "Test for Story 12713215")
+   , OTK_ANNOTATION_ENTRY(07p90, "Test for story 12713215")
+   , OTK_ANNOTATION_ENTRY(09p90, "Test for story 12713215")
+   , OTK_ANNOTATION_ENTRY(08p90, "Test for SPR 12715844")
+   , OTK_ANNOTATION_ENTRY(010p90, "Test for SPR 12715845")
+   , OTK_ANNOTATION_ENTRY(011p90, "Test for SPR 12715845")
+  
+   , OTK_ANNOTATION_ENTRY(13p90, "Test for Story 10834305")
+	  , OTK_ANNOTATION_ENTRY(14p90, "Test for Story 10834305")
+  , OTK_ANNOTATION_ENTRY(03p70, "Test for SPR 12042531")
+  , OTK_ANNOTATION_ENTRY(05p70, "Test for SPR 12589181")
+  , OTK_ANNOTATION_ENTRY(07p80, "Test for SPR 12759543")
+	  , OTK_ANNOTATION_ENTRY(06p70, "Test for SPR 12678428")
+	  , OTK_ANNOTATION_ENTRY(07p70, "Test for SPR 12678428")
+  , OTK_ANNOTATION_ENTRY(08p70, "Test for SPR 12572813")
+  , OTK_ANNOTATION_ENTRY(010p70, "Test for SPR 13277347")
+  , OTK_ANNOTATION_ENTRY(013p70, "Test for SPR 13251759")
+  , OTK_ANNOTATION_ENTRY(015p90, "Test for API ProCombstateAnnotationErase()")
+  , OTK_ANNOTATION_ENTRY(014p70, "Test for SPR 13393257")
+  , OTK_ANNOTATION_ENTRY(015p70, "Test for SPR 13393923")
+  , OTK_ANNOTATION_ENTRY(016p70, "Test for SPR 13386320")
+ , OTK_ANNOTATION_ENTRY(017p70, "Test for SPR 13375919")
+ , OTK_ANNOTATION_ENTRY(018p70, "Test for SPR 9479450")
+ , OTK_ANNOTATION_ENTRY(019p70, "Test for SPR 9479450")
+ , OTK_ANNOTATION_ENTRY(020p70, "Test for SPR 9479450")
+ , OTK_ANNOTATION_ENTRY(021p70, "Test for SPR 13375912")
+  , OTK_ANNOTATION_ENTRY(025p70, "Test for SPR 13556393")
+  , OTK_ANNOTATION_ENTRY(024p70, "Test for SPR 13549215")
+  , OTK_ANNOTATION_ENTRY(026p70, "Test for SPR 13645358")
+  , OTK_ANNOTATION_ENTRY(027p70, "Test for SPR 13790933")
+  , OTK_ANNOTATION_ENTRY(028p70, "Regression Test for SPR 13902975")
+  , OTK_ANNOTATION_ENTRY(029p70, "Test for SPR 13884552")
+  , OTK_ANNOTATION_ENTRY(031p70, "Test for SPR 14314204")
+  , OTK_ANNOTATION_ENTRY(032p70, "Test for SPR 14316648")
+  , OTK_ANNOTATION_ENTRY(033p70, "Test for SPR 14363233")
+  , OTK_ANNOTATION_ENTRY(09p80, "Test for SPR 13744346")
+  , OTK_ANNOTATION_ENTRY(035p70, "Test for SPR 14512454")
+  , OTK_ANNOTATION_ENTRY(036p70, "Test for SPR 14627430")
+  , OTK_ANNOTATION_ENTRY(037p70, "Test for SPR 14445727")
+  , OTK_ANNOTATION_ENTRY(038p70, "Test for SPR 14513147")
+  , OTK_ANNOTATION_ENTRY(039p70, "Test for SPR 14631397")
+  , OTK_ANNOTATION_ENTRY(016p90, "Test for SPR 14524168")
+  , OTK_ANNOTATION_ENTRY(10p80, "Test for SPR 14683531")
+  , OTK_ANNOTATION_ENTRY(11p80, "Test for SPR 14651899")
+  , OTK_ANNOTATION_ENTRY(04q11, "Test for Story 14927372")
+  , OTK_ANNOTATION_ENTRY(01q11, "Test for story 14839895")
+  , OTK_ANNOTATION_ENTRY(02q11, "Test for story 14839895")
+  , OTK_ANNOTATION_ENTRY(03q11, "Test for story 14839895")
+  , OTK_ANNOTATION_ENTRY(06q11, "Test for story 14839895")
+  , OTK_ANNOTATION_ENTRY(07q11, "Test for story 14839895")
+  , OTK_ANNOTATION_ENTRY(12q11, "Test for Story 15040984")
+  , OTK_ANNOTATION_ENTRY(13q11, "Test for Story 15040985")
+  , OTK_ANNOTATION_ENTRY(015q11, "Test for story 15040985")
+  , OTK_ANNOTATION_ENTRY(17q11, "Test for story 15040985")
+  , OTK_ANNOTATION_ENTRY(16q11, "Test for Story 15040986")
+  , OTK_ANNOTATION_ENTRY(14p80, "Test for SPR 14900351")
+  , OTK_ANNOTATION_ENTRY(01q10, "Test for SPR 15036607")
+  , OTK_ANNOTATION_ENTRY(15p80, "Test for SPR 14962867")
+  , OTK_ANNOTATION_ENTRY(15p80, "Test for SPR 14962867")
+	  , OTK_ANNOTATION_ENTRY(18q11, "Test for MBD Tables")
+, OTK_ANNOTATION_ENTRY(19q11, "Test for Flat To Screen MBD Table Origin")
+
+	  , OTK_ANNOTATION_ENTRY(21q11, "Test for SPR 15029783")
+  , OTK_ANNOTATION_ENTRY(17p90, "Test for SPR 15117993")
+  , OTK_ANNOTATION_ENTRY(002q10, "Test for SPR 15215631")
+
+  , OTK_ANNOTATION_ENTRY(003q10, "Test for SPR 15259002")
+  , OTK_ANNOTATION_ENTRY(16p80, "Test for SPR 15290514")
+  , OTK_ANNOTATION_ENTRY(18p90, "Test for SPR 15472412")
+  , OTK_ANNOTATION_ENTRY(004q10, "Test for SPR 15463941")
+  , OTK_ANNOTATION_ENTRY(17p80, "Test for SPR 15480549")
+  , OTK_ANNOTATION_ENTRY(01q12, "Test for Story 15618373")
+  , OTK_ANNOTATION_ENTRY(02q12, "Test for Story 15534173")
+  , OTK_ANNOTATION_ENTRY(22q11, "Test for SPR 15527324")
+  , OTK_ANNOTATION_ENTRY(005q12, "Test for Story 15532276")
+  , OTK_ANNOTATION_ENTRY(23q11, "Test for SPR 15662278")
+    , OTK_ANNOTATION_ENTRY(24q11, "Test for SPR 15675348")
+  , OTK_ANNOTATION_ENTRY(18p80, "Test for SPR 15760713")
+  , OTK_ANNOTATION_ENTRY(006q12, "Tests for Sty 15534192")
+  , OTK_ANNOTATION_ENTRY(007q12, "Tests for Sty 15534192")
+  , OTK_ANNOTATION_ENTRY(025q11, "Test for SPR 15720385")
+  , OTK_ANNOTATION_ENTRY(19p90, "Test for SPR 15823423")
+  , OTK_ANNOTATION_ENTRY(20p90, "Test for SPR 15480810")
+  , OTK_ANNOTATION_ENTRY(19p80, "Test for SPR 15812071")
+  , OTK_ANNOTATION_ENTRY(21p90, "Test for SPR 15958338")
+  , OTK_ANNOTATION_ENTRY(006q10, "Test for SPR 16036835")
+  };
+
+#endif /* OTK_ANNOTATION_TESTS_H */

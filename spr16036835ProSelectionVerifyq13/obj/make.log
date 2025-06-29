@@ -1,0 +1,694 @@
+Thu Apr 10 15:39:04 IST 2025
+> Start Time: 10-Apr-25 15:39:05 
+> Parsing 'k:\q13\spg\system_1\softdb\config.gmk'...
+> Evaluating the options...
+> Building a network of targets...
+> Running: smk   -t x86e_win64 -s k:\q13\spg\system_1~advapps/TK-2 -p d:\GTM\spr16036835ProSelectionVerifyq13~advapps/TK-2 -f d:\GTM\spr16036835ProSelectionVerifyq13\obj\makefile.17260_tmp -m objmt -u d:\GTM\spr16036835ProSelectionVerifyq13\obj\makefile.17260_dep   -l cip/cipstd -l ootk/pfc_tk_cpp -l ootk/wfc_source_cpp -l ootk/pfccmn_cpp -l ootk/pfc_tksync_cpp -l ootk/uifc_source_cpp -l ootk/wfc_222_cpp -l ootk/hfc_source_cpp  -argfile d:\GTM\spr16036835ProSelectionVerifyq13\obj\makefile.17260.smk_args
+smk -t x86e_win64 -s k:\q13\spg\system_1~advapps/TK-2 -p d:\GTM\spr16036835ProSelectionVerifyq13~advapps/TK-2 -f d:\GTM\spr16036835ProSelectionVerifyq13\obj\makefile.17260_tmp -m objmt -u d:\GTM\spr16036835ProSelectionVerifyq13\obj\makefile.17260_dep -l cip/cipstd -l ootk/pfc_tk_cpp -l ootk/wfc_source_cpp -l ootk/pfccmn_cpp -l ootk/pfc_tksync_cpp -l ootk/uifc_source_cpp -l ootk/wfc_222_cpp -l ootk/hfc_source_cpp
+Warning: cannot find rtlcoremt.lib in any reference area.
+Warning: cannot find utfstrmt.lib in any reference area.
+Warning: cannot find baselibmt.lib in any reference area.
+Warning: cannot find ctoolsmt.lib in any reference area.
+Warning: cannot find cipstdmt.lib in any reference area.
+Warning: cannot find pfccmn_cppmt.lib in any reference area.
+Warning: cannot find pfc_tk_cppmt.lib in any reference area.
+Warning: cannot find pfccmnsync_cppmt.lib in any reference area.
+Warning: cannot find wfc_source_cppmt.lib in any reference area.
+Warning: cannot find pfc_tksync_cppmt.lib in any reference area.
+Warning: cannot find i18nmt.lib in any reference area.
+Warning: cannot find uifc_source_cppmt.lib in any reference area.
+Warning: cannot find wfc_222_cppmt.lib in any reference area.
+Warning: cannot find hfc_source_cppmt.lib in any reference area.
+> Running: smk   -t x86e_win64 -s k:\q13\spg\system_1~advapps/TK-2 -p d:\GTM\spr16036835ProSelectionVerifyq13~advapps/TK-2 -f d:\GTM\spr16036835ProSelectionVerifyq13\obj\makefile.17260_tmp -m nndobjmt -u d:\GTM\spr16036835ProSelectionVerifyq13\obj\makefile.17260_dep   -l basictk/dlmmgr -l basictk/asyncore -l basictk/baselib -l basictk/i18n -l basictk/utfstr -l basictk/rtlcore  -argfile d:\GTM\spr16036835ProSelectionVerifyq13\obj\makefile.17260.smk_args
+smk -t x86e_win64 -s k:\q13\spg\system_1~advapps/TK-2 -p d:\GTM\spr16036835ProSelectionVerifyq13~advapps/TK-2 -f d:\GTM\spr16036835ProSelectionVerifyq13\obj\makefile.17260_tmp -m nndobjmt -u d:\GTM\spr16036835ProSelectionVerifyq13\obj\makefile.17260_dep -l basictk/dlmmgr -l basictk/asyncore -l basictk/baselib -l basictk/i18n -l basictk/utfstr -l basictk/rtlcore
+Warning: cannot find rtlcoremtz.lib in any reference area.
+Warning: cannot find utfstrmtz.lib in any reference area.
+Warning: cannot find baselibmtz.lib in any reference area.
+Warning: cannot find asyncoremtz.lib in any reference area.
+Warning: cannot find dlmmgrmtz.lib in any reference area.
+Warning: cannot find i18nmtz.lib in any reference area.
+> Target gathering Time: 10-Apr-25 15:39:09 
+> Writing out makefile...
+> Building specified targets...
+*  4 Targets remaining...
+*  3 Targets remaining...
+>  d:\GTM\spr16036835ProSelectionVerifyq13\x86e_win64\protoolkit\otk_cpp_tests\obj\otk_tst_annotation.obj: Step 1...
+	 hrm -f d:\GTM\spr16036835ProSelectionVerifyq13\x86e_win64\protoolkit\otk_cpp_tests\obj\otk_tst_annotation.obj 
+>  d:\GTM\spr16036835ProSelectionVerifyq13\x86e_win64\protoolkit\otk_cpp_tests\obj\otk_tst_main.obj: Step 1...
+	 hrm -f d:\GTM\spr16036835ProSelectionVerifyq13\x86e_win64\protoolkit\otk_cpp_tests\obj\otk_tst_main.obj 
+>  d:\GTM\spr16036835ProSelectionVerifyq13\x86e_win64\protoolkit\otk_cpp_tests\obj\otk_tst_main.obj: Step 2...
+	Z:\tools\apps\uigtms\stable\x86e_win64\gmk.exe -C .cxx d:\GTM\spr16036835ProSelectionVerifyq13\x86e_win64\protoolkit\otk_cpp_tests\obj\otk_tst_main.cxx protoolkit\otk_cpp_tests\otk_tst_main k:\q13\spg\system_1 
+>  d:\GTM\spr16036835ProSelectionVerifyq13\x86e_win64\protoolkit\otk_cpp_tests\obj\otk_tst_annotation.obj: Step 2...
+	Z:\tools\apps\uigtms\stable\x86e_win64\gmk.exe -C .cxx d:\GTM\spr16036835ProSelectionVerifyq13\x86e_win64\protoolkit\otk_cpp_tests\obj\otk_tst_annotation.cxx protoolkit\otk_cpp_tests\otk_tst_annotation d:\GTM\spr16036835ProSelectionVerifyq13 k:\q13\spg\system_1 
+>  d:\GTM\spr16036835ProSelectionVerifyq13\x86e_win64\protoolkit\otk_cpp_tests\obj\otk_tst_main.obj: Step 3...
+	cl -fp:precise /nologo /Bt+ /W3 /EHsc /GR- /wd4430 /c -GS- -D_CONSOLE /Z7 -MT /O2b1 /favor:INTEL64 -DPRO_MACHINE=36 -DGRAPHICS=9 -DOPER_SYS=4 -DPLATFORM=36 -DMSB_LEFT -DWIN32 -D_WIN32 -D_WINNT -D_WIN32_WINNT=0x0601 -D_WIN32_IE=0x0800 -DWINVER=0x0601 -experimental:deterministic -pathmap:S:=z:\s\p90 -pathmap:o:\portsrc\spg\system_1=z:\o\p90 -D_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR -DPROTOTYPES -DDebug -D_WINDOWS -DINHOUSE_FLAG -DRELEASE -DPRO_MACHINE=36 -DGRAPHICS=9 -DOPER_SYS=4 -DPLATFORM=36 -DMSB_LEFT -DWIN32 -D_WIN32 -D_WINNT -D_WIN32_WINNT=0x0601 -D_WIN32_IE=0x0800 -DWINVER=0x0601 -experimental:deterministic -pathmap:S:=z:\s\p90 -pathmap:o:\portsrc\spg\system_1=z:\o\p90 -D_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR -DPROTOTYPES -DDebug -D_WINDOWS -DINHOUSE_FLAG -DRELEASE -DOTK_CPP_TEST -DOTK_USE_TKOUT -DOTK_CPP -Dstatic_cipstd -DPRO_USE_VAR_ARGS -c -Fod:\GTM\spr16036835ProSelectionVerifyq13\x86e_win64\protoolkit\otk_cpp_tests\obj\otk_tst_main.obj -Id:\GTM\spr16036835ProSelectionVerifyq13\protoolkit\otk_cpp_tests\includes -Ik:\q13\spg\system_1\protoolkit\otk_cpp_tests\includes -Ik:\q13\spg\system_1\protoolkit\protk_tests\includes -Ik:\q13\spg\system_1\protoolkit\protk_tests\pt_wt_tests\includes -Ik:\q13\spg\system_1\protoolkit\includes -Ik:\q13\spg\system_1\proe\coretools\includes -Ik:\q13\spg\system_1\prodevelop\includes -Ik:\q13\spg\system_1\prodevelop\ptc_includes -Ik:\q13\spg\system_1\advapps\TK-2\basictk\baselib\inc -Ik:\q13\spg\system_1\advapps\TK-2\basictk\rtlcore\inc -Ik:\q13\spg\system_1\advapps\TK-2\cip\cipbase\inc -Ik:\q13\spg\system_1\xplatform\advapps\TK-2\cip\cipbase\inc -Ik:\q13\spg\system_1\advapps\TK-2\ootk\pfccmn\inc -Ik:\q13\spg\system_1\advapps\TK-2\ootk\pfccmnsync\inc -Ik:\q13\spg\system_1\xplatform\advapps\TK-2\ootk\pfccmn\inc -Ik:\q13\spg\system_1\xplatform\advapps\TK-2\ootk\pfccmnsync\inc -Ik:\q13\spg\system_1\advapps\TK-2\ootk\wfc_cxx_api\inc -Ik:\q13\spg\system_1\advapps\TK-2\ootk\uifc_cxx_api\inc -Ik:\q13\spg\system_1\advapps\TK-2\ootk\hfc_cxx_api\inc -Ik:\q13\spg\system_1\xplatform\advapps\TK-2\ootk\uifc_source\inc -Ik:\q13\spg\system_1\xplatform\advapps\TK-2\ootk\wfc_source\inc -Ik:\q13\spg\system_1\protoolkit\otk_appls\otk_examples\includes -Ik:\q13\spg\system_1\advapps\TK-2\basictk\cxx14\inc -Ik:\q13\spg\system_1\protoolkit\otk_app\inc\nlohmann -Ik:\q13\spg\system_1\protoolkit\otk_cpp_tests\otk_tst_main d:\GTM\spr16036835ProSelectionVerifyq13\x86e_win64\protoolkit\otk_cpp_tests\obj\otk_tst_main.cxx 
+>  d:\GTM\spr16036835ProSelectionVerifyq13\x86e_win64\protoolkit\otk_cpp_tests\obj\otk_tst_annotation.obj: Step 3...
+	cl -fp:precise /nologo /Bt+ /W3 /EHsc /GR- /wd4430 /c -GS- -D_CONSOLE /Z7 -MT /O2b1 /favor:INTEL64 -DPRO_MACHINE=36 -DGRAPHICS=9 -DOPER_SYS=4 -DPLATFORM=36 -DMSB_LEFT -DWIN32 -D_WIN32 -D_WINNT -D_WIN32_WINNT=0x0601 -D_WIN32_IE=0x0800 -DWINVER=0x0601 -experimental:deterministic -pathmap:S:=z:\s\p90 -pathmap:o:\portsrc\spg\system_1=z:\o\p90 -D_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR -DPROTOTYPES -DDebug -D_WINDOWS -DINHOUSE_FLAG -DRELEASE -DPRO_MACHINE=36 -DGRAPHICS=9 -DOPER_SYS=4 -DPLATFORM=36 -DMSB_LEFT -DWIN32 -D_WIN32 -D_WINNT -D_WIN32_WINNT=0x0601 -D_WIN32_IE=0x0800 -DWINVER=0x0601 -experimental:deterministic -pathmap:S:=z:\s\p90 -pathmap:o:\portsrc\spg\system_1=z:\o\p90 -D_DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR -DPROTOTYPES -DDebug -D_WINDOWS -DINHOUSE_FLAG -DRELEASE -DOTK_CPP_TEST -DOTK_USE_TKOUT -DOTK_CPP -Dstatic_cipstd -DPRO_USE_VAR_ARGS -c -Fod:\GTM\spr16036835ProSelectionVerifyq13\x86e_win64\protoolkit\otk_cpp_tests\obj\otk_tst_annotation.obj -Id:\GTM\spr16036835ProSelectionVerifyq13\protoolkit\otk_cpp_tests\includes -Ik:\q13\spg\system_1\protoolkit\otk_cpp_tests\includes -Ik:\q13\spg\system_1\protoolkit\protk_tests\includes -Ik:\q13\spg\system_1\protoolkit\protk_tests\pt_wt_tests\includes -Ik:\q13\spg\system_1\protoolkit\includes -Ik:\q13\spg\system_1\proe\coretools\includes -Ik:\q13\spg\system_1\prodevelop\includes -Ik:\q13\spg\system_1\prodevelop\ptc_includes -Ik:\q13\spg\system_1\advapps\TK-2\basictk\baselib\inc -Ik:\q13\spg\system_1\advapps\TK-2\basictk\rtlcore\inc -Ik:\q13\spg\system_1\advapps\TK-2\cip\cipbase\inc -Ik:\q13\spg\system_1\xplatform\advapps\TK-2\cip\cipbase\inc -Ik:\q13\spg\system_1\advapps\TK-2\ootk\pfccmn\inc -Ik:\q13\spg\system_1\advapps\TK-2\ootk\pfccmnsync\inc -Ik:\q13\spg\system_1\xplatform\advapps\TK-2\ootk\pfccmn\inc -Ik:\q13\spg\system_1\xplatform\advapps\TK-2\ootk\pfccmnsync\inc -Ik:\q13\spg\system_1\advapps\TK-2\ootk\wfc_cxx_api\inc -Ik:\q13\spg\system_1\advapps\TK-2\ootk\uifc_cxx_api\inc -Ik:\q13\spg\system_1\advapps\TK-2\ootk\hfc_cxx_api\inc -Ik:\q13\spg\system_1\xplatform\advapps\TK-2\ootk\uifc_source\inc -Ik:\q13\spg\system_1\xplatform\advapps\TK-2\ootk\wfc_source\inc -Ik:\q13\spg\system_1\protoolkit\otk_appls\otk_examples\includes -Ik:\q13\spg\system_1\advapps\TK-2\basictk\cxx14\inc -Ik:\q13\spg\system_1\protoolkit\otk_app\inc\nlohmann -Id:\GTM\spr16036835ProSelectionVerifyq13\protoolkit\otk_cpp_tests\otk_tst_annotation -Ik:\q13\spg\system_1\protoolkit\otk_cpp_tests\otk_tst_annotation d:\GTM\spr16036835ProSelectionVerifyq13\x86e_win64\protoolkit\otk_cpp_tests\obj\otk_tst_annotation.cxx 
+>> d:\GTM\spr16036835ProSelectionVerifyq13\x86e_win64\protoolkit\otk_cpp_tests\obj\otk_tst_main.obj: SUCCEEDED.
+otk_tst_main.cxx
+time(Z:\compilers\i486_nt\vs17.10.3\VC\Tools\MSVC\14.40.33807\bin\Hostx64\x64\c1xx.dll)=3.91061s < 13219466059301 - 13219505165424 > BB [d:\GTM\spr16036835ProSelectionVerifyq13\x86e_win64\protoolkit\otk_cpp_tests\obj\otk_tst_main.cxx]
+time(Z:\compilers\i486_nt\vs17.10.3\VC\Tools\MSVC\14.40.33807\bin\Hostx64\x64\c2.dll)=1.14062s < 13219505177814 - 13219516584006 > BB [d:\GTM\spr16036835ProSelectionVerifyq13\x86e_win64\protoolkit\otk_cpp_tests\obj\otk_tst_main.cxx]
+>> d:\GTM\spr16036835ProSelectionVerifyq13\x86e_win64\protoolkit\otk_cpp_tests\obj\otk_tst_annotation.obj: SUCCEEDED.
+otk_tst_annotation.cxx
+otk_annotation_002q10.cxx(53): warning C4101: 'status': unreferenced local variable
+otk_annotation_003q10.cxx(45): warning C4101: 'status': unreferenced local variable
+otk_annotation_003q10.cxx(153): warning C4101: 'n_sels': unreferenced local variable
+otk_annotation_004q10.cxx(43): warning C4101: 'status': unreferenced local variable
+otk_annotation_004q10.cxx(104): warning C4101: 'annoAttach': unreferenced local variable
+otk_annotation_005q12.cxx(126): warning C4101: 'orient_hint': unreferenced local variable
+otk_annotation_005q12.cxx(116): warning C4101: 'LocPnt': unreferenced local variable
+otk_annotation_005q12.cxx(125): warning C4101: 'dsense_arr': unreferenced local variable
+otk_annotation_005q12.cxx(117): warning C4101: 'ap': unreferenced local variable
+otk_annotation_006p10.cxx(37): warning C4101: 'proDtmMatCond': unreferenced local variable
+otk_annotation_006p10.cxx(37): warning C4101: 'proCoDtmMatCond': unreferenced local variable
+otk_annotation_006q12.cxx(44): warning C4101: 'status': unreferenced local variable
+otk_annotation_007q12.cxx(43): warning C4101: 'status': unreferenced local variable
+otk_annotation_010p70.cxx(53): warning C4101: 'status': unreferenced local variable
+otk_annotation_010p70.cxx(94): warning C4101: 'err': unreferenced local variable
+otk_annotation_010p70.cxx(114): warning C4101: 'drawing': unreferenced local variable
+otk_annotation_010p70.cxx(115): warning C4101: 'sels': unreferenced local variable
+otk_annotation_010p90.cxx(49): warning C4101: 'status': unreferenced local variable
+otk_annotation_011p20.cxx(147): warning C4101: 'w_size': unreferenced local variable
+otk_annotation_011p20.cxx(185): warning C4101: 'view': unreferenced local variable
+otk_annotation_011p20.cxx(191): warning C4101: 'text_style': unreferenced local variable
+otk_annotation_011p20.cxx(192): warning C4101: 'color': unreferenced local variable
+otk_annotation_011p90.cxx(48): warning C4101: 'status': unreferenced local variable
+otk_annotation_014p70.cxx(49): warning C4101: 'status': unreferenced local variable
+otk_annotation_015p90.cxx(94): warning C4101: 'status': unreferenced local variable
+otk_annotation_015p90.cxx(156): warning C4101: 'active_comb_state': unreferenced local variable
+otk_annotation_015p90.cxx(155): warning C4101: 'annotation': unreferenced local variable
+otk_annotation_015p90.cxx(157): warning C4101: 'annotations': unreferenced local variable
+otk_annotation_015q11.cxx(46): warning C4101: 'status': unreferenced local variable
+otk_annotation_016p70.cxx(54): warning C4101: 'status': unreferenced local variable
+otk_annotation_016p70.cxx(105): warning C4101: 'mdlItem': unreferenced local variable
+otk_annotation_016p70.cxx(102): warning C4101: 'drawing': unreferenced local variable
+otk_annotation_016p90.cxx(51): warning C4101: 'status': unreferenced local variable
+otk_annotation_016p90.cxx(152): warning C4101: 'mdl': unreferenced local variable
+otk_annotation_017p70.cxx(51): warning C4101: 'status': unreferenced local variable
+otk_annotation_017p70.cxx(95): warning C4101: 'mdlItem': unreferenced local variable
+otk_annotation_017p70.cxx(92): warning C4101: 'drawing': unreferenced local variable
+otk_annotation_017p70.cxx(93): warning C4101: 'sels': unreferenced local variable
+otk_annotation_018p70.cxx(51): warning C4101: 'status': unreferenced local variable
+otk_annotation_019p70.cxx(52): warning C4101: 'status': unreferenced local variable
+otk_annotation_019p70.cxx(92): warning C4101: 'currMdl': unreferenced local variable
+otk_annotation_01q10.cxx(45): warning C4101: 'status': unreferenced local variable
+otk_annotation_01q10.cxx(108): warning C4101: 'drw': unreferenced local variable
+otk_annotation_01q11.cxx(65): warning C4101: 'status': unreferenced local variable
+otk_annotation_01q11.cxx(142): warning C4101: 'table': unreferenced local variable
+otk_annotation_021p70.cxx(69): warning C4101: 'status': unreferenced local variable
+otk_annotation_021p70.cxx(125): warning C4101: 'mdlItem': unreferenced local variable
+otk_annotation_021p70.cxx(180): warning C4101: 'mdlItem': unreferenced local variable
+otk_annotation_024p70.cxx(52): warning C4101: 'status': unreferenced local variable
+otk_annotation_025p70.cxx(57): warning C4101: 'status': unreferenced local variable
+otk_annotation_025p70.cxx(107): warning C4101: 'mdlItem': unreferenced local variable
+otk_annotation_025p70.cxx(104): warning C4101: 'drawing': unreferenced local variable
+otk_annotation_025q11.cxx(49): warning C4101: 'status': unreferenced local variable
+otk_annotation_025q11.cxx(91): warning C4101: 'nItems': unreferenced local variable
+otk_annotation_025q11.cxx(91): warning C4101: 'numOfCombState': unreferenced local variable
+otk_annotation_025q11.cxx(91): warning C4101: 'jj': unreferenced local variable
+otk_annotation_025q11.cxx(92): warning C4101: 'csItems': unreferenced local variable
+otk_annotation_025q11.cxx(91): warning C4101: 'ii': unreferenced local variable
+otk_annotation_026p70.cxx(47): warning C4101: 'status': unreferenced local variable
+otk_annotation_026p70.cxx(104): warning C4101: 'currMdl': unreferenced local variable
+otk_annotation_028p70.cxx(47): warning C4101: 'status': unreferenced local variable
+otk_annotation_029p70.cxx(45): warning C4101: 'status': unreferenced local variable
+otk_annotation_02p70.cxx(54): warning C4101: 'status': unreferenced local variable
+otk_annotation_02p80.cxx(94): warning C4101: 'status1': unreferenced local variable
+otk_annotation_02q11.cxx(51): warning C4101: 'status': unreferenced local variable
+otk_annotation_031p70.cxx(64): warning C4101: 'status': unreferenced local variable
+otk_annotation_031p70.cxx(144): warning C4101: 'mdl': unreferenced local variable
+otk_annotation_031p70.cxx(169): warning C4101: 'mdl': unreferenced local variable
+otk_annotation_032p70.cxx(53): warning C4101: 'status': unreferenced local variable
+otk_annotation_032p70.cxx(95): warning C4101: 'drw': unreferenced local variable
+otk_annotation_033p70.cxx(59): warning C4101: 'status': unreferenced local variable
+otk_annotation_033p70.cxx(97): warning C4101: 'tmpLine': unreferenced local variable
+otk_annotation_033p70.cxx(183): warning C4101: 'drw': unreferenced local variable
+otk_annotation_035p10.cxx(130): warning C4101: 'ref': unreferenced local variable
+otk_annotation_035p10.cxx(133): warning C4101: 'point': unreferenced local variable
+otk_annotation_035p70.cxx(93): warning C4101: 'point1': unreferenced local variable
+otk_annotation_035p70.cxx(93): warning C4101: 'point0': unreferenced local variable
+otk_annotation_035p70.cxx(93): warning C4101: 'point2': unreferenced local variable
+otk_annotation_035p70.cxx(146): warning C4101: 'drw': unreferenced local variable
+otk_annotation_036p10.cxx(31): warning C4101: 'edgeItem': unreferenced local variable
+otk_annotation_036p10.cxx(31): warning C4101: 'item': unreferenced local variable
+otk_annotation_036p10.cxx(32): warning C4101: 'edgeSel': unreferenced local variable
+otk_annotation_036p10.cxx(32): warning C4101: 'sel': unreferenced local variable
+otk_annotation_037p70.cxx(74): warning C4101: 'status': unreferenced local variable
+otk_annotation_037p70.cxx(134): warning C4101: 'mdlItem': unreferenced local variable
+otk_annotation_037p70.cxx(133): warning C4101: 'csys': unreferenced local variable
+otk_annotation_037p70.cxx(129): warning C4101: 'feat1': unreferenced local variable
+otk_annotation_037p70.cxx(130): warning C4101: 'intfdata': unreferenced local variable
+otk_annotation_038p10.cxx(75): warning C4101: 'drw': unreferenced local variable
+otk_annotation_038p70.cxx(73): warning C4101: 'status': unreferenced local variable
+otk_annotation_039p70.cxx(58): warning C4101: 'status': unreferenced local variable
+otk_annotation_039p70.cxx(99): warning C4101: 'mdlItem': unreferenced local variable
+otk_annotation_03p60.cxx(86): warning C4101: 'reference': unreferenced local variable
+otk_annotation_03p70.cxx(58): warning C4101: 'status': unreferenced local variable
+otk_annotation_03p70.cxx(106): warning C4101: 'drawing': unreferenced local variable
+otk_annotation_03q11.cxx(64): warning C4101: 'status': unreferenced local variable
+otk_annotation_03q11.cxx(144): warning C4101: 'drw': unreferenced local variable
+otk_annotation_03q11.cxx(279): warning C4101: 'drw': unreferenced local variable
+otk_annotation_03q11.cxx(376): warning C4101: 'drw': unreferenced local variable
+otk_annotation_040p10.cxx(293): warning C4101: 'status': unreferenced local variable
+otk_annotation_040p10.cxx(335): warning C4101: 'mdlHdl': unreferenced local variable
+otk_annotation_043p10.cxx(44): warning C4101: 'currMdl': unreferenced local variable
+otk_annotation_043p10.cxx(45): warning C4101: 'mdlType': unreferenced local variable
+otk_annotation_043p30.cxx(90): warning C4101: 'EnumObj': unreferenced local variable
+otk_annotation_044p20.cxx(50): warning C4101: 'status': unreferenced local variable
+otk_annotation_044p20.cxx(98): warning C4101: 'name': unreferenced local variable
+otk_annotation_044p20.cxx(101): warning C4101: 'i': unreferenced local variable
+otk_annotation_044p20.cxx(101): warning C4101: 'size': unreferenced local variable
+otk_annotation_044p20.cxx(99): warning C4101: 'wname': unreferenced local variable
+otk_annotation_044p20.cxx(100): warning C4101: 'p_sym_inst': unreferenced local variable
+otk_annotation_044p30.cxx(37): warning C4101: 'textStyleType': unreferenced local variable
+otk_annotation_045p20.cxx(85): warning C4101: 'status': unreferenced local variable
+otk_annotation_047p20.cxx(107): warning C4101: 'item': unreferenced local variable
+otk_annotation_047p20.cxx(203): warning C4101: 'sel': unreferenced local variable
+otk_annotation_048p30.cxx(59): warning C4101: 'status': unreferenced local variable
+otk_annotation_049p10.cxx(101): warning C4101: 'model': unreferenced local variable
+otk_annotation_049p30.cxx(111): warning C4101: 'font': unreferenced local variable
+otk_annotation_049p30.cxx(104): warning C4101: 'drawing': unreferenced local variable
+otk_annotation_04p60.cxx(86): warning C4101: 'reference': unreferenced local variable
+otk_annotation_04p90.cxx(48): warning C4101: 'status': unreferenced local variable
+otk_annotation_04p90.cxx(121): warning C4267: 'argument': conversion from 'size_t' to 'xint', possible loss of data
+otk_annotation_051p30.cxx(39): warning C4101: 'nSize': unreferenced local variable
+otk_annotation_052p20.cxx(108): warning C4101: 'feat_type': unreferenced local variable
+otk_annotation_052p20.cxx(106): warning C4101: 'ref': unreferenced local variable
+otk_annotation_052p20.cxx(102): warning C4101: 'sel_view2': unreferenced local variable
+otk_annotation_052p20.cxx(102): warning C4101: 'sel_view1': unreferenced local variable
+otk_annotation_052p30.cxx(45): warning C4101: 'status': unreferenced local variable
+otk_annotation_053p20.cxx(293): warning C4101: 'p_mdl_itm': unreferenced local variable
+otk_annotation_053p20.cxx(313): warning C4101: 'int_val': unreferenced local variable
+otk_annotation_053p20.cxx(296): warning C4101: 'mdl': unreferenced local variable
+otk_annotation_053p20.cxx(299): warning C4101: 'new_cs_name_str': unreferenced local variable
+otk_annotation_053p20.cxx(294): warning C4101: 'sel': unreferenced local variable
+otk_annotation_053p20.cxx(309): warning C4101: 'sizeRefArray': unreferenced local variable
+otk_annotation_053p20.cxx(293): warning C4101: 'modelitem_curr': unreferenced local variable
+otk_annotation_053p20.cxx(292): warning C4101: 'mdltype': unreferenced local variable
+otk_annotation_053p30.cxx(103): warning C4101: 'status': unreferenced local variable
+otk_annotation_055p20.cxx(50): warning C4101: 'status': unreferenced local variable
+otk_annotation_056p30.cxx(106): warning C4101: 'status': unreferenced local variable
+otk_annotation_057p30.cxx(138): warning C4101: 'status': unreferenced local variable
+otk_annotation_05p70.cxx(39): warning C4101: 'status': unreferenced local variable
+otk_annotation_05p80.cxx(93): warning C4101: 'needsConv': unreferenced local variable
+otk_annotation_05p80.cxx(153): warning C4101: 'ref': unreferenced local variable
+otk_annotation_063p30.cxx(106): warning C4101: 'status': unreferenced local variable
+otk_annotation_066p30.cxx(141): warning C4101: 'status': unreferenced local variable
+otk_annotation_068p30.cxx(53): warning C4101: 'status': unreferenced local variable
+otk_annotation_069p30.cxx(53): warning C4101: 'status': unreferenced local variable
+otk_annotation_06p30.cxx(136): warning C4101: 'ref': unreferenced local variable
+otk_annotation_06p60.cxx(40): warning C4101: 'status': unreferenced local variable
+otk_annotation_06p90.cxx(47): warning C4101: 'status': unreferenced local variable
+otk_annotation_06q11.cxx(45): warning C4101: 'status': unreferenced local variable
+otk_annotation_070p30.cxx(40): warning C4101: 'modelName1': unreferenced local variable
+otk_annotation_070p30.cxx(43): warning C4101: 'otk_enum': unreferenced local variable
+otk_annotation_071p30.cxx(38): warning C4101: 'selItem': unreferenced local variable
+otk_annotation_071p30.cxx(36): warning C4101: 'modelName1': unreferenced local variable
+otk_annotation_071p30.cxx(43): warning C4101: 'lName_after': unreferenced local variable
+otk_annotation_071p30.cxx(42): warning C4101: 'lName': unreferenced local variable
+otk_annotation_071p30.cxx(39): warning C4101: 'otk_enum': unreferenced local variable
+otk_annotation_072p30.cxx(109): warning C4101: 'nSize': unreferenced local variable
+otk_annotation_074p30.cxx(241): warning C4101: 'status': unreferenced local variable
+otk_annotation_075p30.cxx(126): warning C4101: 'status': unreferenced local variable
+otk_annotation_076p30.cxx(80): warning C4101: 'status': unreferenced local variable
+otk_annotation_077p30.cxx(118): warning C4101: 'otk_enum': unreferenced local variable
+otk_annotation_07p30.cxx(75): warning C4101: 'leader1': unreferenced local variable
+otk_annotation_07p30.cxx(75): warning C4101: 'leader2': unreferenced local variable
+otk_annotation_07p80.cxx(51): warning C4101: 'status': unreferenced local variable
+otk_annotation_07p90.cxx(48): warning C4101: 'status': unreferenced local variable
+otk_annotation_07q11.cxx(65): warning C4101: 'status': unreferenced local variable
+otk_annotation_081p30.cxx(264): warning C4101: 'status': unreferenced local variable
+otk_annotation_082p30.cxx(63): warning C4101: 'status': unreferenced local variable
+otk_annotation_083p30.cxx(69): warning C4101: 'status': unreferenced local variable
+otk_annotation_088p30.cxx(51): warning C4101: 'status': unreferenced local variable
+otk_annotation_089p30.cxx(82): warning C4101: 'status': unreferenced local variable
+otk_annotation_08p60.cxx(53): warning C4101: 'status': unreferenced local variable
+otk_annotation_08p60.cxx(113): warning C4101: 'fontName': unreferenced local variable
+otk_annotation_08p70.cxx(34): warning C4101: 'dtlSymInstData': unreferenced local variable
+otk_annotation_090p30.cxx(55): warning C4101: 'status': unreferenced local variable
+otk_annotation_090p30.cxx(101): warning C4101: 'drawing': unreferenced local variable
+otk_annotation_090p30.cxx(101): warning C4101: 'mdl': unreferenced local variable
+otk_annotation_090p30.cxx(104): warning C4101: 'sel': unreferenced local variable
+otk_annotation_091p30.cxx(108): warning C4101: 'type': unreferenced local variable
+otk_annotation_091p30.cxx(119): warning C4101: 'sel1': unreferenced local variable
+otk_annotation_091p30.cxx(119): warning C4101: 'annotSel': unreferenced local variable
+otk_annotation_091p30.cxx(121): warning C4101: 'j': unreferenced local variable
+otk_annotation_091p30.cxx(121): warning C4101: 'i': unreferenced local variable
+otk_annotation_091p30.cxx(122): warning C4101: 'itemSel2': unreferenced local variable
+otk_annotation_091p30.cxx(122): warning C4101: 'itemSel1': unreferenced local variable
+otk_annotation_091p30.cxx(119): warning C4101: 'sel2': unreferenced local variable
+otk_annotation_091p30.cxx(114): warning C4101: 'orient': unreferenced local variable
+otk_annotation_092p30.cxx(183): warning C4101: 'status': unreferenced local variable
+otk_annotation_094p30.cxx(100): warning C4101: 'path': unreferenced local variable
+otk_annotation_094p30.cxx(99): warning C4101: 'gtol': unreferenced local variable
+otk_annotation_095p30.cxx(39): warning C4101: 'otk_enum': unreferenced local variable
+otk_annotation_09p80.cxx(49): warning C4101: 'status': unreferenced local variable
+otk_annotation_09p90.cxx(49): warning C4101: 'status': unreferenced local variable
+otk_annotation_09p90.cxx(178): warning C4805: '==': unsafe mix of type 'xbool' and type 'bool' in operation
+otk_annotation_100p30.cxx(53): warning C4101: 'status': unreferenced local variable
+otk_annotation_102p30.cxx(121): warning C4101: 'name': unreferenced local variable
+otk_annotation_103p30.cxx(55): warning C4101: 'cline': unreferenced local variable
+otk_annotation_103p30.cxx(311): warning C4101: 'refId': unreferenced local variable
+otk_annotation_104p30.cxx(124): warning C4101: 'cline': unreferenced local variable
+otk_annotation_104p30.cxx(111): warning C4101: 'mdlItem1': unreferenced local variable
+otk_annotation_104p30.cxx(111): warning C4101: 'mdlItem2': unreferenced local variable
+otk_annotation_104p30.cxx(108): warning C4101: 'drwModel': unreferenced local variable
+otk_annotation_104p30.cxx(114): warning C4101: 'orient': unreferenced local variable
+otk_annotation_108p30.cxx(84): warning C4101: 'mdlType': unreferenced local variable
+otk_annotation_108p30.cxx(83): warning C4101: 'mdl': unreferenced local variable
+otk_annotation_10p80.cxx(95): warning C4101: 'odrinateBaseLineDim': unreferenced local variable
+otk_annotation_110p30.cxx(44): warning C4101: 'otk_enum': unreferenced local variable
+otk_annotation_111p30.cxx(45): warning C4101: 'status': unreferenced local variable
+otk_annotation_112p30.cxx(53): warning C4101: 'status': unreferenced local variable
+otk_annotation_113p30.cxx(45): warning C4101: 'status': unreferenced local variable
+otk_annotation_114p30.cxx(121): warning C4101: 'offset': unreferenced local variable
+otk_annotation_114p30.cxx(120): warning C4101: 'item': unreferenced local variable
+otk_annotation_114p30.cxx(125): warning C4101: 'btn': unreferenced local variable
+otk_annotation_115p30.cxx(187): warning C4101: 'status': unreferenced local variable
+otk_annotation_117p30.cxx(112): warning C4101: 'item': unreferenced local variable
+otk_annotation_11p80.cxx(68): warning C4101: 'status': unreferenced local variable
+otk_annotation_11p80.cxx(142): warning C4101: 'mdlItem': unreferenced local variable
+otk_annotation_11p80.cxx(139): warning C4101: 'drawing': unreferenced local variable
+otk_annotation_11p80.cxx(137): warning C4101: 'drw': unreferenced local variable
+otk_annotation_11p80.cxx(136): warning C4101: 'mdl': unreferenced local variable
+otk_annotation_11p80.cxx(234): warning C4101: 'mdlItem': unreferenced local variable
+otk_annotation_11p80.cxx(230): warning C4101: 'mdl': unreferenced local variable
+otk_annotation_120p30.cxx(101): warning C4101: 'btn': unreferenced local variable
+otk_annotation_129p30.cxx(122): warning C4101: 'mdl_item': unreferenced local variable
+otk_annotation_12q11.cxx(53): warning C4101: 'status': unreferenced local variable
+otk_annotation_12q11.cxx(99): warning C4101: 'refAdd3': unreferenced local variable
+otk_annotation_12q11.cxx(97): warning C4101: 'mdlItem3': unreferenced local variable
+otk_annotation_12q11.cxx(97): warning C4101: 'mdlItem2': unreferenced local variable
+otk_annotation_12q11.cxx(98): warning C4101: 'sel3': unreferenced local variable
+otk_annotation_12q11.cxx(98): warning C4101: 'sel2': unreferenced local variable
+otk_annotation_12q11.cxx(99): warning C4101: 'refAdd2': unreferenced local variable
+otk_annotation_130p30.cxx(101): warning C4101: 'solid': unreferenced local variable
+otk_annotation_131p30.cxx(81): warning C4101: 'model': unreferenced local variable
+otk_annotation_131p30.cxx(75): warning C4101: 'solid': unreferenced local variable
+otk_annotation_131p30.cxx(74): warning C4101: 'sel': unreferenced local variable
+otk_annotation_131p30.cxx(73): warning C4101: 'tag': unreferenced local variable
+otk_annotation_134p30.cxx(114): warning C4101: 'line': unreferenced local variable
+otk_annotation_136p50.cxx(65): warning C4101: 'status': unreferenced local variable
+otk_annotation_137p30.cxx(116): warning C4101: 'line': unreferenced local variable
+otk_annotation_137p30.cxx(152): warning C4101: 'selPoint': unreferenced local variable
+otk_annotation_139p50.cxx(47): warning C4101: 'status': unreferenced local variable
+otk_annotation_13q11.cxx(49): warning C4101: 'status': unreferenced local variable
+otk_annotation_140p50.cxx(74): warning C4101: 'status': unreferenced local variable
+otk_annotation_141p30.cxx(53): warning C4101: 'status': unreferenced local variable
+otk_annotation_141p30.cxx(103): warning C4101: 'pAnnotPlane': unreferenced local variable
+otk_annotation_142p30.cxx(65): warning C4101: 'status': unreferenced local variable
+otk_annotation_142p50.cxx(95): warning C4101: 'otk_enum': unreferenced local variable
+otk_annotation_143p30.cxx(95): warning C4101: 'mdlItem': unreferenced local variable
+otk_annotation_143p30.cxx(93): warning C4101: 'wMdlName': unreferenced local variable
+otk_annotation_143p50.cxx(44): warning C4101: 'status': unreferenced local variable
+otk_annotation_144p50.cxx(89): warning C4101: 'otk_enum': unreferenced local variable
+otk_annotation_145p30.cxx(61): warning C4101: 'status': unreferenced local variable
+otk_annotation_145p30.cxx(103): warning C4101: 'selection': unreferenced local variable
+otk_annotation_146p30.cxx(62): warning C4101: 'status': unreferenced local variable
+otk_annotation_146p50.cxx(58): warning C4101: 'status': unreferenced local variable
+otk_annotation_147p30.cxx(109): warning C4101: 'mdlItem': unreferenced local variable
+otk_annotation_147p30.cxx(113): warning C4101: 'offset': unreferenced local variable
+otk_annotation_147p30.cxx(105): warning C4101: 'point': unreferenced local variable
+otk_annotation_147p30.cxx(104): warning C4101: 'leaders': unreferenced local variable
+otk_annotation_147p30.cxx(112): warning C4101: 'pointGtolAttach': unreferenced local variable
+otk_annotation_147p30.cxx(115): warning C4101: 'gtolAttachLeadertype': unreferenced local variable
+otk_annotation_147p30.cxx(112): warning C4101: 'offsetVec': unreferenced local variable
+otk_annotation_147p50.cxx(43): warning C4101: 'status': unreferenced local variable
+otk_annotation_148p30.cxx(50): warning C4101: 'status': unreferenced local variable
+otk_annotation_14p80.cxx(47): warning C4101: 'status': unreferenced local variable
+otk_annotation_150p50.cxx(45): warning C4101: 'status': unreferenced local variable
+otk_annotation_151p50.cxx(68): warning C4101: 'status': unreferenced local variable
+otk_annotation_152p50.cxx(44): warning C4101: 'status': unreferenced local variable
+otk_annotation_153p50.cxx(46): warning C4101: 'status': unreferenced local variable
+otk_annotation_154p30.cxx(55): warning C4101: 'name': unreferenced local variable
+otk_annotation_154p50.cxx(44): warning C4101: 'status': unreferenced local variable
+otk_annotation_155p50.cxx(44): warning C4101: 'status': unreferenced local variable
+otk_annotation_156p30.cxx(100): warning C4101: 'solid': unreferenced local variable
+otk_annotation_156p50.cxx(37): warning C4101: 'otk_enum': unreferenced local variable
+otk_annotation_157p30.cxx(41): warning C4101: 'status': unreferenced local variable
+otk_annotation_157p30.cxx(86): warning C4101: 'feat_type': unreferenced local variable
+otk_annotation_157p50.cxx(37): warning C4101: 'otk_enum': unreferenced local variable
+otk_annotation_158p30.cxx(39): warning C4101: 'status': unreferenced local variable
+otk_annotation_158p30.cxx(42): warning C4101: 'Model': unreferenced local variable
+otk_annotation_158p50.cxx(49): warning C4101: 'status': unreferenced local variable
+otk_annotation_158p50.cxx(98): warning C4101: 'display_name': unreferenced local variable
+otk_annotation_158p50.cxx(108): warning C4101: 'opts': unreferenced local variable
+otk_annotation_159p30.cxx(41): warning C4101: 'status': unreferenced local variable
+otk_annotation_159p30.cxx(44): warning C4101: 'Model': unreferenced local variable
+otk_annotation_159p30.cxx(91): warning C4101: 'p_lines': unreferenced local variable
+otk_annotation_159p30.cxx(92): warning C4101: 'p_texts': unreferenced local variable
+otk_annotation_159p30.cxx(88): warning C4101: 'solid_model_note': unreferenced local variable
+otk_annotation_159p30.cxx(93): warning C4101: 'line': unreferenced local variable
+otk_annotation_159p30.cxx(90): warning C4101: 'new_notedata': unreferenced local variable
+otk_annotation_159p30.cxx(90): warning C4101: 'notedata': unreferenced local variable
+otk_annotation_159p30.cxx(94): warning C4101: 'text': unreferenced local variable
+otk_annotation_159p30.cxx(89): warning C4101: 'mdl_note': unreferenced local variable
+otk_annotation_15p30.cxx(41): warning C4101: 'status': unreferenced local variable
+otk_annotation_15p80.cxx(96): warning C4101: 'new_clr': unreferenced local variable
+otk_annotation_15p80.cxx(179): warning C4101: 'item': unreferenced local variable
+otk_annotation_161p30.cxx(51): warning C4101: 'status': unreferenced local variable
+otk_annotation_162p30.cxx(56): warning C4101: 'status': unreferenced local variable
+otk_annotation_163p30.cxx(57): warning C4101: 'status': unreferenced local variable
+otk_annotation_167p30.cxx(56): warning C4101: 'status': unreferenced local variable
+otk_annotation_168p30.cxx(63): warning C4101: 'status': unreferenced local variable
+otk_annotation_16q11.cxx(40): warning C4101: 'status': unreferenced local variable
+otk_annotation_16q11.cxx(84): warning C4101: 'output': unreferenced local variable
+otk_annotation_172p30.cxx(52): warning C4101: 'status': unreferenced local variable
+otk_annotation_172p30.cxx(97): warning C4267: 'argument': conversion from 'size_t' to 'xint', possible loss of data
+otk_annotation_173p30.cxx(40): warning C4101: 'numAnnot': unreferenced local variable
+otk_annotation_174p30.cxx(51): warning C4101: 'status': unreferenced local variable
+otk_annotation_175p30.cxx(284): warning C4101: 'style': unreferenced local variable
+otk_annotation_177p30.cxx(56): warning C4101: 'status': unreferenced local variable
+otk_annotation_178p30.cxx(63): warning C4101: 'status': unreferenced local variable
+otk_annotation_178p30.cxx(119): warning C4101: 'drawing': unreferenced local variable
+otk_annotation_179p30.cxx(144): warning C4101: 'drawing': unreferenced local variable
+otk_annotation_17q11.cxx(47): warning C4101: 'status': unreferenced local variable
+otk_annotation_18q11.cxx(45): warning C4101: 'status': unreferenced local variable
+otk_annotation_18q11.cxx(82): warning C4101: 'new_clr': unreferenced local variable
+otk_annotation_19q11.cxx(45): warning C4101: 'status': unreferenced local variable
+otk_annotation_21q11.cxx(97): warning C4101: 'table': unreferenced local variable
+otk_annotation_22p30.cxx(50): warning C4101: 'mdl': unreferenced local variable
+otk_annotation_22q11.cxx(43): warning C4101: 'status': unreferenced local variable
+otk_annotation_23p30.cxx(52): warning C4101: 'dimLoc': unreferenced local variable
+otk_annotation_24p30.cxx(85): warning C4101: 'mdlItem': unreferenced local variable
+otk_annotation_29p30.cxx(92): warning C4101: 'drawing': unreferenced local variable
+otk_annotation_31p30.cxx(46): warning C4101: 'defName': unreferenced local variable
+otk_annotation_31p30.cxx(44): warning C4101: 'symDef': unreferenced local variable
+otk_annotation_31p30.cxx(45): warning C4101: 'symDefData': unreferenced local variable
+otk_annotation_35p30.cxx(109): warning C4101: 'currMdl': unreferenced local variable
+otk_annotation_37p30.cxx(83): warning C4101: 'status': unreferenced local variable
+otk_annotation_37p30.cxx(82): warning C4101: 'drawing': unreferenced local variable
+otk_annotation_37p30.cxx(81): warning C4101: 'currMdl': unreferenced local variable
+otk_annotation_99p30.cxx(62): warning C4101: 'status': unreferenced local variable
+otk_annotation_soliddim.cxx(40): warning C4101: 'otk_enum': unreferenced local variable
+otk_annotation_solidorddim.cxx(40): warning C4101: 'otk_enum': unreferenced local variable
+otk_annotation_solidrefdim.cxx(40): warning C4101: 'otk_enum': unreferenced local variable
+otk_annotation_surffin.cxx(46): warning C4101: 'otk_enum': unreferenced local variable
+time(Z:\compilers\i486_nt\vs17.10.3\VC\Tools\MSVC\14.40.33807\bin\Hostx64\x64\c1xx.dll)=7.66729s < 13219466894958 - 13219543567828 > BB [d:\GTM\spr16036835ProSelectionVerifyq13\x86e_win64\protoolkit\otk_cpp_tests\obj\otk_tst_annotation.cxx]
+time(Z:\compilers\i486_nt\vs17.10.3\VC\Tools\MSVC\14.40.33807\bin\Hostx64\x64\c2.dll)=19.78598s < 13219543599703 - 13219741459480 > BB [d:\GTM\spr16036835ProSelectionVerifyq13\x86e_win64\protoolkit\otk_cpp_tests\obj\otk_tst_annotation.cxx]
+*  2 Targets remaining...
+*  1 Targets remaining...
+>  d:\GTM\spr16036835ProSelectionVerifyq13\x86e_win64\obj\otk_cpp_tests.exe: Step 1...
+	Z:\tools\apps\uigtms\stable\x86e_win64\gmk.exe -D d:\GTM\spr16036835ProSelectionVerifyq13\x86e_win64\obj 
+>  d:\GTM\spr16036835ProSelectionVerifyq13\x86e_win64\obj\otk_cpp_tests_dll.dll: Step 1...
+	Z:\tools\apps\uigtms\stable\x86e_win64\gmk.exe -D d:\GTM\spr16036835ProSelectionVerifyq13\x86e_win64\obj 
+>  d:\GTM\spr16036835ProSelectionVerifyq13\x86e_win64\obj\otk_cpp_tests.exe: Step 2...
+	 hrm -f d:\GTM\spr16036835ProSelectionVerifyq13\x86e_win64\obj\otk_cpp_tests.exe 
+>  d:\GTM\spr16036835ProSelectionVerifyq13\x86e_win64\obj\otk_cpp_tests_dll.dll: Step 2...
+	 hrm -f d:\GTM\spr16036835ProSelectionVerifyq13\x86e_win64\obj\otk_cpp_tests_dll.dll 
+>  d:\GTM\spr16036835ProSelectionVerifyq13\x86e_win64\obj\otk_cpp_tests_dll.dll: Step 3...
+	link /NODEFAULTLIB:LIBC.lib /subsystem:console /dll /machine:x64 /debug:none /opt:ref /opt:icf /out:d:\GTM\spr16036835ProSelectionVerifyq13\x86e_win64\obj\otk_cpp_tests_dll.dll d:\GTM\spr16036835ProSelectionVerifyq13\x86e_win64\protoolkit\otk_cpp_tests\obj\otk_tst_annotation.obj k:\q13\spg\system_1\x86e_win64\protoolkit\otk_cpp_tests\obj\otk_granite_call_tests_src.obj k:\q13\spg\system_1\x86e_win64\protoolkit\otk_cpp_tests\obj\otk_tst_asm.obj k:\q13\spg\system_1\x86e_win64\protoolkit\otk_cpp_tests\obj\otk_tst_cabling.obj k:\q13\spg\system_1\x86e_win64\protoolkit\otk_cpp_tests\obj\otk_tst_detailing.obj k:\q13\spg\system_1\x86e_win64\protoolkit\otk_cpp_tests\obj\otk_tst_drawing.obj k:\q13\spg\system_1\x86e_win64\protoolkit\otk_cpp_tests\obj\otk_tst_elemtree.obj k:\q13\spg\system_1\x86e_win64\protoolkit\otk_cpp_tests\obj\otk_tst_exception.obj k:\q13\spg\system_1\x86e_win64\protoolkit\otk_cpp_tests\obj\otk_tst_extdata.obj k:\q13\spg\system_1\x86e_win64\protoolkit\otk_cpp_tests\obj\otk_tst_famtab.obj k:\q13\spg\system_1\x86e_win64\protoolkit\otk_cpp_tests\obj\otk_tst_feat.obj k:\q13\spg\system_1\x86e_win64\protoolkit\otk_cpp_tests\obj\otk_tst_feature.obj k:\q13\spg\system_1\x86e_win64\protoolkit\otk_cpp_tests\obj\otk_tst_geometry.obj k:\q13\spg\system_1\x86e_win64\protoolkit\otk_cpp_tests\obj\otk_tst_intf3d.obj d:\GTM\spr16036835ProSelectionVerifyq13\x86e_win64\protoolkit\otk_cpp_tests\obj\otk_tst_main.obj k:\q13\spg\system_1\x86e_win64\protoolkit\otk_cpp_tests\obj\otk_tst_mech.obj k:\q13\spg\system_1\x86e_win64\protoolkit\otk_cpp_tests\obj\otk_tst_model.obj k:\q13\spg\system_1\x86e_win64\protoolkit\otk_cpp_tests\obj\otk_tst_nonpma.obj k:\q13\spg\system_1\x86e_win64\protoolkit\otk_cpp_tests\obj\otk_tst_parameter.obj k:\q13\spg\system_1\x86e_win64\protoolkit\otk_cpp_tests\obj\otk_tst_ptwt.obj k:\q13\spg\system_1\x86e_win64\protoolkit\otk_cpp_tests\obj\otk_tst_session.obj k:\q13\spg\system_1\x86e_win64\protoolkit\otk_cpp_tests\obj\otk_tst_simprep.obj k:\q13\spg\system_1\x86e_win64\protoolkit\otk_cpp_tests\obj\otk_tst_ui.obj k:\q13\spg\system_1\x86e_win64\protoolkit\otk_cpp_tests\obj\otk_tst_uicommand.obj k:\q13\spg\system_1\x86e_win64\protoolkit\otk_cpp_tests\obj\otk_tst_unit.obj k:\q13\spg\system_1\x86e_win64\protoolkit\otk_cpp_tests\obj\otk_tst_util.obj k:\q13\spg\system_1\x86e_win64\protoolkit\otk_cpp_tests\obj\otk_tst_xfeat.obj k:\q13\spg\system_1\x86e_win64\protoolkit\otk_cpp_tests\obj\otk_tst_xsec.obj k:\q13\spg\system_1\x86e_win64\protoolkit\protk_tests\pt_tests\obj\pt_test_instruments.obj k:\q13\spg\system_1\x86e_win64\protoolkit\protk_tests\pt_tests\obj\ptn_utils.obj k:\q13\spg\system_1\x86e_win64\protoolkit\otk_cpp_tests_dll\obj\otk_tst_dispobj.obj k:\q13\spg\system_1\x86e_win64\protoolkit\otk_appls\otk_examples\obj\otk_examples_asm.obj k:\q13\spg\system_1\x86e_win64\protoolkit\otk_appls\otk_examples\obj\otk_examples_drw.obj k:\q13\spg\system_1\x86e_win64\protoolkit\otk_appls\otk_examples\obj\otk_examples_feat.obj k:\q13\spg\system_1\x86e_win64\protoolkit\otk_appls\otk_examples\obj\otk_examples_graphics.obj k:\q13\spg\system_1\x86e_win64\protoolkit\otk_appls\otk_examples\obj\otk_examples_interface.obj k:\q13\spg\system_1\x86e_win64\protoolkit\otk_appls\otk_examples\obj\otk_examples_model.obj k:\q13\spg\system_1\x86e_win64\protoolkit\otk_appls\otk_examples\obj\otk_examples_server.obj k:\q13\spg\system_1\x86e_win64\protoolkit\otk_appls\otk_examples\obj\otk_examples_solid.obj k:\q13\spg\system_1\x86e_win64\protoolkit\otk_appls\otk_examples\obj\otk_examples_utils.obj k:\q13\spg\system_1\x86e_win64\protoolkit\otk_appls\otk_examples\obj\otk_examples_ui.obj k:\q13\spg\system_1\x86e_win64\protoolkit\otk_appls\otk_examples\obj\otk_examples_cip.obj k:\q13\spg\system_1\x86e_win64\obj\otk_cpp.lib k:\q13\spg\system_1\x86e_win64\obj\otk_222.lib k:\q13\spg\system_1\x86e_win64\obj\otk_cpp_hid.lib k:\q13\spg\system_1\x86e_win64\obj\protk_dll_NU.lib libcmt.lib kernel32.lib user32.lib wsock32.lib advapi32.lib mpr.lib winspool.lib netapi32.lib psapi.lib gdi32.lib shell32.lib comdlg32.lib ole32.lib ws2_32.lib iphlpapi.lib /LIBPATH:k:\q13\spg\system_1\auxobjs\x86e_win64\ICU68.2\lib ucore.lib udata.lib 
+>  d:\GTM\spr16036835ProSelectionVerifyq13\x86e_win64\obj\otk_cpp_tests.exe: Step 3...
+	link /NODEFAULTLIB:LIBC.lib /subsystem:console /machine:x64 /debug:none /opt:ref /opt:icf /out:d:\GTM\spr16036835ProSelectionVerifyq13\x86e_win64\obj\otk_cpp_tests.exe d:\GTM\spr16036835ProSelectionVerifyq13\x86e_win64\protoolkit\otk_cpp_tests\obj\otk_tst_annotation.obj k:\q13\spg\system_1\x86e_win64\protoolkit\otk_cpp_tests\obj\otk_granite_call_tests_src.obj k:\q13\spg\system_1\x86e_win64\protoolkit\otk_cpp_tests\obj\otk_tst_asm.obj k:\q13\spg\system_1\x86e_win64\protoolkit\otk_cpp_tests\obj\otk_tst_cabling.obj k:\q13\spg\system_1\x86e_win64\protoolkit\otk_cpp_tests\obj\otk_tst_detailing.obj k:\q13\spg\system_1\x86e_win64\protoolkit\otk_cpp_tests\obj\otk_tst_drawing.obj k:\q13\spg\system_1\x86e_win64\protoolkit\otk_cpp_tests\obj\otk_tst_elemtree.obj k:\q13\spg\system_1\x86e_win64\protoolkit\otk_cpp_tests\obj\otk_tst_exception.obj k:\q13\spg\system_1\x86e_win64\protoolkit\otk_cpp_tests\obj\otk_tst_extdata.obj k:\q13\spg\system_1\x86e_win64\protoolkit\otk_cpp_tests\obj\otk_tst_famtab.obj k:\q13\spg\system_1\x86e_win64\protoolkit\otk_cpp_tests\obj\otk_tst_feat.obj k:\q13\spg\system_1\x86e_win64\protoolkit\otk_cpp_tests\obj\otk_tst_feature.obj k:\q13\spg\system_1\x86e_win64\protoolkit\otk_cpp_tests\obj\otk_tst_geometry.obj k:\q13\spg\system_1\x86e_win64\protoolkit\otk_cpp_tests\obj\otk_tst_intf3d.obj d:\GTM\spr16036835ProSelectionVerifyq13\x86e_win64\protoolkit\otk_cpp_tests\obj\otk_tst_main.obj k:\q13\spg\system_1\x86e_win64\protoolkit\otk_cpp_tests\obj\otk_tst_mech.obj k:\q13\spg\system_1\x86e_win64\protoolkit\otk_cpp_tests\obj\otk_tst_model.obj k:\q13\spg\system_1\x86e_win64\protoolkit\otk_cpp_tests\obj\otk_tst_nonpma.obj k:\q13\spg\system_1\x86e_win64\protoolkit\otk_cpp_tests\obj\otk_tst_parameter.obj k:\q13\spg\system_1\x86e_win64\protoolkit\otk_cpp_tests\obj\otk_tst_ptwt.obj k:\q13\spg\system_1\x86e_win64\protoolkit\otk_cpp_tests\obj\otk_tst_session.obj k:\q13\spg\system_1\x86e_win64\protoolkit\otk_cpp_tests\obj\otk_tst_simprep.obj k:\q13\spg\system_1\x86e_win64\protoolkit\otk_cpp_tests\obj\otk_tst_ui.obj k:\q13\spg\system_1\x86e_win64\protoolkit\otk_cpp_tests\obj\otk_tst_uicommand.obj k:\q13\spg\system_1\x86e_win64\protoolkit\otk_cpp_tests\obj\otk_tst_unit.obj k:\q13\spg\system_1\x86e_win64\protoolkit\otk_cpp_tests\obj\otk_tst_util.obj k:\q13\spg\system_1\x86e_win64\protoolkit\otk_cpp_tests\obj\otk_tst_xfeat.obj k:\q13\spg\system_1\x86e_win64\protoolkit\otk_cpp_tests\obj\otk_tst_xsec.obj k:\q13\spg\system_1\x86e_win64\protoolkit\protk_tests\pt_tests\obj\pt_test_instruments.obj k:\q13\spg\system_1\x86e_win64\protoolkit\protk_tests\pt_tests\obj\ptn_utils.obj k:\q13\spg\system_1\x86e_win64\protoolkit\otk_cpp_tests_ipc\obj\otk_tst_dispobj.obj k:\q13\spg\system_1\x86e_win64\protoolkit\otk_appls\otk_examples\obj\otk_examples_asm.obj k:\q13\spg\system_1\x86e_win64\protoolkit\otk_appls\otk_examples\obj\otk_examples_drw.obj k:\q13\spg\system_1\x86e_win64\protoolkit\otk_appls\otk_examples\obj\otk_examples_feat.obj k:\q13\spg\system_1\x86e_win64\protoolkit\otk_appls\otk_examples\obj\otk_examples_graphics.obj k:\q13\spg\system_1\x86e_win64\protoolkit\otk_appls\otk_examples\obj\otk_examples_interface.obj k:\q13\spg\system_1\x86e_win64\protoolkit\otk_appls\otk_examples\obj\otk_examples_model.obj k:\q13\spg\system_1\x86e_win64\protoolkit\otk_appls\otk_examples\obj\otk_examples_server.obj k:\q13\spg\system_1\x86e_win64\protoolkit\otk_appls\otk_examples\obj\otk_examples_solid.obj k:\q13\spg\system_1\x86e_win64\protoolkit\otk_appls\otk_examples\obj\otk_examples_utils.obj k:\q13\spg\system_1\x86e_win64\protoolkit\otk_appls\otk_examples\obj\otk_examples_ui.obj k:\q13\spg\system_1\x86e_win64\protoolkit\otk_appls\otk_examples\obj\otk_examples_cip.obj k:\q13\spg\system_1\x86e_win64\obj\otk_cpp.lib k:\q13\spg\system_1\x86e_win64\obj\otk_222.lib k:\q13\spg\system_1\x86e_win64\obj\otk_cpp_hid.lib k:\q13\spg\system_1\x86e_win64\obj\protoolkit_NU.lib libcmt.lib kernel32.lib user32.lib wsock32.lib advapi32.lib mpr.lib winspool.lib netapi32.lib psapi.lib gdi32.lib shell32.lib comdlg32.lib ole32.lib ws2_32.lib iphlpapi.lib /LIBPATH:k:\q13\spg\system_1\auxobjs\x86e_win64\ICU68.2\lib ucore.lib udata.lib 
+>> d:\GTM\spr16036835ProSelectionVerifyq13\x86e_win64\obj\otk_cpp_tests_dll.dll: SUCCEEDED.
+Microsoft (R) Incremental Linker Version 14.40.33811.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+   Creating library d:\GTM\spr16036835ProSelectionVerifyq13\x86e_win64\obj\otk_cpp_tests_dll.lib and object d:\GTM\spr16036835ProSelectionVerifyq13\x86e_win64\obj\otk_cpp_tests_dll.exp
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@AEBV0@@Z (public: __cdecl xstring::xstring(class xstring const &))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(helppfc.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@AEBV0@@Z (public: __cdecl xstring::xstring(class xstring const &))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_222.lib(wfc_tk.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@AEBV0@@Z (public: __cdecl xstring::xstring(class xstring const &))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(uifc_s.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@AEBV0@@Z (public: __cdecl xstring::xstring(class xstring const &))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(uifc_tk.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@AEBV0@@Z (public: __cdecl xstring::xstring(class xstring const &))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfccmn_s3.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@AEBV0@@Z (public: __cdecl xstring::xstring(class xstring const &))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(createpfc.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@AEBV0@@Z (public: __cdecl xstring::xstring(class xstring const &))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(wfc_s.obj)'
+LINK : warning LNK4217: symbol '??0xstring@@QEAA@AEBV0@@Z (public: __cdecl xstring::xstring(class xstring const &))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(wfc_tk2.obj)' in function '"int `public: __cdecl xrchandle<class pfcSurface>::xrchandle<class pfcSurface>(class dtor$0 &&)'::`1'::dtor$0" (?dtor$0@?0???0?$xrchandle@VpfcSurface@@@@QEAA@$$QEAV0@@Z@4HA)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@AEBV0@@Z (public: __cdecl xstring::xstring(class xstring const &))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(wfc_tk.obj)'
+LINK : warning LNK4217: symbol '??0xstring@@QEAA@AEBV0@@Z (public: __cdecl xstring::xstring(class xstring const &))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(wfc_s2.obj)' in function '"public: __cdecl cipRttiRegister_wfcSession::cipRttiRegister_wfcSession(void)" (??0cipRttiRegister_wfcSession@@QEAA@XZ)'
+LINK : warning LNK4217: symbol '??0xstring@@QEAA@AEBV0@@Z (public: __cdecl xstring::xstring(class xstring const &))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfccmn_s.obj)' in function '"public: __cdecl xany::xany(class xstring)" (??0xany@@QEAA@Vxstring@@@Z)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@AEBV0@@Z (public: __cdecl xstring::xstring(class xstring const &))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfccmnsrc.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@AEBV0@@Z (public: __cdecl xstring::xstring(class xstring const &))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfccmn_s2.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@AEBV0@@Z (public: __cdecl xstring::xstring(class xstring const &))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfctksrc.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@$$QEAV0@@Z (public: __cdecl xstring::xstring(class xstring &&))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(uifc_s.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@$$QEAV0@@Z (public: __cdecl xstring::xstring(class xstring &&))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfccmn_s3.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@$$QEAV0@@Z (public: __cdecl xstring::xstring(class xstring &&))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(helppfc.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@$$QEAV0@@Z (public: __cdecl xstring::xstring(class xstring &&))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_222.lib(wfc_tk.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@$$QEAV0@@Z (public: __cdecl xstring::xstring(class xstring &&))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(wfc_s.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@$$QEAV0@@Z (public: __cdecl xstring::xstring(class xstring &&))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(wfc_tk2.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@$$QEAV0@@Z (public: __cdecl xstring::xstring(class xstring &&))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(wfc_tk.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@$$QEAV0@@Z (public: __cdecl xstring::xstring(class xstring &&))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(wfc_s2.obj)'
+LINK : warning LNK4217: symbol '??0xstring@@QEAA@$$QEAV0@@Z (public: __cdecl xstring::xstring(class xstring &&))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfccmn_s.obj)' in function '"class xany __cdecl cipRttiAttrGetFunc_pfcArgValue_ASCIIStringValue(class xobject *)" (?cipRttiAttrGetFunc_pfcArgValue_ASCIIStringValue@@YA?AVxany@@PEAVxobject@@@Z)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@$$QEAV0@@Z (public: __cdecl xstring::xstring(class xstring &&))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfccmnsrc.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@$$QEAV0@@Z (public: __cdecl xstring::xstring(class xstring &&))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfccmn_s2.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@$$QEAV0@@Z (public: __cdecl xstring::xstring(class xstring &&))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfctksrc.obj)'
+LINK : warning LNK4286: symbol '??1xstring@@QEAA@XZ (public: __cdecl xstring::~xstring(void))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp_hid.lib(hfc_tk.obj)'
+LINK : warning LNK4286: symbol '??1xstring@@QEAA@XZ (public: __cdecl xstring::~xstring(void))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(helppfc.obj)'
+LINK : warning LNK4286: symbol '??1xstring@@QEAA@XZ (public: __cdecl xstring::~xstring(void))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(featcr2.obj)'
+LINK : warning LNK4286: symbol '??1xstring@@QEAA@XZ (public: __cdecl xstring::~xstring(void))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(featcr1.obj)'
+LINK : warning LNK4286: symbol '??1xstring@@QEAA@XZ (public: __cdecl xstring::~xstring(void))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_222.lib(wfc_tk.obj)'
+LINK : warning LNK4286: symbol '??1xstring@@QEAA@XZ (public: __cdecl xstring::~xstring(void))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(uifc_s.obj)'
+LINK : warning LNK4286: symbol '??1xstring@@QEAA@XZ (public: __cdecl xstring::~xstring(void))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(uifc_tk.obj)'
+LINK : warning LNK4286: symbol '??1xstring@@QEAA@XZ (public: __cdecl xstring::~xstring(void))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfccmn_s3.obj)'
+LINK : warning LNK4286: symbol '??1xstring@@QEAA@XZ (public: __cdecl xstring::~xstring(void))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(createpfc.obj)'
+LINK : warning LNK4286: symbol '??1xstring@@QEAA@XZ (public: __cdecl xstring::~xstring(void))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(wfc_s.obj)'
+LINK : warning LNK4286: symbol '??1xstring@@QEAA@XZ (public: __cdecl xstring::~xstring(void))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(wfc_tk2.obj)'
+LINK : warning LNK4286: symbol '??1xstring@@QEAA@XZ (public: __cdecl xstring::~xstring(void))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(wfc_tk.obj)'
+LINK : warning LNK4286: symbol '??1xstring@@QEAA@XZ (public: __cdecl xstring::~xstring(void))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(wfc_s2.obj)'
+LINK : warning LNK4217: symbol '??1xstring@@QEAA@XZ (public: __cdecl xstring::~xstring(void))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfccmn_s.obj)' in function '"public: __cdecl xany::xany(class xstring)" (??0xany@@QEAA@Vxstring@@@Z)'
+LINK : warning LNK4286: symbol '??1xstring@@QEAA@XZ (public: __cdecl xstring::~xstring(void))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfccmnsrc.obj)'
+LINK : warning LNK4286: symbol '??1xstring@@QEAA@XZ (public: __cdecl xstring::~xstring(void))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfccmn_s2.obj)'
+LINK : warning LNK4286: symbol '??1xstring@@QEAA@XZ (public: __cdecl xstring::~xstring(void))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfctksrc.obj)'
+LINK : warning LNK4286: symbol '?getxstring_c@xstring@@QEBA?AU__xstring_c@@XZ (public: struct __xstring_c __cdecl xstring::getxstring_c(void)const )' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(uifc_s.obj)'
+LINK : warning LNK4286: symbol '?getxstring_c@xstring@@QEBA?AU__xstring_c@@XZ (public: struct __xstring_c __cdecl xstring::getxstring_c(void)const )' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfccmn_s3.obj)'
+LINK : warning LNK4217: symbol '?getxstring_c@xstring@@QEBA?AU__xstring_c@@XZ (public: struct __xstring_c __cdecl xstring::getxstring_c(void)const )' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfccmn_s.obj)' in function '"public: __cdecl xany::xany(class xstring)" (??0xany@@QEAA@Vxstring@@@Z)'
+LINK : warning LNK4286: symbol '?getxstring_c@xstring@@QEBA?AU__xstring_c@@XZ (public: struct __xstring_c __cdecl xstring::getxstring_c(void)const )' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfccmn_s2.obj)'
+LINK : warning LNK4286: symbol '?getxstring_c@xstring@@QEBA?AU__xstring_c@@XZ (public: struct __xstring_c __cdecl xstring::getxstring_c(void)const )' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(wfc_s.obj)'
+LINK : warning LNK4286: symbol '?getxstring_c@xstring@@QEBA?AU__xstring_c@@XZ (public: struct __xstring_c __cdecl xstring::getxstring_c(void)const )' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(wfc_s2.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@XZ (public: __cdecl xstring::xstring(void))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(featcr1.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@XZ (public: __cdecl xstring::xstring(void))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp_hid.lib(hfc_tk.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@XZ (public: __cdecl xstring::xstring(void))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(uifc_tk.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@XZ (public: __cdecl xstring::xstring(void))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(createpfc.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@XZ (public: __cdecl xstring::xstring(void))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(helppfc.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@XZ (public: __cdecl xstring::xstring(void))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(featcr2.obj)'
+LINK : warning LNK4217: symbol '??0xstring@@QEAA@XZ (public: __cdecl xstring::xstring(void))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfccmnsrc.obj)' in function '"public: __cdecl pfcArgValue::pfcArgValue(void)" (??0pfcArgValue@@QEAA@XZ)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@XZ (public: __cdecl xstring::xstring(void))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfctksrc.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@XZ (public: __cdecl xstring::xstring(void))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(wfc_tk2.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@XZ (public: __cdecl xstring::xstring(void))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(wfc_tk.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@PEBD@Z (public: __cdecl xstring::xstring(char const *))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_222.lib(wfc_tk.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@PEBD@Z (public: __cdecl xstring::xstring(char const *))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp_hid.lib(hfc_tk.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@PEBD@Z (public: __cdecl xstring::xstring(char const *))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(uifc_tk.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@PEBD@Z (public: __cdecl xstring::xstring(char const *))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(createpfc.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@PEBD@Z (public: __cdecl xstring::xstring(char const *))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(helppfc.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@PEBD@Z (public: __cdecl xstring::xstring(char const *))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(featcr1.obj)'
+LINK : warning LNK4217: symbol '??0xstring@@QEAA@PEBD@Z (public: __cdecl xstring::xstring(char const *))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfccmnsrc.obj)' in function '"public: __cdecl pfcAnnotationTextStyle::pfcAnnotationTextStyle(void)" (??0pfcAnnotationTextStyle@@QEAA@XZ)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@PEBD@Z (public: __cdecl xstring::xstring(char const *))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfctksrc.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@PEBD@Z (public: __cdecl xstring::xstring(char const *))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(wfc_tk2.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@PEBD@Z (public: __cdecl xstring::xstring(char const *))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(wfc_tk.obj)'
+LINK : warning LNK4286: symbol '??4xstring@@QEAAAEAV0@PEBD@Z (public: class xstring & __cdecl xstring::operator=(char const *))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(uifc_tk.obj)'
+LINK : warning LNK4286: symbol '??4xstring@@QEAAAEAV0@PEBD@Z (public: class xstring & __cdecl xstring::operator=(char const *))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(createpfc.obj)'
+LINK : warning LNK4286: symbol '??4xstring@@QEAAAEAV0@PEBD@Z (public: class xstring & __cdecl xstring::operator=(char const *))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(helppfc.obj)'
+LINK : warning LNK4217: symbol '??4xstring@@QEAAAEAV0@PEBD@Z (public: class xstring & __cdecl xstring::operator=(char const *))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfccmnsrc.obj)' in function '"public: __cdecl pfcTableRetrieveInstructions::pfcTableRetrieveInstructions(char const *,class xrchandle<class pfcPoint3D>,int,class xstring,class xrchandle<class pfcSolid>,class xrchandle<class pfcSimpRep>)" (??0pfcTableRetrieveInstructions@@QEAA@PEBDV?$xrchandle@VpfcPoint3D@@@@HVxstring@@V?$xrchandle@VpfcSolid@@@@V?$xrchandle@VpfcSimpRep@@@@@Z)'
+LINK : warning LNK4286: symbol '??4xstring@@QEAAAEAV0@PEBD@Z (public: class xstring & __cdecl xstring::operator=(char const *))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfctksrc.obj)'
+LINK : warning LNK4286: symbol '??4xstring@@QEAAAEAV0@PEBD@Z (public: class xstring & __cdecl xstring::operator=(char const *))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(wfc_tk2.obj)'
+LINK : warning LNK4286: symbol '??4xstring@@QEAAAEAV0@PEBD@Z (public: class xstring & __cdecl xstring::operator=(char const *))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(wfc_tk.obj)'
+LINK : warning LNK4286: symbol '??4xstring@@QEAAAEAV0@AEBV0@@Z (public: class xstring & __cdecl xstring::operator=(class xstring const &))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(uifc_tk.obj)'
+LINK : warning LNK4286: symbol '??4xstring@@QEAAAEAV0@AEBV0@@Z (public: class xstring & __cdecl xstring::operator=(class xstring const &))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(helppfc.obj)'
+LINK : warning LNK4217: symbol '??4xstring@@QEAAAEAV0@AEBV0@@Z (public: class xstring & __cdecl xstring::operator=(class xstring const &))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfccmnsrc.obj)' in function '"public: __cdecl pfcDetailEntityInstructions::pfcDetailEntityInstructions(class xrchandle<class pfcCurveDescriptor>,class xrchandle<class pfcView2D>,unsigned char,class xrchandle<class pfcColorRGB>,class xstring,double,enum pfcDetailType,int)" (??0pfcDetailEntityInstructions@@QEAA@V?$xrchandle@VpfcCurveDescriptor@@@@V?$xrchandle@VpfcView2D@@@@EV?$xrchandle@VpfcColorRGB@@@@Vxstring@@NW4pfcDetailType@@H@Z)'
+LINK : warning LNK4286: symbol '??4xstring@@QEAAAEAV0@AEBV0@@Z (public: class xstring & __cdecl xstring::operator=(class xstring const &))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfctksrc.obj)'
+LINK : warning LNK4286: symbol '??4xstring@@QEAAAEAV0@AEBV0@@Z (public: class xstring & __cdecl xstring::operator=(class xstring const &))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(wfc_tk2.obj)'
+LINK : warning LNK4286: symbol '??4xstring@@QEAAAEAV0@AEBV0@@Z (public: class xstring & __cdecl xstring::operator=(class xstring const &))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(wfc_tk.obj)'
+LINK : warning LNK4217: symbol '??Yxstring@@QEAAAEAV0@PEBD@Z (public: class xstring & __cdecl xstring::operator+=(char const *))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfccmnsrc.obj)' in function '"class xstring __cdecl operator+(class xstring const &,char const *)" (??H@YA?AVxstring@@AEBV0@PEBD@Z)'
+LINK : warning LNK4286: symbol '??Yxstring@@QEAAAEAV0@PEBD@Z (public: class xstring & __cdecl xstring::operator+=(char const *))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfctksrc.obj)'
+LINK : warning LNK4286: symbol '??Yxstring@@QEAAAEAV0@PEBD@Z (public: class xstring & __cdecl xstring::operator+=(char const *))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(uifc_tk.obj)'
+LINK : warning LNK4286: symbol '??Yxstring@@QEAAAEAV0@AEBV0@@Z (public: class xstring & __cdecl xstring::operator+=(class xstring const &))' defined in 'otk_tst_model.obj' is imported by 'otk_cpp.lib(helppfc.obj)'
+LINK : warning LNK4217: symbol '??Yxstring@@QEAAAEAV0@AEBV0@@Z (public: class xstring & __cdecl xstring::operator+=(class xstring const &))' defined in 'otk_tst_model.obj' is imported by 'otk_cpp.lib(pfccmnsrc.obj)' in function '"class xstring __cdecl operator+(class xstring const &,class xstring const &)" (??H@YA?AVxstring@@AEBV0@0@Z)'
+LINK : warning LNK4286: symbol '??Yxstring@@QEAAAEAV0@AEBV0@@Z (public: class xstring & __cdecl xstring::operator+=(class xstring const &))' defined in 'otk_tst_model.obj' is imported by 'otk_cpp.lib(pfctksrc.obj)'
+LINK : warning LNK4286: symbol '??Yxstring@@QEAAAEAV0@AEBV0@@Z (public: class xstring & __cdecl xstring::operator+=(class xstring const &))' defined in 'otk_tst_model.obj' is imported by 'otk_cpp.lib(uifc_tk.obj)'
+LINK : warning LNK4286: symbol '??Yxstring@@QEAAAEAV0@AEBV0@@Z (public: class xstring & __cdecl xstring::operator+=(class xstring const &))' defined in 'otk_tst_model.obj' is imported by 'otk_cpp.lib(createpfc.obj)'
+LINK : warning LNK4217: symbol '?Printf@xstring@@SA?AV1@PEBDZZ (public: static class xstring __cdecl xstring::Printf(char const *,...))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfccmnsrc.obj)' in function '"public: virtual class xstring __cdecl pfcDrawingCreateError::GetMessage(void)" (?GetMessage@pfcDrawingCreateError@@UEAA?AVxstring@@XZ)'
+LINK : warning LNK4286: symbol '?Printf@xstring@@SA?AV1@PEBDZZ (public: static class xstring __cdecl xstring::Printf(char const *,...))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfctksrc.obj)'
+LINK : warning LNK4286: symbol '?CastToCString@xstring@@AEBAPEBDXZ (private: char const * __cdecl xstring::CastToCString(void)const )' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_222.lib(wfc_tk.obj)'
+LINK : warning LNK4286: symbol '?CastToCString@xstring@@AEBAPEBDXZ (private: char const * __cdecl xstring::CastToCString(void)const )' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp_hid.lib(hfc_tk.obj)'
+LINK : warning LNK4286: symbol '?CastToCString@xstring@@AEBAPEBDXZ (private: char const * __cdecl xstring::CastToCString(void)const )' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(uifc_tk.obj)'
+LINK : warning LNK4286: symbol '?CastToCString@xstring@@AEBAPEBDXZ (private: char const * __cdecl xstring::CastToCString(void)const )' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(createpfc.obj)'
+LINK : warning LNK4286: symbol '?CastToCString@xstring@@AEBAPEBDXZ (private: char const * __cdecl xstring::CastToCString(void)const )' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(helppfc.obj)'
+LINK : warning LNK4286: symbol '?CastToCString@xstring@@AEBAPEBDXZ (private: char const * __cdecl xstring::CastToCString(void)const )' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(featcr2.obj)'
+LINK : warning LNK4217: symbol '?CastToCString@xstring@@AEBAPEBDXZ (private: char const * __cdecl xstring::CastToCString(void)const )' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfccmnsrc.obj)' in function '"public: virtual void __cdecl pfcModelDescriptor::CheckValidity(char const *,char const *)" (?CheckValidity@pfcModelDescriptor@@UEAAXPEBD0@Z)'
+LINK : warning LNK4286: symbol '?CastToCString@xstring@@AEBAPEBDXZ (private: char const * __cdecl xstring::CastToCString(void)const )' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfctksrc.obj)'
+LINK : warning LNK4286: symbol '?CastToCString@xstring@@AEBAPEBDXZ (private: char const * __cdecl xstring::CastToCString(void)const )' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(wfc_tk2.obj)'
+LINK : warning LNK4286: symbol '?CastToCString@xstring@@AEBAPEBDXZ (private: char const * __cdecl xstring::CastToCString(void)const )' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(wfc_tk.obj)'
+LINK : warning LNK4286: symbol '??4xstring@@QEAAAEAV0@$$QEAV0@@Z (public: class xstring & __cdecl xstring::operator=(class xstring &&))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(helppfc.obj)'
+LINK : warning LNK4286: symbol '??4xstring@@QEAAAEAV0@$$QEAV0@@Z (public: class xstring & __cdecl xstring::operator=(class xstring &&))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(featcr2.obj)'
+LINK : warning LNK4217: symbol '??4xstring@@QEAAAEAV0@$$QEAV0@@Z (public: class xstring & __cdecl xstring::operator=(class xstring &&))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfctksrc.obj)' in function '"public: struct pfcParamvalueValue & __cdecl pfcParamvalueValue::operator=(struct pfcParamvalueValue &&)" (??4pfcParamvalueValue@@QEAAAEAU0@$$QEAU0@@Z)'
+LINK : warning LNK4286: symbol '??4xstring@@QEAAAEAV0@$$QEAV0@@Z (public: class xstring & __cdecl xstring::operator=(class xstring &&))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(wfc_tk2.obj)'
+LINK : warning LNK4286: symbol '??4xstring@@QEAAAEAV0@$$QEAV0@@Z (public: class xstring & __cdecl xstring::operator=(class xstring &&))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(wfc_tk.obj)'
+LINK : warning LNK4286: symbol '??4xstring@@QEAAAEAV0@$$QEAV0@@Z (public: class xstring & __cdecl xstring::operator=(class xstring &&))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(createpfc.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@PEB_W@Z (public: __cdecl xstring::xstring(wchar_t const *))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(createpfc.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@PEB_W@Z (public: __cdecl xstring::xstring(wchar_t const *))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_222.lib(wfc_tk.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@PEB_W@Z (public: __cdecl xstring::xstring(wchar_t const *))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp_hid.lib(hfc_tk.obj)'
+LINK : warning LNK4217: symbol '??0xstring@@QEAA@PEB_W@Z (public: __cdecl xstring::xstring(wchar_t const *))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfctksrc.obj)' in function '"public: virtual void __cdecl pfcServer_tk::CheckinObjects(class xrchandle<class pfcModel>,class xrchandle<class pfcCheckinOptions>)" (?CheckinObjects@pfcServer_tk@@UEAAXV?$xrchandle@VpfcModel@@@@V?$xrchandle@VpfcCheckinOptions@@@@@Z)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@PEB_W@Z (public: __cdecl xstring::xstring(wchar_t const *))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(wfc_tk2.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@PEB_W@Z (public: __cdecl xstring::xstring(wchar_t const *))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(wfc_tk.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@PEB_W@Z (public: __cdecl xstring::xstring(wchar_t const *))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(uifc_tk.obj)'
+LINK : warning LNK4217: symbol '??0xstring@@QEAA@PEBD0@Z (public: __cdecl xstring::xstring(char const *,char const *))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfctksrc.obj)' in function '"public: virtual void __cdecl pfcModel_tk::Export(char const *,class xrchandle<class pfcExportInstructions>)" (?Export@pfcModel_tk@@UEAAXPEBDV?$xrchandle@VpfcExportInstructions@@@@@Z)'
+LINK : warning LNK4217: symbol '?GetLength@xstring@@QEBAHXZ (public: int __cdecl xstring::GetLength(void)const )' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfctksrc.obj)' in function '"private: class xrchandle<class pfcMaterialProperty> __cdecl pfcMaterial_tk::GetDoublePropertyValue(enum ProMaterialPropertyType,char const *,unsigned char)" (?GetDoublePropertyValue@pfcMaterial_tk@@AEAA?AV?$xrchandle@VpfcMaterialProperty@@@@W4ProMaterialPropertyType@@PEBDE@Z)'
+LINK : warning LNK4286: symbol '?GetLength@xstring@@QEBAHXZ (public: int __cdecl xstring::GetLength(void)const )' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(wfc_tk.obj)'
+LINK : warning LNK4286: symbol '?GetLength@xstring@@QEBAHXZ (public: int __cdecl xstring::GetLength(void)const )' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(createpfc.obj)'
+LINK : warning LNK4217: symbol '?ToInt@xstring@@QEBA_NPEAH@Z (public: bool __cdecl xstring::ToInt(int *)const )' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfctksrc.obj)' in function '"class xrchandle<class pfcSelection> __cdecl pfcCreateSelectionFromString(char const *)" (?pfcCreateSelectionFromString@@YA?AV?$xrchandle@VpfcSelection@@@@PEBD@Z)'
+LINK : warning LNK4217: symbol '?ToLower@xstring@@QEBA?AV1@XZ (public: class xstring __cdecl xstring::ToLower(void)const )' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfctksrc.obj)' in function '"public: virtual class xstring __cdecl pfcModel_tk::GetFileName(void)" (?GetFileName@pfcModel_tk@@UEAA?AVxstring@@XZ)'
+LINK : warning LNK4217: symbol '?Substring@xstring@@QEBA?AV1@HH@Z (public: class xstring __cdecl xstring::Substring(int,int)const )' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfctksrc.obj)' in function '"public: virtual class xrchandle<class pfcModel> __cdecl pfcBaseSession_tk::RetrieveModelWithOpts(class xrchandle<class pfcModelDescriptor>,class xrchandle<class pfcRetrieveModelOptions>)" (?RetrieveModelWithOpts@pfcBaseSession_tk@@UEAA?AV?$xrchandle@VpfcModel@@@@V?$xrchandle@VpfcModelDescriptor@@@@V?$xrchandle@VpfcRetrieveModelOptions@@@@@Z)'
+LINK : warning LNK4286: symbol '?Substring@xstring@@QEBA?AV1@HH@Z (public: class xstring __cdecl xstring::Substring(int,int)const )' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(wfc_tk.obj)'
+LINK : warning LNK4217: symbol '?Pos@xstring@@QEBAHPEBD@Z (public: int __cdecl xstring::Pos(char const *)const )' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfctksrc.obj)' in function '"class xrchandle<class pfcSelection> __cdecl pfcCreateSelectionFromString(char const *)" (?pfcCreateSelectionFromString@@YA?AV?$xrchandle@VpfcSelection@@@@PEBD@Z)'
+LINK : warning LNK4286: symbol '?Pos@xstring@@QEBAHPEBD@Z (public: int __cdecl xstring::Pos(char const *)const )' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(wfc_tk.obj)'
+LINK : warning LNK4217: symbol '?Match@xstring@@QEBA_NPEBD@Z (public: bool __cdecl xstring::Match(char const *)const )' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfctksrc.obj)' in function '"void __cdecl ProUdfdataFromPfcUDFCreateInstructions(struct pro_udf_data_new *,struct sld_part *,class xrchandle<class pfcUDFGroupCreateInstructions>,char const *)" (?ProUdfdataFromPfcUDFCreateInstructions@@YAXPEAUpro_udf_data_new@@PEAUsld_part@@V?$xrchandle@VpfcUDFGroupCreateInstructions@@@@PEBD@Z)'
+LINK : warning LNK4217: symbol '?CastToCWString@xstring@@AEBAPEB_WXZ (private: wchar_t const * __cdecl xstring::CastToCWString(void)const )' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfctksrc.obj)' in function '"bool __cdecl operator==(class xstring const &,class xstring const &)" (??8@YA_NAEBVxstring@@0@Z)'
+LINK : warning LNK4286: symbol '?CastToCWString@xstring@@AEBAPEB_WXZ (private: wchar_t const * __cdecl xstring::CastToCWString(void)const )' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(uifc_tk.obj)'
+LINK : warning LNK4286: symbol '?CastToCWString@xstring@@AEBAPEB_WXZ (private: wchar_t const * __cdecl xstring::CastToCWString(void)const )' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(helppfc.obj)'
+LINK : warning LNK4217: symbol '?Match@xstring@@QEBA_NAEBV1@@Z (public: bool __cdecl xstring::Match(class xstring const &)const )' defined in 'otk_tst_model.obj' is imported by 'otk_cpp.lib(wfc_tk2.obj)' in function '"public: virtual class xrchandle<class pfcView2D> __cdecl wfcWDrawing_tk::CreateRevolveView(class xrchandle<class wfcRevolveViewInstructions>)" (?CreateRevolveView@wfcWDrawing_tk@@UEAA?AV?$xrchandle@VpfcView2D@@@@V?$xrchandle@VwfcRevolveViewInstructions@@@@@Z)'
+LINK : warning LNK4286: symbol '?Match@xstring@@QEBA_NAEBV1@@Z (public: bool __cdecl xstring::Match(class xstring const &)const )' defined in 'otk_tst_model.obj' is imported by 'otk_cpp.lib(wfc_tk.obj)'
+LINK : warning LNK4217: symbol '?IsEmpty@xstring@@QEBA_NXZ (public: bool __cdecl xstring::IsEmpty(void)const )' defined in 'otk_tst_model.obj' is imported by 'otk_cpp.lib(wfc_tk.obj)' in function '"enum ProErrors __cdecl wfc_PRO_MODEL_RETRIEVE_PRE_opts_dispatch(wchar_t * const,enum ProFileRetrieveOpt * *)" (?wfc_PRO_MODEL_RETRIEVE_PRE_opts_dispatch@@YA?AW4ProErrors@@QEA_WPEAPEAW4ProFileRetrieveOpt@@@Z)'
+LINK : warning LNK4286: symbol '?IsEmpty@xstring@@QEBA_NXZ (public: bool __cdecl xstring::IsEmpty(void)const )' defined in 'otk_tst_model.obj' is imported by 'otk_cpp.lib(uifc_tk.obj)'
+LINK : warning LNK4286: symbol '?IsEmpty@xstring@@QEBA_NXZ (public: bool __cdecl xstring::IsEmpty(void)const )' defined in 'otk_tst_model.obj' is imported by 'otk_cpp.lib(helppfc.obj)'
+LINK : warning LNK4217: symbol '??0xstring@@QEAA@PEBDH@Z (public: __cdecl xstring::xstring(char const *,int))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(helppfc.obj)' in function '"class xrchandle<class pfcModelDescriptor> __cdecl pfcModelDescriptorFromFileName(char const *,char const *)" (?pfcModelDescriptorFromFileName@@YA?AV?$xrchandle@VpfcModelDescriptor@@@@PEBD0@Z)'
+LINK : warning LNK4217: symbol '??0xstring@@QEAA@PEB_WH@Z (public: __cdecl xstring::xstring(wchar_t const *,int))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(helppfc.obj)' in function '"class xrchandle<class pfcModelDescriptor> __cdecl pfcModelDescriptorFromFileName(char const *,char const *)" (?pfcModelDescriptorFromFileName@@YA?AV?$xrchandle@VpfcModelDescriptor@@@@PEBD0@Z)'
+LINK : warning LNK4217: symbol '??Yxstring@@QEAAAEAV0@D@Z (public: class xstring & __cdecl xstring::operator+=(char))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(helppfc.obj)' in function '"class xstring __cdecl pfcModelCreateFullName(class xstring,class xstring)" (?pfcModelCreateFullName@@YA?AVxstring@@V1@0@Z)'
+LINK : warning LNK4217: symbol '?GetWord@xstring@@QEBA?AV1@HPEBD@Z (public: class xstring __cdecl xstring::GetWord(int,char const *)const )' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(helppfc.obj)' in function '"class xrchandle<class pfcModelDescriptor> __cdecl pfcModelDescriptorFromFileName(char const *,char const *)" (?pfcModelDescriptorFromFileName@@YA?AV?$xrchandle@VpfcModelDescriptor@@@@PEBD0@Z)'
+>> d:\GTM\spr16036835ProSelectionVerifyq13\x86e_win64\obj\otk_cpp_tests.exe: SUCCEEDED.
+Microsoft (R) Incremental Linker Version 14.40.33811.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+   Creating library d:\GTM\spr16036835ProSelectionVerifyq13\x86e_win64\obj\otk_cpp_tests.lib and object d:\GTM\spr16036835ProSelectionVerifyq13\x86e_win64\obj\otk_cpp_tests.exp
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@AEBV0@@Z (public: __cdecl xstring::xstring(class xstring const &))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(helppfc.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@AEBV0@@Z (public: __cdecl xstring::xstring(class xstring const &))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_222.lib(wfc_tk.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@AEBV0@@Z (public: __cdecl xstring::xstring(class xstring const &))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(uifc_s.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@AEBV0@@Z (public: __cdecl xstring::xstring(class xstring const &))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(uifc_tk.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@AEBV0@@Z (public: __cdecl xstring::xstring(class xstring const &))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfccmn_s3.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@AEBV0@@Z (public: __cdecl xstring::xstring(class xstring const &))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(createpfc.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@AEBV0@@Z (public: __cdecl xstring::xstring(class xstring const &))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(wfc_s.obj)'
+LINK : warning LNK4217: symbol '??0xstring@@QEAA@AEBV0@@Z (public: __cdecl xstring::xstring(class xstring const &))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(wfc_tk2.obj)' in function '"int `public: __cdecl xrchandle<class pfcSurface>::xrchandle<class pfcSurface>(class dtor$0 &&)'::`1'::dtor$0" (?dtor$0@?0???0?$xrchandle@VpfcSurface@@@@QEAA@$$QEAV0@@Z@4HA)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@AEBV0@@Z (public: __cdecl xstring::xstring(class xstring const &))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(wfc_tk.obj)'
+LINK : warning LNK4217: symbol '??0xstring@@QEAA@AEBV0@@Z (public: __cdecl xstring::xstring(class xstring const &))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(wfc_s2.obj)' in function '"public: __cdecl cipRttiRegister_wfcSession::cipRttiRegister_wfcSession(void)" (??0cipRttiRegister_wfcSession@@QEAA@XZ)'
+LINK : warning LNK4217: symbol '??0xstring@@QEAA@AEBV0@@Z (public: __cdecl xstring::xstring(class xstring const &))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfccmn_s.obj)' in function '"public: __cdecl xany::xany(class xstring)" (??0xany@@QEAA@Vxstring@@@Z)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@AEBV0@@Z (public: __cdecl xstring::xstring(class xstring const &))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfccmnsrc.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@AEBV0@@Z (public: __cdecl xstring::xstring(class xstring const &))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfccmn_s2.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@AEBV0@@Z (public: __cdecl xstring::xstring(class xstring const &))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfctksrc.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@$$QEAV0@@Z (public: __cdecl xstring::xstring(class xstring &&))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(uifc_s.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@$$QEAV0@@Z (public: __cdecl xstring::xstring(class xstring &&))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfccmn_s3.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@$$QEAV0@@Z (public: __cdecl xstring::xstring(class xstring &&))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(helppfc.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@$$QEAV0@@Z (public: __cdecl xstring::xstring(class xstring &&))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_222.lib(wfc_tk.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@$$QEAV0@@Z (public: __cdecl xstring::xstring(class xstring &&))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(wfc_s.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@$$QEAV0@@Z (public: __cdecl xstring::xstring(class xstring &&))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(wfc_tk2.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@$$QEAV0@@Z (public: __cdecl xstring::xstring(class xstring &&))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(wfc_tk.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@$$QEAV0@@Z (public: __cdecl xstring::xstring(class xstring &&))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(wfc_s2.obj)'
+LINK : warning LNK4217: symbol '??0xstring@@QEAA@$$QEAV0@@Z (public: __cdecl xstring::xstring(class xstring &&))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfccmn_s.obj)' in function '"class xany __cdecl cipRttiAttrGetFunc_pfcArgValue_ASCIIStringValue(class xobject *)" (?cipRttiAttrGetFunc_pfcArgValue_ASCIIStringValue@@YA?AVxany@@PEAVxobject@@@Z)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@$$QEAV0@@Z (public: __cdecl xstring::xstring(class xstring &&))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfccmnsrc.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@$$QEAV0@@Z (public: __cdecl xstring::xstring(class xstring &&))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfccmn_s2.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@$$QEAV0@@Z (public: __cdecl xstring::xstring(class xstring &&))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfctksrc.obj)'
+LINK : warning LNK4286: symbol '??1xstring@@QEAA@XZ (public: __cdecl xstring::~xstring(void))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp_hid.lib(hfc_tk.obj)'
+LINK : warning LNK4286: symbol '??1xstring@@QEAA@XZ (public: __cdecl xstring::~xstring(void))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(helppfc.obj)'
+LINK : warning LNK4286: symbol '??1xstring@@QEAA@XZ (public: __cdecl xstring::~xstring(void))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(featcr2.obj)'
+LINK : warning LNK4286: symbol '??1xstring@@QEAA@XZ (public: __cdecl xstring::~xstring(void))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(featcr1.obj)'
+LINK : warning LNK4286: symbol '??1xstring@@QEAA@XZ (public: __cdecl xstring::~xstring(void))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_222.lib(wfc_tk.obj)'
+LINK : warning LNK4286: symbol '??1xstring@@QEAA@XZ (public: __cdecl xstring::~xstring(void))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(uifc_s.obj)'
+LINK : warning LNK4286: symbol '??1xstring@@QEAA@XZ (public: __cdecl xstring::~xstring(void))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(uifc_tk.obj)'
+LINK : warning LNK4286: symbol '??1xstring@@QEAA@XZ (public: __cdecl xstring::~xstring(void))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfccmn_s3.obj)'
+LINK : warning LNK4286: symbol '??1xstring@@QEAA@XZ (public: __cdecl xstring::~xstring(void))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(createpfc.obj)'
+LINK : warning LNK4286: symbol '??1xstring@@QEAA@XZ (public: __cdecl xstring::~xstring(void))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(wfc_s.obj)'
+LINK : warning LNK4286: symbol '??1xstring@@QEAA@XZ (public: __cdecl xstring::~xstring(void))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(wfc_tk2.obj)'
+LINK : warning LNK4286: symbol '??1xstring@@QEAA@XZ (public: __cdecl xstring::~xstring(void))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(wfc_tk.obj)'
+LINK : warning LNK4286: symbol '??1xstring@@QEAA@XZ (public: __cdecl xstring::~xstring(void))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(wfc_s2.obj)'
+LINK : warning LNK4217: symbol '??1xstring@@QEAA@XZ (public: __cdecl xstring::~xstring(void))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfccmn_s.obj)' in function '"public: __cdecl xany::xany(class xstring)" (??0xany@@QEAA@Vxstring@@@Z)'
+LINK : warning LNK4286: symbol '??1xstring@@QEAA@XZ (public: __cdecl xstring::~xstring(void))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfccmnsrc.obj)'
+LINK : warning LNK4286: symbol '??1xstring@@QEAA@XZ (public: __cdecl xstring::~xstring(void))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfccmn_s2.obj)'
+LINK : warning LNK4286: symbol '??1xstring@@QEAA@XZ (public: __cdecl xstring::~xstring(void))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfctksrc.obj)'
+LINK : warning LNK4286: symbol '?getxstring_c@xstring@@QEBA?AU__xstring_c@@XZ (public: struct __xstring_c __cdecl xstring::getxstring_c(void)const )' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(uifc_s.obj)'
+LINK : warning LNK4286: symbol '?getxstring_c@xstring@@QEBA?AU__xstring_c@@XZ (public: struct __xstring_c __cdecl xstring::getxstring_c(void)const )' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfccmn_s3.obj)'
+LINK : warning LNK4217: symbol '?getxstring_c@xstring@@QEBA?AU__xstring_c@@XZ (public: struct __xstring_c __cdecl xstring::getxstring_c(void)const )' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfccmn_s.obj)' in function '"public: __cdecl xany::xany(class xstring)" (??0xany@@QEAA@Vxstring@@@Z)'
+LINK : warning LNK4286: symbol '?getxstring_c@xstring@@QEBA?AU__xstring_c@@XZ (public: struct __xstring_c __cdecl xstring::getxstring_c(void)const )' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfccmn_s2.obj)'
+LINK : warning LNK4286: symbol '?getxstring_c@xstring@@QEBA?AU__xstring_c@@XZ (public: struct __xstring_c __cdecl xstring::getxstring_c(void)const )' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(wfc_s.obj)'
+LINK : warning LNK4286: symbol '?getxstring_c@xstring@@QEBA?AU__xstring_c@@XZ (public: struct __xstring_c __cdecl xstring::getxstring_c(void)const )' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(wfc_s2.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@XZ (public: __cdecl xstring::xstring(void))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(featcr1.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@XZ (public: __cdecl xstring::xstring(void))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp_hid.lib(hfc_tk.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@XZ (public: __cdecl xstring::xstring(void))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(uifc_tk.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@XZ (public: __cdecl xstring::xstring(void))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(createpfc.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@XZ (public: __cdecl xstring::xstring(void))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(helppfc.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@XZ (public: __cdecl xstring::xstring(void))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(featcr2.obj)'
+LINK : warning LNK4217: symbol '??0xstring@@QEAA@XZ (public: __cdecl xstring::xstring(void))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfccmnsrc.obj)' in function '"public: __cdecl pfcArgValue::pfcArgValue(void)" (??0pfcArgValue@@QEAA@XZ)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@XZ (public: __cdecl xstring::xstring(void))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfctksrc.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@XZ (public: __cdecl xstring::xstring(void))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(wfc_tk2.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@XZ (public: __cdecl xstring::xstring(void))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(wfc_tk.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@PEBD@Z (public: __cdecl xstring::xstring(char const *))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_222.lib(wfc_tk.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@PEBD@Z (public: __cdecl xstring::xstring(char const *))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp_hid.lib(hfc_tk.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@PEBD@Z (public: __cdecl xstring::xstring(char const *))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(uifc_tk.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@PEBD@Z (public: __cdecl xstring::xstring(char const *))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(createpfc.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@PEBD@Z (public: __cdecl xstring::xstring(char const *))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(helppfc.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@PEBD@Z (public: __cdecl xstring::xstring(char const *))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(featcr1.obj)'
+LINK : warning LNK4217: symbol '??0xstring@@QEAA@PEBD@Z (public: __cdecl xstring::xstring(char const *))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfccmnsrc.obj)' in function '"public: __cdecl pfcAnnotationTextStyle::pfcAnnotationTextStyle(void)" (??0pfcAnnotationTextStyle@@QEAA@XZ)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@PEBD@Z (public: __cdecl xstring::xstring(char const *))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfctksrc.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@PEBD@Z (public: __cdecl xstring::xstring(char const *))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(wfc_tk2.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@PEBD@Z (public: __cdecl xstring::xstring(char const *))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(wfc_tk.obj)'
+LINK : warning LNK4286: symbol '??4xstring@@QEAAAEAV0@PEBD@Z (public: class xstring & __cdecl xstring::operator=(char const *))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(uifc_tk.obj)'
+LINK : warning LNK4286: symbol '??4xstring@@QEAAAEAV0@PEBD@Z (public: class xstring & __cdecl xstring::operator=(char const *))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(createpfc.obj)'
+LINK : warning LNK4286: symbol '??4xstring@@QEAAAEAV0@PEBD@Z (public: class xstring & __cdecl xstring::operator=(char const *))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(helppfc.obj)'
+LINK : warning LNK4217: symbol '??4xstring@@QEAAAEAV0@PEBD@Z (public: class xstring & __cdecl xstring::operator=(char const *))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfccmnsrc.obj)' in function '"public: __cdecl pfcTableRetrieveInstructions::pfcTableRetrieveInstructions(char const *,class xrchandle<class pfcPoint3D>,int,class xstring,class xrchandle<class pfcSolid>,class xrchandle<class pfcSimpRep>)" (??0pfcTableRetrieveInstructions@@QEAA@PEBDV?$xrchandle@VpfcPoint3D@@@@HVxstring@@V?$xrchandle@VpfcSolid@@@@V?$xrchandle@VpfcSimpRep@@@@@Z)'
+LINK : warning LNK4286: symbol '??4xstring@@QEAAAEAV0@PEBD@Z (public: class xstring & __cdecl xstring::operator=(char const *))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfctksrc.obj)'
+LINK : warning LNK4286: symbol '??4xstring@@QEAAAEAV0@PEBD@Z (public: class xstring & __cdecl xstring::operator=(char const *))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(wfc_tk2.obj)'
+LINK : warning LNK4286: symbol '??4xstring@@QEAAAEAV0@PEBD@Z (public: class xstring & __cdecl xstring::operator=(char const *))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(wfc_tk.obj)'
+LINK : warning LNK4286: symbol '??4xstring@@QEAAAEAV0@AEBV0@@Z (public: class xstring & __cdecl xstring::operator=(class xstring const &))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(uifc_tk.obj)'
+LINK : warning LNK4286: symbol '??4xstring@@QEAAAEAV0@AEBV0@@Z (public: class xstring & __cdecl xstring::operator=(class xstring const &))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(helppfc.obj)'
+LINK : warning LNK4217: symbol '??4xstring@@QEAAAEAV0@AEBV0@@Z (public: class xstring & __cdecl xstring::operator=(class xstring const &))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfccmnsrc.obj)' in function '"public: __cdecl pfcDetailEntityInstructions::pfcDetailEntityInstructions(class xrchandle<class pfcCurveDescriptor>,class xrchandle<class pfcView2D>,unsigned char,class xrchandle<class pfcColorRGB>,class xstring,double,enum pfcDetailType,int)" (??0pfcDetailEntityInstructions@@QEAA@V?$xrchandle@VpfcCurveDescriptor@@@@V?$xrchandle@VpfcView2D@@@@EV?$xrchandle@VpfcColorRGB@@@@Vxstring@@NW4pfcDetailType@@H@Z)'
+LINK : warning LNK4286: symbol '??4xstring@@QEAAAEAV0@AEBV0@@Z (public: class xstring & __cdecl xstring::operator=(class xstring const &))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfctksrc.obj)'
+LINK : warning LNK4286: symbol '??4xstring@@QEAAAEAV0@AEBV0@@Z (public: class xstring & __cdecl xstring::operator=(class xstring const &))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(wfc_tk2.obj)'
+LINK : warning LNK4286: symbol '??4xstring@@QEAAAEAV0@AEBV0@@Z (public: class xstring & __cdecl xstring::operator=(class xstring const &))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(wfc_tk.obj)'
+LINK : warning LNK4217: symbol '??Yxstring@@QEAAAEAV0@PEBD@Z (public: class xstring & __cdecl xstring::operator+=(char const *))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfccmnsrc.obj)' in function '"class xstring __cdecl operator+(class xstring const &,char const *)" (??H@YA?AVxstring@@AEBV0@PEBD@Z)'
+LINK : warning LNK4286: symbol '??Yxstring@@QEAAAEAV0@PEBD@Z (public: class xstring & __cdecl xstring::operator+=(char const *))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfctksrc.obj)'
+LINK : warning LNK4286: symbol '??Yxstring@@QEAAAEAV0@PEBD@Z (public: class xstring & __cdecl xstring::operator+=(char const *))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(uifc_tk.obj)'
+LINK : warning LNK4286: symbol '??Yxstring@@QEAAAEAV0@AEBV0@@Z (public: class xstring & __cdecl xstring::operator+=(class xstring const &))' defined in 'otk_tst_model.obj' is imported by 'otk_cpp.lib(helppfc.obj)'
+LINK : warning LNK4217: symbol '??Yxstring@@QEAAAEAV0@AEBV0@@Z (public: class xstring & __cdecl xstring::operator+=(class xstring const &))' defined in 'otk_tst_model.obj' is imported by 'otk_cpp.lib(pfccmnsrc.obj)' in function '"class xstring __cdecl operator+(class xstring const &,class xstring const &)" (??H@YA?AVxstring@@AEBV0@0@Z)'
+LINK : warning LNK4286: symbol '??Yxstring@@QEAAAEAV0@AEBV0@@Z (public: class xstring & __cdecl xstring::operator+=(class xstring const &))' defined in 'otk_tst_model.obj' is imported by 'otk_cpp.lib(pfctksrc.obj)'
+LINK : warning LNK4286: symbol '??Yxstring@@QEAAAEAV0@AEBV0@@Z (public: class xstring & __cdecl xstring::operator+=(class xstring const &))' defined in 'otk_tst_model.obj' is imported by 'otk_cpp.lib(uifc_tk.obj)'
+LINK : warning LNK4286: symbol '??Yxstring@@QEAAAEAV0@AEBV0@@Z (public: class xstring & __cdecl xstring::operator+=(class xstring const &))' defined in 'otk_tst_model.obj' is imported by 'otk_cpp.lib(createpfc.obj)'
+LINK : warning LNK4217: symbol '?Printf@xstring@@SA?AV1@PEBDZZ (public: static class xstring __cdecl xstring::Printf(char const *,...))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfccmnsrc.obj)' in function '"public: virtual class xstring __cdecl pfcDrawingCreateError::GetMessage(void)" (?GetMessage@pfcDrawingCreateError@@UEAA?AVxstring@@XZ)'
+LINK : warning LNK4286: symbol '?Printf@xstring@@SA?AV1@PEBDZZ (public: static class xstring __cdecl xstring::Printf(char const *,...))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfctksrc.obj)'
+LINK : warning LNK4286: symbol '?CastToCString@xstring@@AEBAPEBDXZ (private: char const * __cdecl xstring::CastToCString(void)const )' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_222.lib(wfc_tk.obj)'
+LINK : warning LNK4286: symbol '?CastToCString@xstring@@AEBAPEBDXZ (private: char const * __cdecl xstring::CastToCString(void)const )' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp_hid.lib(hfc_tk.obj)'
+LINK : warning LNK4286: symbol '?CastToCString@xstring@@AEBAPEBDXZ (private: char const * __cdecl xstring::CastToCString(void)const )' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(uifc_tk.obj)'
+LINK : warning LNK4286: symbol '?CastToCString@xstring@@AEBAPEBDXZ (private: char const * __cdecl xstring::CastToCString(void)const )' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(createpfc.obj)'
+LINK : warning LNK4286: symbol '?CastToCString@xstring@@AEBAPEBDXZ (private: char const * __cdecl xstring::CastToCString(void)const )' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(helppfc.obj)'
+LINK : warning LNK4286: symbol '?CastToCString@xstring@@AEBAPEBDXZ (private: char const * __cdecl xstring::CastToCString(void)const )' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(featcr2.obj)'
+LINK : warning LNK4217: symbol '?CastToCString@xstring@@AEBAPEBDXZ (private: char const * __cdecl xstring::CastToCString(void)const )' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfccmnsrc.obj)' in function '"public: virtual void __cdecl pfcModelDescriptor::CheckValidity(char const *,char const *)" (?CheckValidity@pfcModelDescriptor@@UEAAXPEBD0@Z)'
+LINK : warning LNK4286: symbol '?CastToCString@xstring@@AEBAPEBDXZ (private: char const * __cdecl xstring::CastToCString(void)const )' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfctksrc.obj)'
+LINK : warning LNK4286: symbol '?CastToCString@xstring@@AEBAPEBDXZ (private: char const * __cdecl xstring::CastToCString(void)const )' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(wfc_tk2.obj)'
+LINK : warning LNK4286: symbol '?CastToCString@xstring@@AEBAPEBDXZ (private: char const * __cdecl xstring::CastToCString(void)const )' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(wfc_tk.obj)'
+LINK : warning LNK4286: symbol '??4xstring@@QEAAAEAV0@$$QEAV0@@Z (public: class xstring & __cdecl xstring::operator=(class xstring &&))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(helppfc.obj)'
+LINK : warning LNK4286: symbol '??4xstring@@QEAAAEAV0@$$QEAV0@@Z (public: class xstring & __cdecl xstring::operator=(class xstring &&))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(featcr2.obj)'
+LINK : warning LNK4217: symbol '??4xstring@@QEAAAEAV0@$$QEAV0@@Z (public: class xstring & __cdecl xstring::operator=(class xstring &&))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfctksrc.obj)' in function '"public: struct pfcParamvalueValue & __cdecl pfcParamvalueValue::operator=(struct pfcParamvalueValue &&)" (??4pfcParamvalueValue@@QEAAAEAU0@$$QEAU0@@Z)'
+LINK : warning LNK4286: symbol '??4xstring@@QEAAAEAV0@$$QEAV0@@Z (public: class xstring & __cdecl xstring::operator=(class xstring &&))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(wfc_tk2.obj)'
+LINK : warning LNK4286: symbol '??4xstring@@QEAAAEAV0@$$QEAV0@@Z (public: class xstring & __cdecl xstring::operator=(class xstring &&))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(wfc_tk.obj)'
+LINK : warning LNK4286: symbol '??4xstring@@QEAAAEAV0@$$QEAV0@@Z (public: class xstring & __cdecl xstring::operator=(class xstring &&))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(createpfc.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@PEB_W@Z (public: __cdecl xstring::xstring(wchar_t const *))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(createpfc.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@PEB_W@Z (public: __cdecl xstring::xstring(wchar_t const *))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_222.lib(wfc_tk.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@PEB_W@Z (public: __cdecl xstring::xstring(wchar_t const *))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp_hid.lib(hfc_tk.obj)'
+LINK : warning LNK4217: symbol '??0xstring@@QEAA@PEB_W@Z (public: __cdecl xstring::xstring(wchar_t const *))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfctksrc.obj)' in function '"public: virtual void __cdecl pfcServer_tk::CheckinObjects(class xrchandle<class pfcModel>,class xrchandle<class pfcCheckinOptions>)" (?CheckinObjects@pfcServer_tk@@UEAAXV?$xrchandle@VpfcModel@@@@V?$xrchandle@VpfcCheckinOptions@@@@@Z)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@PEB_W@Z (public: __cdecl xstring::xstring(wchar_t const *))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(wfc_tk2.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@PEB_W@Z (public: __cdecl xstring::xstring(wchar_t const *))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(wfc_tk.obj)'
+LINK : warning LNK4286: symbol '??0xstring@@QEAA@PEB_W@Z (public: __cdecl xstring::xstring(wchar_t const *))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(uifc_tk.obj)'
+LINK : warning LNK4217: symbol '??0xstring@@QEAA@PEBD0@Z (public: __cdecl xstring::xstring(char const *,char const *))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfctksrc.obj)' in function '"public: virtual void __cdecl pfcModel_tk::Export(char const *,class xrchandle<class pfcExportInstructions>)" (?Export@pfcModel_tk@@UEAAXPEBDV?$xrchandle@VpfcExportInstructions@@@@@Z)'
+LINK : warning LNK4217: symbol '?GetLength@xstring@@QEBAHXZ (public: int __cdecl xstring::GetLength(void)const )' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfctksrc.obj)' in function '"private: class xrchandle<class pfcMaterialProperty> __cdecl pfcMaterial_tk::GetDoublePropertyValue(enum ProMaterialPropertyType,char const *,unsigned char)" (?GetDoublePropertyValue@pfcMaterial_tk@@AEAA?AV?$xrchandle@VpfcMaterialProperty@@@@W4ProMaterialPropertyType@@PEBDE@Z)'
+LINK : warning LNK4286: symbol '?GetLength@xstring@@QEBAHXZ (public: int __cdecl xstring::GetLength(void)const )' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(wfc_tk.obj)'
+LINK : warning LNK4286: symbol '?GetLength@xstring@@QEBAHXZ (public: int __cdecl xstring::GetLength(void)const )' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(createpfc.obj)'
+LINK : warning LNK4217: symbol '?ToInt@xstring@@QEBA_NPEAH@Z (public: bool __cdecl xstring::ToInt(int *)const )' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfctksrc.obj)' in function '"class xrchandle<class pfcSelection> __cdecl pfcCreateSelectionFromString(char const *)" (?pfcCreateSelectionFromString@@YA?AV?$xrchandle@VpfcSelection@@@@PEBD@Z)'
+LINK : warning LNK4217: symbol '?ToLower@xstring@@QEBA?AV1@XZ (public: class xstring __cdecl xstring::ToLower(void)const )' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfctksrc.obj)' in function '"public: virtual class xstring __cdecl pfcModel_tk::GetFileName(void)" (?GetFileName@pfcModel_tk@@UEAA?AVxstring@@XZ)'
+LINK : warning LNK4217: symbol '?Substring@xstring@@QEBA?AV1@HH@Z (public: class xstring __cdecl xstring::Substring(int,int)const )' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfctksrc.obj)' in function '"public: virtual class xrchandle<class pfcModel> __cdecl pfcBaseSession_tk::RetrieveModelWithOpts(class xrchandle<class pfcModelDescriptor>,class xrchandle<class pfcRetrieveModelOptions>)" (?RetrieveModelWithOpts@pfcBaseSession_tk@@UEAA?AV?$xrchandle@VpfcModel@@@@V?$xrchandle@VpfcModelDescriptor@@@@V?$xrchandle@VpfcRetrieveModelOptions@@@@@Z)'
+LINK : warning LNK4286: symbol '?Substring@xstring@@QEBA?AV1@HH@Z (public: class xstring __cdecl xstring::Substring(int,int)const )' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(wfc_tk.obj)'
+LINK : warning LNK4217: symbol '?Pos@xstring@@QEBAHPEBD@Z (public: int __cdecl xstring::Pos(char const *)const )' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfctksrc.obj)' in function '"class xrchandle<class pfcSelection> __cdecl pfcCreateSelectionFromString(char const *)" (?pfcCreateSelectionFromString@@YA?AV?$xrchandle@VpfcSelection@@@@PEBD@Z)'
+LINK : warning LNK4286: symbol '?Pos@xstring@@QEBAHPEBD@Z (public: int __cdecl xstring::Pos(char const *)const )' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(wfc_tk.obj)'
+LINK : warning LNK4217: symbol '?Match@xstring@@QEBA_NPEBD@Z (public: bool __cdecl xstring::Match(char const *)const )' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfctksrc.obj)' in function '"void __cdecl ProUdfdataFromPfcUDFCreateInstructions(struct pro_udf_data_new *,struct sld_part *,class xrchandle<class pfcUDFGroupCreateInstructions>,char const *)" (?ProUdfdataFromPfcUDFCreateInstructions@@YAXPEAUpro_udf_data_new@@PEAUsld_part@@V?$xrchandle@VpfcUDFGroupCreateInstructions@@@@PEBD@Z)'
+LINK : warning LNK4217: symbol '?CastToCWString@xstring@@AEBAPEB_WXZ (private: wchar_t const * __cdecl xstring::CastToCWString(void)const )' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(pfctksrc.obj)' in function '"bool __cdecl operator==(class xstring const &,class xstring const &)" (??8@YA_NAEBVxstring@@0@Z)'
+LINK : warning LNK4286: symbol '?CastToCWString@xstring@@AEBAPEB_WXZ (private: wchar_t const * __cdecl xstring::CastToCWString(void)const )' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(uifc_tk.obj)'
+LINK : warning LNK4286: symbol '?CastToCWString@xstring@@AEBAPEB_WXZ (private: wchar_t const * __cdecl xstring::CastToCWString(void)const )' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(helppfc.obj)'
+LINK : warning LNK4217: symbol '?Match@xstring@@QEBA_NAEBV1@@Z (public: bool __cdecl xstring::Match(class xstring const &)const )' defined in 'otk_tst_model.obj' is imported by 'otk_cpp.lib(wfc_tk2.obj)' in function '"public: virtual class xrchandle<class pfcView2D> __cdecl wfcWDrawing_tk::CreateRevolveView(class xrchandle<class wfcRevolveViewInstructions>)" (?CreateRevolveView@wfcWDrawing_tk@@UEAA?AV?$xrchandle@VpfcView2D@@@@V?$xrchandle@VwfcRevolveViewInstructions@@@@@Z)'
+LINK : warning LNK4286: symbol '?Match@xstring@@QEBA_NAEBV1@@Z (public: bool __cdecl xstring::Match(class xstring const &)const )' defined in 'otk_tst_model.obj' is imported by 'otk_cpp.lib(wfc_tk.obj)'
+LINK : warning LNK4217: symbol '?IsEmpty@xstring@@QEBA_NXZ (public: bool __cdecl xstring::IsEmpty(void)const )' defined in 'otk_tst_model.obj' is imported by 'otk_cpp.lib(wfc_tk.obj)' in function '"enum ProErrors __cdecl wfc_PRO_MODEL_RETRIEVE_PRE_opts_dispatch(wchar_t * const,enum ProFileRetrieveOpt * *)" (?wfc_PRO_MODEL_RETRIEVE_PRE_opts_dispatch@@YA?AW4ProErrors@@QEA_WPEAPEAW4ProFileRetrieveOpt@@@Z)'
+LINK : warning LNK4286: symbol '?IsEmpty@xstring@@QEBA_NXZ (public: bool __cdecl xstring::IsEmpty(void)const )' defined in 'otk_tst_model.obj' is imported by 'otk_cpp.lib(uifc_tk.obj)'
+LINK : warning LNK4286: symbol '?IsEmpty@xstring@@QEBA_NXZ (public: bool __cdecl xstring::IsEmpty(void)const )' defined in 'otk_tst_model.obj' is imported by 'otk_cpp.lib(helppfc.obj)'
+LINK : warning LNK4217: symbol '??0xstring@@QEAA@PEBDH@Z (public: __cdecl xstring::xstring(char const *,int))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(helppfc.obj)' in function '"class xrchandle<class pfcModelDescriptor> __cdecl pfcModelDescriptorFromFileName(char const *,char const *)" (?pfcModelDescriptorFromFileName@@YA?AV?$xrchandle@VpfcModelDescriptor@@@@PEBD0@Z)'
+LINK : warning LNK4217: symbol '??0xstring@@QEAA@PEB_WH@Z (public: __cdecl xstring::xstring(wchar_t const *,int))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(helppfc.obj)' in function '"class xrchandle<class pfcModelDescriptor> __cdecl pfcModelDescriptorFromFileName(char const *,char const *)" (?pfcModelDescriptorFromFileName@@YA?AV?$xrchandle@VpfcModelDescriptor@@@@PEBD0@Z)'
+LINK : warning LNK4217: symbol '??Yxstring@@QEAAAEAV0@D@Z (public: class xstring & __cdecl xstring::operator+=(char))' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(helppfc.obj)' in function '"class xstring __cdecl pfcModelCreateFullName(class xstring,class xstring)" (?pfcModelCreateFullName@@YA?AVxstring@@V1@0@Z)'
+LINK : warning LNK4217: symbol '?GetWord@xstring@@QEBA?AV1@HPEBD@Z (public: class xstring __cdecl xstring::GetWord(int,char const *)const )' defined in 'otk_cpp.lib(strlibsrc.obj)' is imported by 'otk_cpp.lib(helppfc.obj)' in function '"class xrchandle<class pfcModelDescriptor> __cdecl pfcModelDescriptorFromFileName(char const *,char const *)" (?pfcModelDescriptorFromFileName@@YA?AV?$xrchandle@VpfcModelDescriptor@@@@PEBD0@Z)'
+>   End Time: 10-Apr-25 15:39:48 
+> Build finished.
+Thu Apr 10 15:39:48 IST 2025
+                       ********************
+                       * BUILD SUCCEEDED. *
+                       ********************
